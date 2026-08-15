@@ -47,9 +47,7 @@ Beim Schreiben einer wissenschaftlichen Arbeit ist es essentiell neben den Eigen
 Im Fließtext wird zwischen zwei Arten von Zitaten unterschieden: den sogenannten direkten Zitaten und den indirekten Zitaten. Was darunter zu verstehen ist schauen wir uns in den beiden folgenden Abschnitten genauer an.
 
 ### Direkte Zitate
-Bei direkten Zitaten handelt es sich um wortgenaue übernahmen aus anderen Texten bzw. Quellen. Solche Zitate werden Grundsätzlich in "doppelte Anführungszeichen" gesetzt. Dabei werden kurze Zitate (bis zu 4 Zeilen) einfach im fortlaufenden text aufgeführt. Längere Zitate werden im Blocksatz mittig eingerückt. Um zu kennzeichnen, welcher Quelle du das Zitat entnommen hast, musst du außerdem den Nachnamen des Autors, das Jahr, in dem die Qulle erschienen ist, und die Seitenzahl der entnommenen Passage angeben. Dies kann im im Fließtext beispielsweise folgendermaßen aussehen:
-
-![Kurzes Zitat](img/KurzesDirektesZitat.jpg "Kurzes, direktes Zitat") ![Langes Zitat](img/LangesDirektesZitat.jpg "Langes, mittig eingerücktes Zitat")
+Bei direkten Zitaten handelt es sich um wortgenaue übernahmen aus anderen Texten bzw. Quellen. Solche Zitate werden Grundsätzlich in "doppelte Anführungszeichen" gesetzt. Dabei werden kurze Zitate (bis zu 4 Zeilen) einfach im fortlaufenden text aufgeführt. Längere Zitate werden im Blocksatz mittig eingerückt. Um zu kennzeichnen, welcher Quelle du das Zitat entnommen hast, musst du außerdem den Nachnamen des Autors, das Jahr, in dem die Qulle erschienen ist, und die Seitenzahl der entnommenen Passage angeben. Sollte der die Quelle aus der du zitieren möchtest von drei oder mehr Autor:innen gemeinsam verfasst worden sein musst du im Fließtext nicht alle Namen der Autor:innen angeben. Hier reicht es aus, wenn du den Namen des/der erstgenannten Autors/Autorin mit dem Zusatz "et al." aufführst, also beispielsweise: Müller et al., 2004, S. 42.
 
 Es ist zu beachten, dass direkte Zitate stets buchstanben- und zeichengetreu übernommen werden müssen. Dies gilt auch für Rechtschreib- oder Zeichensetzungsfehler, die möglicherweise in der Originalquelle enthalten sind. Änderungen oder Ergänzungen der Originalquelle sind durch **[eckige Klammern]** zu kennzeichnen. Falls worte bzw. irrelevante Satzteile wie Nebensätze weggelassen werden, muss dies durch **[...]** gekennzeichnet werden. Falls du fremdsprachliche Quellen zitieren möchtest, gibst du das Zitat in der jeweiligen Fremdsprache an. Falls es sich bei dieser Sprache nicht um Englisch handelt sollte eine Übersetzung (z.B. als Fußnote) angegeben werden.
 
@@ -60,6 +58,54 @@ Es ist zu beachten, dass direkte Zitate stets buchstanben- und zeichengetreu üb
 
 Damit du überprüfen kannst, wie gut du bereits mit direkten Zitaten zurecht kommst, folgt ein kurzes Quiz, mit dem du dein Wissen testen kannst. 
 
+{{1}} Finde den Fehler bei dem folgendem Zitat:
+
+> "Das Spektrum olympischer Sportarten und Disziplinen hat sich erheblich verändert, seit 1896 zum ersten Mal Olympische Spiele in Athen ausgetragen wurden" (Güllich & Krüger, 2022).
+
+[[Seitenzahl fehlt]]
+<script>
+let input = "@input".trim().toLowerCase()
+
+input.includes("seite")
+</script>
+***********************************************************************
+
+Wie du richtig erkannt hast ist bei dem Zitat die Seitenzahl nicht angegeben. In deiner Wissenschaftlichen Arbeit müsstest du diese also noch ergänzen.
+
+***********************************************************************
+
+{{2}} Folgende Informationen sind zur Quelle bekannt:
+
+- Autorinnen: Mandy Risch-Kerst und Theresa Rath
+- Erscheinungsjahr: 2025
+- Seite: 31
+
+Du möchtest den folgenden Satz direkt zitieren:
+
+> „Hier liegt die Schnittstelle zwischen Unterhaltung und der unausweichlichen Frage nach dem Datenschutz.“
+
+Welche Quellenangabe ist korrekt?
+
+
+[( )] „Hier liegt die Schnittstelle zwischen Unterhaltung und der unausweichlichen Frage nach dem Datenschutz“ (Risch-Kerst et al., 2025, S. 31).
+[(X)] „Hier liegt die Schnittstelle zwischen Unterhaltung und der unausweichlichen Frage nach dem Datenschutz“ (Risch-Kerst & Rath, 2025, S. 31).
+[( )] „Hier liegt die Schnittstelle zwischen Unterhaltung und der unausweichlichen Frage nach dem Datenschutz“ (Risch-Kerst & Rath, S. 31).
+[( )] „Hier liegt die Schnittstelle zwischen Unterhaltung und der unausweichlichen Frage nach dem Datenschutz“ (Risch-Kerst & Rath, 2025).
+
+
+{{3}} Du möchtest einen Satz von **Schneider, Wendeborn und Schmalfuß (2025, S. 3)** direkt zitieren.
+
+Der Originalsatz lautet:
+
+> „Der E-Sport verbindet mit seinen Wettkampfformaten das klassische Event, als realer, dialog- und erlebnisorientierter Raum für Kommunikation zwischen den Spielern bzw. Teams, Publishern, Sponsoren sowie Zuschauern, mit Kommunikationsmaßnahmen über Streamingplattformen und Social Media Netzwerke.“
+
+Lasse beim Zitieren den folgenden Teil aus:
+
+> „zwischen den Spielern bzw. Teams, Publishern, Sponsoren sowie Zuschauern“
+
+Schreibe das **vollständige direkte Zitat einschließlich Quellenangabe** in das Textfeld.
+
+[[„Der E-Sport verbindet mit seinen Wettkampfformaten das klassische Event, als realer, dialog- und erlebnisorientierter Raum für Kommunikation [...], mit Kommunikationsmaßnahmen über Streamingplattformen und Social Media Netzwerke“ (Schneider et al., 2025, S. 3).]]
 ### Indirekte Zitate
 
 ## Quellen im Literaturverzeichnis richtig angeben
