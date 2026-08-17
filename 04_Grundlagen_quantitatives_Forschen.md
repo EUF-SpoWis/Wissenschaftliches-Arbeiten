@@ -33,6 +33,7 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissen
 #### Hyothesen
 
 Was ist eine Hypothese usw... 
+Testtext, ERKLÄRUNG WAS IST EINE HYPOTHESE EINFÜGEN
 
 **Zur Entscheidung über Hypothesen**
 
