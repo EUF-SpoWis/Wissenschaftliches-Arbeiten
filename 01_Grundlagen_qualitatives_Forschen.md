@@ -69,10 +69,9 @@ Methoden sind wissenschaftliche Werkzeuge (*Reichertz, 2019*). Welches Werkzeug 
 Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
 ```ascii
-+-------------------+      +--------------------+      +---------------------------+
++-------------------+      +---------------------+      +----------------------------+
 |  1. Datenerhebung | ---> | 2. Datenaufbereitung| ---> | 3. Analyse & Interpretation|
-| (Interviews etc.) |      | (Transkription)    |      | (Inhaltsanalyse etc.)     |
-+-------------------+      +--------------------+      +---------------------------+
++-------------------+      +---------------------+      +----------------------------+
 ```
 
 #### Typische Verfahren zur Datenerhebung (*Mey & Mruck, 2020; Flick et al., 1995*)
