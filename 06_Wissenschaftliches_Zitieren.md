@@ -118,16 +118,16 @@ Bei den direkten Zitaten, die im vorangegangenen Abschnitt behandelt wurden, han
 
 
 ## Quellen im Literaturverzeichnis richtig angeben
-
 Vielleicht hast du dich schon gefragt, wie man nur anhand des Nachnamen des Autoren / der Autorin und dem Erscheinungsjahr eindeutig die genutzte Quelle herausfinden kann. Das klappt nämlich nur dann, wenn der/die entsprechende Autor:in in dem jeweiligen Jahr nur genau eine Quelle herausgebracht hat. Um hier also Missverständnisse zu vermeiden gibt es das Literaturverzeichnis, dass am Ende einer jeden wissenschaftlichen Arbeit anzugeben ist. Hier werden alle relevanten Informationen zu den verwendeten Quellen aufgeführt. Auch hier gibt es, wie schon zuvor, genaue Vorgaben, wie dies zutun ist.
 
+### Zitation von verschiedenen Quellentypen
 Die Zitation entpricht allgemein den Vorgaben und Rahmenrichtlinien der APA (American Psychological Association) in seiner neusten Version (derzeit: 7th edition). Im APA Publication Manual ist für jede Quellenform festgelegt, welche Informationen im Literaturverzeichnis anzugeben und wie diese zu formatieren sind. Für die gängigsten Quellentypen kann dies ebenfalls in den "[Richtlinien zur Manuskriptgestaltung in der Sportwissenschaft](https://www.sportwissenschaft.de/fileadmin/pdf/download/dvs-Richtlinien-2020_11oV.pdf)" der deutschen Vereinigung für Sporttwissenschaft nachgelesen werden. Ein solcher Eintrag im Literatur verzeichnis könnte beispielsweise folgendermaßen aussehen:
 
 > Conzelmann, A. (2001). Sport und Persönlichkeitsentwicklung. Möglichkeiten und Grenzen von Lebenslaufanalysen. Hofmann.
 
 Wie die gängisten Quellenformen zu zitieren sind wird nun betrachtet. Sollte dein Quellentyp im folgenden nicht vorkommen schau nochmal in den oben genannten DVS-Standards nach.
 
-### Buch
+#### Buch
 
 Wenn du ein Buch als Quelle verwendet hast, solltest du folgende Informationen im Literaturverzeichnis angeben:
 
@@ -145,7 +145,7 @@ Falls das Buch von mehreren Autoren gemeinsam geschrieben wurde setzt du einfach
 
 * Hossner, E. J., & Roth, K. (Hrsg.). (1997). Sport – Spiel – Forschung Zwischen Trainerbank und Lehrstuhl. (Schriften der Deutschen Vereinigung für Sportwissenschaft, Band 84). Feldhaus.
 
-### Beitrag in einem Buch (Sammelband)
+#### Beitrag in einem Buch (Sammelband)
 
 Handelt es sich bei deiner Quelle um einen Beitrag in einem Sammelband, sie ist der entsprechende Eintrag im Literaturverzeichnis folgendermaßen aufzubauen:
 
@@ -161,7 +161,7 @@ Handelt es sich bei deiner Quelle um einen Beitrag in einem Sammelband, sie ist 
 
 * Wallace, S. A. (1996). Dynamic pattern perspective of rhythmic movement: An introduction. In H. Selaznik (Ed.), Advances in motor learning and control (pp. 155–194). Human Kinetics.
 
-### Zeitschrift
+#### Zeitschrift
 
 Bei der von dir verwendeten Quelle könnte es sich auch um eine Zeitschrift handeln. In diesem Fall gehören die folgenden Informationen ins Inhaltsverzeichnis:
 
@@ -175,6 +175,28 @@ Bei Zeitschriften gibt es zusätzlich noch etwas zu beachten. Manche Zeitfschrif
 
 * Roth, K. (1991). Entscheidungsverhalten im Sportspiel. Sportwissenschaft, 21(2), 229–246.
 
-* Krüger, M., & Grupe, O. (1998). Sport- oder Bewegungspädagogik? Zehn Thesen zu einer Standortbestimmung. Sportun-
-terricht, 47, 180–187.
+* Krüger, M., & Grupe, O. (1998). Sport- oder Bewegungspädagogik? Zehn Thesen zu einer Standortbestimmung. Sportunterricht, 47, 180–187.
 
+#### Online Artikel
+Es können neben Büchern, etc. auch Online Artikel für eine wissenschaftliche Arbeit genutzt werden. Damit sind Artikel gemeint, die anstelle von einer Fachzeitschrift o.ä. auf einer Website veröffentlicht wurden. Eine solche Quelle würdest du folgendermaßen zitieren:
+
+> Nachname, Vorname [nur Initial]. (Tag. Monat Jahr). *Titel des Artikels*. Name der Website. URL
+
+Dabei wird der Monat als Wort ausgeschrieben. Falls der Artikel auf der Website also am 24.12.2025 veröffentlicht wurde, müsste im Eintrag "(24. Dezember 2025)" stehen.
+
+**Beispiele:**
+
+* Erichsen, C. (2020, 17. Juli). Inklusion im Internet: So werden Social-Media-Inhalte barrierefrei. https://t3n.de/magazin/inklusion-im-internet-so-werden-249553/ 
+
+* Müller, T. (24. Januar 2020). Quellen nach APA zitieren. Scribbr. https://www.scribbr.de/quellen-nach-apa-zitieren
+
+#### Vortrag
+Eine Quelle muss kein Text sein. Ein Wissenschaftlicher Vortrag kann ebenfalls als Quelle genutzt werden. Dabei ist der Eintrag folgendermaßen aufgebaut:
+
+> Nachname, Vorname [nur Initial]. (Jahr, Tag. Monat). *Titel des Vortrags*. Vortrag auf [Name der Tagung/des Kongresses] in [Ort].
+
+**Achtung:** Beim Datum ist Vorsicht geboten, denn es wird zuerst das Jahr angegeben, bevor Tag und Monat genannt werden. Falls also der Vortrag am 04.05.2012 gehalten wurde, wäre "(2012, 04. Mai)" die Korrekte Angabe.
+
+**Beispiel:**
+
+* Frohn, J. (2000, 15. April). Koedukation im Sportunterricht an Hauptschulen? Vortrag auf dem 2. Kongress des Deutschen Sportlehrerverbands in Augsburg.
