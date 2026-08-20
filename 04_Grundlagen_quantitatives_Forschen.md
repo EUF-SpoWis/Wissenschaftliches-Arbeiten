@@ -30,10 +30,21 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissen
 
 ### Quantitative Verfahren
 
-#### Hyothesen
+#### Hypothesen
 
-Was ist eine Hypothese usw... 
-Testtext, ERKLÄRUNG WAS IST EINE HYPOTHESE EINFÜGEN
+Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
+
+Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
+- Vorläufig --> Bedeutet sie ist noch nicht bewiesen. 
+- Überprüfbar --> Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen. 
+- Bezug --> Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen. 
+
+Hypothesen können entweder gerichtet sein, wie zum Beispiel: 
+
+- Wenn X passiert, dann folgt Y.
+- Je mehr X, desto mehr Y.
+
+Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig (\(H_{0}\)), bis seine Schuld bewiesen ist.
 
 **Zur Entscheidung über Hypothesen**
 
