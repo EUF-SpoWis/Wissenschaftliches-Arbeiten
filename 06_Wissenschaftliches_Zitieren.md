@@ -200,3 +200,9 @@ Eine Quelle muss kein Text sein. Ein Wissenschaftlicher Vortrag kann ebenfalls a
 **Beispiel:**
 
 * Frohn, J. (2000, 15. April). Koedukation im Sportunterricht an Hauptschulen? Vortrag auf dem 2. Kongress des Deutschen Sportlehrerverbands in Augsburg.
+
+### Strukturierung des Literaturverzeichnisses
+
+Es wurde zwar geklärt, wie die einzelnen Einträge eines Literaturverzeichnisses aufgebaut sind, jedoch noch nicht wie das gesamte Verzeichnis strukturiert ist. Der Aufbau ist jedoch recht unkompliziert und die meisten würden es vermutluch intuitiv richtig machen.
+
+Zunächst werden die Einträge alphabetisch, also nach dem Familiennamen des Autors / der Autorin, sortiert. Falls du mehrere Veröffentlichungen desselben Autors / derselben Autorin verwendet hast, so sind diese Einträge chronologisch zu ordnen. Für den Fall, dass zusätzlich auch noch manche dieser Quellen in demselben Jahr veröffentlicht wurden, so werden diese mit a,b,c usw. (z.B. Müller, 1997a; Müller, 1997b) gekennzeichnet.
