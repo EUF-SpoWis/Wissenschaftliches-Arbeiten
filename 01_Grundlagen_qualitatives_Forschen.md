@@ -19,7 +19,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Veranstaltung:**     | @config.lecture                                                                                                |
 | **Semester:**          | @config.semester                                                                                               |
-| **Hochschule:**        | `Europa-Universität lensburg`                                                                                  |
+| **Hochschule:**        | `Europa-Universität Flensburg`                                                                                 |
 | **Inhalte:**           | `Grundlagen qualitatives Forschen`                                                                             |
 | **Link auf GitHub:**   | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/01_Grundlagen_qualitatives_Forschenhrung.md|
 | **Autoren:**           | @author                                                                                                        |
