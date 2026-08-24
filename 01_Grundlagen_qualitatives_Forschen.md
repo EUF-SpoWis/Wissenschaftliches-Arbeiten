@@ -1,3 +1,16 @@
+<!--
+author: Tjari Klimpki
+version: 0.0.1
+language: de
+narrator: Deutsch Female
+
+import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
+
+import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
+
+-->
+
+
 # Grundlagen qualitatives Forschen
 
 > **Überblick:** Dieses Skript führt in die Grundlagen des qualitativen Forschungsparadigmas ein und gibt einen ersten Überblick über das Spektrum qualitativer Methoden.
