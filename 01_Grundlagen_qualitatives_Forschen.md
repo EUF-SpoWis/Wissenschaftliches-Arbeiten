@@ -28,7 +28,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 
 ---
 
-## 1. Qualitatives Forschen als Paradigma
+## Qualitatives Forschen als Paradigma
 
 In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
@@ -43,7 +43,7 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 
 ---
 
-### 1. Gegenstandsbereich und Erkenntnisinteresse
+### Gegenstandsbereich und Erkenntnisinteresse
 
 Der zentrale Forschungsauftrag der qualitativen Forschung ist die **Rekonstruktion von Sinn, subjektiven Sichtweisen, Alltagstheorien und Bedeutungskonstruktionen** (Helfferich, 2011).
 
@@ -54,7 +54,7 @@ Leitende Forschungsfragen betreffen:
 
 ---
 
-### 2. Grundsätze qualitativen Denkens
+### Grundsätze qualitativen Denkens
 
 Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien aus:
 
@@ -66,7 +66,7 @@ Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien
 
 ---
 
-### 3. Forschungsfragen in der qualitativen Forschung
+### Forschungsfragen in der qualitativen Forschung
 
 * **Ausgangspunkt:** Qualitative Forschung startet bei einem Phänomen oder sozialen Problem, **nicht** bei einer Hypothese.
 * **Offenheit:** Die Fragestellung ist so formuliert, dass die Komplexität des Gegenstands erhalten bleibt. 
@@ -77,9 +77,9 @@ Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien
 
 ---
 
-## 2. Qualitative Forschungsmethoden
+## Qualitative Forschungsmethoden
 
-### 1. Methoden als *Tools*
+### Methoden als *Tools*
 
 Methoden sind wissenschaftliche Werkzeuge (Reichertz, 2019). Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
 
@@ -88,7 +88,7 @@ Methoden sind wissenschaftliche Werkzeuge (Reichertz, 2019). Welches Werkzeug ge
 
 ---
 
-### 2. Übersicht des methodischen Spektrums
+### Übersicht des methodischen Spektrums
 
 Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
@@ -115,7 +115,7 @@ Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende P
 
 ---
 
-### 3. Wann setzt man qualitative Methoden ein?
+### Wann setzt man qualitative Methoden ein?
 
 Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden Situationen indiziert:
 
@@ -125,7 +125,7 @@ Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden 
 
 ---
 
-## 3. Check-Up
+## Check-Up
 
 Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
@@ -168,13 +168,13 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 ---
 
-## Fokus 1: Die Beobachtung als qualitative Erhebungsmethode
+## Die Beobachtung als qualitative Erhebungsmethode
 
 > **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
 
 ---
 
-### 1. Wann ist der Einsatz von Beobachtungen sinnvoll?
+### Wann ist der Einsatz von Beobachtungen sinnvoll?
 
 Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Auskünfte (z. B. in Interviews) an ihre Grenzen stoßen oder das reale Handeln im Zentrum steht:
 
@@ -187,7 +187,7 @@ Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Aus
 
 ---
 
-### 2. Dimensionen von Beobachtungsverfahren
+### Dimensionen von Beobachtungsverfahren
 
 Qualitative Beobachtungen lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
 
@@ -208,7 +208,7 @@ Qualitative Beobachtungen lassen sich entlang verschiedener methodischer Dimensi
 
 ---
 
-### 3. Methodische Herausforderungen & Dilemmata
+### Methodische Herausforderungen & Dilemmata
 
 Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausforderungen:
 
