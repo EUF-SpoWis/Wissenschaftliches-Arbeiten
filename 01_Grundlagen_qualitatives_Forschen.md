@@ -13,6 +13,17 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 
 # Grundlagen qualitatives Forschen
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/01_Grundlagen_qualitatives_Forschen.md#1)
+
+| Parameter              | Kursinformationen                                                                                              |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Veranstaltung:**     | @config.lecture                                                                                                |
+| **Semester:**          | @config.semester                                                                                               |
+| **Hochschule:**        | `Europa-Universität lensburg`                                                                                  |
+| **Inhalte:**           | `Grundlagen qualitatives Forschen`                                                                             |
+| **Link auf GitHub:**   | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/01_Grundlagen_qualitatives_Forschenhrung.md|
+| **Autoren:**           | @author                                                                                                        |
+
 > **Überblick:** Dieses Skript führt in die Grundlagen des qualitativen Forschungsparadigmas ein und gibt einen ersten Überblick über das Spektrum qualitativer Methoden.
 
 ---
