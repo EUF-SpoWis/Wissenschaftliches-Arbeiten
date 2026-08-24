@@ -141,3 +141,52 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 * Gruppendiskussionen und Fokusgruppen gehören zu den [[ Beobachtungsverfahren | Non-reaktiven Verfahren | (Befragungsverfahren) ]].
 * Wenn ein völlig unbekanntes Feld erkundet werden soll, nutzt man qualitative Methoden zur [[ Vorab-Hypothesenprüfung  | (Theoriegenerierung / Erschließung neuer Felder) | statistischen Repräsentativität]].
+
+---
+
+## Fokus 1: Die Beobachtung als qualitative Erhebungsmethode
+
+> **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
+
+---
+
+### 1. Wann ist der Einsatz von Beobachtungen sinnvoll?
+
+Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Auskünfte (z. B. in Interviews) an ihre Grenzen stoßen oder das reale Handeln im Zentrum steht:
+
+* **Unbewusstes oder verfälschtes Verhalten:** Wenn Befragte ihr Verhalten unbewusst verfälschen oder bewusst sozial erwünscht darstellen
+* **Relevanz von Nonverbalem:** Wenn Mimik, Gestik, Körpersprache oder Bewegungsabläufe eine zentrale Rolle spielen
+* **Grenzen verbaler Darstellbarkeit:** Wenn (Handlungs-)Abläufe von den Beteiligten sprachlich nur schwer oder unvollständig ausgedrückt werden können
+* **Fokus auf Interaktionsmuster:** Wenn Gruppenstrukturen, Rollenverteilungen und soziale Gefüge der eigentliche Gegenstand sind
+* **Ereignisdichte & Komplexität:** Wenn Geschehnisse schnell und nur in ihrer ganzheitlichen Abfolge erfassbar sind
+* **Exploration:** Um sich einen ersten fundierten Überblick über ein neues, unbekanntes Feld zu verschaffen
+
+---
+
+### 2. Dimensionen von Beobachtungsverfahren
+
+Qualitative Beobachtungen lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
+
+* **A. Distanz zur Untersuchungssituation**
+
+  * **Teilnehmende Beobachtung:**
+    * Die forschende Person nimmt aktiv am Feldleben teil (**Insider-Perspektive**).
+    * Fokus auf Beziehungsaufbau und das Erleben von Innenabläufen
+    * *Ziel:* Tiefgehendes Verstehen und fallorientierte Rekonstruktion (*qualitativer Kernzugang*)
+  * **Nicht-teilnehmende Beobachtung:**
+    * Datenerhebung aus einer reinen **Außenperspektive**
+    * Eignet sich eher für stärker strukturierte oder hypothesenprüfende Ansätze
+
+* **B. Strukturierungsgrad**
+
+  * **Unstrukturiert (freie / offene Beobachtung):** Keine starren Vorab-Kategorien; Offenheit für unerwartete Phänomene steht im Vordergrund
+  * **Halbstandardisiert / Vollstandardisiert:** Nutzung von Beobachtungsleitfäden oder spezifischen Kategoriensystemen
+
+---
+
+### 3. Methodische Herausforderungen & Dilemmata
+
+Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausforderungen:
+
+* **Feldzugang vs. Einflussnahme:** Forschende müssen vertrauensvollen Zugang gewinnen, dürfen aber den natürlichen Ablauf der Ereignisse nicht verfälschen.
+* **Reaktivität:** Die bloße Anwesenheit von Beobachtenden kann das Verhalten der Akteur:innen verändern.
