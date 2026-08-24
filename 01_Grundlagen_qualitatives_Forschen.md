@@ -98,3 +98,46 @@ Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden 
 * **Erschließen neuer Felder:** Erkundung und Beschreibung bislang wenig erforschter oder fremder Lebenswelten.
 * **Theoriegenerierung:** Entdeckung neuer Phänomene und Entwicklung theoretischer Konzepte *(Grounded Theory)*.
 * **Tiefe Exploration:** Verstehen von hochkomplexen Handlungszusammenhängen, subjektiven Wahrnehmungen und Alltagsinterpretationen.
+
+---
+
+## 3. Check-Up
+
+Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
+
+[[ ]] Die qualitative Forschung überprüft vorab festgelegte Hypothesen anhand repräsentativer Stichproben.
+[[X]] Das qualitative Paradigma konzentriert sich auf die Sinnrekonstruktion und das Verstehen subjektiven Perspektiven.
+[[ ]] Quantitatives Forschen unterscheidet sich von qualitativem dadurch, dass nur Ersteres empirisch arbeitet.
+[[?]] **Erklärung:** Sowohl qualitative als auch quantitative Forschung sind empirisch, da beide auf der Erhebung realer Daten basieren. Geisteswissenschaftliche Textanalyse oder Hermeneutik ohne Felderhebungen gelten als nicht-empirisch.
+
+---
+
+Wähle die passenden Grundsätze nach Mayring (2002) aus:
+
+* Die Erhebung im vertrauten Kontext der Beteiligten nennt man [[ (Untersuchung im natürlichen Umfeld) | Deskription | Orientierung am Subjekt ]].
+* Eine schrittweise und begründete Abstraktion anstelle statistischer Repräsentativität entspricht dem [[ Interpretation | Forschungsauftrag | (Verallgemeinerungsprozess)]].
+* Die Fokussierung auf das konkrete Handeln, Denken und Erleben der Beforschten gilt als [[ Marginalisierung des Forschungsgegenstands  | (Orientierung am Subjekt)  | Vereinfachung des Forschungsprozesses ]]
+* Bei der Interpretation [[ fließt der subjektive Sinn der Forschenden mit ein | werden fiktive Hintergrundinformationen zur Ausgestaltung der Daten erstellt | (werden die Daten verstanden und ausschließlich anhand dieser Sinn interpretativ rekonstruiert) ]]
+
+---
+
+Welche Aussage unterscheidet eine qualitative Forschungsfrage von einer Interviewfrage?
+
+[( )] Die Forschungsfrage wird den Teilnehmenden im Interview direkt vorgelesen.
+[( )] Die Forschungsfrage muss immer hypothesenprüfend formuliert sein, während Interviewfragen offen bleiben.
+[(X)] Die Forschungsfrage definiert das wissenschaftliche Erkenntnisziel; die Interviewfrage konkretisiert dieses für das Erhebungsinstrument.
+
+---
+
+Was ist das **primäre** Auswahlkriterium für den Einsatz einer bestimmten qualitativen Methode?
+
+[( )] Die zur Verfügung stehenden Ressourcen (z.B. Zeit, finanzielle oder personale Mittel)
+[( )] Die persönlichen Präferenzen der Beforschten
+[(X)] Die Forschungsfrage, der Gegenstand und der theoretische Rahmen
+
+---
+
+Ordnung der Erhebungsmethoden und Einsatzszenarien:
+
+* Gruppendiskussionen und Fokusgruppen gehören zu den [[ Beobachtungsverfahren | Non-reaktiven Verfahren | (Befragungsverfahren) ]].
+* Wenn ein völlig unbekanntes Feld erkundet werden soll, nutzt man qualitative Methoden zur [[ Vorab-Hypothesenprüfung  | (Theoriegenerierung / Erschließung neuer Felder) | statistischen Repräsentativität]].
