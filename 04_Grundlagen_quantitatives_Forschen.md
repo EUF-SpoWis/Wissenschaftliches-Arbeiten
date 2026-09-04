@@ -46,6 +46,8 @@ Hypothesen können entweder gerichtet sein, wie zum Beispiel:
 
 Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig (\(H_{0}\)), bis seine Schuld bewiesen ist.
 
+
+
 **Zur Entscheidung über Hypothesen**
 
 Bei einer Entscheidung für oder gegen eine der Hypothesen können zwei Arten von Fehlern auftreten:
@@ -157,3 +159,91 @@ Mit diesen Informationen können wir einen "standardisierten Mittelwertunterschi
 </div>
 
 <p><a href="https://www.geogebra.org/m/nvgjbxj7" target="_blank" style="font-weight:bold;"> GeoGebra im Vollbild öffnen</a></p>
+
+
+**Pfadmodell über Texts**
+
+# Testverfahren
+
+Ist deine abhängige Variable?
+
+* [Metrisch](#Metrisch)
+* [Ordinal](#Ordinal)
+
+## Metrisch
+Bist du dir sicher? Metrische Daten sind Daten wie Reaktionszeit, Alter, Größe, Rundenanzahl. Falls es nicht stimmt kannst du auch zurück. [umkehren](#Testverfahren)!
+
+Jetzt geht es um deine unanahängige Variable. Hast du hier 
+
+* [Zwei Gruppen](#Parametrisch-2-Gruppen)
+* [Drei oder mehr Gruppen](#Parametrisch-3-oder-mehr-Gruppen)
+
+Oder vielleicht auch eine gepaarte Messung, heißt du hast die gleiche Gruppe zweimal der mehr getestet? Dann geht es hier weiter:
+
+* [zwei gepaarte Messungen](#MParametrisch-2-gepaarte-Messungen)
+* [Drei oder mehr wiederholte Messung](#Parametrisch-3-oder-mehr-gepaarte-Messung)
+
+## Parametrisch 2 Gruppen
+
+Sehr gut. Du hast zwei Gruppen und eine abhängige Variable die metrisch ist. Eine letzte Frage musst du nun noch beantworten. 
+Sind deine Daten normalverteilt? 
+
+* [Ja](#Unabhängiger-T-test)
+* [Nein](#Mann-Whitney-U-Test)
+
+## Unabhängiger T-Test
+
+
+
+## Parametrisch 3 oder mehr Gruppen
+
+Sehr gut. Du hast drei oder mehr Gruppen und eine abhängige Variable die metrisch ist. Eine letzte Frage musst du nun noch beantworten. 
+Sind deine Daten normalverteilt? 
+
+* [Ja](#ANOVA)
+* [Nein](#Kruskal-Wallis-Test)
+
+
+## ANOVA
+
+## Parametrisch 2 gepaarte Messungen
+
+Sehr gut. Du hast zwei Gruppen die zusammenhängen und eine abhängige Variable die metrisch ist. Eine letzte Frage musst du nun noch beantworten. 
+Sind deine Daten normalverteilt? 
+
+* [Ja](#gepaarter-t-Test)
+* [Nein](#Wilcoxon-Vorzeichenrangtest)
+
+## Gepaarter t-Test
+
+
+## Parametrisch 3 oder mehr gepaarte Messung
+
+Sehr gut. Du hast drei oder mehr Gruppen die zusammenhängen und eine abhängige Variable die metrisch ist. Eine letzte Frage musst du nun noch beantworten. 
+Sind deine Daten normalverteilt? 
+
+* [Ja](#ANOVA-mit-Messwiederholungen)
+* [Nein](#Friedman-Test)
+
+## Ordinal
+Bist du dir sicher? Ordinale Daten sind Daten wie Ranglisten oder Likkertscalen. Falls es nicht stimmt kannst du auch zurück [umkehren](#Testverfahren). 
+
+
+Jetzt geht es um deine unanahängige Variable. Hast du hier 
+
+* [Zwei Gruppen](#Mann-Whitney-U)
+* [Drei oder mehr Gruppen](#Kruskal-Wallis-Test)
+
+Oder vielleicht auch eine gepaarte Messung, heißt du hast die gleiche Gruppe zweimal der mehr getestet? Dann geht es hier weiter:
+
+* [zwei gepaarte Messungen](#Wilcoxon-Vorzeichenrangtest)
+* [Drei oder mehr wiederholte Messung](#Friedman-Test)
+
+
+## Mann Whitney U
+
+## Kruskal-Wallis
+
+## Wilcoxon Vorzeichenrangtest
+
+## Friedman Test
