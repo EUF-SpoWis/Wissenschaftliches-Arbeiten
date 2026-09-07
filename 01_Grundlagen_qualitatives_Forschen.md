@@ -214,3 +214,56 @@ Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausf
 
 * **Feldzugang vs. Einflussnahme:** Forschende müssen vertrauensvollen Zugang gewinnen, dürfen aber den natürlichen Ablauf der Ereignisse nicht verfälschen.
 * **Reaktivität:** Die bloße Anwesenheit von Beobachtenden kann das Verhalten der Akteur:innen verändern.
+
+---
+
+### Praxiseinheit: Beobachtung im Sportunterricht
+
+In dieser Übung führst du eine **nicht-teilnehmende, halbstandardisierte Beobachtung** durch. 
+Du möchtest die folgende **Forschungsfrage** mit deinen Beobachtungen beantworten: 
+> *„Wie gestaltet sich die Bewegungsintensität von Schüler:innen im Sportunterricht unter besonderer Berücksichtigung der Raumorganisation in Bewegungsphasen?“*
+Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angegebenen Beobachtungsdimensionen.
+
+---
+
+[[! Parallel-Layout: Video links, Leitfaden rechts]]
+<div class="lh-grid" style="display: flex; gap: 20px; align-items: flex-start;">
+
+<div style="flex: 1; position: sticky; top: 10px;">
+
+#### Video-Material
+!?[Parcours im Sportunterricht](https://youtu.be/7bsgmGCzrdQ?si=CWBQ2TkjLDViE146)
+
+> **Tipp:** Du kannst das Video direkt hier abspielen und pausieren, während du rechts deine Eintragungen vornimmst.
+
+</div>
+
+<div style="flex: 1.3;">
+
+#### Beobachtungsleitfaden
+
+| Durchgang & Fokus | Orientierungsfragen & Perspektive | Deine Beobachtungen |
+| :--- | :--- | :--- |
+| **1. Durchgang:**<br>**Raumorganisation** | Wie ist die Bewegungsphase räumlich organisiert? Gibt es explizite Bewegungsräume, Warteräume, Räume zur kognitiven Auseinandersetzung etc.? | <textarea rows="3" style="width:100%;"></textarea> |
+| **2a. Durchgang:**<br>**Bewegungsintensität** *(Allgemein)* | Wie hoch ist die *geforderte* vs. *tatsächliche* Bewegungsintensität im Bewegungsraum und außerhalb (für die **gesamte Klasse**)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **2b. Durchgang:**<br>**Bewegungsintensität** *(Einzelfall)* | Wähle **eine gezielte Person** im Video aus: Wie hoch ist ihre individuelle Bewegungsintensität über die gesamte Sequenz hinweg? | <textarea rows="4" style="width:100%;"></textarea> |
+| **3a. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Allgemein)* | Wie verhält sich die **Gruppe außerhalb des Bewegungsraums** (Ablenkung, Beobachten, soziale Interaktion)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **3b. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Einzelfall)* | Verfolge **dieselbe Person aus 2b**: Was tut sie konkret in den Passivitäts- und Wartephasen? | <textarea rows="4" style="width:100%;"></textarea> |
+
+</div>
+
+</div>
+
+---
+
+#### Musterlösung & Reflexion
+
+Vergleiche deine Beobachtungen mit dieser Auswertung.
+* **1. Raumorganisation:** Es liegt eine strikte Trennung zwischen einer aktiven Parcourstrasse (Bewegungsraum) und einer langen, linearen Aufstellung (Warteraum) vor. Es gibt keine ausgewiesenen Zonen für Zusatzaufgaben oder kognitive Auseinandersetzung.
+* **2. Bewegungsintensität:** 
+  * *Gefordert:* Hoch (dynamisches Überwinden verschiedener Hindernisse).
+  * *Tatsächlich im Bewegungsraum:* Hoch, aber zeitlich sehr kurz pro einzelner Person.
+  * *Außerhalb des Bewegungsraums:* Sehr gering bis inaktiv (stehende/wartende Position).
+* **3. Nicht-bewegtes Verhalten:** Die lange Verweildauer außerhalb des Bewegungsraums führt zu Verhaltensweisen wie passiver Beobachtung, aber auch zu ablenkenden Unterhaltungen und sozialer Interaktion abseits des Unterrichtsgeschehens.
+
+--------------------------------------------------
