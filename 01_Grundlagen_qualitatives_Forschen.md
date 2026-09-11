@@ -267,3 +267,4 @@ Vergleiche deine Beobachtungen mit dieser Auswertung.
 * **3. Nicht-bewegtes Verhalten:** Die lange Verweildauer außerhalb des Bewegungsraums führt zu Verhaltensweisen wie passiver Beobachtung, aber auch zu ablenkenden Unterhaltungen und sozialer Interaktion abseits des Unterrichtsgeschehens.
 
 --------------------------------------------------
+Test zum Commiten
