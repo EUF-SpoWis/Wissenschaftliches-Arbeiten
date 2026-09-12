@@ -33,7 +33,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 >[!Note]Arbeitsauftrag
 >Wodurch ist die folgende Forschungssituation gekennzeichnet? 
 
-!?[Kitchen Stories](https://www.youtube.com/embed/hlaLvWHoD3k?start=1200&end=1880)
+!?[Kitchen Stories](https://www.youtube.com/embed/hlaLvWHoD3k)
 
 
 ## Qualitatives Forschen als Paradigma
