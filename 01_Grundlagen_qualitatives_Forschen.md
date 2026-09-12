@@ -31,9 +31,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 ## Einstiegsbeispiel
 
 >[!Note]Arbeitsauftrag
->Wodurch ist die folgende Forschungssituation gekennzeichnet? 
-
-!?[Kitchen Stories](https://www.youtube.com/embed/hlaLvWHoD3k)
+>Betrachte im Film "Kitchen-Stories" den Ausschnit 20:00 bis 31:20.
+> 
+> Wodurch ist die folgende Forschungssituation gekennzeichnet? 
+>
+> [▶️ Video auf YouTube ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k)
 
 
 ## Qualitatives Forschen als Paradigma
