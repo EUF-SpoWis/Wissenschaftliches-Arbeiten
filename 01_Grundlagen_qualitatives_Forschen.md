@@ -28,6 +28,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 
 ---
 
+## Einstiegsbeispiel
+
+>[!Note]Arbeitsauftrag
+>Wodurch ist die folgende Forschungssituation gekennzeichnet? 
+
+!?[Kitchen Stories](https://www.youtube.com/embed/hlaLvWHoD3k?start=1200&end=1880)
+
+
 ## Qualitatives Forschen als Paradigma
 
 In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
