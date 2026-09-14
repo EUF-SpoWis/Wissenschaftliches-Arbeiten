@@ -286,7 +286,10 @@ Vergleiche deine Beobachtungen mit dieser Auswertung.
 
 ### Interviesimulator
 
-Beschreibung: ...
+Mit diesem interaktiven *Intersimulator* führst du ein *leitfadengestütztes Interview* mit einem Kind (cs. 12 Jahre) im Volleyballtraining durch. Du möchtest folgende Forschungsfrage in deinem Interview beantworten:
+> *„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben“* 
+Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen oder Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
+Versuche ein Gespühr dafür zu entwickeln, wie unterschiedliche Formuliereungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
 
 <section>
 ### Du triffst das Kind (12 Jahre) das erste Mal vor dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
