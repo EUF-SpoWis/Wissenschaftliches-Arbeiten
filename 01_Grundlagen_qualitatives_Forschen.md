@@ -267,4 +267,64 @@ Vergleiche deine Beobachtungen mit dieser Auswertung.
 * **3. Nicht-bewegtes Verhalten:** Die lange Verweildauer außerhalb des Bewegungsraums führt zu Verhaltensweisen wie passiver Beobachtung, aber auch zu ablenkenden Unterhaltungen und sozialer Interaktion abseits des Unterrichtsgeschehens.
 
 --------------------------------------------------
-Test zum Commiten
+
+## Das Interview als qualitative Erhebungsmethode
+
+> **Überblick:** Beispiel
+
+---
+
+### Interviesimulator
+
+Beschreibung: ...
+
+<section>
+### Du triffst das Kind (12 Jahre) das erste Mal vor dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
+
+- [( )] Findest du dein Training eigentlich gut? 
+- [( )] Bist du bereit für ein paar wissenschaftliche Fragen zum Thema?
+- [(x)] Wie lange spielst du eigentlich schon Volleyball? Was gefällt dir daran? 
+<script>
+let input = Number("@input");
+
+let audio = document.getElementById("Audio-Platzhalter");
+let kommentarFeld = document.getElementById("Kommentar-Platzhalter");
+
+let audios = [
+ "Audios/1A.mp3",
+ "Audios/1B.mp3",
+ "Audios/1C.mp3"
+];
+
+let kommentare = [
+  "❌ Diese Frage ist zu direkt und wertend für den Einstieg und kann das Kind unter Druck setzen, eine bestimmte Antwort zu geben.",
+  "❌ Diese Formulierung erzeugt unnötige Distanz, wirkt einschüchternd und ist nicht altersgerecht formuliert.",
+  "✅ Merke: Der Einstieg legt das Klima fest: Erst Vertrauen, dann Tiefe. Eine gute Einstiegfrage sollte „leicht zu beantworten sein und einen konkreten, für die Befragten möglichst angenehmen Gegenstand betreffen.“ (Krieger, 2008, S. 58)"
+];
+
+if (input >= 0 && input < audios.length) {
+  if (audio) {
+    audio.src = audios[input];
+    audio.style.display = "block";
+  }
+
+  if (kommentarFeld) {
+    kommentarFeld.innerHTML = kommentare[input];
+    kommentarFeld.style.display = "block";
+  }
+}
+
+input == 2;
+</script>
+
+<audio id="Audio-Platzhalter" src="" controls style="display:none;"></audio>
+
+<p id="Kommentar-Platzhalter" style="display:none; margin-top:10px;"></p>
+
+</section>
+
+<section>
+### Nächste Frage
+
+</section>
+
