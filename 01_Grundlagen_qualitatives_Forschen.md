@@ -304,9 +304,9 @@ let audio = document.getElementById("Audio-Platzhalter");
 let kommentarFeld = document.getElementById("Kommentar-Platzhalter");
 
 let audios = [
- "Audios/1A.mp3",
- "Audios/1B.mp3",
- "Audios/1C.mp3"
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1A.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1B.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1C.mp3",
 ];
 
 let kommentare = [
@@ -337,7 +337,82 @@ input == 2;
 </section>
 
 <section>
-### Nächste Frage
+### Du willst nun spezifische Situation erfahren, in denen sich das Kind im Training kompetenz fühlt. Welche Frage ist dafür am geeignetsten?
+
+- [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
+- [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
+- [( )] Inwiefern erlebst du dich im Trainingskontext als selbstwirksam?
 
 </section>
+
+<section>
+### Das Kind überlegt nach deiner Frage länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
+
+- [( )] Du versuchst die Frage nochmal umzuformulieren, weil sie so nicht verstanden wurde.
+- [(x)] Du lässt dem Kind noch etwas länger Zeit zum Nachdenken und hältst die unangenehme Stille aus.
+- [( )] Sobald du merkst, dass das Kind keine Worte findet, hilfst du ihm mit möglichen Antworten aus.
+
+</section>
+
+<section>
+### Du möchtest eine Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?
+
+- [( )] "Das Lob von deinem Trainer war bestimmt motivierend für dich, oder?"
+- [( )] "Das war bestimmt schön für dich, also er sich extra Zeit für dich genommen hat?"
+- [( )] "Also im Grund macht dich das Lob glücklich, richtig?"
+- [(x)] "Habe ich das richtig verstanden, dass es dir wichtig war, dass der Trainer dir extra Zeit gegeben hat?"
+
+</section>
+
+<section>
+### Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?
+
+- [( )] „Aber Technikübungen gehören doch auch dazu, oder? Muss man das nicht auch üben, um besser zu werden?“
+- [( )] „Findest du das nicht auch ein bisschen faul von dir?
+- [(x)] „Okay, das verstehe ich.  Magst du mir erzählen, wann dir das besonders so geht?“
+- [( )] „Das sagen viele Kinder, das ist also gar nicht schlimm.“
+
+</section>
+
+<section>
+### Welche der folgenden Interviewer-Aussagen ist eine rhetorische Frage (und damit ungeeignet)?
+
+- [(x)] „Ist es nicht klar, dass Feedback wichtig ist für Kinder?"
+- [( )] „Was bedeutet Feedback für dich im Training?"
+- [( )] „Kannst du mir eine Situation beschreiben, in der du Feedback bekommen hast?"
+- [( )] „Wie hat sich das für dich angefühlt?"
+
+</section>
+
+<section>
+### Du möchtest nun herausfinden, was spezielle Erfolgserlebnisse des Kindes im Training waren. Welche Frage liefert wohl das ergiebigste Material?
+
+- [( )] "Hattest du in dieser Woche schon ein Erfolgserlebnis?"
+- [( )] "Warst du diese Woche schon mal so richtig zufrieden mit dir im Training?"
+- [( )] "Erzähl mir von einem Moment im Training, auf den du richtig stolz warst."
+- [( )] "Findest du Erfolgserlebnisse eigentlich wichtig?"
+
+</section>
+
+<section>
+### Du fragst das Kind, wie es den Trainer findet, und bekommst eine sehr positive, aber vage Antwort: "Er ist halt gut".
+
+- [( )]  „Das stimmt, er/sie ist wirklich ein guter Trainer“
+- [( )]  „Du kannst ruhig auch ehrlich sagen, wenn es auch Negatives gibt.“
+- [( )] „Alle Kinder hier finden ihn gut, oder?“
+- [(x)] „Fällt dir eine konkrete Situation ein, in der du das gemerkt hast?“
+
+</section>
+
+<section>
+### Das Kind erzählt gerade begeistert von einem Erlebnis beim Aufschlag-Üben. Laut Leitfaden käme jetzt eigentlich der Themenblock "Soziale Situation in der Gruppe" dran. Wie gehst du weiter vor?
+
+- [( )]  Du weichst vom Leitfaden ab, bleibst beim Thema des Kindes und lässt das Gespräch frei weiterlaufen.
+- [( )]  Du beendest das Thema des Kindes und gehst zum nächsten Punkt über.
+- [(x)] Du weichst vom Leitfaden ab, bleibst beim Thema des Kindes und passt den Leitfaden später flexibel an.
+- [( )] Du bestätigst die Erzählung des Kindes kurz und gehst dann zum nächsten Punkt über.
+
+</section>
+
+
 
