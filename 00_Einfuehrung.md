@@ -6,12 +6,9 @@ language: de
 narrator: Deutsch Female
 
 import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
-
 import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
 -->
-
-
 
 # Einführung
 
@@ -25,3 +22,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 | **Inhalte:**             | `Motivation der Materialien Organisation der Veranstaltung`                  |
 | **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/00_Einfuehrung.md           |
 | **Autoren:**             | @author                                                                                         |
+
+
+# Tabelle 
+
+|Spalte 1 |Spalte 2|Spalte 3      |
+|---------|--------|--------------|
+|1        |2       | {2}{3}       |
