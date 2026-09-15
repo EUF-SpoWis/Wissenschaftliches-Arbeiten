@@ -264,17 +264,18 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 
 </div>
 
----
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
 
-#### Musterlösung & Reflexion
+| Durchgang & Fokus | Orientierungsfragen & Perspektive | Musterlösung / Erwartete Beobachtung |
+| :--- | :--- | :--- |
+| **1. Durchgang:**<br>**Raumorganisation** | Wie ist die Bewegungsphase räumlich organisiert? Gibt es explizite Bewegungsräume, Warteräume, Räume zur kognitiven Auseinandersetzung etc.? | Strikte Trennung zwischen aktiver Parcourstrasse (Bewegungsraum) und einer linearen Aufstellung (Warteraum) ohne Zusatzaufgaben. |
+| **2a. Durchgang:**<br>**Bewegungsintensität** *(Allgemein)* | Wie hoch ist die *geforderte* vs. *tatsächliche* Bewegungsintensität im Bewegungsraum und außerhalb (für die **gesamte Klasse**)? | Geforderte Intensität im Parcours ist hoch, die tatsächliche Bewegungszeit im Verhältnis zur Gesamtdauer pro Person jedoch sehr gering. |
+| **2b. Durchgang:**<br>**Bewegungsintensität** *(Einzelfall)* | Wähle **eine gezielte Person** im Video aus: Wie hoch ist ihre individuelle Bewegungsintensität über die gesamte Sequenz hinweg? | Kurzen Belastungsspitzen (ca. 10–15 Sekunden) stehen mehrminütige Phasen vollständiger motorischer Inaktivität gegenüber. |
+| **3a. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Allgemein)* | Wie verhält sich die **Gruppe außerhalb des Bewegungsraums** (Ablenkung, Beobachten, soziale Interaktion)? | Die Passivität außerhalb des Bewegungsraums führt zu Verhaltensweisen wie passiver Beobachtung, aber auch zu ablenkender sozialer Interaktion. |
+| **3b. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Einzelfall)* | Verfolge **dieselbe Person aus 2b**: Was tut sie konkret in den Passivitäts- und Wartephasen? | Die einzelne Person zeigt über die Wartezeit hinweg wechselnde Strategien (aufmerksames Zuschauen $\rightarrow$ Gewicht verlagern/Zappeln $\rightarrow$ Gespräch mit Nachbarn). |
 
-Vergleiche deine Beobachtungen mit dieser Auswertung.
-* **1. Raumorganisation:** Es liegt eine strikte Trennung zwischen einer aktiven Parcourstrasse (Bewegungsraum) und einer langen, linearen Aufstellung (Warteraum) vor. Es gibt keine ausgewiesenen Zonen für Zusatzaufgaben oder kognitive Auseinandersetzung.
-* **2. Bewegungsintensität:** 
-  * *Gefordert:* Hoch (dynamisches Überwinden verschiedener Hindernisse).
-  * *Tatsächlich im Bewegungsraum:* Hoch, aber zeitlich sehr kurz pro einzelner Person.
-  * *Außerhalb des Bewegungsraums:* Sehr gering bis inaktiv (stehende/wartende Position).
-* **3. Nicht-bewegtes Verhalten:** Die lange Verweildauer außerhalb des Bewegungsraums führt zu Verhaltensweisen wie passiver Beobachtung, aber auch zu ablenkenden Unterhaltungen und sozialer Interaktion abseits des Unterrichtsgeschehens.
+</details>
 
 --------------------------------------------------
 
