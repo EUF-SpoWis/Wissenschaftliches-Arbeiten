@@ -342,17 +342,135 @@ input == 2;
 - [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
 - [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
 - [( )] Inwiefern erlebst du dich im Trainingskontext als selbstwirksam?
+<script>
+let input = Number("@input");
+
+let audio = document.getElementById("Audio-Platzhalter");
+let kommentarFeld = document.getElementById("Kommentar-Platzhalter");
+
+let audios = [
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/2A.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/2B.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/2C.mp3",
+];
+
+let kommentare = [
+  "✅Sprich die Sprache deines Gegenübers, nicht deine eigene Fachsprache. Klare, altersgerechte Fragen verhindern Scheinverhältnisse und soziale Erwünschtheit. „Die Sprache des Befragten sollte als Verständigungsbasis genommen werden.“ (Krieger, 2008, S. 60)",
+  "❌ Suggestivfrage und mehrdeutig! Das Kind muss sich durch die *Mittelding*-Option nicht mehr überlegen, wie es seine Erfahrungen wirklich beschreiben würde, sondern wählt nur zwischen den vorgegebenen Antwortmöglichkeiten aus.",
+  "❌ Dies ist keine altergerechte Sprache. Das Kind kann mit dieser Formulierung inhaltlich wenig anfangen, wodurch entweder Verwirrung entsteht oder es einfach etwas Beliebiges antwortet, um die Situation zu überbrücken. "
+];
+
+if (input >= 0 && input < audios.length) {
+  if (audio) {
+    audio.src = audios[input];
+    audio.style.display = "block";
+  }
+
+  if (kommentarFeld) {
+    kommentarFeld.innerHTML = kommentare[input];
+    kommentarFeld.style.display = "block";
+  }
+}
+
+input == 0;
+</script>
+
+<audio id="Audio-Platzhalter" src="" controls style="display:none;"></audio>
+
+<p id="Kommentar-Platzhalter" style="display:none; margin-top:10px;"></p>
 
 </section>
 
 <section>
-### Das Kind überlegt nach deiner Frage länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
+### Auf deine Frage "Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"  überlegt das kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
 
 - [( )] Du versuchst die Frage nochmal umzuformulieren, weil sie so nicht verstanden wurde.
 - [(x)] Du lässt dem Kind noch etwas länger Zeit zum Nachdenken und hältst die unangenehme Stille aus.
 - [( )] Sobald du merkst, dass das Kind keine Worte findet, hilfst du ihm mit möglichen Antworten aus.
+<script>
+let input = Number("@input");
+
+let audio = document.getElementById("Audio-Platzhalter");
+let kommentarFeld = document.getElementById("Kommentar-Platzhalter");
+
+let audios = [
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1A.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1B.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/1C.mp3",
+];
+
+let kommentare = [
+  "❌ Diese Frage ist zu direkt und wertend für den Einstieg und kann das Kind unter Druck setzen, eine bestimmte Antwort zu geben.",
+  "❌ Diese Formulierung erzeugt unnötige Distanz, wirkt einschüchternd und ist nicht altersgerecht formuliert.",
+  "✅ Merke: Der Einstieg legt das Klima fest: Erst Vertrauen, dann Tiefe. Eine gute Einstiegfrage sollte „leicht zu beantworten sein und einen konkreten, für die Befragten möglichst angenehmen Gegenstand betreffen.“ (Krieger, 2008, S. 58)"
+];
+
+if (input >= 0 && input < audios.length) {
+  if (audio) {
+    audio.src = audios[input];
+    audio.style.display = "block";
+  }
+
+  if (kommentarFeld) {
+    kommentarFeld.innerHTML = kommentare[input];
+    kommentarFeld.style.display = "block";
+  }
+}
+
+input == 2;
+</script>
+
+<audio id="Audio-Platzhalter" src="" controls style="display:none;"></audio>
+
+<p id="Kommentar-Platzhalter" style="display:none; margin-top:10px;"></p>
 
 </section>
+
+<section>
+### Du willst nun spezifische Situation erfahren, in denen sich das Kind im Training kompetenz fühlt. Welche Frage ist dafür am geeignetsten?
+
+- [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
+- [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
+- [( )] Inwiefern erlebst du dich im Trainingskontext als selbstwirksam?
+<script>
+let input = Number("@input");
+
+let audio = document.getElementById("Audio-Platzhalter");
+let kommentarFeld = document.getElementById("Kommentar-Platzhalter");
+
+let audios = [
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/3A.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/3B.mp3",
+  "https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/3C.mp3",
+];
+
+let kommentare = [
+  "❌ Die Denkpause des Kindes wurde unterbrochen, bevor es überhaupt die Chance hatte, eine eigene Antwort zu finden. Dadurch geht möglicherweise eine ausführlichere Antwort verloren.",
+  "✅ Merke: Zuhören und Abwarten können gehört zu einer respektvollen Interviewatmosphäre. Pausen gehören dem Kind, nicht dem/der Interviewer*in. Stille ist kein leerer Raum, sondern Nachdenkzeit."
+  "❌ Auch wenn es gut gemeint ist, führt das Vorschlagen möglicher Antworten dazu, dass das Kind einfach den Vorschlag übernimmt, statt seine eigenen Erfahrungen zu formulieren. Das Ergebnis ist eine sozial erwünschte, aber nicht authentische Antwort."
+];
+
+if (input >= 0 && input < audios.length) {
+  if (audio) {
+    audio.src = audios[input];
+    audio.style.display = "block";
+  }
+
+  if (kommentarFeld) {
+    kommentarFeld.innerHTML = kommentare[input];
+    kommentarFeld.style.display = "block";
+  }
+}
+
+input == 1;
+</script>
+
+<audio id="Audio-Platzhalter" src="" controls style="display:none;"></audio>
+
+<p id="Kommentar-Platzhalter" style="display:none; margin-top:10px;"></p>
+
+</section>
+
 
 <section>
 ### Du möchtest eine Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?
