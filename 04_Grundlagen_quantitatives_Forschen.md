@@ -291,25 +291,18 @@ Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforde
 
 ### Praxiseinheit: Standardisierte Testung im Sportunterricht
 
-In dieser Übung protokollierst du die Durchführung eines **standardisierten Sprungkrafttests** (z. B. Counter-Movement-Jump) in einer Schulklasse.
+In dieser Übung protokollierst du die Durchführung eines **standardisierten Motoriktests**  in einer Schulklasse.
 Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
-> *„Unterscheidet sich die Sprunghöhe von Schüler:innen signifikant vor und nach einem 6-wöchigen Sprungkrafttraining?“*
+> *„Gibt es einen Unterschied zwischen Jungs und Mädchen hinsichtlich der motorischen Fähigkeiten?“*
 
-*Ersetze diesen Platzhalter durch ein eigenes Video der Testdurchführung und fokussiere dich jeweils auf die angegebenen Beobachtungsdimensionen.*
+<iframe width="600" height="355" src="https://www.youtube.com/embed/R46ZE38Te9U?si=mWDE3RG7TqMWRm-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<div class="lh-grid" style="display: flex; gap: 20px; align-items: flex-start;">
 
 <div style="flex: 1; position: sticky; top: 10px;">
 
-#### Video-Material
-
-*[Platzhalter für Video der Testdurchführung]*
 
 > **Tipp:** Spiele das Video ab und pausiere es, während du rechts deine Eintragungen vornimmst.
 
-</div>
-
-<div style="flex: 1.3;">
 
 #### Testprotokoll
 
@@ -320,7 +313,6 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 | **3. Durchgang:**<br>**Störvariablen** | Welche nicht kontrollierten Einflüsse (Untergrund, Schuhwerk, Tagesform) könnten das Ergebnis verzerren? | <textarea rows="4" style="width:100%;"></textarea> |
 | **4. Durchgang:**<br>**Auswertung** | Wie wird der Messwert erfasst und dokumentiert (z. B. Maßband, Sensor, Video-Tracking)? | <textarea rows="4" style="width:100%;"></textarea> |
 
-</div>
 
 </div>
 
@@ -439,3 +431,200 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 - Moosbrugger, H. & Kelava, A. (2020). *Testtheorie und Fragebogenkonstruktion*. Springer.
 
 
+## Anwendungsbeispiel
+
+>[!Note]Arbeitsauftrag
+>Stellt euch folgende Studie vor: Eine Trainergruppe möchte wissen, ob ein 8-wöchiges Sprungkrafttraining die Sprunghöhe von Jugendfußballer:innen erhöht.
+>
+>Überlegt zu zweit: Welche Größe wird hier *verändert/manipuliert* und welche Größe wird *gemessen*, um den Effekt festzustellen?
+>
+>*Ersetze diesen Platzhalter durch ein passendes Video oder eine Grafik zu einer Trainingsstudie eurer Wahl.*
+
+## Unabhängige und abhängige Variable
+
+### Grundbegriffe
+
+In quantitativen Studien – insbesondere in Experimenten – wird zwischen verschiedenen Variablentypen unterschieden:
+
+* **Unabhängige Variable (UV):** Die Variable, die von der forschenden Person **gezielt verändert oder manipuliert** wird (z. B. das Trainingsprogramm).
+* **Abhängige Variable (AV):** Die Variable, die als **Reaktion auf die UV gemessen** wird (z. B. die Sprunghöhe).
+* **Kontrollvariable:** Eine Variable, die bewusst konstant gehalten wird, um ihren Einfluss auf die AV auszuschließen (z. B. Trainingsumfang außerhalb der Studie).
+* **Störvariable (Confounder):** Eine nicht kontrollierte Variable, die die AV zusätzlich beeinflusst und die Interpretation der Ergebnisse verfälschen kann (z. B. Wachstumsschub in der Pubertät).
+
+> **Merke:**
+> Die Faustregel lautet: *Die UV geht rein, die AV kommt raus.* Man **manipuliert** die UV, um zu sehen, wie sich die AV **verändert**.
+
+---
+
+### Beispiel aus der Sportwissenschaft
+
+| Studie | Unabhängige Variable (UV) | Abhängige Variable (AV) |
+| :--- | :--- | :--- |
+| Wirkung von Sprungkrafttraining | Trainingsart (Sprungkrafttraining vs. kein Training) | Sprunghöhe (cm) |
+| Wirkung von Koffein auf Ausdauerleistung | Koffeindosis (0 mg vs. 3 mg/kg Körpergewicht) | Zeit bis zur Erschöpfung (min) |
+| Einfluss von Musik auf Trainingsmotivation | Musik während des Trainings (mit vs. ohne) | Selbstberichtete Motivation (Skalenwert) |
+
+---
+
+### Skalenniveaus der Variablen
+
+Damit eine Variable statistisch sinnvoll ausgewertet werden kann, muss ihr **Skalenniveau** bekannt sein:
+
+1. **Nominalskala:** Reine Kategorien ohne Rangordnung (z. B. Sportart: Fußball, Handball, Volleyball)
+2. **Ordinalskala:** Kategorien mit Rangordnung, aber ohne gleiche Abstände (z. B. Platzierung: 1., 2., 3. Platz)
+3. **Intervallskala:** Gleiche Abstände zwischen den Werten, aber kein echter Nullpunkt (z. B. Testosteronwert in relativen Einheiten)
+4. **Verhältnisskala:** Gleiche Abstände **und** echter Nullpunkt (z. B. Sprunghöhe in cm, Zeit in Sekunden)
+
+--{{0}}--
+Das Skalenniveau der AV bestimmt maßgeblich, welche statistischen Kennwerte und Tests später zulässig sind.
+
+## Check-Up: Variablen
+
+Ordne die Rollen im folgenden Studiendesign richtig zu: *„Einfluss von Sprungkrafttraining auf die Sprunghöhe bei konstant gehaltenem Ernährungsplan"*
+
+* Das Sprungkrafttraining ist die [[ (unabhängige Variable) | abhängige Variable | Störvariable ]].
+* Die Sprunghöhe ist die [[ unabhängige Variable | (abhängige Variable) | Kontrollvariable ]].
+* Der konstant gehaltene Ernährungsplan ist eine [[ Störvariable | abhängige Variable | (Kontrollvariable) ]].
+* Ein unbemerkter Wachstumsschub während der Studie wäre eine [[ (Störvariable) | Kontrollvariable | unabhängige Variable ]].
+
+---
+
+Welchem Skalenniveau entspricht die Variable "Sprunghöhe in cm"?
+
+[( )] Nominalskala
+[( )] Ordinalskala
+[( )] Intervallskala
+[(X)] Verhältnisskala
+
+---
+
+Welche Aussage zur unabhängigen Variable (UV) trifft zu?
+
+[[X]] Die UV wird von der forschenden Person gezielt manipuliert.
+[[ ]] Die UV wird ausschließlich am Ende der Studie gemessen.
+[[ ]] Die UV muss immer nominalskaliert sein.
+[[?]] **Erklärung:** Die UV ist die Einflussgröße, die aktiv verändert wird (z. B. zwei Trainingsbedingungen); ihr Effekt zeigt sich in der AV. Das Skalenniveau der UV hängt vom Studiendesign ab und ist nicht auf Nominalskalen beschränkt.
+
+---
+
+## Deskriptive Statistik
+
+### Wozu dient deskriptive Statistik?
+
+Bevor Hypothesen inferenzstatistisch geprüft werden, werden erhobene Daten zunächst **beschrieben und zusammengefasst**. Die deskriptive Statistik liefert dafür zwei zentrale Kennwertfamilien:
+
+* **Lagemaße:** Wo liegt die "Mitte" der Daten?
+* **Streuungsmaße:** Wie stark streuen die Werte um diese Mitte?
+
+---
+
+### Lagemaße (Maße der zentralen Tendenz)
+
+1. **Modus:** Der am häufigsten vorkommende Wert – einsetzbar bei jedem Skalenniveau.
+2. **Median:** Der mittlere Wert einer der Größe nach sortierten Reihe – robust gegenüber Ausreißern.
+3. **Arithmetisches Mittel (Mittelwert):** Die Summe aller Werte geteilt durch ihre Anzahl – nur sinnvoll ab Intervallskalenniveau.
+
+$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
+
+> **Merke:**
+> Bei stark schiefen Verteilungen oder Ausreißern (z. B. ein extrem langsamer Lauf in einer sonst schnellen Gruppe) ist der **Median** oft aussagekräftiger als der Mittelwert.
+
+---
+
+### Streuungsmaße
+
+1. **Spannweite (Range):** Differenz zwischen größtem und kleinstem Wert.
+2. **Varianz:** Mittlere quadrierte Abweichung der Werte vom Mittelwert.
+3. **Standardabweichung:** Die Wurzel der Varianz – gibt die durchschnittliche Abweichung vom Mittelwert in der Originaleinheit an (z. B. cm).
+
+$$s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
+
+--{{0}}--
+Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer Streuung unterscheiden – deshalb gehören Lage- und Streuungsmaße immer zusammen berichtet.
+
+---
+
+## Praxisübung: Deskriptive Statistik berechnen
+
+Ihr habt die Sprunghöhe (Counter-Movement-Jump, in cm) von 8 Schüler:innen **vor** einem 6-wöchigen Sprungkrafttraining gemessen:
+
+**Werte:** 28, 30, 27, 35, 29, 31, 28, 26
+
+Berechnet Modus, Median, Mittelwert, Spannweite und Standardabweichung für diesen Datensatz.
+
+<textarea rows="6" style="width:100%;" placeholder="Notiere hier deinen Rechenweg..."></textarea>
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Kennwert | Wert | Rechenweg (Kurzfassung) |
+| :--- | :--- | :--- |
+| Modus | 28 | Wert 28 kommt zweimal vor, alle anderen nur einmal |
+| Median | 28,5 | Sortiert: 26, 27, 28, 28, 29, 30, 31, 35 → Mittel der beiden mittleren Werte (28+29)/2 |
+| Mittelwert | 29,25 | (28+30+27+35+29+31+28+26) / 8 = 234 / 8 |
+| Spannweite | 9 | 35 − 26 |
+| Standardabweichung | ≈ 2,6 | Wurzel aus der mittleren quadrierten Abweichung vom Mittelwert (n−1 im Nenner) |
+
+</details>
+
+---
+
+### Interaktive Berechnung mit Live-Code
+
+``` python -Deskriptive Statistik live berechnen
+import statistics
+
+sprunghoehen = [28, 30, 27, 35, 29, 31, 28, 26]
+
+print("Modus:", statistics.mode(sprunghoehen))
+print("Median:", statistics.median(sprunghoehen))
+print("Mittelwert:", round(statistics.mean(sprunghoehen), 2))
+print("Spannweite:", max(sprunghoehen) - min(sprunghoehen))
+print("Standardabweichung:", round(statistics.stdev(sprunghoehen), 2))
+```
+
+Verändert die Werte in der Liste `sprunghoehen` (z. B. fügt einen Ausreißer wie `55` hinzu) und führt den Code erneut aus. Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
+
+---
+
+## Check-Up: Deskriptive Statistik
+
+Welches Lagemaß ist am robustesten gegenüber Ausreißern?
+
+[( )] Arithmetisches Mittel
+[(X)] Median
+[( )] Spannweite
+
+---
+
+Ordne die Kennwerte den passenden Kategorien zu:
+
+* Die Standardabweichung gehört zu den [[ Lagemaßen | (Streuungsmaßen) ]].
+* Der Modus gehört zu den [[ (Lagemaßen) | Streuungsmaßen ]].
+* Die Spannweite gehört zu den [[ Lagemaßen | (Streuungsmaßen) ]].
+* Der Mittelwert gehört zu den [[ (Lagemaßen) | Streuungsmaßen ]].
+
+---
+
+Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt sich daraus **allein** ableiten?
+
+[[ ]] Beide Gruppen sind in jeder einzelnen Sprunghöhe identisch.
+[[X]] Über die Streuung innerhalb der Gruppen ist noch nichts ausgesagt.
+[[ ]] Die Gruppen unterscheiden sich sicher nicht in ihrer Standardabweichung.
+[[?]] **Erklärung:** Ein gleicher Mittelwert sagt nichts über die Streuung aus – eine Gruppe kann sehr homogen, die andere sehr heterogen sein. Erst Lage- **und** Streuungsmaße zusammen ergeben ein vollständiges Bild.
+
+---
+
+## Zusammenfassung
+
+- Die **unabhängige Variable (UV)** wird gezielt manipuliert, die **abhängige Variable (AV)** wird als Reaktion darauf gemessen
+- Kontroll- und Störvariablen müssen mitgedacht werden, um Ergebnisse korrekt zu interpretieren
+- Das **Skalenniveau** einer Variable bestimmt, welche statistischen Kennwerte zulässig sind
+- **Lagemaße** (Modus, Median, Mittelwert) beschreiben die Mitte, **Streuungsmaße** (Spannweite, Varianz, Standardabweichung) die Variabilität eines Datensatzes
+- Lage- und Streuungsmaße sollten stets gemeinsam berichtet werden
+
+## Quellen & weiterführende Literatur
+
+- Bortz, J. & Döring, N. (2016). *Forschungsmethoden und Evaluation*. Springer.
+- Eid, M., Gollwitzer, M. & Schmitt, M. (2017). *Statistik und Forschungsmethoden*. Beltz.
+- Wagner, P. & Fischer, R. (2019). *Statistik in der Sport- und Gesundheitswissenschaft*.
