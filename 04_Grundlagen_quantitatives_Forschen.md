@@ -417,28 +417,13 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 ---
 
-## Zusammenfassung
+## Zusammenfassung I
 
 - Quantitatives Forschen prüft aus der Theorie abgeleitete Hypothesen anhand standardisierter, operationalisierter Messungen
 - Der Forschungsprozess verläuft von der Operationalisierung über die Datenerhebung bis zur statistischen Analyse
 - Objektivität, Reliabilität und Validität sind zentrale Gütekriterien für Tests und Fragebögen
 - Standardisierte Tests und Fragebögen sind die zentralen quantitativen Erhebungsmethoden in der Sportwissenschaft
 
-## Quellen & weiterführende Literatur
-
-- Bortz, J. & Döring, N. (2016). *Forschungsmethoden und Evaluation*. Springer.
-- Wagner, P. & Fischer, R. (2019). *Statistik in der Sport- und Gesundheitswissenschaft*.
-- Moosbrugger, H. & Kelava, A. (2020). *Testtheorie und Fragebogenkonstruktion*. Springer.
-
-
-## Anwendungsbeispiel
-
->[!Note]Arbeitsauftrag
->Stellt euch folgende Studie vor: Eine Trainergruppe möchte wissen, ob ein 8-wöchiges Sprungkrafttraining die Sprunghöhe von Jugendfußballer:innen erhöht.
->
->Überlegt zu zweit: Welche Größe wird hier *verändert/manipuliert* und welche Größe wird *gemessen*, um den Effekt festzustellen?
->
->*Ersetze diesen Platzhalter durch ein passendes Video oder eine Grafik zu einer Trainingsstudie eurer Wahl.*
 
 ## Unabhängige und abhängige Variable
 
@@ -615,7 +600,7 @@ Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt 
 
 ---
 
-## Zusammenfassung
+## Zusammenfassung II
 
 - Die **unabhängige Variable (UV)** wird gezielt manipuliert, die **abhängige Variable (AV)** wird als Reaktion darauf gemessen
 - Kontroll- und Störvariablen müssen mitgedacht werden, um Ergebnisse korrekt zu interpretieren
@@ -627,4 +612,5 @@ Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt 
 
 - Bortz, J. & Döring, N. (2016). *Forschungsmethoden und Evaluation*. Springer.
 - Eid, M., Gollwitzer, M. & Schmitt, M. (2017). *Statistik und Forschungsmethoden*. Beltz.
-- Wagner, P. & Fischer, R. (2019). *Statistik in der Sport- und Gesundheitswissenschaft*.
+- Witte, K. (2019) *Angewandte Statistik in der Beweguungswissenschaft* Springer.
+- Moosbrugger, H. & Kelava, A. (2020). *Testtheorie und Fragebogenkonstruktion*. Springer.
