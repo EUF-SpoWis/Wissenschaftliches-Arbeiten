@@ -6,6 +6,7 @@ language: de
 narrator: Deutsch Female
 
 import:  https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissenschaft/refs/heads/main/config.md
+import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 -->
 
@@ -38,13 +39,13 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissen
 
 ## Quantitatives Forschen als Paradigma
 
-In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
+{{1}}In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
-* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
-* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
-* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
+{{2}}* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
+{{3}}* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
+{{4}}* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
 
-> **Wichtige Abgrenzung:**
+{{5}}> **Wichtige Abgrenzung:**
 > Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten).
 >
 > *Nicht-empirische Paradigmen* (wie reine Theoriearbeit oder begriffsanalytische Zugänge) arbeiten hingegen interpretatorisch oder deduktiv-theoretisch, ohne eigene empirische Daten im Feld zu erheben.
@@ -62,14 +63,28 @@ Leitende Forschungsfragen betreffen:
 
 ---
 
+### Wann setzt man quantitative Methoden ein?
+
+Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
+
+* **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
+* **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
+* **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
+
+---
+
 ### Grundsätze quantitativen Denkens
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
 1. **Standardisierung:** Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.
+
 2. **Operationalisierung:** Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt.
+
 3. **Hypothesenprüfung:** Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).
+
 4. **Distanz zum Gegenstand:** Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
+
 5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
 
 ---
@@ -77,7 +92,9 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 ### Forschungsfragen in der quantitativen Forschung
 
 * **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
+
 * **Präzision:** Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.
+
 * **Reduktion:** Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.
 
 > **Merke:**
@@ -132,7 +149,6 @@ Karl hat eine Münze. Er vermutet, dass diese *nicht fair* ist, d. h. er nimmt a
 
 **Statistischer Hintergrund**
 
-                          --{{0}}--
 Bei einer fairen Münze würde man annehmen, dass bei mehrmaligem Werfen, z. B. 30 Würfen, *Kopf* und *Zahl* annährend gleich häufig vorkommen. Dabei wird man wahrscheinlich nicht exakt eine Gleichverteilug erhalten. In unserem Fall ist also anzunehmen, dass das Ergenis *Zahl* nicht genau 15 lauten wird. Dem *Gesetz der großen Zahl* nach zu folgen wird man jedoch feststellen: 
 
 ![Binomialverteilung des Ereignisses Anzahl Zahl](img/30er_Muenze.jpg "Binomialverteilung zum Ereignis **Anzahl Zahl bei 30 Würfen")
@@ -153,14 +169,12 @@ $$
 - Karl entscheidet sich: Zu diesem *Signifikanzniveau* von 4,38 nimmt er die H1 an und lehnt die H0 ab. Die Münze ist für ihn unfair.
 
 
-
-## Quantitative Forschungsmethoden
-
-### Methoden als *Tools*
+### Methoden als wissenschaftliche Werkzeuge
 
 Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
 
 * **Primäres Auswahlkriterium:** Gegenstand der Untersuchung, Forschungshypothese und theoretischer Rahmen.
+
 * **Sekundäres Auswahlkriterium:** Verfügbare zeitliche, personelle, apparative und finanzielle Ressourcen.
 
 ---
@@ -175,33 +189,27 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 +------------------------+      +---------------------+      +----------------------------+
 ```
 
-#### Typische Verfahren zur Datenerhebung
+### Typische Verfahren zur Datenerhebung
 
 * **Befragungsverfahren:**
   * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
   * Standardisierte, strukturierte Interviews mit festem Frageschema
+
 * **Beobachtungsverfahren:**
   * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
   * Video-/Sensor-gestützte Bewegungsanalyse
+
 * **Test- und Messverfahren:**
   * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
   * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
+
 * **Experimentelle Verfahren:**
   * Feld- und Laborexperimente mit Kontrollgruppendesign
   * Quasi-Experimente ohne vollständige Randomisierung
                                                                             (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
 
----
 
-### Wann setzt man quantitative Methoden ein?
-
-Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
-
-* **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
-* **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
-* **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
-
-## Check-Up
+### Check-Up quantutatuve Forschungs als Paradigma
 
 Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
@@ -255,9 +263,13 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 Test- und Messverfahren kommen insbesondere dann zum Einsatz, wenn Vergleichbarkeit und Generalisierbarkeit im Zentrum stehen:
 
 * **Objektiver Leistungsvergleich:** Wenn subjektive Selbsteinschätzungen (z. B. in Interviews) zu verzerrt oder ungenau wären
+
 * **Veränderungsmessung:** Wenn Effekte einer Intervention über die Zeit (Prä-Post-Design) quantifiziert werden sollen
+
 * **Normierung:** Wenn Ergebnisse mit bestehenden Referenz- oder Normwerten verglichen werden sollen
+
 * **Große Stichproben:** Wenn viele Personen in vertretbarer Zeit erfasst werden müssen
+
 * **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
 
 ---
@@ -269,12 +281,15 @@ Quantitative Tests lassen sich entlang verschiedener methodischer Dimensionen ch
 * **A. Gütekriterien**
 
   * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
+
   * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
+
   * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
 
 * **B. Erhebungszeitpunkte**
 
   * **Querschnittstudie:** Einmalige Messung zu einem Zeitpunkt bei mehreren Personen
+
   * **Längsschnittstudie:** Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design)
 
 ---
@@ -284,7 +299,9 @@ Quantitative Tests lassen sich entlang verschiedener methodischer Dimensionen ch
 Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforderungen:
 
 * **Testleiter-Effekte:** Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.
+
 * **Decken- und Bodeneffekte:** Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.
+
 * **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil des zu messenden Konstrukts sind.
 
 ---
@@ -332,8 +349,28 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 
 ## Der Fragebogen als quantitative Erhebungsmethode
 
-> **Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab.
+>**Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab.
 
+---
+
+### Dimensionen standardisierter Fragebögen
+
+Auch quantitative Fragebögen lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
+
+* **A. Gütekriterien**
+
+  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
+
+  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
+
+  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
+
+* **B. Erhebungszeitpunkte**
+
+  * **Querschnittstudie:** Einmalige Messung zu einem Zeitpunkt bei mehreren Personen
+
+  * **Längsschnittstudie:** Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design)
+  
 ---
 
 ### Fragebogen-Konstruktionssimulator
@@ -341,7 +378,7 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 Mit diesem interaktiven Simulator konstruierst du schrittweise ein **standardisiertes Item** für einen Fragebogen zur Trainingsmotivation von Jugendlichen im Volleyballtraining. Du möchtest folgende Forschungsfrage mit deinem Fragebogen beantworten:
 > *„Wie stark hängt das wahrgenommene Kompetenzerleben von Jugendlichen mit ihrer intrinsischen Trainingsmotivation zusammen?“*
 
-Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist.
+Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist. Habe hier die eben bennanten Gütekriterien im Kopf.
 
 <section>
 
@@ -417,11 +454,14 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 ---
 
-## Zusammenfassung I
+### Zusammenfassung I
 
 - Quantitatives Forschen prüft aus der Theorie abgeleitete Hypothesen anhand standardisierter, operationalisierter Messungen
+
 - Der Forschungsprozess verläuft von der Operationalisierung über die Datenerhebung bis zur statistischen Analyse
+
 - Objektivität, Reliabilität und Validität sind zentrale Gütekriterien für Tests und Fragebögen
+
 - Standardisierte Tests und Fragebögen sind die zentralen quantitativen Erhebungsmethoden in der Sportwissenschaft
 
 
@@ -432,8 +472,11 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 In quantitativen Studien – insbesondere in Experimenten – wird zwischen verschiedenen Variablentypen unterschieden:
 
 * **Unabhängige Variable (UV):** Die Variable, die von der forschenden Person **gezielt verändert oder manipuliert** wird (z. B. das Trainingsprogramm).
+
 * **Abhängige Variable (AV):** Die Variable, die als **Reaktion auf die UV gemessen** wird (z. B. die Sprunghöhe).
+
 * **Kontrollvariable:** Eine Variable, die bewusst konstant gehalten wird, um ihren Einfluss auf die AV auszuschließen (z. B. Trainingsumfang außerhalb der Studie).
+
 * **Störvariable (Confounder):** Eine nicht kontrollierte Variable, die die AV zusätzlich beeinflusst und die Interpretation der Ergebnisse verfälschen kann (z. B. Wachstumsschub in der Pubertät).
 
 > **Merke:**
@@ -456,14 +499,17 @@ In quantitativen Studien – insbesondere in Experimenten – wird zwischen vers
 Damit eine Variable statistisch sinnvoll ausgewertet werden kann, muss ihr **Skalenniveau** bekannt sein:
 
 1. **Nominalskala:** Reine Kategorien ohne Rangordnung (z. B. Sportart: Fußball, Handball, Volleyball)
+
 2. **Ordinalskala:** Kategorien mit Rangordnung, aber ohne gleiche Abstände (z. B. Platzierung: 1., 2., 3. Platz)
+
 3. **Intervallskala:** Gleiche Abstände zwischen den Werten, aber kein echter Nullpunkt (z. B. Testosteronwert in relativen Einheiten)
+
 4. **Verhältnisskala:** Gleiche Abstände **und** echter Nullpunkt (z. B. Sprunghöhe in cm, Zeit in Sekunden)
 
 --{{0}}--
 Das Skalenniveau der AV bestimmt maßgeblich, welche statistischen Kennwerte und Tests später zulässig sind.
 
-## Check-Up: Variablen
+### Check-Up: Variablen
 
 Ordne die Rollen im folgenden Studiendesign richtig zu: *„Einfluss von Sprungkrafttraining auf die Sprunghöhe bei konstant gehaltenem Ernährungsplan"*
 
@@ -519,7 +565,9 @@ $$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
 ### Streuungsmaße
 
 1. **Spannweite (Range):** Differenz zwischen größtem und kleinstem Wert.
+
 2. **Varianz:** Mittlere quadrierte Abweichung der Werte vom Mittelwert.
+
 3. **Standardabweichung:** Die Wurzel der Varianz – gibt die durchschnittliche Abweichung vom Mittelwert in der Originaleinheit an (z. B. cm).
 
 $$s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
@@ -529,7 +577,7 @@ Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer
 
 ---
 
-## Praxisübung: Deskriptive Statistik berechnen
+### Praxisübung: Deskriptive Statistik berechnen
 
 Ihr habt die Sprunghöhe (Counter-Movement-Jump, in cm) von 8 Schüler:innen **vor** einem 6-wöchigen Sprungkrafttraining gemessen:
 
@@ -556,7 +604,10 @@ Berechnet Modus, Median, Mittelwert, Spannweite und Standardabweichung für dies
 
 ### Interaktive Berechnung mit Live-Code
 
-``` python -Deskriptive Statistik live berechnen
+
+Hier kannst du Live-Berechnungen machen. Unter Sprunghöhen findest du einen "Datensatz" von Sprunghöhen in cm. Wenn du in das Feld klickst siehst du in der rcechnten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
+
+``` python @PyScript.repl
 import statistics
 
 sprunghoehen = [28, 30, 27, 35, 29, 31, 28, 26]
@@ -568,11 +619,10 @@ print("Spannweite:", max(sprunghoehen) - min(sprunghoehen))
 print("Standardabweichung:", round(statistics.stdev(sprunghoehen), 2))
 ```
 
-Verändert die Werte in der Liste `sprunghoehen` (z. B. fügt einen Ausreißer wie `55` hinzu) und führt den Code erneut aus. Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
-
+Verändert die Werte in der Liste `sprunghoehen` (z. B. fügt einen Ausreißer wie `55` hinzu) und führt den Code erneut aus (Run-Button unter dem Codefenster). Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
 ---
 
-## Check-Up: Deskriptive Statistik
+### Check-Up: Deskriptive Statistik
 
 Welches Lagemaß ist am robustesten gegenüber Ausreißern?
 
@@ -600,7 +650,7 @@ Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt 
 
 ---
 
-## Zusammenfassung II
+### Zusammenfassung II
 
 - Die **unabhängige Variable (UV)** wird gezielt manipuliert, die **abhängige Variable (AV)** wird als Reaktion darauf gemessen
 - Kontroll- und Störvariablen müssen mitgedacht werden, um Ergebnisse korrekt zu interpretieren
