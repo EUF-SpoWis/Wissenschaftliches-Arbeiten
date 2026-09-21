@@ -288,9 +288,9 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 ### Interview-Simulator
 
 Mit diesem interaktiven **Interview-Simulator** führst du ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durch, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview Daten erheben, um die folgende Forschungsfrage zu beantworten:
-> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben“***
+> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
-Versuche ein Gespühr dafür zu entwickeln, wie unterschiedliche Formuliereungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
+Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
 
 <section>
 ### Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
@@ -312,7 +312,7 @@ let audios = [
 
 let kommentare = [
   "❌ Diese Frage könnte zu direkt und wertend für den Einstieg sein und das Kind unter Druck setzen, eine bestimmte Antwort zu geben.",
-  "❌ Diese Formulierung könnte eine Distanz erzeugen, einschüchternd wirken und ist nicht altersgerecht formuliert.",
+  "❌ Diese Frage ist nicht altersgerecht formuliert und könnte daher Distanz erzeuge und einschüchternd auf das Kind wirken.",
   "✅ Merke: Der Einstieg legt das Klima fest - Erst Vertrauen, dann Tiefe. Eine gute Einstiegfrage sollte „leicht zu beantworten sein und einen konkreten, für die Befragten möglichst angenehmen Gegenstand betreffen.“ (Krieger, 2008, S. 58)"
 ];
 
@@ -338,7 +338,7 @@ input == 2;
 </section>
 
 <section>
-### Du willst nun spezifische Situation erfahren, in denen sich das Kind im Training kompetenz fühlt. Welche Frage ist dafür am geeignetsten?
+### Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?
 
 - [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
 - [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
@@ -356,7 +356,7 @@ let audios = [
 ];
 
 let kommentare = [
-  "✅Sprich die Sprache deines Gegenübers, nicht deine eigene Fachsprache. Klare, altersgerechte Fragen verhindern Scheinverhältnisse und soziale Erwünschtheit. „Die Sprache des Befragten sollte als Verständigungsbasis genommen werden.“ (Krieger, 2008, S. 60)",
+  "✅Merke: Sprich die Sprache deines Gegenübers, nicht deine eigene Fachsprache. Klare, altersgerechte Fragen verhindern Scheinverhältnisse und soziale Erwünschtheit. „Die Sprache des Befragten sollte als Verständigungsbasis genommen werden.“ (Krieger, 2008, S. 60)",
   "❌ Suggestivfrage und mehrdeutig! Das Kind muss sich durch die 'Mittelding'-Option nicht mehr überlegen, wie es seine Erfahrungen wirklich beschreiben würde, sondern wählt nur zwischen den vorgegebenen Antwortmöglichkeiten aus.",
   "❌ Dies ist keine altergerechte Sprache. Das Kind kann mit dieser Formulierung inhaltlich wenig anfangen, wodurch entweder Verwirrung entsteht oder es einfach etwas Beliebiges antwortet, um die Situation zu überbrücken. "
 ];
@@ -383,11 +383,11 @@ input == 0;
 </section>
 
 <section>
-### Auf deine Frage "Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"  überlegt das kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
+### Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
 
 - [( )] Du versuchst die Frage nochmal umzuformulieren, weil sie so nicht verstanden wurde.
 - [(x)] Du lässt dem Kind noch etwas länger Zeit zum Nachdenken und hältst die unangenehme Stille aus.
-- [( )] Sobald du merkst, dass das Kind keine Worte findet, hilfst du ihm mit möglichen Antworten aus.
+- [( )] Sobald du denkst, dass das Kind keine Worte findet, hilfst du ihm mit möglichen Antworten aus.
 <script>
 let input = Number("@input");
 
@@ -401,9 +401,9 @@ let audios = [
 ];
 
 let kommentare = [
-  "❌ Der Denkprozes des Kindes könnte so unterbrochen werden. Durch die vorschnelle Umformulierung könnte der Eindruck entstehen, die ursprüngliche Frage sei nicht verstanden worden, wobei das Kind nur mehr Zeit braucht. Das Ergebnis ist so eine flüchtigere, weniger durchdachte Antwort",
-  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Pausen gehören dem Kind, nicht dem/der Interviwer*in. Stille ist oft kein leerer Raum, sonder Nachdenkzeit.",
-  "❌ Konkrete Vorschläge bergen die Gefahr, dass das Kind einfach den erstbesten übernimmt, statt die eigene Erinnerung zu Ende zu suchen. Die Antwort spiegelt dann eher das wider, was der/die Interviewer*in plausibel erscheint, als das, was das Kind tatsächlich erlebt hat"
+  "❌ Der Denkprozess des Kindes könnte so unterbrochen werden. Durch die vorschnelle Umformulierung könnte der Eindruck entstehen, die ursprüngliche Frage sei nicht verstanden worden, wobei das Kind nur mehr Zeit braucht. Das Ergebnis ist daher eine flüchtigere, weniger durchdachte Antwort",
+  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Pausen gehören dem Kind, nicht dem/der Interviwer*in. Stille ist oftmals kein leerer Raum, sonder Nachdenkzeit.",
+  "❌ Konkrete Vorschläge bergen die Gefahr, dass das Kind einfach den Erstbesten übernimmt, statt aus der eigenen Erfahrung zu sprechen. Die Antwort spiegelt dann eher das wider, was dem/der Interviewer*in plausibel erscheint, als das, was das Kind tatsächlich erlebt hat."
 ];
 
 if (input >= 0 && input < audios.length) {
@@ -442,8 +442,8 @@ let input = Number("@input");
 let kommentarFeld = document.getElementById("Kommentar-Platzhalter-4");
 
 let kommentare = [
-  "❌ “Suggestivfrage! So legst du dem Kind bereits die Interpretation ‘motivierend’ in den Mund. Dem “oder?” muss nur noch zugestimmt werden. Zudem greifst du den Aspekt Lob auf, den das Kind so gar nicht erwähnt hat.",
-  "❌ Suggestivfrage! Hier wird dem Kind eine Bewertung (“schön”) vorweggenommen, statt es selber einschätzen zu lassen, wie es sich fühlt. DIe Frage lässt so keinen Raum für abweichende oder differenzierte Antworten.",
+  "❌ Suggestivfrage! So legst du dem Kind bereits die Interpretation ‘motivierend’ in den Mund. Dem “oder?” muss nur noch zugestimmt werden. Zudem greifst du den Aspekt Lob auf, den das Kind so gar nicht erwähnt hat.",
+  "❌ Suggestivfrage! Hier wird dem Kind eine Bewertung (“schön”) vorweggenommen, statt es selber einschätzen zu lassen, wie es sich fühlt. Die Frage lässt somit wenig Raum für abweichende oder differenzierte Antworten.",
   "❌ Suggestivfrage! Pauschale Schlussfolgerung, die so nicht aus der ursprünglichen Antwort des Kindes hervorgeht.",
   "✅ Merke: Anbieten statt vorgeben. „Habe ich das richtig verstanden…“ öffnet, während Suggestivfragen schließen! Interpretationen sind erlaubt, solange sie als offenes Angebot formuliert sind, die das Kind auch verneinen kann."
 ];
@@ -466,9 +466,9 @@ input == 3;
 ### Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?
 
 - [( )] „Aber Technikübungen gehören doch auch dazu, oder? Muss man das nicht auch üben, um besser zu werden?“
-- [( )] „Findest du das nicht auch ein bisschen faul von dir?
+- [( )] „Findest du das nicht auch ein bisschen faul von dir?"
 - [(x)] „Okay, das verstehe ich.  Magst du mir erzählen, wann dir das besonders so geht?“
-- [( )] „Das sagen viele Kinder, das ist also gar nicht schlimm.“
+- [( )] „Das sagen viele Kinder - das ist also gar nicht schlimm.“
 <script>
 let input = Number("@input");
 
@@ -483,10 +483,10 @@ let audios = [
 ];
 
 let kommentare = [
-  "❌ Diese Reaktion wertet die Aussage des Kindes indirekt ab, indem sie ihm widerspricht. Das Kind könnte daraus lernen, dass seine ehrliche Aussage nicht willkommen war, und beim nächsten Mal vielleicht eher vorsichtiger antworten.",
-  "❌ Eine klare Grenzüberschreitung. Solche wertenden Zuschreibungen können das Vertrauen gefährden und können dazu führen, dass das Kind sich in Zukunft gar nicht mehr traut, ehrliche Aussagen zu treffen. ",
-  "✅ Merke: Neugier zeigen statt Urteil bilden. Werte, Motive und Entscheidungen des Kindes sollten nie in Frage gestellt; nur so bleibt das Vertrauen (Arbeitsbündnis) erhalten. „Ein Befragter wird immer dann Informationen zurückhalten, beschönigen oder anderweitig verdecken, wenn er sich unsicher fühlt, wenn er der Meinung ist, der Forscher überschreitet Grenzen oder wenn er sich nicht respektiert fühlt.“ (Richartz, 2008, S. 24).", 
-  "❌ Diese Aussage mag vielleicht beruhigend gemeint sein, verallgemeinert aber die individuelle Erfahrung des Kindes, wodurch signalisiert werden könnte, dass diese Aussage nichts Besonderes ist. Das Gespräch könnte so an dieser Stelle abgewürgt werden, statt es zu vertiefen."
+  "❌ Diese Reaktion wertet die Aussage des Kindes indirekt ab, indem sie ihm widerspricht. Das Kind könnte daraus ableiten, dass seine ehrliche Aussage nicht willkommen war, und beim nächsten Mal vielleicht eher vorsichtiger antworten.",
+  "❌ Eine klare Grenzüberschreitung. Solche wertenden Zuschreibungen können das Vertrauen gefährden und dazu führen, dass das Kind sich in Zukunft gar nicht mehr traut, ehrliche Aussagen zu treffen. ",
+  "✅ Merke: Neugier zeigen, statt Urteil bilden. Werte, Motive und Entscheidungen des Kindes sollten nie in Frage gestellt werden; nur so bleibt das Vertrauen (Arbeitsbündnis) erhalten. „Ein Befragter wird immer dann Informationen zurückhalten, beschönigen oder anderweitig verdecken, wenn er sich unsicher fühlt, wenn er der Meinung ist, der Forscher überschreitet Grenzen oder wenn er sich nicht respektiert fühlt.“ (Richartz, 2008, S. 24).", 
+  "❌ Diese Aussage mag vielleicht beruhigend gemeint sein, verallgemeinert aber die individuelle Erfahrung des Kindes, wodurch signalisiert werden könnte, dass diese Aussage nichts Besonderes ist. Das Gespräch könnte so an dieser Stelle abgewürgt werden, statt vertieft zu werden."
 ];
 
 if (input >= 0 && input < audios.length) {
@@ -531,7 +531,7 @@ let audios = [
 ];
 
 let kommentare = [
-  "✅ Merke:Wer die Antwort schon mitliefert, stellt keine echte Frage. Rhetorische Fragen erzeugen nur Zustimmung, keine eigenständige Information vom Kind.", 
+  "✅ Merke: Wer die Antwort schon mitliefert, stellt keine echte Frage. Rhetorische Fragen erzeugen nur Zustimmung, keine eigenständige Information vom Kind.", 
   "❌ Dies ist eine offene, gut formulierte Frage, die eine eigenständige inhaltliche Antwort ermöglicht. Rhetorisch ist sie allerdings nicht!",
   "❌ Dies ist eine konkrete Erzählaufforderung, die genau das Gegenteil von einer rhetorischen Frage bewirkt: Eine ausführliche, eigenständige Antwort.",
   "❌ Diese Frage lässt bewusst offen, wie die Antwort ausfällt, und ist damit das Gegenteil einer rhetorischen Frage."
@@ -580,8 +580,8 @@ let audios = [
 
 let kommentare = [
   "❌ Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen.",
-  "✅ Merke:'Erzähl mir davon' schlägt 'Hast du...?'. Erzählaufforderungen aktivieren sprachlich zugängliches Wissen, Ja-Nein-Fragen liefern nur ein Wort.", 
-  "❌ Auch wenn diese Frage etwas aktiver wirkt: Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen.",
+  "✅ Merke: *'Erzähl mir davon'* schlägt *'Hast du...?'*. Erzählaufforderungen aktivieren sprachlich zugängliches Wissen, während Ja-Nein-Fragen die Gefahr bergen, nur ein Wort zu liefern.", 
+  "❌ Auch wenn diese Frage aktivierend wirken mag: Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen.",
   "❌  Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen."
 ];
 
@@ -607,10 +607,10 @@ input == 1;
 </section>
 
 <section>
-### Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist halt gut".
-Wie antwortest du am besten darauf, um im folgendem Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?
+### Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist gut".
+Wie antwortest du am besten darauf, um im folgenden Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?
 
-- [( )]  „Das stimmt, er/sie ist wirklich ein guter Trainer“
+- [( )]  „Das stimmt, er/sie ist wirklich ein guter Trainer.“
 - [( )]  „Du kannst ruhig auch ehrlich sagen, wenn es auch Negatives gibt.“
 - [( )] „Alle Kinder hier finden ihn gut, oder?“
 - [(x)] „Fällt dir eine konkrete Situation ein, in der du das gemerkt hast?“
@@ -628,10 +628,10 @@ let audios = [
 ];
 
 let kommentare = [
-  "❌ Durch die eigene positive Wertung wird hier der Druck auf das Kind erhöht, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das 'Phänomen der sozialen Erwünschtheit'",
-  "❌ Durch die eigene positive Wertung wird hier der Druck auf das Kind erhöht, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das 'Phänomen der sozialen Erwünschtheit'",
-  "❌ Durch die eigene positive Wertung wird hier der Druck auf das Kind erhöht, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das 'Phänomen der sozialen Erwünschtheit'",
-  "✅ Merke: Nicht bewerten, sondenr nachfragen. Eigene Zustimmung oder Fragen nach 'Ehrlichkeit' können leicht Druck erzeugen, wohingegen konkrete Nachfragen das Gespräch öffnen, ohne zu drängeln.", 
+  "❌ Durch die eigene positive Wertung könnte hier Druck auf das Kind ausgeübt werden, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das *Phänomen der sozialen Erwünschtheit*",
+  "❌ Durch die eigene positive Wertung könnte hier Druck auf das Kind ausgeübt werden, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das *Phänomen der sozialen Erwünschtheit*",
+  "❌ Durch die eigene positive Wertung könnte hier Druck auf das Kind ausgeübt werden, ebenfalls etwas Positives zu berichten. Eine kritische Sichtweise wird dadurch unwahrscheinlicher. Dies nennt man auch das *Phänomen der sozialen Erwünschtheit*",
+  "✅ Merke: Nicht bewerten, sondern nachfragen. Konkrete Nachfragen öffnen das Gespräch, ohne zu drängeln. Eine eigene Zustimmung oder Fragen nach 'Ehrlichkeit' können Druck auf das Kind erzeugen, den Ansichten des Interviewenden zuzustimmen. Dies nennt man auch das *Phänomen der sozialen Erwünschtheit*, welches es zu vermeiden gilt.", 
 ];
 
 if (input >= 0 && input < audios.length) {
@@ -656,7 +656,7 @@ input == 3;
 </section>
 
 <section>
-### Das Kind erzählt gerade begeistert von einem Erlebnis beim Aufschlag-Üben. Laut Leitfaden käme jetzt eigentlich der Themenblock "Soziale Situation in der Gruppe" dran. Wie gehst du weiter vor?
+### Das Kind erzählt gerade begeistert und sehr ausführlich von einem Erlebnis beim Üben des Aufschlags. Laut Leitfaden käme jetzt eigentlich der Themenblock *Soziale Situation in der Gruppe* dran. Wie gehst du weiter vor?
 
 - [( )]  Du weichst vom Leitfaden ab, bleibst beim Thema des Kindes und lässt das Gespräch frei weiterlaufen.
 - [( )]  Du beendest das Thema des Kindes und gehst zum nächsten Punkt über.
@@ -676,10 +676,10 @@ let audios = [
 ];
 
 let kommentare = [
-  "❌ Auch wenn es wichtig ist, dem Kind zu folgen, sollte irgendwann eine Rückbesinnung auf das eigentliche Thema/Kategorie erfolgen. Ansonsten könnte es dem Interview an inhaltlicher Struktur mangeln und am Ende nicht die gewünschten Informationen liefern.",
+  "❌ Auch wenn es wichtig ist, dem Kind zu folgen und Raum zu geben, sollte irgendwann eine Rückbesinnung auf das eigentliche Thema erfolgen. In diesem Beispiel driftet das Kind nun weiter in eher irrelevante Themen ab. Dadurch könnte es dem Interview an inhaltlicher Struktur mangeln und am Ende nicht die gewünschten Informationen liefern.",
   "❌ Das abrupte Abbrechen einer Erzählung, nur weil es der Leitfaden so vorsieht, könnte dem Kind das Gefühl geben, seine Begeisterung sei nicht wichtig. Das könnte die Gesprächsatmosphäre und das Vertrauen beeinträchtigen. ",
-  "✅ Merke:Der Leitfaden ist ein Kompass, keine Checkliste. Halte die Balance: Dem Kind folgen, ohne die Grundstruktur ganz aufzugeben.„Sowohl ein reines sachliches ‚Abarbeiten‘ des Leitfadens als auch ein gänzlich offenes Sammeln von Erfahrungen ist zu vermeiden.“ (Krieger, 2008, S. 58).", 
-  "❌ Diese Reaktion wirkt zwar höflicher als Option B, ist im Kern aber eine verdeckte Form der Leitfadenbürokratie. Der Erzählfluss des Kindes zählt hier fälschlicherweise weniger als das Abhaken der Leitfadenpunkte."
+  "✅ Merke: Der Leitfaden ist ein Kompass, keine Checkliste. Halte die Balance: Dem Kind folgen, ohne die Grundstruktur ganz aufzugeben. „Sowohl ein reines sachliches ‚Abarbeiten‘ des Leitfadens als auch ein gänzlich offenes Sammeln von Erfahrungen ist zu vermeiden.“ (Krieger, 2008, S. 58).", 
+  "❌ Diese Reaktion mag zwar höflicher als andere Optionen wirken, ist im Kern aber eine verdeckte Form der Leitfadenbürokratie. Der Erzählfluss des Kindes zählt hier fälschlicherweise weniger als das Abhaken der Leitfadenpunkte."
 ];
 
 if (input >= 0 && input < audios.length) {
@@ -704,7 +704,7 @@ input == 2;
 </section>
 
 <section>
-### Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: „Weiß nicht ähm... Glaub' schon, keine Ahnung.“. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?
+### Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: *„Weiß nicht, ähm... Glaub' schon, keine Ahnung“*. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?
 
 - [( )] „Erzähl mir gerne mehr davon, wie das für dich war.“
 - [(x)] "Findest du es nicht blöd, wenn du im Spiel Fehler machst?"
@@ -724,7 +724,7 @@ let audios = [
 ];
 
 let kommentare = [
-  "❌ Diese Frage ist offen und wertschätzend formuliert und würde daher wahrscheinlich eher zu mehr statt zu weniger Erzählbereitschaft führen.",
+  "❌ Diese Frage ist offen und wertschätzend formuliert und würde daher wahrscheinlich eher zu mehr, statt zu weniger Erzählbereitschaft führen.",
   "✅ Merke: Ein plötzlicher Rückzug des Kindes könnte ein Signal für eine Grenzüberschreitung sein. Wertende oder bloßstellende Fragen gefährden das Arbeitsbündnis.", 
   "❌ Diese Frage knüpft neutral an die Erzählung des Kindes an und enthält keinerlei Wertung. Somit würde sie eher unwahrscheinlicher zu einem plötzlichen Rückzug führen.",
   "❌ Diese Frage ist neutral und einladend gestellt, ohne das Kind in irgendeiner Form bloßzustellen. Ein plötzlicher Rückzug ist hier daher eher unwahrscheinlich."
