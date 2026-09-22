@@ -34,6 +34,16 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 >Hier ist eine Live-Umfrage. Bitte stimme direkt hier ab:
 
+## Inhalt der Sitzung
+
+> **Lehrbuchhinweis** Im folgenden sollt ihr einen Einblick in die qualitative Forschung bekommen. Der Kurs soll folgende Fragen beantworten: 
+
+* Was ist quantitatives Forschen?
+* Was für Fragen lassen sich mit quantitativer Forschung beantworten?
+* Welche Grundsätze gibt es in der quantitativen Forschung? 
+* Wie formuliert man eine Forschungsfrage?
+* Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?
+* Wie gehe ich mit meinen Daten um?
 
 ## Quantitatives Forschen als Paradigma
 
@@ -62,13 +72,15 @@ Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indizi
 * **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
 * **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
 
+>** Lehrbuch Hinweis: **
+> Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass mUsik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
 
 ---
 
 ### Was für Fragen lassen sich mit Hilfe von quantitativer Forschung beantworten?
 
 >** Lehrbuch Hinweis: **
-> Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
+> Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
 
 Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
 
@@ -82,7 +94,7 @@ Leitende Forschungsfragen betreffen:
 ### Welche Grundsätze gibt es in der quantitativen Forschung? 
 
 >** Lehrbuch Hinweis: **
-> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier das das konkret für deine Fragestellung bedeuten kann. 
+> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. 
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
@@ -115,14 +127,14 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 | **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
 | **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke, Herzfrequenz, Borg-Skala gemessen |
 | **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
-| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nciht zusätzlich an und erklärt die Aufgabe jeden Mal gleich |
-| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet |
+| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nicht zusätzlich an und erklärt die Aufgabe jeden Mal gleich. |
+| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet, heißt nichts ausschließlich ProfisportlerInnen oder eine bestimmte Altergruppe, außer das ist gewünscht. |
 
 </details>
 
 ---
 
-### Forschungsfragen in der quantitativen Forschung
+### Wie formuliert man eine Forschungsfrage?
 
 >** Lehrbuch Hinweis: **
 > Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
@@ -134,97 +146,34 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 * **Reduktion:** Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.
 
 > **Merke:**
-> Eine *Forschungshypothese* (z. B. "Sprungkrafttraining erhöht die Sprunghöhe") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. Counter-Movement-Jump in cm) sowie dem *globalen Forschungsthema* (z. B. Trainierbarkeit der Sprungkraft im Jugendalter).
+> Eine *Forschungshypothese* (z. B. "Musik erhöht die Ausdauerfähigkeit") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem *globalen Forschungsthema* (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
 
 | Beispiel Forschungsfrage | Deine Formulierung | 
 | :--- | :-- | 
-| **Forschungsfrage:** | <textarea rows="3" style="width:100%;"></textarea> |
+| **Forschungsfrage:** | <textarea rows="2" style="width:100%;"></textarea> |
 
 <details>
 <summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
 
 | Beispiel Forschungsfrage | Deine Formulierung | 
 | :--- | :-- | 
-| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit XX BPM auf die Ausdauerleitung von Sportstudierenden? |
+| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleitung von Sportstudierenden? |
 
 </details>
 
 ---
 
-#### Vertiefung Hypothesen
+### Welche zusätzlichen Faktoren spielen bei der Auswahl der Methoden mit rein?
 
-Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
-
-Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
-- Vorläufig --> Bedeutet sie ist noch nicht bewiesen. 
-- Überprüfbar --> Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen. 
-- Bezug --> Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen. 
-
-Hypothesen können entweder gerichtet sein, wie zum Beispiel: 
-
-- Wenn X passiert, dann folgt Y.
-- Je mehr X, desto mehr Y.
-
-Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig (\(H_{0}\)), bis seine Schuld bewiesen ist.
-
-**Zur Entscheidung über Hypothesen**
-
-Bei einer Entscheidung für oder gegen eine der Hypothesen können zwei Arten von Fehlern auftreten:
-
-- α-Fehler: H0 wird fälschlicherweise verworfen. 
-- β-Fehler: H0 wird fälschlicherweise beibehalten.
-
-Ein α-Fehler liegt etwa vor, wenn eine Trainingsinnovation zur Stärkung des Herzens als hoch wirksam  angenommen wird, obwohl sie es nicht ist. Ein α-Fehler würde also fälschlicherweise zur Ablehnung von H0 und der falschen Unterstützung von H1 führen. 
-
-Ein β-Fehler verhält sich andersrum. Er liegt etwa vor, wenn eine Trainingsinnovation zwar wirksam ist, jedoch H0 beibehalten wird. Ein β-Fehler würde also fälschlicherweise zur Beibehaltung von H0 und der falschen Ablehnung von H1 führen.  
-
----
-
-#### Anwendung Hypothesen
-
-**Ausgangslage**
-
-Karl hat eine Münze. Er vermutet, dass diese *nicht fair* ist, d. h. er nimmt an: Beim Werfen der Münze ist die Wahrscheinlichkeit, dass das Ergebnis *Zahl* ist, nicht ebenso groß wie die Wahrscheinlichkeit, dass das Ergebnis *Kopf* ist. Seine Annahmen lassen sich wie folgt in Hypothesen überführen:
-
-**Operationalisierte Hypothesen** 
-
-- H0: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist 50 %. 
-- H1: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist nicht 50 %. 
-
-**Statistische Hypothesen**
-
-- H0: P("Zahl") = 0,5 
-- H1: P("Zahl) ≠ 0,5
-
-**Statistischer Hintergrund**
-
-Bei einer fairen Münze würde man annehmen, dass bei mehrmaligem Werfen, z. B. 30 Würfen, *Kopf* und *Zahl* annährend gleich häufig vorkommen. Dabei wird man wahrscheinlich nicht exakt eine Gleichverteilug erhalten. In unserem Fall ist also anzunehmen, dass das Ergenis *Zahl* nicht genau 15 lauten wird. Dem *Gesetz der großen Zahl* nach zu folgen wird man jedoch feststellen: 
-
-![Binomialverteilung des Ereignisses Anzahl Zahl](img/30er_Muenze.jpg "Binomialverteilung zum Ereignis **Anzahl Zahl bei 30 Würfen")
-Wenn man die Aktion "30 mal Werfen" sehr häufig ausführt und stets das Ergebnis von *Anzahl Zahl bei 30 Würfen* in ein Histogramm einträgt, desto stärker nähert sich die Verteilung des Ereignisses *Anzahl Zahl bei 30 Würfen* einer Binomialverteilung mit Mittelwert 15 an. Eine Binomialverteilung zeigt die linke Abbildung. Um etwa zu bestimmen, wie hoch die Wahrscheinlichkeit ist, dass man genau 15 mal Zahl wirft, berechnte man: 
-$$
-P(\text{15-mal Zahl})
-= \binom{30}{15} \cdot 0.5^{15} \cdot 0.5^{30-15}
-= 14,45 \%
-$$
-
-**Empirisches Vorgehen**
-
-- Karl entscheidet sich: Wenn die Münze weniger als 10 mal Zahl oder mehr als 20 mal Zahl zeigt, ist die Münze nicht fair. D. h. genau dann, wenn beim 30-maligen Werfen das Ergebnis Zahl die Häufigkeit 0, 1, 2, 3, ... 10 oder 20, 21, 22, ...30 hat, würde Karl die Münze als *unfair* bezeichnen. 
-- Die Menge dieser Ergebnisse V = \{0, 1, 2, 3, ... 9, 21, 22, 23, 24, ... 30\} bezeichnet man auch als *Verwerfungsbereich*. 
-- Mit welcher Wahrscheinlichkeit zeigt eine faire Münze ein Ergebnis, dass in den Verwerfungsbereich fällt?
-- Hierfür sind alle Wahrscheinlichkeiten aller Ergebnisse im Verwerfungsbereich aufzusummieren. Die Wahrscheinlichkeit, dass das Ergebis im Verwerfungsbereich liegt, beträgt demnach 4,38 %. 
-- Karl wirft 30 mal und erhält 6 mal Zahl. Da das Ergebnis in den Verwerfungsbereich fällt, würde er somit zu einer Wahrscheinlichkeit von 4,38 % einen α-Fehler begehen. 
-- Karl entscheidet sich: Zu diesem *Signifikanzniveau* von 4,38 nimmt er die H1 an und lehnt die H0 ab. Die Münze ist für ihn unfair.
-
-
-### Methoden als wissenschaftliche Werkzeuge
-
-Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
+Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
 
 * **Primäres Auswahlkriterium:** Gegenstand der Untersuchung, Forschungshypothese und theoretischer Rahmen.
 
 * **Sekundäres Auswahlkriterium:** Verfügbare zeitliche, personelle, apparative und finanzielle Ressourcen.
+
+>** Lehrbuch Hinweis: **
+> Für unsere Studie bedeutet das primär die Frage was wollen wir Untersuchen **die Ausdauerleistung**, und sekundär welche Ressourven stehen und dafür zur Verfügung, ist es möglich die Messung auf dem Laufband zu machen, die Herzfreuqenz zu messen und immer einen TeilnehmerIn pro ForscherIn zu haben oder findet die Untersuchung draußen statt mit einem ForscherIn für eine größrere Gruppe.   
+
 
 ---
 
@@ -713,3 +662,72 @@ Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt 
 - Eid, M., Gollwitzer, M. & Schmitt, M. (2017). *Statistik und Forschungsmethoden*. Beltz.
 - Witte, K. (2019) *Angewandte Statistik in der Beweguungswissenschaft* Springer.
 - Moosbrugger, H. & Kelava, A. (2020). *Testtheorie und Fragebogenkonstruktion*. Springer.
+
+
+---
+
+#### Vertiefung Hypothesen
+
+Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
+
+Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
+- Vorläufig --> Bedeutet sie ist noch nicht bewiesen. 
+- Überprüfbar --> Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen. 
+- Bezug --> Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen. 
+
+Hypothesen können entweder gerichtet sein, wie zum Beispiel: 
+
+- Wenn X passiert, dann folgt Y.
+- Je mehr X, desto mehr Y.
+
+Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig (\(H_{0}\)), bis seine Schuld bewiesen ist.
+
+**Zur Entscheidung über Hypothesen**
+
+Bei einer Entscheidung für oder gegen eine der Hypothesen können zwei Arten von Fehlern auftreten:
+
+- α-Fehler: H0 wird fälschlicherweise verworfen. 
+- β-Fehler: H0 wird fälschlicherweise beibehalten.
+
+Ein α-Fehler liegt etwa vor, wenn eine Trainingsinnovation zur Stärkung des Herzens als hoch wirksam  angenommen wird, obwohl sie es nicht ist. Ein α-Fehler würde also fälschlicherweise zur Ablehnung von H0 und der falschen Unterstützung von H1 führen. 
+
+Ein β-Fehler verhält sich andersrum. Er liegt etwa vor, wenn eine Trainingsinnovation zwar wirksam ist, jedoch H0 beibehalten wird. Ein β-Fehler würde also fälschlicherweise zur Beibehaltung von H0 und der falschen Ablehnung von H1 führen.  
+
+---
+
+#### Anwendung Hypothesen
+
+**Ausgangslage**
+
+Karl hat eine Münze. Er vermutet, dass diese *nicht fair* ist, d. h. er nimmt an: Beim Werfen der Münze ist die Wahrscheinlichkeit, dass das Ergebnis *Zahl* ist, nicht ebenso groß wie die Wahrscheinlichkeit, dass das Ergebnis *Kopf* ist. Seine Annahmen lassen sich wie folgt in Hypothesen überführen:
+
+**Operationalisierte Hypothesen** 
+
+- H0: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist 50 %. 
+- H1: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist nicht 50 %. 
+
+**Statistische Hypothesen**
+
+- H0: P("Zahl") = 0,5 
+- H1: P("Zahl) ≠ 0,5
+
+**Statistischer Hintergrund**
+
+Bei einer fairen Münze würde man annehmen, dass bei mehrmaligem Werfen, z. B. 30 Würfen, *Kopf* und *Zahl* annährend gleich häufig vorkommen. Dabei wird man wahrscheinlich nicht exakt eine Gleichverteilug erhalten. In unserem Fall ist also anzunehmen, dass das Ergenis *Zahl* nicht genau 15 lauten wird. Dem *Gesetz der großen Zahl* nach zu folgen wird man jedoch feststellen: 
+
+![Binomialverteilung des Ereignisses Anzahl Zahl](img/30er_Muenze.jpg "Binomialverteilung zum Ereignis **Anzahl Zahl bei 30 Würfen")
+Wenn man die Aktion "30 mal Werfen" sehr häufig ausführt und stets das Ergebnis von *Anzahl Zahl bei 30 Würfen* in ein Histogramm einträgt, desto stärker nähert sich die Verteilung des Ereignisses *Anzahl Zahl bei 30 Würfen* einer Binomialverteilung mit Mittelwert 15 an. Eine Binomialverteilung zeigt die linke Abbildung. Um etwa zu bestimmen, wie hoch die Wahrscheinlichkeit ist, dass man genau 15 mal Zahl wirft, berechnte man: 
+$$
+P(\text{15-mal Zahl})
+= \binom{30}{15} \cdot 0.5^{15} \cdot 0.5^{30-15}
+= 14,45 \%
+$$
+
+**Empirisches Vorgehen**
+
+- Karl entscheidet sich: Wenn die Münze weniger als 10 mal Zahl oder mehr als 20 mal Zahl zeigt, ist die Münze nicht fair. D. h. genau dann, wenn beim 30-maligen Werfen das Ergebnis Zahl die Häufigkeit 0, 1, 2, 3, ... 10 oder 20, 21, 22, ...30 hat, würde Karl die Münze als *unfair* bezeichnen. 
+- Die Menge dieser Ergebnisse V = \{0, 1, 2, 3, ... 9, 21, 22, 23, 24, ... 30\} bezeichnet man auch als *Verwerfungsbereich*. 
+- Mit welcher Wahrscheinlichkeit zeigt eine faire Münze ein Ergebnis, dass in den Verwerfungsbereich fällt?
+- Hierfür sind alle Wahrscheinlichkeiten aller Ergebnisse im Verwerfungsbereich aufzusummieren. Die Wahrscheinlichkeit, dass das Ergebis im Verwerfungsbereich liegt, beträgt demnach 4,38 %. 
+- Karl wirft 30 mal und erhält 6 mal Zahl. Da das Ergebnis in den Verwerfungsbereich fällt, würde er somit zu einer Wahrscheinlichkeit von 4,38 % einen α-Fehler begehen. 
+- Karl entscheidet sich: Zu diesem *Signifikanzniveau* von 4,38 nimmt er die H1 an und lehnt die H0 ab. Die Münze ist für ihn unfair.
