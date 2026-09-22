@@ -10,22 +10,22 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 -->
 
-## How do we catch our cats? - Quantitatives Forschen
+## Quantitatives Forschen
 
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissenschaft/main/05_Quantitatives_Forschen.md#1)
+[![LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/04_Grundlagen_quantitatives_Forschen.md)
+
 
 | Parameter                | Kursinformationen                                                                               |
 | ------------------------ | ----------------------------------------------------------------------------------------------- |
-| **Veranstaltung:**       | @config.lecture                                                                                 |
-| **Semester:**            | @config.semester                                                                                |
+| **Veranstaltung:**       | Wissenschaftliches Arbeiten                                                                                 |
+| **Semester:**            |                                                                                 |
 | **Hochschule:**          | `Europa-Universität Flensburg`                                                                  |
 | **Inhalte:**             | `Sportwissenschaftliche Methoden mit Fokus auf qualitative Forschungsmethoden`                  |
-| **Link auf GitHub:**     | https://github.com/EUF-SpoWis/M1_Einfuehrung_Sportwissenschaft/blob/main/05_Quantitatives_Forschen.md      |
+| **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/04_Grundlagen_quantitatives_Forschen.md      |
 | **Autoren:**             | Tim Heemsoth & Swantje Brandt                                                                                       |
 
 > (c) Alle Rechte vorbehalten. 
-
 
 ## Einstiegsbeispiel
 
@@ -34,10 +34,12 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 >Hier ist eine Live-Umfrage. Bitte stimme direkt hier ab:
 
->!?[Mentimeter](https://mentimeter.com)
-
 
 ## Quantitatives Forschen als Paradigma
+
+>** Lehrbuch Hinweis: **
+> Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
+
 
 {{1}}In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
@@ -52,17 +54,6 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 ---
 
-### Gegenstandsbereich und Erkenntnisinteresse
-
-Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
-
-Leitende Forschungsfragen betreffen:
-* **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Trainingsumfang und Sprungkraft)?
-* Lässt sich ein **kausaler Effekt** einer Intervention (z. B. eines Trainingsprogramms) statistisch nachweisen?
-* Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. alle Jugendfußballer\*innen einer Liga)?
-
----
-
 ### Wann setzt man quantitative Methoden ein?
 
 Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
@@ -71,9 +62,27 @@ Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indizi
 * **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
 * **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
 
+
 ---
 
-### Grundsätze quantitativen Denkens
+### Was für Fragen lassen sich mit Hilfe von quantitativer Forschung beantworten?
+
+>** Lehrbuch Hinweis: **
+> Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
+
+Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
+
+Leitende Forschungsfragen betreffen:
+* **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?
+* Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die Laufdistanz mit der BPM Anzahl der Musik) statistisch nachweisen?
+* Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?
+
+---
+
+### Welche Grundsätze gibt es in der quantitativen Forschung? 
+
+>** Lehrbuch Hinweis: **
+> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier das das konkret für deine Fragestellung bedeuten kann. 
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
@@ -87,9 +96,36 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
 5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
 
+
+
+| Kernprinzip | Erklärung | Deine Gedanken |
+| :--- | :-- | :--- |
+| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | <textarea rows="3" style="width:100%;"></textarea> |
+| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | <textarea rows="4" style="width:100%;"></textarea> |
+| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | <textarea rows="4" style="width:100%;"></textarea> |
+| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | <textarea rows="4" style="width:100%;"></textarea> |
+| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | <textarea rows="4" style="width:100%;"></textarea> |
+
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Kernprinzip | Erklärung | Deine Gedanken |
+| :--- | :--- | :--- |
+| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
+| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke, Herzfrequenz, Borg-Skala gemessen |
+| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
+| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nciht zusätzlich an und erklärt die Aufgabe jeden Mal gleich |
+| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet |
+
+</details>
+
 ---
 
 ### Forschungsfragen in der quantitativen Forschung
+
+>** Lehrbuch Hinweis: **
+> Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
 
 * **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
 
@@ -99,6 +135,19 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
 > **Merke:**
 > Eine *Forschungshypothese* (z. B. "Sprungkrafttraining erhöht die Sprunghöhe") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. Counter-Movement-Jump in cm) sowie dem *globalen Forschungsthema* (z. B. Trainierbarkeit der Sprungkraft im Jugendalter).
+
+| Beispiel Forschungsfrage | Deine Formulierung | 
+| :--- | :-- | 
+| **Forschungsfrage:** | <textarea rows="3" style="width:100%;"></textarea> |
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Beispiel Forschungsfrage | Deine Formulierung | 
+| :--- | :-- | 
+| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit XX BPM auf die Ausdauerleitung von Sportstudierenden? |
+
+</details>
 
 ---
 
