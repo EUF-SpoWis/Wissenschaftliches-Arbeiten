@@ -184,22 +184,6 @@ Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gew�
 
 ---
 
-### Was passiert nach der Operationalisierung?
-
->** Lehrbuch Hinweis: **
-> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
-
-
-Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
-
-```ascii
-+------------------------+      +---------------------+      +----------------------------+
-| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
-+------------------------+      +---------------------+      +----------------------------+
-```
-
-
-
 ### Check-Up Operationalisierung
 
 Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
@@ -240,6 +224,22 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 * Standardisierte Fragebögen mit Likert-Skalen gehören zu den [[ Beobachtungsverfahren | Experimentellen Verfahren | (Befragungsverfahren) ]].
 * Wenn ein kausaler Effekt eines Trainingsprogramms nachgewiesen werden soll, nutzt man [[ Exploration eines neuen Feldes | (Experimentelle Verfahren mit Kontrollgruppe) | Rekonstruktion subjektiven Sinns ]].
+
+---
+
+### Was passiert nach der Operationalisierung?
+
+>** Lehrbuch Hinweis: **
+> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
+
+
+Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
+
+```ascii
++------------------------+      +---------------------+      +----------------------------+
+| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++------------------------+      +---------------------+      +----------------------------+
+```
 
 ---
 
@@ -446,9 +446,23 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 - Standardisierte Tests und Fragebögen sind die zentralen quantitativen Erhebungsmethoden in der Sportwissenschaft
 
 
-## Unabhängige und abhängige Variable
+### Was passiert nach der Datenerhebung?
 
-### Grundbegriffe
+>** Lehrbuch Hinweis: **
+> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt und gehen nun weiter zur Statistischen Analyse.   
+
+
+```ascii
++------------------------+      +---------------------+      +----------------------------+
+| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++------------------------+      +---------------------+      +----------------------------+
+```
+
+---
+
+## Statistische Analyse
+
+### Welche Grundbegriffe gibt es in der statistischen Analyse?
 
 In quantitativen Studien – insbesondere in Experimenten – wird zwischen verschiedenen Variablentypen unterschieden:
 
@@ -463,6 +477,10 @@ In quantitativen Studien – insbesondere in Experimenten – wird zwischen vers
 > **Merke:**
 > Die Faustregel lautet: *Die UV geht rein, die AV kommt raus.* Man **manipuliert** die UV, um zu sehen, wie sich die AV **verändert**.
 
+>** Lehrbuch Hinweis: **
+> In unserem Fall handelt es sich bei der An - bzw. Abwesenheit von Musik um die **unanhängige Variable** und die gelaufene Distanz um die **abhängige Variable**. 
+
+
 ---
 
 ### Beispiel aus der Sportwissenschaft
@@ -475,7 +493,7 @@ In quantitativen Studien – insbesondere in Experimenten – wird zwischen vers
 
 ---
 
-### Skalenniveaus der Variablen
+### Was muss noch bei den Varaiblen beachtet werden? - Skalenniveaus der Variablen
 
 Damit eine Variable statistisch sinnvoll ausgewertet werden kann, muss ihr **Skalenniveau** bekannt sein:
 
@@ -519,18 +537,11 @@ Welche Aussage zur unabhängigen Variable (UV) trifft zu?
 
 ---
 
-## Deskriptive Statistik
-
 ### Wozu dient deskriptive Statistik?
 
 Bevor Hypothesen inferenzstatistisch geprüft werden, werden erhobene Daten zunächst **beschrieben und zusammengefasst**. Die deskriptive Statistik liefert dafür zwei zentrale Kennwertfamilien:
 
-* **Lagemaße:** Wo liegt die "Mitte" der Daten?
-* **Streuungsmaße:** Wie stark streuen die Werte um diese Mitte?
-
----
-
-### Lagemaße (Maße der zentralen Tendenz)
+**Lagemaße:** Wo liegt die "Mitte" der Daten?
 
 1. **Modus:** Der am häufigsten vorkommende Wert – einsetzbar bei jedem Skalenniveau.
 2. **Median:** Der mittlere Wert einer der Größe nach sortierten Reihe – robust gegenüber Ausreißern.
@@ -541,9 +552,7 @@ $$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
 > **Merke:**
 > Bei stark schiefen Verteilungen oder Ausreißern (z. B. ein extrem langsamer Lauf in einer sonst schnellen Gruppe) ist der **Median** oft aussagekräftiger als der Mittelwert.
 
----
-
-### Streuungsmaße
+**Streuungsmaße:** Wie stark streuen die Werte um diese Mitte?
 
 1. **Spannweite (Range):** Differenz zwischen größtem und kleinstem Wert.
 
@@ -558,49 +567,44 @@ Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer
 
 ---
 
-### Praxisübung: Deskriptive Statistik berechnen
-
-Ihr habt die Sprunghöhe (Counter-Movement-Jump, in cm) von 8 Schüler:innen **vor** einem 6-wöchigen Sprungkrafttraining gemessen:
-
-**Werte:** 28, 30, 27, 35, 29, 31, 28, 26
-
-Berechnet Modus, Median, Mittelwert, Spannweite und Standardabweichung für diesen Datensatz.
-
-<textarea rows="6" style="width:100%;" placeholder="Notiere hier deinen Rechenweg..."></textarea>
-
-<details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
-
-| Kennwert | Wert | Rechenweg (Kurzfassung) |
-| :--- | :--- | :--- |
-| Modus | 28 | Wert 28 kommt zweimal vor, alle anderen nur einmal |
-| Median | 28,5 | Sortiert: 26, 27, 28, 28, 29, 30, 31, 35 → Mittel der beiden mittleren Werte (28+29)/2 |
-| Mittelwert | 29,25 | (28+30+27+35+29+31+28+26) / 8 = 234 / 8 |
-| Spannweite | 9 | 35 − 26 |
-| Standardabweichung | ≈ 2,6 | Wurzel aus der mittleren quadrierten Abweichung vom Mittelwert (n−1 im Nenner) |
-
-</details>
-
----
 
 ### Interaktive Berechnung mit Live-Code
 
 
-Hier kannst du Live-Berechnungen machen. Unter Sprunghöhen findest du einen "Datensatz" von Sprunghöhen in cm. Wenn du in das Feld klickst siehst du in der rcechnten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
+Hier kannst du Live-Berechnungen machen. Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen ohne Musik. Unter Ausdauerleistung findest du einen "Datensatz" von gelaufenen Metern in m. Wenn du in das Feld klickst siehst du in der rechten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
 
 ``` python @PyScript.repl
 import statistics
 
-sprunghoehen = [28, 30, 27, 35, 29, 31, 28, 26]
+distanzohnemusik = [1800, 1300, 2000, 1500, 1500, 2000, 1400, 1600]
 
-print("Modus:", statistics.mode(sprunghoehen))
-print("Median:", statistics.median(sprunghoehen))
-print("Mittelwert:", round(statistics.mean(sprunghoehen), 2))
-print("Spannweite:", max(sprunghoehen) - min(sprunghoehen))
-print("Standardabweichung:", round(statistics.stdev(sprunghoehen), 2))
+print("Modus:", statistics.mode(distanzohnemusik))
+print("Median:", statistics.median(distanzohnemusik))
+print("Mittelwert:", round(statistics.mean(distanzohnemusik), 2))
+print("Spannweite:", max(distanzohnemusik) - min(distanzohnemusik))
+print("Standardabweichung:", round(statistics.stdev(distanzohnemusik), 2))
 ```
 
-Verändert die Werte in der Liste `sprunghoehen` (z. B. fügt einen Ausreißer wie `55` hinzu) und führt den Code erneut aus (Run-Button unter dem Codefenster). Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
+Verändert die Werte in der Liste `distanzohnemusik` (z. B. fügt einen Ausreißer wie `5000` hinzu) und führt den Code erneut aus (Run-Button unter dem Codefenster). Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
+
+
+Hier kannst du Live-Berechnungen machen. Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen ohne Musik. Unter Ausdauerleistung findest du einen "Datensatz" von gelaufenen Metern in m. Wenn du in das Feld klickst siehst du in der rechten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
+
+``` python @PyScript.repl
+import statistics
+
+distanzmitmusik = [2800, 2300, 2000, 1900, 2500, 2500, 2400, 2600]
+
+print("Modus:", statistics.mode(distanzmitmusik))
+print("Median:", statistics.median(distanzmitmusik))
+print("Mittelwert:", round(statistics.mean(distanzmitmusik), 2))
+print("Spannweite:", max(distanzmitmusik) - min(distanzmitmusik))
+print("Standardabweichung:", round(statistics.stdev(distanzmitmusik), 2))
+```
+
+Betrachte die Mittelwerte von den beiden Variablen. Diese sind der Ausgangspunkt für alle weitere Berechnungen. 
+
+
 ---
 
 ### Check-Up: Deskriptive Statistik
@@ -714,3 +718,28 @@ $$
 - Hierfür sind alle Wahrscheinlichkeiten aller Ergebnisse im Verwerfungsbereich aufzusummieren. Die Wahrscheinlichkeit, dass das Ergebis im Verwerfungsbereich liegt, beträgt demnach 4,38 %. 
 - Karl wirft 30 mal und erhält 6 mal Zahl. Da das Ergebnis in den Verwerfungsbereich fällt, würde er somit zu einer Wahrscheinlichkeit von 4,38 % einen α-Fehler begehen. 
 - Karl entscheidet sich: Zu diesem *Signifikanzniveau* von 4,38 nimmt er die H1 an und lehnt die H0 ab. Die Münze ist für ihn unfair.
+
+
+
+### Praxisübung: Deskriptive Statistik berechnen
+
+Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen mit Musik: 
+
+**Werte:** 2800, 2300, 2000, 1900, 2500, 2500, 2400, 2600
+
+Berechnet Modus, Median, Mittelwert, Spannweite und Standardabweichung für diesen Datensatz.
+
+<textarea rows="6" style="width:100%;" placeholder="Notiere hier deinen Rechenweg..."></textarea>
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Kennwert | Wert | Rechenweg (Kurzfassung) |
+| :--- | :--- | :--- |
+| Modus | 28 | Wert 28 kommt zweimal vor, alle anderen nur einmal |
+| Median | 28,5 | Sortiert: 26, 27, 28, 28, 29, 30, 31, 35 → Mittel der beiden mittleren Werte (28+29)/2 |
+| Mittelwert | 29,25 | (28+30+27+35+29+31+28+26) / 8 = 234 / 8 |
+| Spannweite | 9 | 35 − 26 |
+| Standardabweichung | ≈ 2,6 | Wurzel aus der mittleren quadrierten Abweichung vom Mittelwert (n−1 im Nenner) |
+
+<details>
