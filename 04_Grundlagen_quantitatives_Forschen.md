@@ -45,7 +45,15 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 * Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?
 * Wie gehe ich mit meinen Daten um?
 
-## Quantitatives Forschen als Paradigma
+Hier für gehen wir Schritt für Schritt den Ablauf für quantitative Forschung durch:
+
+```ascii
++------------------------+      +---------------------+      +----------------------------+
+| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++------------------------+      +---------------------+      +----------------------------+
+```
+
+## Operationalisierung
 
 >** Lehrbuch Hinweis: **
 > Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
@@ -94,7 +102,7 @@ Leitende Forschungsfragen betreffen:
 ### Welche Grundsätze gibt es in der quantitativen Forschung? 
 
 >** Lehrbuch Hinweis: **
-> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. 
+> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
@@ -107,7 +115,6 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 4. **Distanz zum Gegenstand:** Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
 
 5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
-
 
 
 | Kernprinzip | Erklärung | Deine Gedanken |
@@ -177,37 +184,23 @@ Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gew�
 
 ---
 
-### Übersicht des methodischen Spektrums
+### Was passiert nach der Operationalisierung?
+
+>** Lehrbuch Hinweis: **
+> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
+
 
 Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
 ```ascii
 +------------------------+      +---------------------+      +----------------------------+
-| 1. Operationalisierung | ---> | 2. Datenerhebung     | ---> | 3. Statistische Analyse   |
+| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
 +------------------------+      +---------------------+      +----------------------------+
 ```
 
-### Typische Verfahren zur Datenerhebung
-
-* **Befragungsverfahren:**
-  * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
-  * Standardisierte, strukturierte Interviews mit festem Frageschema
-
-* **Beobachtungsverfahren:**
-  * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
-  * Video-/Sensor-gestützte Bewegungsanalyse
-
-* **Test- und Messverfahren:**
-  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
-  * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
-
-* **Experimentelle Verfahren:**
-  * Feld- und Laborexperimente mit Kontrollgruppendesign
-  * Quasi-Experimente ohne vollständige Randomisierung
-                                                                            (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
 
 
-### Check-Up quantutatuve Forschungs als Paradigma
+### Check-Up Operationalisierung
 
 Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
@@ -250,9 +243,43 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 ---
 
-## Der standardisierte Test als quantitative Erhebungsmethode
+## Datenerhebung
 
-> **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien.
+### Welche Verfahren zur Datenerhebung gibt es?
+
+>** Lehrbuch Hinweis: **
+> Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
+
+* **Befragungsverfahren:**
+  * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
+  * Standardisierte, strukturierte Interviews mit festem Frageschema
+
+* **Beobachtungsverfahren:**
+  * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
+  * Video-/Sensor-gestützte Bewegungsanalyse
+
+* **Test- und Messverfahren:**
+  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
+  * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
+
+* **Experimentelle Verfahren:**
+  * Feld- und Laborexperimente mit Kontrollgruppendesign
+  * Quasi-Experimente ohne vollständige Randomisierung
+                                                                            (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
+
+---
+
+### Was bedeutet ein standartisierter Test? 
+
+> **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
+
+* **A. Gütekriterien**
+
+  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
+
+  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
+
+  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
 
 ---
 
@@ -270,29 +297,18 @@ Test- und Messverfahren kommen insbesondere dann zum Einsatz, wenn Vergleichbark
 
 * **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
 
----
 
-### Dimensionen standardisierter Testverfahren
 
-Quantitative Tests lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
+Standardisierte Tests können zu unterschiedlichen Zeitpunkten erhoben werden:
 
-* **A. Gütekriterien**
+* Einmalige Messung zu einem Zeitpunkt bei mehreren Personen -> **Querschnittstudie**
 
-  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
+* Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
 
-  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
-
-  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
-
-* **B. Erhebungszeitpunkte**
-
-  * **Querschnittstudie:** Einmalige Messung zu einem Zeitpunkt bei mehreren Personen
-
-  * **Längsschnittstudie:** Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design)
 
 ---
 
-### Methodische Herausforderungen & Dilemmata
+### Welche Herausforderungen gibt es bei der Datenerhebung? 
 
 Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforderungen:
 
@@ -304,13 +320,12 @@ Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforde
 
 ---
 
-### Praxiseinheit: Standardisierte Testung im Sportunterricht
+### Praxiseinheit: Einfluss von Musik auf die Ausdauerleistung - Der Praxistest
 
-In dieser Übung protokollierst du die Durchführung eines **standardisierten Motoriktests**  in einer Schulklasse.
+In dieser Übung protokollierst du die Durchführung eines **standardisierten Lauftests**.
 Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
-> *„Gibt es einen Unterschied zwischen Jungs und Mädchen hinsichtlich der motorischen Fähigkeiten?“*
+> *„Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleitung von Sportstudierenden?“*
 
-<iframe width="600" height="355" src="https://www.youtube.com/embed/R46ZE38Te9U?si=mWDE3RG7TqMWRm-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <div style="flex: 1; position: sticky; top: 10px;">
@@ -323,10 +338,10 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 
 | Durchgang & Fokus | Orientierungsfragen & Perspektive | Deine Beobachtungen |
 | :--- | :--- | :--- |
-| **1. Durchgang:**<br>**Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? Wo gibt es Abweichungen? | <textarea rows="3" style="width:100%;"></textarea> |
-| **2. Durchgang:**<br>**Objektivität** | Beeinflusst die testende Person das Ergebnis (z. B. durch Anfeuern, Tonfall, Körperhaltung)? | <textarea rows="4" style="width:100%;"></textarea> |
-| **3. Durchgang:**<br>**Störvariablen** | Welche nicht kontrollierten Einflüsse (Untergrund, Schuhwerk, Tagesform) könnten das Ergebnis verzerren? | <textarea rows="4" style="width:100%;"></textarea> |
-| **4. Durchgang:**<br>**Auswertung** | Wie wird der Messwert erfasst und dokumentiert (z. B. Maßband, Sensor, Video-Tracking)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? Wo gibt es Abweichungen? | <textarea rows="3" style="width:100%;"></textarea> |
+| **Objektivität** | Beeinflusst die testende Person das Ergebnis (z. B. durch Anfeuern, Tonfall, Körperhaltung)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **Störvariablen** | Welche nicht kontrollierten Einflüsse (Untergrund, Schuhwerk, Tagesform) könnten das Ergebnis verzerren? | <textarea rows="4" style="width:100%;"></textarea> |
+| **Auswertung** | Wie wird der Messwert erfasst und dokumentiert (z. B. Maßband, Sensor, Video-Tracking)? | <textarea rows="4" style="width:100%;"></textarea> |
 
 
 </div>
@@ -336,47 +351,26 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 
 | Durchgang & Fokus | Orientierungsfragen & Perspektive | Musterlösung / Erwartete Beobachtung |
 | :--- | :--- | :--- |
-| **1. Durchgang:**<br>**Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? | Ein einheitliches Aufwärmprotokoll und eine wortgleiche Instruktion sind entscheidend, damit Unterschiede in den Ergebnissen auf das Merkmal selbst und nicht auf den Ablauf zurückzuführen sind. |
-| **2. Durchgang:**<br>**Objektivität** | Beeinflusst die testende Person das Ergebnis? | Unterschiedlich intensives Anfeuern einzelner Schüler:innen gefährdet die Durchführungsobjektivität und sollte vermieden bzw. standardisiert werden. |
-| **3. Durchgang:**<br>**Störvariablen** | Welche nicht kontrollierten Einflüsse könnten das Ergebnis verzerren? | Wechselnder Untergrund oder unterschiedliches Schuhwerk zwischen Prä- und Post-Test können die Sprunghöhe unabhängig vom Training beeinflussen. |
-| **4. Durchgang:**<br>**Auswertung** | Wie wird der Messwert erfasst und dokumentiert? | Eine sensorbasierte Erfassung reduziert Ablesefehler im Vergleich zur manuellen Messung mit Maßband und erhöht die Reliabilität. |
+| **Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? |  |
+| **Objektivität** | Beeinflusst die testende Person das Ergebnis? |  |
+| **Störvariablen** | Welche nicht kontrollierten Einflüsse könnten das Ergebnis verzerren? | |
+| **Auswertung** | Wie wird der Messwert erfasst und dokumentiert? |  |
 
 </details>
 
 --------------------------------------------------
 
-## Der Fragebogen als quantitative Erhebungsmethode
+### Was ist bei einer Datenerhebung mit Fragebogen zu beachten?
 
->**Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab.
-
----
-
-### Dimensionen standardisierter Fragebögen
-
-Auch quantitative Fragebögen lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
-
-* **A. Gütekriterien**
-
-  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
-
-  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
-
-  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
-
-* **B. Erhebungszeitpunkte**
-
-  * **Querschnittstudie:** Einmalige Messung zu einem Zeitpunkt bei mehreren Personen
-
-  * **Längsschnittstudie:** Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design)
+>**Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab. In unserem Fall könnte man also neben der gelaufenen Disntanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
   
----
 
 ### Fragebogen-Konstruktionssimulator
 
-Mit diesem interaktiven Simulator konstruierst du schrittweise ein **standardisiertes Item** für einen Fragebogen zur Trainingsmotivation von Jugendlichen im Volleyballtraining. Du möchtest folgende Forschungsfrage mit deinem Fragebogen beantworten:
-> *„Wie stark hängt das wahrgenommene Kompetenzerleben von Jugendlichen mit ihrer intrinsischen Trainingsmotivation zusammen?“*
+Mit diesem interaktiven Simulator konstruierst du schrittweise ein **standardisiertes Item** für einen Fragebogen zur Motivation während eines Ausdauertests. Du möchtest folgende Forschungsfrage mit deinem Fragebogen beantworten:
+> *„elchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Motivation von Sportstudierenden?“*
 
-Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist. Habe hier die eben bennanten Gütekriterien im Kopf.
+Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist. Habe hier die bennanten Gütekriterien im Kopf.
 
 <section>
 
@@ -384,7 +378,7 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 - [( )] "Findest du dein Training eigentlich motivierend, oder eher nicht?"
 - [( )] "Bist du bereit, ein paar wissenschaftliche Fragen zu deiner Motivation zu beantworten?"
-- [(x)] "Ich trainiere Volleyball, weil es mir Spaß macht." (Skala: trifft gar nicht zu – trifft voll zu)
+- [(x)] "Ich laufe, weil es mir Spaß macht." (Skala: trifft gar nicht zu – trifft voll zu)
 
 [[?]] ✅ Merke: Ein gutes standardisiertes Item ist eine **eindeutige, unipolare Aussage** mit einheitlichem Antwortformat (hier: Rating-Skala), nicht eine offene oder doppeldeutige Frage.
 
@@ -392,11 +386,11 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 <section>
 
-### Du willst nun das Konstrukt "wahrgenommenes Kompetenzerleben" operationalisieren. Welches Item ist dafür am geeignetsten?
+### Du willst nun das Konstrukt "Motivation" operationalisieren. Welches Item ist dafür am geeignetsten?
 
-- [(x)] "Ich habe das Gefühl, die Übungen im Training gut zu beherrschen." (Skala: trifft gar nicht zu – trifft voll zu)
-- [( )] "Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?"
-- [( )] "Inwiefern erlebst du dich im Trainingskontext als selbstwirksam?"
+- [(x)] "Ich habe das Gefühl, die Laufaufgabe gut zu beherrschen." (Skala: trifft gar nicht zu – trifft voll zu)
+- [( )] "Fühlst du dich manchmal gelangweilt oder überwältigt, oder eher so ein Mittelding?"
+- [( )] "Inwiefern erlebst du dich im Trainingskontext als motiviert?"
 
 [[?]] ✅ Merke: Items sollten in der Sprache der Zielgruppe formuliert sein und nur **eine** Dimension gleichzeitig erfassen – Doppelbarrel-Fragen (zwei Aspekte in einer Frage) und Fachsprache sind zu vermeiden.
 
@@ -404,7 +398,7 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 <section>
 
-### Beim Pretest fällt auf, dass fast alle Jugendlichen bei einem Item "trifft voll zu" ankreuzen. Wie gehst du damit um?
+### Beim Pretest fällt auf, dass fast alle TeilnehmerInnen bei einem Item "trifft voll zu" ankreuzen. Wie gehst du damit um?
 
 - [( )] Du lässt das Item unverändert, da ein eindeutiges Ergebnis vorliegt.
 - [(x)] Du prüfst das Item auf einen möglichen Deckeneffekt und schärfst die Formulierung, um besser zu differenzieren.
@@ -426,27 +420,16 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 </section>
 
-<section>
-
-### Du planst, mehrere Items zum "Kompetenzerleben" zu einer Skala zusammenzufassen. Was solltest du vorab prüfen?
-
-- [( )] Ob alle Items exakt gleich formuliert sind.
-- [(x)] Ob die Items eine ausreichend hohe interne Konsistenz (z. B. Cronbachs Alpha) aufweisen.
-- [( )] Ob die Items in zufälliger Reihenfolge im Fragebogen erscheinen.
-
-[[?]] ✅ Merke: Die **interne Konsistenz** gibt an, wie gut mehrere Items dasselbe Konstrukt reliabel erfassen, und ist ein zentrales Qualitätsmaß für zusammengesetzte Skalen.
-
-</section>
 
 <section>
 
-### Der Fragebogen soll auch an einer anderen Schule eingesetzt werden. Was ist dafür entscheidend?
+### Der Fragebogen soll auch bei einer anderen Laufgruppe eingesetzt werden. Was ist dafür entscheidend?
 
-- [(x)] Eine identische, standardisierte Durchführung (gleiche Instruktion, gleiche Bedingungen) an beiden Schulen.
+- [(x)] Eine identische, standardisierte Durchführung (gleiche Instruktion, gleiche Bedingungen) für beide Gruppen.
 - [( )] Eine individuelle Anpassung der Formulierungen an jede Klasse.
 - [( )] Ein Verzicht auf schriftliche Instruktionen, um Zeit zu sparen.
 
-[[?]] ✅ Merke: Nur eine **standardisierte Durchführung** stellt sicher, dass Unterschiede zwischen den Schulen tatsächlich das Konstrukt und nicht die Erhebungsbedingungen widerspiegeln.
+[[?]] ✅ Merke: Nur eine **standardisierte Durchführung** stellt sicher, dass Unterschiede zwischen den Gruppen tatsächlich das Konstrukt und nicht die Erhebungsbedingungen widerspiegeln.
 
 </section>
 
