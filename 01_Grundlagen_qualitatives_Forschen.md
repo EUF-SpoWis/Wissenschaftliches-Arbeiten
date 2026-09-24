@@ -291,6 +291,10 @@ Mit diesem interaktiven **Interview-Simulator** führst du ein **leitfadengestü
 > ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
 Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
+![Interviewsituation zwischen Interviewer:in und Kind](img\Interviewsituation.jpg)
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem bereits existierendem Interview. 
+</div>
 
 <section>
 ### Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
