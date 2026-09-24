@@ -292,9 +292,11 @@ Mit diesem interaktiven **Interview-Simulator** führst du ein **leitfadengestü
 Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
 Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
 ![Interviewsituation zwischen Interviewer:in und Kind](img\Interviewsituation.jpg)
+
 <div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem bereits existierendem Interview. 
+🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem bereits existierenden Interview. 
 </div>
+
 
 <section>
 ### Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
@@ -406,7 +408,7 @@ let audios = [
 
 let kommentare = [
   "❌ Der Denkprozess des Kindes könnte so unterbrochen werden. Durch die vorschnelle Umformulierung könnte der Eindruck entstehen, die ursprüngliche Frage sei nicht verstanden worden, wobei das Kind nur mehr Zeit braucht. Das Ergebnis ist daher eine flüchtigere, weniger durchdachte Antwort",
-  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Pausen gehören dem Kind, nicht dem/der Interviwer*in. Stille ist oftmals kein leerer Raum, sonder Nachdenkzeit.",
+  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Stille ist oftmals kein leerer Raum, sonder Nachdenkzeit. Der „Umgang mit passiv-rezeptiven Anteilen des Interviewens oder Schwierigkeiten und fehlende Gedult beim Zuhören, das Aushalten von Pausen“ sind typische Fehlerquellen (Krieger, 2008, S. 59)",
   "❌ Konkrete Vorschläge bergen die Gefahr, dass das Kind einfach den Erstbesten übernimmt, statt aus der eigenen Erfahrung zu sprechen. Die Antwort spiegelt dann eher das wider, was dem/der Interviewer*in plausibel erscheint, als das, was das Kind tatsächlich erlebt hat."
 ];
 
@@ -449,7 +451,7 @@ let kommentare = [
   "❌ Suggestivfrage! So legst du dem Kind bereits die Interpretation ‘motivierend’ in den Mund. Dem “oder?” muss nur noch zugestimmt werden. Zudem greifst du den Aspekt Lob auf, den das Kind so gar nicht erwähnt hat.",
   "❌ Suggestivfrage! Hier wird dem Kind eine Bewertung (“schön”) vorweggenommen, statt es selber einschätzen zu lassen, wie es sich fühlt. Die Frage lässt somit wenig Raum für abweichende oder differenzierte Antworten.",
   "❌ Suggestivfrage! Pauschale Schlussfolgerung, die so nicht aus der ursprünglichen Antwort des Kindes hervorgeht.",
-  "✅ Merke: Anbieten statt vorgeben. „Habe ich das richtig verstanden…“ öffnet, während Suggestivfragen schließen! Interpretationen sind erlaubt, solange sie als offenes Angebot formuliert sind, die das Kind auch verneinen kann."
+  "✅ Merke: Anbieten statt vorgeben. Interpretationen sind erlaubt, solange sie als offenes Angebot formuliert sind, die das Kind auch verneinen kann. „Der Interviewer sollte sich der Gefahr von Suggestivfragen bewusst sein, gleichzeitig aber gerade vor Interpretationsangeboten zum Gesagten [...] nicht zurückschrecken.“ (Krieger, 2008, S. 60)"
 ];
 
 if (input >= 0 && input < kommentare.length) {
@@ -584,7 +586,7 @@ let audios = [
 
 let kommentare = [
   "❌ Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen.",
-  "✅ Merke: *'Erzähl mir davon'* schlägt *'Hast du...?'*. Erzählaufforderungen aktivieren sprachlich zugängliches Wissen, während Ja-Nein-Fragen die Gefahr bergen, nur ein Wort zu liefern.", 
+  "✅ Merke: *'Erzähl mir davon'* schlägt *'Hast du...?'*. Erzählaufforderungen aktivieren sprachlich zugängliches Wissen, während Ja-Nein-Fragen die Gefahr bergen, nur ein Wort zu liefern. Es gehört „zu Grundkompetenzen für Interviewer, in einer Weise zu fragen, dass Befragte mit Narrationen antworten.“ (Richartz, 2008, S. 29) ", 
   "❌ Auch wenn diese Frage aktivierend wirken mag: Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen.",
   "❌  Ja-Nein-Fragen gilt es zu vermeiden, da sie sich mit nur einem einzigen Wort beantworten lassen und dementsprechend die Gefahr bergen, kein inhaltliches Material zu erzeugen."
 ];
@@ -755,4 +757,11 @@ input == 1;
 
 </section>
 
+--------------------------------------------------
+
+## Quellen und weiterführende Literatur
+
+- Krieger, C. (2008). Leitfaden-Interviews. In: W-D Miethling & M. Schierz (Hrsg), Qualitative Forschungsmethoden in der Sportpädagogik (Beiträge zur Lehre und Forschung im Sport 163, S. 45-63). Hofmann. 
+- Richartz, A. (2008). Wie man bekommt, was man verdient. Fauregeln zum Führen qualitativer Interviews. In: W-D Miethling & M. Schierz (Hrsg), Qualitative Forschungsmethoden in der Sportpädagogik (Beiträge zur Lehre und Forschung im Sport 163, S. 15-43). Hofmann.
+- Lamnek, S., & Krell, C. (2016). Qualitative Sozialforschung. Mit Online-Materialien (6., überarbeitete Aufl.). Beltz.
 
