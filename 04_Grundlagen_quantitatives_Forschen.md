@@ -55,18 +55,16 @@ Hier für gehen wir Schritt für Schritt den Ablauf für quantitative Forschung 
 
 ## Operationalisierung
 
->** Lehrbuch Hinweis: **
-> Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
+--{{0}}-- ** Lehrbuch Hinweis: ** Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
 
 
-{{1}}In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
+In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
-{{2}}* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
-{{3}}* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
-{{4}}* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
+* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
+* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
+* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
 
-{{5}}> **Wichtige Abgrenzung:**
-> Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten).
+--{{0}}-- **Wichtige Abgrenzung:** Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten).
 >
 > *Nicht-empirische Paradigmen* (wie reine Theoriearbeit oder begriffsanalytische Zugänge) arbeiten hingegen interpretatorisch oder deduktiv-theoretisch, ohne eigene empirische Daten im Feld zu erheben.
 
@@ -80,15 +78,13 @@ Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indizi
 * **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
 * **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
 
->** Lehrbuch Hinweis: **
-> Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass mUsik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
+--{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass mUsik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
 
 ---
 
 ### Was für Fragen lassen sich mit Hilfe von quantitativer Forschung beantworten?
 
->** Lehrbuch Hinweis: **
-> Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
+--{{0}}-- ** Lehrbuch Hinweis: ** Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
 
 Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
 
@@ -101,8 +97,7 @@ Leitende Forschungsfragen betreffen:
 
 ### Welche Grundsätze gibt es in der quantitativen Forschung? 
 
->** Lehrbuch Hinweis: **
-> Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
+--{{0}}-- ** Lehrbuch Hinweis: ** Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
@@ -143,8 +138,7 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
 ### Wie formuliert man eine Forschungsfrage?
 
->** Lehrbuch Hinweis: **
-> Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
+--{{0}}-- ** Lehrbuch Hinweis: ** Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
 
 * **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
 
@@ -164,7 +158,7 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
 | Beispiel Forschungsfrage | Deine Formulierung | 
 | :--- | :-- | 
-| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleitung von Sportstudierenden? |
+| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden? |
 
 </details>
 
@@ -178,8 +172,7 @@ Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gew�
 
 * **Sekundäres Auswahlkriterium:** Verfügbare zeitliche, personelle, apparative und finanzielle Ressourcen.
 
->** Lehrbuch Hinweis: **
-> Für unsere Studie bedeutet das primär die Frage was wollen wir Untersuchen **die Ausdauerleistung**, und sekundär welche Ressourven stehen und dafür zur Verfügung, ist es möglich die Messung auf dem Laufband zu machen, die Herzfreuqenz zu messen und immer einen TeilnehmerIn pro ForscherIn zu haben oder findet die Untersuchung draußen statt mit einem ForscherIn für eine größrere Gruppe.   
+--{{0}}-- ** Lehrbuch Hinweis: ** Für unsere Studie bedeutet das primär die Frage was wollen wir Untersuchen -> **die Ausdauerleistung**, und sekundär welche Ressourcen stehen und dafür zur Verfügung. Zum Beispiel: Ist es möglich die Messung auf dem Laufband zu machen? Die Herzfreuqenz zu messen? Steht pro TeilnehmerIn immer ein ForscherIn zur Verfügung? Findet die Untersuchung draußen oder drinnen statt?
 
 
 ---
@@ -229,8 +222,7 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 ### Was passiert nach der Operationalisierung?
 
->** Lehrbuch Hinweis: **
-> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
+--{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
 
 
 Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
@@ -247,8 +239,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 ### Welche Verfahren zur Datenerhebung gibt es?
 
->** Lehrbuch Hinweis: **
-> Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
+--{{0}}-- ** Lehrbuch Hinweis: ** Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
 
 * **Befragungsverfahren:**
   * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
@@ -271,7 +262,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 ### Was bedeutet ein standartisierter Test? 
 
-> **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
+--{{0}}-- **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
 
 * **A. Gütekriterien**
 
@@ -368,7 +359,7 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 ### Fragebogen-Konstruktionssimulator
 
 Mit diesem interaktiven Simulator konstruierst du schrittweise ein **standardisiertes Item** für einen Fragebogen zur Motivation während eines Ausdauertests. Du möchtest folgende Forschungsfrage mit deinem Fragebogen beantworten:
-> *„elchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Motivation von Sportstudierenden?“*
+> *„Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Motivation von Sportstudierenden?“*
 
 Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist. Habe hier die bennanten Gütekriterien im Kopf.
 
@@ -448,8 +439,7 @@ Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehen
 
 ### Was passiert nach der Datenerhebung?
 
->** Lehrbuch Hinweis: **
-> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt und gehen nun weiter zur Statistischen Analyse.   
+--{{0}}-- >** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt und gehen nun weiter zur Statistischen Analyse.   
 
 
 ```ascii
@@ -477,8 +467,7 @@ In quantitativen Studien – insbesondere in Experimenten – wird zwischen vers
 > **Merke:**
 > Die Faustregel lautet: *Die UV geht rein, die AV kommt raus.* Man **manipuliert** die UV, um zu sehen, wie sich die AV **verändert**.
 
->** Lehrbuch Hinweis: **
-> In unserem Fall handelt es sich bei der An - bzw. Abwesenheit von Musik um die **unanhängige Variable** und die gelaufene Distanz um die **abhängige Variable**. 
+--{{0}}-- ** Lehrbuch Hinweis: ** In unserem Fall handelt es sich bei der An - bzw. Abwesenheit von Musik um die **unanhängige Variable** und die gelaufene Distanz um die **abhängige Variable**. 
 
 
 ---
@@ -505,21 +494,20 @@ Damit eine Variable statistisch sinnvoll ausgewertet werden kann, muss ihr **Ska
 
 4. **Verhältnisskala:** Gleiche Abstände **und** echter Nullpunkt (z. B. Sprunghöhe in cm, Zeit in Sekunden)
 
---{{0}}--
-Das Skalenniveau der AV bestimmt maßgeblich, welche statistischen Kennwerte und Tests später zulässig sind.
+--{{0}}-- Das Skalenniveau der AV bestimmt maßgeblich, welche statistischen Kennwerte und Tests später zulässig sind.
 
 ### Check-Up: Variablen
 
-Ordne die Rollen im folgenden Studiendesign richtig zu: *„Einfluss von Sprungkrafttraining auf die Sprunghöhe bei konstant gehaltenem Ernährungsplan"*
+Ordne die Rollen im folgenden Studiendesign richtig zu: *„Einfluss der Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden?"*
 
-* Das Sprungkrafttraining ist die [[ (unabhängige Variable) | abhängige Variable | Störvariable ]].
-* Die Sprunghöhe ist die [[ unabhängige Variable | (abhängige Variable) | Kontrollvariable ]].
-* Der konstant gehaltene Ernährungsplan ist eine [[ Störvariable | abhängige Variable | (Kontrollvariable) ]].
-* Ein unbemerkter Wachstumsschub während der Studie wäre eine [[ (Störvariable) | Kontrollvariable | unabhängige Variable ]].
+* Die Nutzung von Musik ist die [[ (unabhängige Variable) | abhängige Variable | Störvariable ]].
+* Die Ausdauerleistung ist die [[ unabhängige Variable | (abhängige Variable) | Kontrollvariable ]].
+* Der immer gleiche Ort für die Erhebung ist eine [[ Störvariable | abhängige Variable | (Kontrollvariable) ]].
+* Ein unbemerkter Trainingsplan während der Studie wäre eine [[ (Störvariable) | Kontrollvariable | unabhängige Variable ]].
 
 ---
 
-Welchem Skalenniveau entspricht die Variable "Sprunghöhe in cm"?
+Welchem Skalenniveau entspricht die Variable "Gelaufene Meter in 12 min"?
 
 [( )] Nominalskala
 [( )] Ordinalskala
@@ -562,8 +550,7 @@ $$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
 
 $$s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
 
---{{0}}--
-Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer Streuung unterscheiden – deshalb gehören Lage- und Streuungsmaße immer zusammen berichtet.
+--{{0}}-- Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer Streuung unterscheiden – deshalb gehören Lage- und Streuungsmaße immer zusammen berichtet.
 
 ---
 
@@ -626,9 +613,9 @@ Ordne die Kennwerte den passenden Kategorien zu:
 
 ---
 
-Zwei Trainingsgruppen haben denselben Mittelwert in der Sprunghöhe. Was lässt sich daraus **allein** ableiten?
+Zwei Trainingsgruppen haben denselben Mittelwert in den gelaufenen Metern in 12 min. Was lässt sich daraus **allein** ableiten?
 
-[[ ]] Beide Gruppen sind in jeder einzelnen Sprunghöhe identisch.
+[[ ]] Beide Gruppen sind in jeder einzelnen Distanz identisch.
 [[X]] Über die Streuung innerhalb der Gruppen ist noch nichts ausgesagt.
 [[ ]] Die Gruppen unterscheiden sich sicher nicht in ihrer Standardabweichung.
 [[?]] **Erklärung:** Ein gleicher Mittelwert sagt nichts über die Streuung aus – eine Gruppe kann sehr homogen, die andere sehr heterogen sein. Erst Lage- **und** Streuungsmaße zusammen ergeben ein vollständiges Bild.
