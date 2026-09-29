@@ -21,7 +21,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 | **Semester:**          | @config.semester                                                                                               |
 | **Hochschule:**        | `Europa-Universität Flensburg`                                                                                 |
 | **Inhalte:**           | `Grundlagen qualitatives Forschen`                                                                             |
-| **Link auf GitHub:**   | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/01_Grundlagen_qualitatives_Forschen.md|
+| **Link auf GitHub:**   | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/01_Grundlagen_qualitatives_Forschen.md     |
 | **Autoren:**           | @author                                                                                                        |
 
 > **Überblick:** Dieses Skript führt in die Grundlagen des qualitativen Forschungsparadigmas ein und gibt einen ersten Überblick über das Spektrum qualitativer Methoden.
@@ -35,7 +35,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 > 
 > Wodurch ist die folgende Forschungssituation gekennzeichnet? 
 >
-> [▶️ Video auf YouTube ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k)
+> [▶️ Video auf YouTube ab 20:00 ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k&t=1200s)
 
 
 ## Qualitatives Forschen als Paradigma
