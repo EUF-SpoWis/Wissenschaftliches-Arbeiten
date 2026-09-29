@@ -30,9 +30,9 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 ## Einstiegsbeispiel
 
 >[!Note]Arbeitsauftrag
->Macht Musik beim Laufen wirklich schneller? Trefft dazu eine Entscheidung.
+>Höre dir folgende Unterhaltung an:   <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio>
 
->Hier ist eine Live-Umfrage. Bitte stimme direkt hier ab:
+
 
 ## Inhalt der Sitzung
 
