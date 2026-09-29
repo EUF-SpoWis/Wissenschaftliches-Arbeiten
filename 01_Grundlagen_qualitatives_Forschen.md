@@ -35,7 +35,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 > 
 > Wodurch ist die folgende Forschungssituation gekennzeichnet? 
 >
-> [▶️ Video auf YouTube ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k)
+> [▶️ Video auf YouTube ab 20:00 ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k&t=1200s)
 
 
 ## Qualitatives Forschen als Paradigma
