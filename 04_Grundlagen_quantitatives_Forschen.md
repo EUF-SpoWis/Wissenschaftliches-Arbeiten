@@ -13,7 +13,7 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 ## Quantitatives Forschen
 
 
-[![LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/04_Grundlagen_quantitatives_Forschen.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/04_Grundlagen_quantitatives_Forschen.md)
 
 
 | Parameter                | Kursinformationen                                                                               |
