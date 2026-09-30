@@ -408,7 +408,7 @@ let audios = [
 
 let kommentare = [
   "❌ Der Denkprozess des Kindes könnte so unterbrochen werden. Durch die vorschnelle Umformulierung könnte der Eindruck entstehen, die ursprüngliche Frage sei nicht verstanden worden, wobei das Kind nur mehr Zeit braucht. Das Ergebnis ist daher eine flüchtigere, weniger durchdachte Antwort",
-  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Stille ist oftmals kein leerer Raum, sonder Nachdenkzeit. Der „Umgang mit passiv-rezeptiven Anteilen des Interviewens oder Schwierigkeiten und fehlende Gedult beim Zuhören, das Aushalten von Pausen“ sind typische Fehlerquellen (Krieger, 2008, S. 59)",
+  "✅ Merke: Zuhören und Abwarten können gehören zu einer respektvollen Interviewatmosphäre. Stille ist oftmals kein leerer Raum, sondern Nachdenkzeit. Der „Umgang mit passiv-rezeptiven Anteilen des Interviewens oder Schwierigkeiten und fehlende Gedult beim Zuhören, das Aushalten von Pausen“ sind typische Fehlerquellen (Krieger, 2008, S. 59)",
   "❌ Konkrete Vorschläge bergen die Gefahr, dass das Kind einfach den Erstbesten übernimmt, statt aus der eigenen Erfahrung zu sprechen. Die Antwort spiegelt dann eher das wider, was dem/der Interviewer*in plausibel erscheint, als das, was das Kind tatsächlich erlebt hat."
 ];
 
