@@ -280,26 +280,46 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 --------------------------------------------------
 
 ## Das Interview als qualitative Erhebungsmethode
-
-> **Überblick:** Beispiel
-
----
-
-### Interview-Simulator
-
-Mit diesem interaktiven **Interview-Simulator** führst du ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durch, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview Daten erheben, um die folgende Forschungsfrage zu beantworten:
-> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
-Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
-Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
-![Interviewsituation zwischen Interviewer:in und Kind](img\Interviewsituation.jpg)
-
-<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem bereits existierenden Interview. 
+> **Vom Beobachten zum Nachfragen:** Neben dem Beobachten gibt es noch eine Vielzahl weiterer qualitativer Erhebungsmethoden. Eine ebenfalls weit Verbreitete ist **das Interview**.In dieser Lerneinheit wirst du daher nun tiefer in die Welt der Gesprächsführung eintauchen. Bevor wir uns die Theorie erarbeiten, probieren wir es direkt aus: Du begibst dich zum Einstieg selbst in die Rolle der interviewenden Person!
+<div style="text-align:center;">
+  <img src="img\Interviewsituation.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
 </div>
 
+### Interview-Simulator 
+Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
+> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 
-<section>
-### Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
+- Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
+-> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
+</div>
+
+#### Bevor es losgeht: Deine Vorbereitung
+Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor beachten?**
+
+-> Nimm dir kurz Zeit und überleg dir in Ruhe 3–4 Punkte, bevor du weiterklickst.
+<div style="text-align:left;">
+  <img src="img\Interview-Checkliste.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
+<details>
+<summary>🔍 Klick hier, um eine Beispiel-Checkliste zum Vergleich zu sehen</summary>
+
+- ✅ Einverständnis der Erziehungsberechtigten bei Teilnehmer*innen unter 18 einholen
+- ✅ Ruhigen, störungsfreien Ort auswählen
+- ✅ Aufnahmegerät testen (Akku, Speicherplatz, Mikrofon)
+- ✅ Ziel des Gesprächs nochmals altersgerecht und offen erklären
+- ✅ Freiwilligkeit & Recht auf Pause/Abbruch kommunizieren
+- ✅ Genug Zeit einplanen, keine Hetze
+Für Beispieldokumente zur Durchführung studentischer Untersuchungen an Schulen in Schleswig-Holstein [hier](https://deine-url-hier.de) klicken.
+
+</details>
+
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
+
+**Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten?**
 
 - [( )] Findest du dein Training eigentlich gut? 
 - [( )] Bist du bereit für ein paar wissenschaftliche Fragen zum Thema?
@@ -339,12 +359,11 @@ input == 2;
 
 <audio id="Audio-Platzhalter-1" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-1" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-1" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
 
-<section>
-### Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?
+**Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?**
 
 - [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
 - [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
@@ -384,12 +403,11 @@ input == 0;
 
 <audio id="Audio-Platzhalter-2" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-2" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-2" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 3</span>
 
-<section>
-### Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
+**Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…** 
 
 - [( )] Du versuchst die Frage nochmal umzuformulieren, weil sie so nicht verstanden wurde.
 - [(x)] Du lässt dem Kind noch etwas länger Zeit zum Nachdenken und hältst die unangenehme Stille aus.
@@ -429,12 +447,11 @@ input == 1;
 
 <audio id="Audio-Platzhalter-3" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-3" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-3" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 4</span>
 
-<section>
-### Du möchtest folgende Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?
+**Du möchtest folgende Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?**
 
 <audio src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/4A.mp3" controls></audio>
 
@@ -464,12 +481,11 @@ if (input >= 0 && input < kommentare.length) {
 input == 3;
 </script>
 
-<p id="Kommentar-Platzhalter-4" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-4" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 5</span>
 
-<section>
-### Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?
+**Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?**
 
 - [( )] „Aber Technikübungen gehören doch auch dazu, oder? Muss man das nicht auch üben, um besser zu werden?“
 - [( )] „Findest du das nicht auch ein bisschen faul von dir?"
@@ -512,12 +528,11 @@ input == 2;
 
 <audio id="Audio-Platzhalter-5" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-5" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-5" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 6</span>
 
-<section>
-### Welche der folgenden Interviewer-Aussagen ist eine rhetorische Frage (und damit eher ungeeignet)?
+**Welche der folgenden Interviewer-Aussagen ist eine rhetorische Frage (und damit eher ungeeignet)?**
 
 - [(x)] „Ist es nicht klar, dass Feedback wichtig ist für Kinder?"
 - [( )] „Was bedeutet Feedback für dich im Training?"
@@ -560,12 +575,11 @@ input == 0;
 
 <audio id="Audio-Platzhalter-6" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-6" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-6" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 7</span>
 
-<section>
-### Du möchtest nun herausfinden, was spezielle Erfolgserlebnisse des Kindes im Training waren. Welche Frage liefert wohl das ergiebigste Material?
+**Du möchtest nun herausfinden, was spezielle Erfolgserlebnisse des Kindes im Training waren. Welche Frage liefert wohl das ergiebigste Material?**
 
 - [( )] "Hattest du in dieser Woche schon ein Erfolgserlebnis?"
 - [(x)] "Erzähl mir von einem Moment im Training, auf den du richtig stolz warst."
@@ -608,13 +622,11 @@ input == 1;
 
 <audio id="Audio-Platzhalter-7" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-7" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-7" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 8</span>
 
-<section>
-### Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist gut".
-Wie antwortest du am besten darauf, um im folgenden Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?
+**Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist gut". Wie antwortest du am besten darauf, um im folgenden Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?**
 
 - [( )]  „Das stimmt, er/sie ist wirklich ein guter Trainer.“
 - [( )]  „Du kannst ruhig auch ehrlich sagen, wenn es auch Negatives gibt.“
@@ -657,12 +669,11 @@ input == 3;
 
 <audio id="Audio-Platzhalter-8" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-8" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-8" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 9</span>
 
-<section>
-### Das Kind erzählt gerade begeistert und sehr ausführlich von einem Erlebnis beim Üben des Aufschlags. Laut Leitfaden käme jetzt eigentlich der Themenblock *Soziale Situation in der Gruppe* dran. Wie gehst du weiter vor?
+**Das Kind erzählt gerade begeistert und sehr ausführlich von einem Erlebnis beim Üben des Aufschlags. Laut Leitfaden käme jetzt eigentlich der Themenblock 'Soziale Situation in der Gruppe' dran. Wie gehst du weiter vor?**
 
 - [( )]  Du weichst vom Leitfaden ab, bleibst beim Thema des Kindes und lässt das Gespräch frei weiterlaufen.
 - [( )]  Du beendest das Thema des Kindes und gehst zum nächsten Punkt über.
@@ -705,16 +716,15 @@ input == 2;
 
 <audio id="Audio-Platzhalter-9" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-9" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-9" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 10</span>
 
-<section>
-### Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: *„Weiß nicht, ähm... Glaub' schon, keine Ahnung“*. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?
+**Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: „Weiß nicht, ähm... Glaub' schon, keine Ahnung“. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?**
 
 - [( )] „Erzähl mir gerne mehr davon, wie das für dich war.“
 - [(x)] "Findest du es nicht blöd, wenn du im Spiel Fehler machst?"
-- [( )] "Und was passiert als nächstes in deiner Geschichte?"
+- [( )] "Willlst du mir vielleicht erzählen, was als nächstes in deiner Geschichte passiert?"
 - [( )] "Magst du mir zeigen, wie das aussah?"
 <script>
 let input = Number("@input");
@@ -753,9 +763,7 @@ input == 1;
 
 <audio id="Audio-Platzhalter-10" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-10" style="display:none; margin-top:10px;"></p>
-
-</section>
+<p id="Kommentar-Platzhalter-10" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
 --------------------------------------------------
 
