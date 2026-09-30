@@ -48,12 +48,12 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 Hier für gehen wir Schritt für Schritt den Ablauf für quantitative Forschung durch:
 
 ```ascii
-+------------------------+      +---------------------+      +----------------------------+
-| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
-+------------------------+      +---------------------+      +----------------------------+
++--------------------------+      +---------------------+      +----------------------------+
+| 1. Untersuchungsplannung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++--------------------------+      +---------------------+      +----------------------------+
 ```
 
-## Operationalisierung
+## Untersuchungsplannung 
 
 --{{0}}-- ** Lehrbuch Hinweis: ** Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
 
@@ -177,7 +177,7 @@ Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gew�
 
 ---
 
-### Check-Up Operationalisierung
+### Check-Up Untersuchungsplannung 
 
 Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
@@ -190,9 +190,9 @@ Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korre
 
 Wähle die passenden Grundsätze quantitativen Denkens aus:
 
-* Die Überführung theoretischer Konstrukte in messbare Variablen nennt man [[ Standardisierung | (Operationalisierung) | Generalisierung ]].
+* Die Überführung theoretischer Konstrukte in messbare Variablen nennt man [[ Standardisierung | (Untersuchungsplannung ) | Generalisierung ]].
 * Identische Erhebungsbedingungen für alle Untersuchten entsprechen dem Prinzip der [[ (Standardisierung) | Distanz zum Gegenstand | Hypothesenprüfung ]].
-* Verallgemeinerung über statistische Kennwerte und Stichproben entspricht dem Prinzip der [[ Operationalisierung | Hypothesenprüfung | (Generalisierung durch Repräsentativität) ]].
+* Verallgemeinerung über statistische Kennwerte und Stichproben entspricht dem Prinzip der [[ Untersuchungsplannung  | Hypothesenprüfung | (Generalisierung durch Repräsentativität) ]].
 * Beim quantitativen Vorgehen [[ werden Hypothesen erst im Verlauf der Datenanalyse gebildet | (werden aus der Theorie abgeleitete Hypothesen gezielt anhand der Daten geprüft) | greift die forschende Person aktiv in das Feld ein, um Sinn zu rekonstruieren ]]
 
 ---
@@ -220,17 +220,17 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 ---
 
-### Was passiert nach der Operationalisierung?
+### Was passiert nach der Untersuchungsplannung ?
 
---{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Operationalisierung angelangt und gehen nun weiter zur Datenerhebung.   
+--{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplannung angelangt und gehen nun weiter zur Datenerhebung.   
 
 
 Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
 ```ascii
-+------------------------+      +---------------------+      +----------------------------+
-| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
-+------------------------+      +---------------------+      +----------------------------+
++---------------------------+      +---------------------+      +----------------------------+
+| 1. Untersuchungsplannung  | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++---------------------------+      +---------------------+      +----------------------------+
 ```
 
 ---
