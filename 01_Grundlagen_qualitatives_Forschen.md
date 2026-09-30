@@ -280,30 +280,52 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 --------------------------------------------------
 
 ## Das Interview als qualitative Erhebungsmethode
-
-> **Überblick:** Beispiel
-
----
-
-### Interview-Simulator
-
-Mit diesem interaktiven **Interview-Simulator** führst du ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durch, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview Daten erheben, um die folgende Forschungsfrage zu beantworten:
-> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
-Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
-Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
-![Interviewsituation zwischen Interviewer:in und Kind](img\Interviewsituation.jpg)
-
-<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem bereits existierenden Interview. 
+> **Vom Beobachten zum Nachfragen:** Neben dem Beobachten gibt es noch eine Vielzahl weiterer qualitativer Erhebungsmethoden. Eine ebenfalls weit Verbreitete ist **das Interview**.In dieser Lerneinheit wirst du daher nun tiefer in die Welt der Gesprächsführung eintauchen. Bevor wir uns die Theorie erarbeiten, probieren wir es direkt aus: Du begibst dich zum Einstieg selbst in die Rolle der interviewenden Person!
+<div style="text-align:center;">
+  <img src="images\Interviewsituation.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
 </div>
 
+### Interview-Simulator 
+Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
+> ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 
-<section>
-### Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten? 
+- Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
+-> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
+</div>
+
+#### Bevor es losgeht: Deine Vorbereitung
+Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor beachten?**
+
+-> Nimm dir kurz Zeit und überleg dir in Ruhe 3–4 Punkte, bevor du weiterklickst.
+<div style="text-align:left;">
+  <img src="images\Interview-Checkliste.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
+<details>
+<summary>🔍 Klick hier, um eine Beispiel-Checkliste zum Vergleich zu sehen</summary>
+
+- ✅ Einverständnis der Erziehungsberechtigten bei Teilnehmer*innen unter 18 einholen
+- ✅ Ruhigen, störungsfreien Ort auswählen
+- ✅ Aufnahmegerät testen (Akku, Speicherplatz, Mikrofon)
+- ✅ Ziel des Gesprächs nochmals altersgerecht und offen erklären
+- ✅ Freiwilligkeit & Recht auf Pause/Abbruch kommunizieren
+- ✅ Genug Zeit einplanen, keine Hetze
+Quellen
+Beispiel für den Aufbau von Merkblätter & Einverständniserklärungen hier
+
+</details>
+
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
+
+**Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten?**
 
 - [( )] Findest du dein Training eigentlich gut? 
 - [( )] Bist du bereit für ein paar wissenschaftliche Fragen zum Thema?
 - [(x)] Wie lange spielst du eigentlich schon Volleyball? Was gefällt dir daran? 
+
 <script>
 let input = Number("@input");
 
@@ -339,12 +361,11 @@ input == 2;
 
 <audio id="Audio-Platzhalter-1" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-1" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-1" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
 
-<section>
-### Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?
+**Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?**
 
 - [(x)] Gibt es Übungen, bei denen du denkst: Das kann ich richtig gut? 
 - [( )] Fühlst du dich manchmal über- oder unterfordert, oder eher so ein Mittelding?
@@ -380,13 +401,15 @@ if (input >= 0 && input < audios.length) {
 }
 
 input == 0;
-</script>
+<script/>
 
 <audio id="Audio-Platzhalter-2" src="" controls style="display:none;"></audio>
 
-<p id="Kommentar-Platzhalter-2" style="display:none; margin-top:10px;"></p>
+<p id="Kommentar-Platzhalter-2" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-</section>
+
+-----------------------
+
 
 <section>
 ### Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…
