@@ -27,31 +27,342 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 > (c) Alle Rechte vorbehalten. 
 
-## Einstiegsbeispiel
-
->[!Note]Arbeitsauftrag
->Höre dir folgende Unterhaltung an:   <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio>
-
-
-
 ## Inhalt der Sitzung
 
 > **Lehrbuchhinweis** Im folgenden sollt ihr einen Einblick in die qualitative Forschung bekommen. Der Kurs soll folgende Fragen beantworten: 
 
-* Was ist quantitatives Forschen?
-* Was für Fragen lassen sich mit quantitativer Forschung beantworten?
-* Welche Grundsätze gibt es in der quantitativen Forschung? 
-* Wie formuliert man eine Forschungsfrage?
-* Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?
-* Wie gehe ich mit meinen Daten um?
+* Untersuchungsplannung
+  + Einsatz von quantitativen Methoden                                  - *Was ist quantitatives Forschen?*
+  + Fragestellungen                                                     - *Was für Fragen lassen sich mit quantitativer Forschung beantworten?*
+  + Grundsätze                                                          - *Welche Grundsätze gibt es in der quantitativen Forschung?*
+  + Design                                                              - *Welche Designmöglichkeiten habe ich bei der Forschung?*
+  + Forschungsfrage                                                     - *Wie formuliert man eine Forschungsfrage?*
+  + Hypothesen                                                          - *Was ist eine Hypothese und wie formuliere ich sie?*
+* Datenerhebung
+  + Standartisierter Teste & Art und Weisen der Datenerhebung           - *Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?*
+  + Gütekriterien                                                       - *Was sind Gütekriterien?*
+  + Herausforderung                                                     - *Welche Herausforderungen habe ich bei der Datenerhebung?*
+  + Fragebogen                                                          - *Was ist ein Fragebogen?*
+* Statistische Analyse
+  + Variablenarten                                                      - *Welche Variablenarten gibt es?*
+  + Skalenniveaus                                                       - *Was ist ein Skalenniveau und was bedeutet es?*
+  + Deskriptive Statistik                                               - *Wie ist die bedeutet von Mittelwert, Median, Modus und Range?*
+
+
 
 Hier für gehen wir Schritt für Schritt den Ablauf für quantitative Forschung durch:
 
 ```ascii
 +--------------------------+      +---------------------+      +----------------------------+
-| 1. Untersuchungsplannung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
+|                          |      |                     |      |                            |
+| 1. Untersuchungsplannung | ---> | 2. Datenerhebung    | ---> |   3. Statistische Analyse  |
+|                          |      |                     |      |                            |
 +--------------------------+      +---------------------+      +----------------------------+
 ```
+## Einstiegsbeispiel
+
+>[!Note]Arbeitsauftrag
+>Höre dir folgende Unterhaltung an:   <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio>
+
+---
+
+## Untersuchungsplannung --Nochmal genau angucken und auf Beispiel anpassen
+
+Quantitative Test- und Messverfahren kommen insbesondere dann zum Einsatz, wenn Vergleichbarkeit und Generalisierbarkeit im Zentrum stehen:
+
+* **Objektiver Leistungsvergleich:** Wenn subjektive Selbsteinschätzungen (z. B. in Interviews) zu verzerrt oder ungenau wären
+
+* **Veränderungsmessung:** Wenn Effekte einer Intervention über die Zeit (Prä-Post-Design) quantifiziert werden sollen
+
+* **Normierung:** Wenn Ergebnisse mit bestehenden Referenz- oder Normwerten verglichen werden sollen
+
+* **Große Stichproben:** Wenn viele Personen in vertretbarer Zeit erfasst werden müssen
+
+* **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
+
+
+---
+
+### Einsatz von quantitativen Methoden                                  
+>*Was ist quantitatives Forschen?*
+
+Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
+
+* **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
+* **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
+* **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
+
+--{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass Musik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
+
+---
+
+### Fragestellungen                                                     
+>*Was für Fragen lassen sich mit quantitativer Forschung beantworten?*
+
+--{{0}}-- ** Lehrbuch Hinweis: ** Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
+
+Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
+
+Leitende Forschungsfragen betreffen:
+* **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?
+* Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die Laufdistanz mit der BPM Anzahl der Musik) statistisch nachweisen?
+* Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?
+
+---
+
+### Grundsätze                                                          
+>*Welche Grundsätze gibt es in der quantitativen Forschung?*
+
+--{{0}}-- ** Lehrbuch Hinweis: ** Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
+
+Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
+
+1. **Standardisierung:** Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.
+
+2. **Operationalisierung:** Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt.
+
+3. **Hypothesenprüfung:** Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).
+
+4. **Distanz zum Gegenstand:** Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
+
+5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
+
+
+>Überlege dir was das für deine Studie zum Thema "Einfluss von Musik auf Ausdauerleistung" bedeuten kann.
+
+| Kernprinzip | Erklärung | Deine Gedanken |
+| :--- | :-- | :--- |
+| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | <textarea rows="3" style="width:100%;"></textarea> |
+| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | <textarea rows="4" style="width:100%;"></textarea> |
+| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | <textarea rows="4" style="width:100%;"></textarea> |
+| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | <textarea rows="4" style="width:100%;"></textarea> |
+| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | <textarea rows="4" style="width:100%;"></textarea> |
+
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Kernprinzip | Erklärung | Deine Gedanken |
+| :--- | :--- | :--- |
+| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
+| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke, Herzfrequenz, Borg-Skala gemessen |
+| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
+| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nicht zusätzlich an und erklärt die Aufgabe jeden Mal gleich. |
+| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet, heißt nichts ausschließlich ProfisportlerInnen oder eine bestimmte Altergruppe, außer das ist gewünscht. |
+
+</details>
+
+---
+
+### Design                                                              
+>*Welche Designmöglichkeiten habe ich bei der Forschung?*
+
+Untersuchungen können zu unterschiedlichen Zeitpunkten erhoben werden:
+
+* Einmalige Messung zu einem Zeitpunkt bei mehreren Personen -> **Querschnittstudie**
+
+* Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
+
+Untersuchungen können in unterschiedlichen Umgebungen stattfinden: 
+
+* Natürliche, reale Umgebung (z. B. Trainingsplatz, Wettkampf) -> **Feldstudie**
+
+* Kontrollierte, künstliche Umgebung (z. B. Diagnostiklabor) -> **Laborstudie**
+
+Untersuchungen können experimentell oder nicht-expertimentell sein:
+
+* Forschende manipulieren aktiv einen Faktor (z. B. Trainingsart) -> **Experiment**
+
+* Keine Manipulation des Faktors – nur Messung bestehender Unterschiede -> **Nicht-Experiment/Korrelative Studie**
+
+* Der Faktor wird manipuliert oder Gruppen werden verglichen, aber ohne Randomisierung (z. B. Vergleich zweier bereits bestehender Schulklassen) -> **Quasi-Experiment**
+
+---
+
+### Forschungsfrage
+>*Wie formuliert man eine Forschungsfrage?*
+
+--{{0}}-- ** Lehrbuch Hinweis: ** Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
+
+* **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
+
+* **Präzision:** Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.
+
+* **Reduktion:** Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.
+
+> **Merke:**
+> Eine *Forschungshypothese* (z. B. "Musik erhöht die Ausdauerfähigkeit") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem *globalen Forschungsthema* (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
+
+| Beispiel Forschungsfrage | Deine Formulierung | 
+| :--- | :-- | 
+| **Forschungsfrage:** | <textarea rows="2" style="width:100%;"></textarea> |
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Beispiel Forschungsfrage | Deine Formulierung | 
+| :--- | :-- | 
+| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden? |
+
+</details>
+
+---
+
+### Hypothesen                                                          
+>*Was ist eine Hypothese und wie formuliere ich sie?*
+
+Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
+
+Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
+- Vorläufig --> Bedeutet sie ist noch nicht bewiesen. 
+- Überprüfbar --> Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen. 
+- Bezug --> Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen. 
+
+Hypothesen können entweder gerichtet sein, wie zum Beispiel: 
+
+- Wenn X passiert, dann folgt Y.
+- Je mehr X, desto mehr Y.
+
+Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.
+
+>Formuliere hier eine Null-Hypothese und eine gerichtete Hypothese für die Forschungsfrage: Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die gelaufene Distanz in 12 min von Sportstudierenden?
+
+
+| Beispiel Hypothese | Deine Formulierung | 
+| :--- | :-- | 
+| **H0** | <textarea rows="2" style="width:100%;"></textarea> |
+| **H1** | <textarea rows="2" style="width:100%;"></textarea> |
+
+<details>
+<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+
+| Beispiel Hypothese | Formulierung | 
+| :--- | :-- | 
+| **H0** | Musik hat keinen Einfluss auf die gelaufene Distanz. |
+| **H1** | Mit Musik laufen Sportstudierende weiter als ohne.  |
+
+</details>
+
+---
+
+### Check-Up Untersuchungsplannung -- Fragen anpassen
+
+Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
+
+[[X]] Die quantitative Forschung überprüft vorab festgelegte Hypothesen anhand möglichst standardisierter Erhebung.
+[[ ]] Das quantitative Paradigma konzentriert sich primär auf die Rekonstruktion subjektiven Sinns.
+[[ ]] Qualitatives Forschen unterscheidet sich von quantitativem dadurch, dass nur Ersteres empirisch arbeitet.
+[[?]] **Erklärung:** Sowohl qualitative als auch quantitative Forschung sind empirisch, da beide auf der Erhebung realer Daten basieren. Sie unterscheiden sich im Erkenntnisinteresse und Vorgehen, nicht im empirischen Charakter.
+
+---
+
+Wähle die passenden Grundsätze quantitativen Denkens aus:
+
+* Die Überführung theoretischer Konstrukte in messbare Variablen nennt man [[ Standardisierung | (Untersuchungsplannung ) | Generalisierung ]].
+* Identische Erhebungsbedingungen für alle Untersuchten entsprechen dem Prinzip der [[ (Standardisierung) | Distanz zum Gegenstand | Hypothesenprüfung ]].
+* Verallgemeinerung über statistische Kennwerte und Stichproben entspricht dem Prinzip der [[ Untersuchungsplannung  | Hypothesenprüfung | (Generalisierung durch Repräsentativität) ]].
+* Beim quantitativen Vorgehen [[ werden Hypothesen erst im Verlauf der Datenanalyse gebildet | (werden aus der Theorie abgeleitete Hypothesen gezielt anhand der Daten geprüft) | greift die forschende Person aktiv in das Feld ein, um Sinn zu rekonstruieren ]]
+
+---
+
+Welche Aussage unterscheidet eine quantitative Forschungshypothese von einer Messvariable?
+
+[( )] Die Messvariable wird den Untersuchten direkt als Hypothese vorgelegt.
+[( )] Die Forschungshypothese muss immer offen und explorativ formuliert sein, während Messvariablen standardisiert sind.
+[(X)] Die Forschungshypothese formuliert die zu prüfende Annahme.
+
+
+## Datenerhebung
+
+--{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplannung angelangt und gehen nun weiter zur Datenerhebung.   
+
+
+Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
+
+```ascii
++---------------------------+      +---------------------+      +----------------------------+
+| 1. Untersuchungsplannung  | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
++---------------------------+      +---------------------+      +----------------------------+
+```
+
+### Standardisierter Teste & Art und Weisen der Datenerhebung           
+>*Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?*
+
+--{{0}}-- ** Lehrbuch Hinweis: ** Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
+
+**Tabelle einfügen mit Beispiel**
+
+* **Befragungsverfahren:**
+  * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
+  * Standardisierte, strukturierte Interviews mit festem Frageschema
+
+* **Beobachtungsverfahren:**
+  * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
+  * Video-/Sensor-gestützte Bewegungsanalyse
+
+* **Test- und Messverfahren:**
+  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
+  * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
+
+* **Experimentelle Verfahren:**
+  * Feld- und Laborexperimente mit Kontrollgruppendesign
+  * Quasi-Experimente ohne vollständige Randomisierung
+                                                                            (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
+
+
+### Gütekriterien                                                       
+>*Was sind Gütekriterien?*
+
+--{{0}}-- **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
+
+
+  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
+
+  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
+
+  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
+
+
+### Herausforderung                                                     
+>*Welche Herausforderungen habe ich bei der Datenerhebung?*
+
+Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforderungen:
+
+* **Testleiter-Effekte:** Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.
+
+* **Decken- und Bodeneffekte:** Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.
+
+* **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil des zu messenden Konstrukts sind.
+
+
+### Fragebogen                                                          
+>*Was ist ein Fragebogen?*
+
+* Standardisierte Fragebögen erfassen 
+  + Einstellungen
+  + Motive 
+  + Erleben 
+  
+  über vorformulierte, geschlossene Items.
+
+Beispiel: 
+
+**Einfügen!!!**
+
+Lehrbuch Hinweis: In unserem Fall könnte man also neben der gelaufenen Distanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
+
+## Statistische Analyse
+### Variablenarten                                                      
+*Welche Variablenarten gibt es?*
+
+### Skalenniveaus                                                       
+*Was ist ein Skalenniveau und was bedeutet es?*
+
+### Deskriptive Statistik                                               
+*Wie ist die bedeutet von Mittelwert, Median, Modus und Range?*
+
+
+
 
 ## Untersuchungsplannung 
 
@@ -201,22 +512,11 @@ Welche Aussage unterscheidet eine quantitative Forschungshypothese von einer Mes
 
 [( )] Die Messvariable wird den Untersuchten direkt als Hypothese vorgelegt.
 [( )] Die Forschungshypothese muss immer offen und explorativ formuliert sein, während Messvariablen standardisiert sind.
-[(X)] Die Forschungshypothese formuliert die zu prüfende Annahme; die Messvariable konkretisiert diese für das Erhebungsinstrument.
+[(X)] Die Forschungshypothese formuliert die zu prüfende Annahme.
+
 
 ---
 
-Was ist das **primäre** Auswahlkriterium für den Einsatz einer bestimmten quantitativen Methode?
-
-[( )] Die zur Verfügung stehenden Ressourcen (z. B. Zeit, finanzielle oder apparative Mittel)
-[( )] Die persönlichen Präferenzen der Untersuchten
-[(X)] Die Forschungshypothese, der Gegenstand und der theoretische Rahmen
-
----
-
-Ordnung der Erhebungsmethoden und Einsatzszenarien:
-
-* Standardisierte Fragebögen mit Likert-Skalen gehören zu den [[ Beobachtungsverfahren | Experimentellen Verfahren | (Befragungsverfahren) ]].
-* Wenn ein kausaler Effekt eines Trainingsprogramms nachgewiesen werden soll, nutzt man [[ Exploration eines neuen Feldes | (Experimentelle Verfahren mit Kontrollgruppe) | Rekonstruktion subjektiven Sinns ]].
 
 ---
 
@@ -260,7 +560,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 ---
 
-### Was bedeutet ein standartisierter Test? 
+### Was bedeutet ein standardisierter Test? 
 
 --{{0}}-- **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
 
@@ -355,6 +655,12 @@ Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
 
 >**Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab. In unserem Fall könnte man also neben der gelaufenen Disntanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
   
+
+  
+Ordnung der Erhebungsmethoden und Einsatzszenarien:
+
+* Standardisierte Fragebögen mit Likert-Skalen gehören zu den [[ Beobachtungsverfahren | Experimentellen Verfahren | (Befragungsverfahren) ]].
+* Wenn ein kausaler Effekt eines Trainingsprogramms nachgewiesen werden soll, nutzt man [[ Exploration eines neuen Feldes | (Experimentelle Verfahren mit Kontrollgruppe) | Rekonstruktion subjektiven Sinns ]].
 
 ### Fragebogen-Konstruktionssimulator
 
