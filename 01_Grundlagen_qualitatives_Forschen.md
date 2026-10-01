@@ -169,21 +169,19 @@ Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende P
 
 </div>
 
-#### Typische Verfahren zur Datenerhebung
+### Typische Verfahren zur Datenerhebung
 
-* **Befragungsverfahren:**
-  * Qualitative Interviews (fokussiert, leitfadengestützt, narrativ, episch)
-  * Gruppendiskussionen & Fokusgruppen
-  * Lautes Denken & Introspektion
-* **Beobachtungsverfahren:**
-  * Feldbeobachtung (offen vs. verdeckt; teilnehmend vs. nicht-teilnehmend)
-  * (Auto-)Ethnografie
-* **Weitere & Komplexe Verfahren:**
-  * Qualitative Netzwerkanalyse, Rollenspiele, Dialog-Konsens-Methoden
-  * Biographische Methoden & Handlungsforschung
-  * Non-reaktive Verfahren (z. B. Dokumenten- und Diskursanalysen)
-                                                                            (nach Mey & Mruck, 2020; Flick et al., 1995)
+Die qualitative Forschung hält ein breites Spektrum an Erhebungsmethoden bereit, die je nach Fragestellung und Forschungsgegenstand eingesetzt werden:
 
+| Verfahrenskategorie | Ausprägungen & Methoden |
+| :--- | :--- |
+| **🗣️ Befragungsverfahren** | • Qualitative Interviews *(fokussiert, leitfadengestützt, narrativ, episodisch)*<br>• Gruppendiskussionen & Fokusgruppen<br>• Lautes Denken & Introspektion |
+| **👁️ Beobachtungsverfahren** | • Feldbeobachtung *(offen vs. verdeckt; teilnehmend vs. nicht-teilnehmend)*<br>• (Auto-)Ethnografie |
+| **🧩 Weitere & Komplexe Verfahren** | • Qualitative Netzwerkanalyse, Rollenspiele, Dialog-Konsens-Methoden<br>• Biographische Methoden & Handlungsforschung<br>• Non-reaktive Verfahren *(z. B. Dokumenten- und Diskursanalysen)* |
+
+<div style="text-align: right; font-size: 0.8em; color: #718096;">
+<i>(nach Mey & Mruck, 2020; Flick et al., 1995)</i>
+</div>
 
 ---
 
@@ -230,7 +228,7 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 ---
 
-## Die Beobachtung als qualitative Erhebungsmethode
+## Beobachtungen
 
 > **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
 
@@ -240,55 +238,88 @@ Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Auskünfte (z. B. in Interviews) an ihre Grenzen stoßen oder das reale Handeln im Zentrum steht:
 
-* **Unbewusstes oder verfälschtes Verhalten:** Wenn Befragte ihr Verhalten unbewusst verfälschen oder bewusst sozial erwünscht darstellen
-* **Relevanz von Nonverbalem:** Wenn Mimik, Gestik, Körpersprache oder Bewegungsabläufe eine zentrale Rolle spielen
-* **Grenzen verbaler Darstellbarkeit:** Wenn (Handlungs-)Abläufe von den Beteiligten sprachlich nur schwer oder unvollständig ausgedrückt werden können
-* **Fokus auf Interaktionsmuster:** Wenn Gruppenstrukturen, Rollenverteilungen und soziale Gefüge der eigentliche Gegenstand sind
-* **Ereignisdichte & Komplexität:** Wenn Geschehnisse schnell und nur in ihrer ganzheitlichen Abfolge erfassbar sind
-* **Exploration:** Um sich einen ersten fundierten Überblick über ein neues, unbekanntes Feld zu verschaffen
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">👁️</div>
+    <strong style="display: block; margin-bottom: 5px;">Verfälschtes Verhalten</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Unbewusst verzerrt oder sozial erwünscht dargestellt</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🙋</div>
+    <strong style="display: block; margin-bottom: 5px;">Nonverbale Signale</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Mimik, Gestik, Körpersprache und Bewegungen</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔄</div>
+    <strong style="display: block; margin-bottom: 5px;">Schwer Beschreibbares</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Handlungsabläufe lassen sich kaum in Worte fassen</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">👥</div>
+    <strong style="display: block; margin-bottom: 5px;">Interaktionsmuster</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Gruppenstrukturen, Rollen und soziale Gefüge</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">⏱️</div>
+    <strong style="display: block; margin-bottom: 5px;">Dynamische Ereignisse</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Schnelle, komplexe Abläufe im Zusammenhang erfassen</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧭</div>
+    <strong style="display: block; margin-bottom: 5px;">Exploration</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Ein unbekanntes Feld zunächst kennenlernen</span>
+  </div>
+
+</div>
 
 ---
 
 ### Dimensionen von Beobachtungsverfahren
 
-Qualitative Beobachtungen lassen sich entlang verschiedener methodischer Dimensionen charakterisieren:
+Beobachtungen lassen sich anhand von zwei unabhängigen Fragen einordnen:
 
-* **A. Distanz zur Untersuchungssituation**
+| Dimension | Leitfrage | Ausprägungen |
+|:--|:--|:--|
+| **Distanz zur Situation** | Ist die forschende Person Teil des Geschehens? | Teilnehmend ↔ nicht teilnehmend |
+| **Strukturierungsgrad** | Was steht vor der Beobachtung bereits fest? | Offen ↔ halb- oder vollstandardisiert |
 
-  * **Teilnehmende Beobachtung:**
-    * Die forschende Person nimmt aktiv am Feldleben teil (**Insider-Perspektive**).
-    * Fokus auf Beziehungsaufbau und das Erleben von Innenabläufen
-    * *Ziel:* Tiefgehendes Verstehen und fallorientierte Rekonstruktion (*qualitativer Kernzugang*)
-  * **Nicht-teilnehmende Beobachtung:**
-    * Datenerhebung aus einer reinen **Außenperspektive**
-    * Eignet sich eher für stärker strukturierte oder hypothesenprüfende Ansätze
-
-* **B. Strukturierungsgrad**
-
-  * **Unstrukturiert (freie / offene Beobachtung):** Keine starren Vorab-Kategorien; Offenheit für unerwartete Phänomene steht im Vordergrund
-  * **Halbstandardisiert / Vollstandardisiert:** Nutzung von Beobachtungsleitfäden oder spezifischen Kategoriensystemen
+> #### Methodische Herausforderungen & Dilemmata
+>
+> Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausforderungen:
+>
+> - **Feldzugang vs. Einflussnahme:** Forschende müssen vertrauensvollen Zugang gewinnen, dürfen aber den natürlichen Ablauf der Ereignisse nicht verfälschen.
+> - **Reaktivität:** Die bloße Anwesenheit von Beobachtenden kann das Verhalten der Akteur:innen verändern.
 
 ---
 
-### Methodische Herausforderungen & Dilemmata
+### Praktische Übung I: Beobachtung im Sportunterricht
 
-Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausforderungen:
-
-* **Feldzugang vs. Einflussnahme:** Forschende müssen vertrauensvollen Zugang gewinnen, dürfen aber den natürlichen Ablauf der Ereignisse nicht verfälschen.
-* **Reaktivität:** Die bloße Anwesenheit von Beobachtenden kann das Verhalten der Akteur:innen verändern.
-
----
-
-### Praxiseinheit: Beobachtung im Sportunterricht
+> **Theoretischer Hintergrund: Klassenführung**  
+> Wissenschaftliche Beobachtung erfordert eine **theoretische Brille**. In dieser Übung nutzen wir das Konzept der **Klassenführung**:
+>
+> - **Definition:** Klassenführung umfasst alle Maßnahmen einer Lehrkraft, die dazu führen, dass Lehr-Lernprozesse möglichst reibungslos ablaufen und damit die aktive Lern- bzw. Bewegungszeit maximiert wird *(Helmke, 2022)*, Störungen minimiert werden und alle Schüler:innen am Lerngeschehen beteiligt sind *(Kunter & Ewald, 2016)*.
+> - **Ein Teilbereich der Klassenführung ist *Momentum & Übergänge*:** Hierunter fällt die **Reibungslosigkeit** des Unterrichtsflusses, d. h. das Ausbleiben organisatorischer Verzögerungen und unnötiger Leerläufe *(Helmke, 2022; Kounin, 2006)*.
 
 In dieser Übung führst du eine **nicht-teilnehmende, halbstandardisierte Beobachtung** durch. 
-Du möchtest die folgende **Forschungsfrage** mit deinen Beobachtungen beantworten: 
+Du nutzt den oben genannten theoretischen Hintergrund als Orientierung und beantwortest folgende **Forschungsfrage**: 
+
 > *„Wie gestaltet sich die Bewegungsintensität von Schüler:innen im Sportunterricht unter besonderer Berücksichtigung der Raumorganisation in Bewegungsphasen?“*
-Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angegebenen Beobachtungsdimensionen.
+
+**Indikatoren, auf die du gezielt achten solltest:**
+- **Raum- & Organisationsstruktur:** Einteilung von Bewegungs- vs. Wartezonen
+- **Bewegungszeit:** Verhältnismäßigkeit von aktiver Bewegungszeit zu Passivität/Anstehen
+- **Verhaltensweisen im Warteraum:** Aufrechterhaltung des Gruppenfokus vs. Entstehung von Nebenschauplätzen
+
+Schau dir hierzu das Video so oft du es brauchst an und fokussiere dich auf die angegebenen Beobachtungsdimensionen im Leitfaden.
 
 ---
 
-[[! Parallel-Layout: Video links, Leitfaden rechts]]
 <div class="lh-grid" style="display: flex; gap: 20px; align-items: flex-start;">
 
 <div style="flex: 1; position: sticky; top: 10px;">
@@ -317,7 +348,7 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 </div>
 
 <details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+<summary><b>👉 Klicke hier, um eine Musterlösung einzublenden</b></summary>
 
 | Durchgang & Fokus | Orientierungsfragen & Perspektive | Musterlösung / Erwartete Beobachtung |
 | :--- | :--- | :--- |
@@ -329,13 +360,56 @@ Schau dir hierzu das Video fünfmal an und fokussiere dich jeweils auf die angeg
 
 </details>
 
+---
+
+### Praktische Übung II: Barrierefreiheit von Spielplätzen
+
+**Theoretischer Hintergrund** 
+> {{0-1}}„Nicht umfänglich barrierefreie Schulgebäude, die aktuell gebaut oder umfangreich saniert werden, manifestieren für die nächsten 40 bis 50 Jahre das Nichteinlösen menschenrechtlicher Verpflichtungen und stellen im Sinne der versagten angemessenen Vorkehrungen einen Akt der Diskriminierung dar.“ (Degenhardt, 2018, S. 148)
+
+{{2}}
+> Lehrkräfte sollen über die Gestaltung und konzeptuelle Nutzung von Schulräumen mitentscheiden (HRK & KMK, 2015), also müssen sie auch wissen, inwieweit materiell-räumliche Gegebenheiten Barrierepotenziale bergen und wie diese abgebaut oder umgangen werden können. Es erscheint daher notwendig, entsprechendes professionelles Wissen über Barrieren im Rahmen einer inklusionsorientierten Lehrer*innenbildung zu stärken (Bükers et al., 2021; HRK & KMK, 2015; UNESCO, 2013).
+
+{{3}}
+**SUPA-Analyseschema**
+> Das SUPA (=Schul- und Pausenhof Analyseschema) kann zur Beurteilung der Barrierefreiheit von bewegungsräumen wie Spielplätzen verwendet werden. Es unterscheidet zwischen den Dimensionen *Raum* und *Qualität* (Bükers & Wibowo, 2020; Bükers & Heemsoth, 2022).
+
+{{4}}
+**Exemplarischer Spielplatz**
+> Arbeitsauftrag: Erkunde beobachtend den folgenden Spielplatz. Nutze dafür das SUPA. Welche positiven und welche negativen Beobachtungen machst du? 
+
+**Spielplatz 1**
+
+<iframe
+  src="https://euf-spowis.github.io/MEd_M1_Sportdidaktik/panorama/Großer_Spielplatz/index.html"
+  width="100%"
+  height="600"
+  style="border: none;"
+  allowfullscreen>
+</iframe>
+
+<figcaption>
+© 2020 Frederik Bükers – 360°-Aufnahme eines Hamburger Spielplatzes.  
+</figcaption>
+
+
+| Raum ↓ / Qualität → | Horizontale Erreichbarkeit | Vertikale Erreichbarkeit | Farbe & Kontrast | Beschilderung | Ordnung | Beleuchtung, Schatten & Beschattung | Akustik |
+|---|---|---|---|---|---|---|---|
+| **Verkehrswege** (Haupt- & Nebenwege) | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+| **Spielgeräte** (Schaukel, Rutsche etc.) | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+| **Sitzgelegenheiten & Ausruh-Orte** | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+| **Materialaufbewahrung** (Garage, Container etc.) | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+| **Sportspezifische Räume** (Tore, Platte etc.) | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+
 --------------------------------------------------
 
-## Das Interview als qualitative Erhebungsmethode
+## Interviews
 > **Vom Beobachten zum Nachfragen:** Neben dem Beobachten gibt es noch eine Vielzahl weiterer qualitativer Erhebungsmethoden. Eine ebenfalls weit Verbreitete ist **das Interview**.In dieser Lerneinheit wirst du daher nun tiefer in die Welt der Gesprächsführung eintauchen. Bevor wir uns die Theorie erarbeiten, probieren wir es direkt aus: Du begibst dich zum Einstieg selbst in die Rolle der interviewenden Person!
 <div style="text-align:center;">
   <img src="img\Interviewsituation.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
 </div>
+
+---
 
 ### Interview-Simulator 
 Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
@@ -819,9 +893,14 @@ input == 1;
 
 --------------------------------------------------
 
-## Quellen und weiterführende Literatur
+## Literaturverzeichnis
 
+- Bükers, F., & Heemsoth, T. (2022). Barrierefreiheit von Schulhöfen durch Analysebeispiele identifizieren lernen. Qualifizierung für Inklusion, 4(1). https://doi.org/10.21248/qfi.80 
+- Bükers, F., & Wibowo, J. (2020). Barrierefreiheit von Sporthallen. German Journal of Exercise and Sport Research, 50(1), 71–81. https://doi.org/10.1007/s12662-019-00636-8 
+- Helmke, A. (2022). Unterrichtsqualität und Lehrerprofessionalität. Diagnose, Evaluation und Verbesserung des Unterrichts. Kallmeyersche Verlagbuchhandlung.
+- Kunter, M., & Ewald, S. (2016). Bedingungen und Effekte von Unterricht: Aktuelle Forschungsperspektiven aus der pädagogischen Psychologie. In N. McElvany, W. Bos, H. G. Holtappels, M. M. Gebauer, & F. Schwabe (Hrsg.), Bedingungen und Effekte guten Unterrichts. (S. 9-31). Waxmann. http://www.ciando.com/ebook/bid-2098859
+- Kounin, J. S. (2006). Techniken der Klassenführung. Waxmann. 
 - Krieger, C. (2008). Leitfaden-Interviews. In: W-D Miethling & M. Schierz (Hrsg), Qualitative Forschungsmethoden in der Sportpädagogik (Beiträge zur Lehre und Forschung im Sport 163, S. 45-63). Hofmann. 
-- Richartz, A. (2008). Wie man bekommt, was man verdient. Fauregeln zum Führen qualitativer Interviews. In: W-D Miethling & M. Schierz (Hrsg), Qualitative Forschungsmethoden in der Sportpädagogik (Beiträge zur Lehre und Forschung im Sport 163, S. 15-43). Hofmann.
 - Lamnek, S., & Krell, C. (2016). Qualitative Sozialforschung. Mit Online-Materialien (6., überarbeitete Aufl.). Beltz.
-
+- Richartz, A. (2008). Wie man bekommt, was man verdient. Fauregeln zum Führen qualitativer Interviews. In: W-D Miethling & M. Schierz (Hrsg), Qualitative Forschungsmethoden in der Sportpädagogik (Beiträge zur Lehre und Forschung im Sport 163, S. 15-43). Hofmann.
+- Wibowo, Jonas (2021). Geräteraum-Management in der Sporthalle. Zugriff am 16.02.2026 unter https://wimasu.de/geraeteraum-manager/
