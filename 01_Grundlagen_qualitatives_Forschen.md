@@ -30,26 +30,56 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 
 ## Einstiegsbeispiel
 
->[!Note]Arbeitsauftrag
->Betrachte im Film "Kitchen-Stories" den Ausschnit 20:00 bis 31:20.
-> 
-> Wodurch ist die folgende Forschungssituation gekennzeichnet? 
->
-> [▶️ Video auf YouTube ab 20:00 ansehen](https://www.youtube.com/watch?v=hlaLvWHoD3k&t=1200s)
+>[!Note] Arbeitsauftrag
+>*Think*: Was macht für dich ein gutes Gedicht aus?
+
+<details><summary><b>👉 Klicke hier, wenn du Gedanken gesammelt hast</b></summary>
+
+<p style="margin-bottom: 20px;">
+Schaue nun einen Ausschnitt aus der folgenden Szene des Films <i>Dead Poets Society</i> bis 2:12:
+</p>
+
+<div style="max-width: 600px; margin: 25px auto 15px auto;">
+
+!?["Reißt es raus"-Szene](https://youtu.be/8x0COtH4Vrw?si=5ZcvPt21RGBedTr9)
+
+</div>
+
+</details>
+
+<details><summary><b>👉 Klicke hier, wenn du den Ausschnitt geschaut hast</b></summary>
+
+John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Qualität eines Gedichts numerisch messbar sei. Manche Dinge benötigen detailliertere Verfahren der Auseinandersetzung, um sie zu durchdringen. 
+
+> Auch derartige Forschungsgegenstände gibt es in der Sportwissenschaft. Sie benötigen Verfahren, die sich mit Details, Hintergründen und Bedeutungen auseinandersetzen.
+
+</details>
 
 
 ## Qualitatives Forschen als Paradigma
 
 In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
-* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
-* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
-* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
+- **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.  
+  * *z. B. Inwieweit ist ein High-Intensity-Training (HIT) effektiver für die VO2max-Steigerung als ein Grundlagentraining nach der norwegischen Methode?*
+
+- **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Gegenstandsbereiche.  
+  * *z. B. Wie erleben und verarbeiten Nachwuchsleistungssportler:innen den Übergang vom Breitensport in das Internat eines Nachwuchsleistungszentrums?*
+
+- **Mixed-Methods:** Die systematische Verzahnung qualitativer und quantitativer Ansätze.  
+  * *z. B. In welchen Zusammenhang stehen Beanspruchung (physiologische Stressmarker als subjektives Erleben) und Traininspensum bei Athlet:innen in Trainingsphasen zueinander?*
 
 > **Wichtige Abgrenzung:**
 > Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten). 
 > 
 > *Nicht-empirische Paradigmen* (wie die reine Hermeneutik oder geisteswissenschaftliche Textanalyse) arbeiten hingegen interpretatorisch oder begriffsanalytisch, ohne eigene empirische Daten im Feld zu erheben.
+
+>[!Note] **Welche Forschungsfrage gehört zu welchem Paradigma? Ordne die Forschungsfrage korrekt zu:**
+>
+>* In welchem Zusammenhang stehen physiologische Stressmarker, Trainingspensum und das subjektive Beanspruchungserleben bei Athlet:innen in intensiven Trainingsphasen? [[ Quantitatives Paradigma | Qualitatives Paradigma | (Mixed-Methods) ]]
+>* Inwieweit ist ein High-Intensity-Training (HIT) effektiver für die VO2max-Steigerung als ein Grundlagentraining nach der norwegischen Methode? [[ (Quantitatives Paradigma) | Qualitatives Paradigma | Mixed-Methods ]]
+>* Wie erleben und verarbeiten Nachwuchsleistungssportler:innen den Übergang vom Breitensport in das Internat eines Nachwuchsleistungszentrums? [[ Quantitatives Paradigma | (Qualitatives Paradigma) | Mixed-Methods ]]
+
 
 ---
 
@@ -102,11 +132,42 @@ Methoden sind wissenschaftliche Werkzeuge (Reichertz, 2019). Welches Werkzeug ge
 
 Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
-```ascii
-+-------------------+      +---------------------+      +----------------------------+
-|  1. Datenerhebung | ---> | 2. Datenaufbereitung| ---> | 3. Analyse & Interpretation|
-+-------------------+      +---------------------+      +----------------------------+
-```
+<div style="position: relative; margin: 30px 0 60px 0;">
+
+  <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
+    </div>
+
+  </div>
+
+  <div style="position: absolute; right: 5%; left: 5%; bottom: -35px; height: 30px;">
+    <svg width="100%" height="100%" viewBox="0 0 500 40" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M 480 5 C 480 35, 20 35, 20 12" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="4 3" fill="none" />
+      <polygon points="15,14 20,4 25,14" fill="#2b6cb0" />
+    </svg>
+    <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
+      evtl. zirkulärer Re-Analyseprozess
+    </span>
+  </div>
+
+</div>
 
 #### Typische Verfahren zur Datenerhebung
 
@@ -123,15 +184,6 @@ Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende P
   * Non-reaktive Verfahren (z. B. Dokumenten- und Diskursanalysen)
                                                                             (nach Mey & Mruck, 2020; Flick et al., 1995)
 
----
-
-### Wann setzt man qualitative Methoden ein?
-
-Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden Situationen indiziert:
-
-* **Erschließen neuer Felder:** Erkundung und Beschreibung bislang wenig erforschter oder fremder Lebenswelten.
-* **Theoriegenerierung:** Entdeckung neuer Phänomene und Entwicklung theoretischer Konzepte *(Grounded Theory)*.
-* **Tiefe Exploration:** Verstehen von hochkomplexen Handlungszusammenhängen, subjektiven Wahrnehmungen und Alltagsinterpretationen.
 
 ---
 
