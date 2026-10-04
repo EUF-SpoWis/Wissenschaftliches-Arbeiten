@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Stichprobe und Grundgesamtheit</title><style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f2f4f7;margin:0;padding:20px;color:#222}
+.tool{max-width:900px;margin:auto;background:white;border:1px solid #ccc;border-radius:10px;padding:20px}
+h1{margin-top:0} h2{margin-top:24px}
+.steuerung{background:#f7f7f7;border:1px solid #ddd;border-radius:8px;padding:12px;margin:14px 0}
+label{display:block;font-weight:bold;margin-top:10px}
+input[type=range],select{width:100%;margin-top:5px}
+button,select,input[type=number]{padding:8px;margin-top:8px}
+button{cursor:pointer;margin-right:5px}
+canvas{width:100%;height:auto;border:1px solid #999;background:white;margin-top:10px}
+.werte{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.wert{background:#eee;border-radius:6px;padding:10px}
+.wert strong{display:block;margin-bottom:4px}
+.hinweis{background:#eef4ff;border-left:4px solid #3d6fd8;padding:10px;margin-top:12px}
+.warnung{background:#fff2e7;border-left:4px solid #d9730d;padding:10px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+.punkt{display:inline-block;width:13px;height:13px;border-radius:50%;margin:2px;background:#2864dc}
+.antwort{display:block;width:100%;text-align:left;margin-top:7px}
+.richtig{background:#dff5e5}.falsch{background:#fde3e0}
+@media(max-width:650px){.werte{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="tool"><h1>Stichprobe und Grundgesamtheit</h1><p>Ziehe Stichproben aus derselben Grundgesamtheit.</p>
+<div class="steuerung"><label for="n">Stichprobengröße: <span id="na">20</span></label><input id="n" type="range" min="5" max="100" value="20"><button id="ziehen">Neue Stichprobe ziehen</button></div>
+<canvas id="c" width="820" height="360"></canvas>
+<div class="werte"><div class="wert"><strong>Mittelwert Population</strong><span id="pm"></span></div><div class="wert"><strong>Mittelwert Stichprobe</strong><span id="sm"></span></div><div class="wert"><strong>Abweichung</strong><span id="ab"></span></div><div class="wert"><strong>n</strong><span id="nw"></span></div></div>
+<div class="hinweis">Kleine Stichproben schwanken meistens stärker als große Stichproben.</div>
+</div><script>
+const c=document.getElementById("c"),ctx=c.getContext("2d"),n=document.getElementById("n");let pop=[],sample=[];
+function z(){let s=0;for(let i=0;i<6;i++)s+=Math.random();return 50+(s-3)*12}
+function mittel(v){let s=0;for(let x of v)s+=x;return s/v.length}
+for(let i=0;i<500;i++)pop.push(z());
+function ziehen(){sample=[];for(let i=0;i<Number(n.value);i++)sample.push(pop[Math.floor(Math.random()*pop.length)]);update()}
+function punkte(v,oben,farbe,max){ctx.fillStyle=farbe;for(let i=0;i<Math.min(v.length,max);i++){ctx.beginPath();ctx.arc(50+v[i]/100*720,oben+(i%5)*13,4,0,2*Math.PI);ctx.fill()}}
+function update(){ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle="#222";ctx.font="16px Arial";ctx.fillText("Grundgesamtheit",20,28);ctx.fillText("Stichprobe",20,205);punkte(pop,55,"#999",150);punkte(sample,230,"#2864dc",100);
+ let a=mittel(pop),b=mittel(sample);document.getElementById("na").textContent=n.value;document.getElementById("pm").textContent=a.toFixed(2).replace(".",",");document.getElementById("sm").textContent=b.toFixed(2).replace(".",",");document.getElementById("ab").textContent=Math.abs(a-b).toFixed(2).replace(".",",");document.getElementById("nw").textContent=n.value}
+n.addEventListener("input",()=>document.getElementById("na").textContent=n.value);document.getElementById("ziehen").onclick=ziehen;ziehen();
+</script></body></html>

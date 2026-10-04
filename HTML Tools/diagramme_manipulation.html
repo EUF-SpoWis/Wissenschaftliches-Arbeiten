@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Wie Achsen Diagramme verändern</title><style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f2f4f7;margin:0;padding:20px;color:#222}
+.tool{max-width:900px;margin:auto;background:white;border:1px solid #ccc;border-radius:10px;padding:20px}
+h1{margin-top:0} h2{margin-top:24px}
+.steuerung{background:#f7f7f7;border:1px solid #ddd;border-radius:8px;padding:12px;margin:14px 0}
+label{display:block;font-weight:bold;margin-top:10px}
+input[type=range],select{width:100%;margin-top:5px}
+button,select,input[type=number]{padding:8px;margin-top:8px}
+button{cursor:pointer;margin-right:5px}
+canvas{width:100%;height:auto;border:1px solid #999;background:white;margin-top:10px}
+.werte{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.wert{background:#eee;border-radius:6px;padding:10px}
+.wert strong{display:block;margin-bottom:4px}
+.hinweis{background:#eef4ff;border-left:4px solid #3d6fd8;padding:10px;margin-top:12px}
+.warnung{background:#fff2e7;border-left:4px solid #d9730d;padding:10px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+.punkt{display:inline-block;width:13px;height:13px;border-radius:50%;margin:2px;background:#2864dc}
+.antwort{display:block;width:100%;text-align:left;margin-top:7px}
+.richtig{background:#dff5e5}.falsch{background:#fde3e0}
+@media(max-width:650px){.werte{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="tool"><h1>Wie Achsen Diagramme verändern</h1><p>Die Daten bleiben gleich, nur die Darstellung verändert sich.</p>
+<div class="steuerung"><label for="min">Startwert der y-Achse: <span id="ma">0</span></label><input id="min" type="range" min="0" max="39" value="0"><label for="typ">Diagrammtyp</label><select id="typ"><option value="balken">Balkendiagramm</option><option value="linie">Liniendiagramm</option></select></div>
+<canvas id="c" width="820" height="420"></canvas><div class="hinweis" id="info"></div>
+</div><script>
+const c=document.getElementById("c"),ctx=c.getContext("2d"),min=document.getElementById("min"),typ=document.getElementById("typ"),namen=["A","B","C","D"],werte=[40,44,47,50];
+function py(v,m){return 350-(v-m)/(52-m)*280}
+function update(){let m=Number(min.value);ctx.clearRect(0,0,c.width,c.height);ctx.strokeStyle="#555";ctx.beginPath();ctx.moveTo(70,350);ctx.lineTo(770,350);ctx.moveTo(70,60);ctx.lineTo(70,350);ctx.stroke();ctx.font="14px Arial";
+ for(let i=0;i<namen.length;i++)ctx.fillText(namen[i],155+i*170,375);
+ if(typ.value==="balken"){for(let i=0;i<werte.length;i++){let x=120+i*170,y=py(werte[i],m);ctx.fillStyle="#2864dc";ctx.fillRect(x,y,80,350-y);ctx.fillStyle="#222";ctx.fillText(werte[i],x+28,y-8)}}else{ctx.strokeStyle="#2864dc";ctx.lineWidth=3;ctx.beginPath();for(let i=0;i<werte.length;i++){let x=160+i*170,y=py(werte[i],m);i?ctx.lineTo(x,y):ctx.moveTo(x,y);ctx.fillRect(x-4,y-4,8,8)}ctx.stroke()}
+ document.getElementById("ma").textContent=m;document.getElementById("info").textContent=m>30?"Die abgeschnittene Achse lässt kleine Unterschiede sehr groß erscheinen.":"Mit einer bei 0 beginnenden Achse wirken die Unterschiede weniger dramatisch."}
+min.oninput=update;typ.onchange=update;update();
+</script></body></html>

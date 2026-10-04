@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Mittelwert, Median und Ausreißer</title><style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f2f4f7;margin:0;padding:20px;color:#222}
+.tool{max-width:900px;margin:auto;background:white;border:1px solid #ccc;border-radius:10px;padding:20px}
+h1{margin-top:0} h2{margin-top:24px}
+.steuerung{background:#f7f7f7;border:1px solid #ddd;border-radius:8px;padding:12px;margin:14px 0}
+label{display:block;font-weight:bold;margin-top:10px}
+input[type=range],select{width:100%;margin-top:5px}
+button,select,input[type=number]{padding:8px;margin-top:8px}
+button{cursor:pointer;margin-right:5px}
+canvas{width:100%;height:auto;border:1px solid #999;background:white;margin-top:10px}
+.werte{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.wert{background:#eee;border-radius:6px;padding:10px}
+.wert strong{display:block;margin-bottom:4px}
+.hinweis{background:#eef4ff;border-left:4px solid #3d6fd8;padding:10px;margin-top:12px}
+.warnung{background:#fff2e7;border-left:4px solid #d9730d;padding:10px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+.punkt{display:inline-block;width:13px;height:13px;border-radius:50%;margin:2px;background:#2864dc}
+.antwort{display:block;width:100%;text-align:left;margin-top:7px}
+.richtig{background:#dff5e5}.falsch{background:#fde3e0}
+@media(max-width:650px){.werte{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="tool"><h1>Mittelwert, Median und Ausreißer</h1><p>Verändere den letzten Wert und beobachte die Lageparameter.</p>
+<div class="steuerung">
+<label for="ausreisser">Letzter Datenwert: <span id="a">10</span></label>
+<input id="ausreisser" type="range" min="1" max="100" value="10">
+<button id="normal">Unauffälliger Wert</button><button id="hoch">Großer Ausreißer</button>
+</div>
+<canvas id="c" width="820" height="300"></canvas>
+<div class="werte">
+<div class="wert"><strong>Daten</strong><span id="daten"></span></div>
+<div class="wert"><strong>Mittelwert</strong><span id="mw"></span></div>
+<div class="wert"><strong>Median</strong><span id="med"></span></div>
+<div class="wert"><strong>Spannweite</strong><span id="span"></span></div>
+</div><div class="hinweis" id="info"></div>
+</div><script>
+const s=document.getElementById("ausreisser"),c=document.getElementById("c"),x=c.getContext("2d");
+const fest=[6,7,8,9,10,10,11,12];
+function mittel(v){let sum=0;for(let z of v)sum+=z;return sum/v.length}
+function median(v){let q=[...v].sort((a,b)=>a-b),m=Math.floor(q.length/2);return q.length%2?q[m]:(q[m-1]+q[m])/2}
+function px(v){return 50+v/100*720}
+function zeichnen(v){
+ x.clearRect(0,0,c.width,c.height);x.strokeStyle="#555";x.beginPath();x.moveTo(50,220);x.lineTo(770,220);x.stroke();
+ x.font="14px Arial";for(let z=0;z<=100;z+=10){x.beginPath();x.moveTo(px(z),215);x.lineTo(px(z),225);x.stroke();x.fillText(z,px(z)-8,245)}
+ let stapel={};for(let z of v){if(stapel[z]===undefined)stapel[z]=0;x.fillStyle="#2864dc";x.beginPath();x.arc(px(z),195-stapel[z]*18,7,0,2*Math.PI);x.fill();stapel[z]++}
+ let m=mittel(v),d=median(v);x.strokeStyle="#cc3333";x.lineWidth=3;x.beginPath();x.moveTo(px(m),40);x.lineTo(px(m),210);x.stroke();
+ x.strokeStyle="#198754";x.beginPath();x.moveTo(px(d),70);x.lineTo(px(d),210);x.stroke();
+}
+function update(){let letzter=Number(s.value),v=[...fest,letzter],m=mittel(v),d=median(v);
+ document.getElementById("a").textContent=letzter;document.getElementById("daten").textContent=v.join(", ");
+ document.getElementById("mw").textContent=m.toFixed(2).replace(".",",");document.getElementById("med").textContent=d.toFixed(2).replace(".",",");
+ document.getElementById("span").textContent=Math.max(...v)-Math.min(...v);
+ document.getElementById("info").textContent=letzter>40?"Der Ausreißer zieht den Mittelwert stark nach oben. Der Median bleibt stabiler.":"Ohne starken Ausreißer liegen Mittelwert und Median näher beieinander.";
+ zeichnen(v)}
+s.addEventListener("input",update);document.getElementById("normal").onclick=()=>{s.value=10;update()};document.getElementById("hoch").onclick=()=>{s.value=80;update()};update();
+</script></body></html>

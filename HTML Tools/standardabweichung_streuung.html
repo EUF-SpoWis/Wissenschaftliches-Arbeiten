@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Standardabweichung und Streuung</title><style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f2f4f7;margin:0;padding:20px;color:#222}
+.tool{max-width:900px;margin:auto;background:white;border:1px solid #ccc;border-radius:10px;padding:20px}
+h1{margin-top:0} h2{margin-top:24px}
+.steuerung{background:#f7f7f7;border:1px solid #ddd;border-radius:8px;padding:12px;margin:14px 0}
+label{display:block;font-weight:bold;margin-top:10px}
+input[type=range],select{width:100%;margin-top:5px}
+button,select,input[type=number]{padding:8px;margin-top:8px}
+button{cursor:pointer;margin-right:5px}
+canvas{width:100%;height:auto;border:1px solid #999;background:white;margin-top:10px}
+.werte{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.wert{background:#eee;border-radius:6px;padding:10px}
+.wert strong{display:block;margin-bottom:4px}
+.hinweis{background:#eef4ff;border-left:4px solid #3d6fd8;padding:10px;margin-top:12px}
+.warnung{background:#fff2e7;border-left:4px solid #d9730d;padding:10px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+.punkt{display:inline-block;width:13px;height:13px;border-radius:50%;margin:2px;background:#2864dc}
+.antwort{display:block;width:100%;text-align:left;margin-top:7px}
+.richtig{background:#dff5e5}.falsch{background:#fde3e0}
+@media(max-width:650px){.werte{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="tool"><h1>Standardabweichung und Streuung</h1><p>Der Mittelwert bleibt gleich, nur die Abstände verändern sich.</p>
+<div class="steuerung"><label for="s">Streuung: <span id="sa">5</span></label><input id="s" type="range" min="0" max="20" value="5"></div>
+<canvas id="c" width="820" height="300"></canvas>
+<div class="werte"><div class="wert"><strong>Mittelwert</strong><span id="mw"></span></div><div class="wert"><strong>Varianz</strong><span id="v"></span></div><div class="wert"><strong>Standardabweichung</strong><span id="sd"></span></div><div class="wert"><strong>Daten</strong><span id="daten"></span></div></div>
+<div class="hinweis">Je weiter die Punkte vom Mittelwert entfernt liegen, desto größer werden Varianz und Standardabweichung.</div>
+</div><script>
+const r=document.getElementById("s"),c=document.getElementById("c"),ctx=c.getContext("2d"),ab=[-2,-1.5,-1,-.5,0,0,.5,1,1.5,2];
+function mittel(v){let s=0;for(let x of v)s+=x;return s/v.length}
+function varianz(v){let m=mittel(v),s=0;for(let x of v)s+=(x-m)*(x-m);return s/v.length}
+function px(v){return 50+v/100*720}
+function update(){let f=Number(r.value),d=ab.map(x=>50+x*f),v=varianz(d);ctx.clearRect(0,0,c.width,c.height);
+ ctx.strokeStyle="#555";ctx.beginPath();ctx.moveTo(50,220);ctx.lineTo(770,220);ctx.stroke();
+ ctx.strokeStyle="#cc3333";ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(px(50),40);ctx.lineTo(px(50),210);ctx.stroke();
+ ctx.fillStyle="#2864dc";for(let i=0;i<d.length;i++){ctx.beginPath();ctx.arc(px(d[i]),185-(i%2)*18,7,0,2*Math.PI);ctx.fill()}
+ document.getElementById("sa").textContent=f;document.getElementById("mw").textContent=mittel(d).toFixed(2).replace(".",",");
+ document.getElementById("v").textContent=v.toFixed(2).replace(".",",");document.getElementById("sd").textContent=Math.sqrt(v).toFixed(2).replace(".",",");
+ document.getElementById("daten").textContent=d.map(x=>x.toFixed(0)).join(", ")}
+r.addEventListener("input",update);update();
+</script></body></html>

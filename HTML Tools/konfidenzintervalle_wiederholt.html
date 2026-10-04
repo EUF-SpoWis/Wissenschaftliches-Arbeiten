@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Konfidenzintervalle über viele Stichproben</title><style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f2f4f7;margin:0;padding:20px;color:#222}
+.tool{max-width:900px;margin:auto;background:white;border:1px solid #ccc;border-radius:10px;padding:20px}
+h1{margin-top:0} h2{margin-top:24px}
+.steuerung{background:#f7f7f7;border:1px solid #ddd;border-radius:8px;padding:12px;margin:14px 0}
+label{display:block;font-weight:bold;margin-top:10px}
+input[type=range],select{width:100%;margin-top:5px}
+button,select,input[type=number]{padding:8px;margin-top:8px}
+button{cursor:pointer;margin-right:5px}
+canvas{width:100%;height:auto;border:1px solid #999;background:white;margin-top:10px}
+.werte{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.wert{background:#eee;border-radius:6px;padding:10px}
+.wert strong{display:block;margin-bottom:4px}
+.hinweis{background:#eef4ff;border-left:4px solid #3d6fd8;padding:10px;margin-top:12px}
+.warnung{background:#fff2e7;border-left:4px solid #d9730d;padding:10px;margin-top:12px}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+.punkt{display:inline-block;width:13px;height:13px;border-radius:50%;margin:2px;background:#2864dc}
+.antwort{display:block;width:100%;text-align:left;margin-top:7px}
+.richtig{background:#dff5e5}.falsch{background:#fde3e0}
+@media(max-width:650px){.werte{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="tool"><h1>Konfidenzintervalle über viele Stichproben</h1><p>Grün enthält den wahren Mittelwert, Rot verfehlt ihn.</p>
+<div class="steuerung"><label for="n">Stichprobengröße: <span id="na">25</span></label><input id="n" type="range" min="5" max="100" value="25">
+<label for="niveau">Konfidenzniveau</label><select id="niveau"><option value="1.645">90 %</option><option value="1.96" selected>95 %</option><option value="2.576">99 %</option></select>
+<button id="eins">1 Intervall</button><button id="zwanzig">20 Intervalle</button><button id="reset">Zurücksetzen</button></div>
+<canvas id="c" width="820" height="520"></canvas>
+<div class="werte"><div class="wert"><strong>Intervalle</strong><span id="anz"></span></div><div class="wert"><strong>Treffer</strong><span id="tr"></span></div><div class="wert"><strong>Trefferquote</strong><span id="q"></span></div><div class="wert"><strong>Wahrer Mittelwert</strong><span>50</span></div></div>
+</div><script>
+const c=document.getElementById("c"),ctx=c.getContext("2d"),n=document.getElementById("n"),niveau=document.getElementById("niveau");let liste=[],gesamt=0,treffer=0;
+function nz(){let s=0;for(let i=0;i<6;i++)s+=Math.random();return(s-3)*1.4}
+function eins(){let sum=0,nn=Number(n.value);for(let i=0;i<nn;i++)sum+=50+10*nz();let m=sum/nn,f=Number(niveau.value)*10/Math.sqrt(nn),u=m-f,o=m+f,ok=u<=50&&o>=50;gesamt++;if(ok)treffer++;liste.push({m,u,o,ok});if(liste.length>25)liste.shift()}
+function px(x){return 50+(x-30)/40*720}
+function zeichnen(){ctx.clearRect(0,0,c.width,c.height);ctx.strokeStyle="#333";ctx.beginPath();ctx.moveTo(px(50),25);ctx.lineTo(px(50),490);ctx.stroke();
+ for(let i=0;i<liste.length;i++){let z=liste[i],y=45+i*17;ctx.strokeStyle=z.ok?"#198754":"#cc3333";ctx.beginPath();ctx.moveTo(px(z.u),y);ctx.lineTo(px(z.o),y);ctx.stroke();ctx.fillStyle=ctx.strokeStyle;ctx.beginPath();ctx.arc(px(z.m),y,3,0,2*Math.PI);ctx.fill()}
+ document.getElementById("na").textContent=n.value;document.getElementById("anz").textContent=gesamt;document.getElementById("tr").textContent=treffer;document.getElementById("q").textContent=(gesamt?treffer/gesamt*100:0).toFixed(1).replace(".",",")+" %"}
+function viele(a){for(let i=0;i<a;i++)eins();zeichnen()}
+n.addEventListener("input",zeichnen);document.getElementById("eins").onclick=()=>viele(1);document.getElementById("zwanzig").onclick=()=>viele(20);document.getElementById("reset").onclick=()=>{liste=[];gesamt=0;treffer=0;zeichnen()};zeichnen();
+</script></body></html>

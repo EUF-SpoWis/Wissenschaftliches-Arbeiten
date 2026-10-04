@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Einfaches Korrelationstool</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .tool {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #cccccc;
+      border-radius: 10px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .steuerung {
+      margin-bottom: 15px;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    button,
+    select {
+      padding: 7px 10px;
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+
+    canvas {
+      width: 100%;
+      height: auto;
+      border: 1px solid #999999;
+      background-color: white;
+    }
+
+    .ergebnisse {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .ergebnis {
+      flex: 1;
+      padding: 10px;
+      background-color: #eeeeee;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .ergebnisse {
+        display: block;
+      }
+
+      .ergebnis {
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tool">
+    <h1>Korrelation interaktiv verstehen</h1>
+
+    <p>
+      Bewege den Regler und beobachte, ob sich die Datenwolke verändert.
+    </p>
+
+    <div class="steuerung">
+      <label for="korrelation">
+        Gewünschte Korrelation:
+        <strong id="anzeige">0,00</strong>
+      </label>
+
+      <input
+        type="range"
+        id="korrelation"
+        min="-1"
+        max="1"
+        step="0.05"
+        value="0"
+      >
+
+      <button id="neueDaten">Neue Datenwolke</button>
+
+      <select id="beispiel">
+        <option value="">Beispiel auswählen</option>
+        <option value="-0.9">stark negativ</option>
+        <option value="-0.5">mittel negativ</option>
+        <option value="0">kein Zusammenhang</option>
+        <option value="0.5">mittel positiv</option>
+        <option value="0.9">stark positiv</option>
+      </select>
+    </div>
+
+    <canvas id="diagramm" width="760" height="480"></canvas>
+
+    <div class="ergebnisse">
+      <div class="ergebnis">
+        <strong>Eingestellt</strong><br>
+        <span id="eingestellt">0,00</span>
+      </div>
+
+      <div class="ergebnis">
+        <strong>Interpretation</strong><br>
+        <span id="interpretation">kein Zusammenhang</span>
+      </div>
+    </div>
+
+    <p>
+      <em>Hinweis:</em> Bei der Darstellung handelt es sich lediglich um eine beispielhafte Darstellung und um keine tatsächlich erhobenen Daten.
+    </p>
+    
+  </div>
+
+  <script>
+    // Wichtige HTML-Elemente speichern
+    const regler = document.getElementById("korrelation");
+    const anzeige = document.getElementById("anzeige");
+    const eingestellt = document.getElementById("eingestellt");
+    const interpretation = document.getElementById("interpretation");
+    const beispiel = document.getElementById("beispiel");
+
+    // Zeichenfläche vorbereiten
+    const canvas = document.getElementById("diagramm");
+    const ctx = canvas.getContext("2d");
+
+    // Anzahl der Punkte
+    const anzahl = 50;
+
+    // Hier werden die zufälligen Ausgangswerte gespeichert
+    let xWerte = [];
+    let zufall = [];
+
+    // Erzeugt eine ungefähr normalverteilte Zufallszahl
+    function zufallszahl() {
+      let summe = 0;
+
+      for (let i = 0; i < 6; i++) {
+        summe = summe + Math.random();
+      }
+
+      return (summe - 3) * 1.4;
+    }
+
+    // Erzeugt neue Ausgangsdaten
+    function neueDaten() {
+      xWerte = [];
+      zufall = [];
+
+      for (let i = 0; i < anzahl; i++) {
+        xWerte.push(zufallszahl());
+        zufall.push(zufallszahl());
+      }
+    }
+
+    // Berechnet den Mittelwert einer Liste
+    function mittelwert(werte) {
+      let summe = 0;
+
+      for (let wert of werte) {
+        summe = summe + wert;
+      }
+
+      return summe / werte.length;
+    }
+
+    // Berechnet die Korrelation zweier Listen
+    function berechneKorrelation(x, y) {
+      const mittelX = mittelwert(x);
+      const mittelY = mittelwert(y);
+
+      let zaehler = 0;
+      let summeX = 0;
+      let summeY = 0;
+
+      for (let i = 0; i < x.length; i++) {
+        const abstandX = x[i] - mittelX;
+        const abstandY = y[i] - mittelY;
+
+        zaehler = zaehler + abstandX * abstandY;
+        summeX = summeX + abstandX * abstandX;
+        summeY = summeY + abstandY * abstandY;
+      }
+
+      return zaehler / Math.sqrt(summeX * summeY);
+    }
+
+    // Wandelt einen x-Wert in eine Position auf der Zeichenfläche um
+    function bildschirmX(x) {
+      const rand = 50;
+      return rand + ((x + 3) / 6) * (canvas.width - 2 * rand);
+    }
+
+    // Wandelt einen y-Wert in eine Position auf der Zeichenfläche um
+    function bildschirmY(y) {
+      const rand = 50;
+      return canvas.height - rand - ((y + 3) / 6) * (canvas.height - 2 * rand);
+    }
+
+    // Zeichnet Achsen und Gitternetz
+    function zeichneAchsen() {
+      ctx.strokeStyle = "#dddddd";
+      ctx.lineWidth = 1;
+
+      for (let zahl = -3; zahl <= 3; zahl++) {
+        // Senkrechte Gitterlinie
+        ctx.beginPath();
+        ctx.moveTo(bildschirmX(zahl), bildschirmY(-3));
+        ctx.lineTo(bildschirmX(zahl), bildschirmY(3));
+        ctx.stroke();
+
+        // Waagerechte Gitterlinie
+        ctx.beginPath();
+        ctx.moveTo(bildschirmX(-3), bildschirmY(zahl));
+        ctx.lineTo(bildschirmX(3), bildschirmY(zahl));
+        ctx.stroke();
+      }
+
+      // Hauptachsen
+      ctx.strokeStyle = "#555555";
+      ctx.lineWidth = 2;
+
+      ctx.beginPath();
+      ctx.moveTo(bildschirmX(-3), bildschirmY(0));
+      ctx.lineTo(bildschirmX(3), bildschirmY(0));
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(bildschirmX(0), bildschirmY(-3));
+      ctx.lineTo(bildschirmX(0), bildschirmY(3));
+      ctx.stroke();
+
+      // Achsenbeschriftungen
+      ctx.fillStyle = "#222222";
+      ctx.font = "15px Arial";
+      ctx.fillText("Merkmal X", canvas.width - 120, canvas.height - 15);
+      ctx.fillText("Merkmal Y", 10, 25);
+    }
+
+    // Gibt eine sprachliche Beschreibung zurück
+    function beschreibung(r) {
+      const betrag = Math.abs(r);
+
+      if (betrag < 0.1) {
+        return "kein oder kaum Zusammenhang";
+      }
+
+      let richtung;
+
+      if (r < 0) {
+        richtung = "negativ";
+      } else {
+        richtung = "positiv";
+      }
+
+      if (betrag < 0.3) {
+        return "schwach " + richtung;
+      }
+
+      if (betrag < 0.7) {
+        return "mittel " + richtung;
+      }
+
+      if (betrag < 0.9) {
+        return "stark " + richtung;
+      }
+
+      return "sehr stark " + richtung;
+    }
+
+    // Formatiert eine Zahl mit zwei Nachkommastellen
+    function formatieren(zahl) {
+      return zahl.toFixed(2).replace(".", ",");
+    }
+
+    // Berechnet die Punkte und zeichnet das gesamte Diagramm neu
+    function aktualisieren() {
+      const r = Number(regler.value);
+
+      // Diese Zahl bestimmt die zufällige Streuung
+      const streuung = Math.sqrt(1 - r * r);
+
+      const yWerte = [];
+
+      for (let i = 0; i < anzahl; i++) {
+        const y = r * xWerte[i] + streuung * zufall[i];
+        yWerte.push(y);
+      }
+
+      // Alte Zeichnung löschen
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Achsen zeichnen
+      zeichneAchsen();
+
+      // Regressionslinie zeichnen
+      ctx.strokeStyle = "#cc3333";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(bildschirmX(-3), bildschirmY(r * -3));
+      ctx.lineTo(bildschirmX(3), bildschirmY(r * 3));
+      ctx.stroke();
+
+      // Datenpunkte zeichnen
+      ctx.fillStyle = "#2864dc";
+
+      for (let i = 0; i < anzahl; i++) {
+        ctx.beginPath();
+        ctx.arc(
+          bildschirmX(xWerte[i]),
+          bildschirmY(yWerte[i]),
+          5,
+          0,
+          2 * Math.PI
+        );
+        ctx.fill();
+      }
+
+      // Tatsächliche Korrelation berechnen
+      const echteKorrelation = berechneKorrelation(xWerte, yWerte);
+
+      // Texte aktualisieren
+      anzeige.textContent = formatieren(r);
+      eingestellt.textContent = formatieren(r);
+      interpretation.textContent = beschreibung(r);
+    }
+
+    // Wenn der Regler bewegt wird
+    regler.addEventListener("input", function () {
+      beispiel.value = "";
+      aktualisieren();
+    });
+
+    // Wenn ein Beispiel ausgewählt wird
+    beispiel.addEventListener("change", function () {
+      if (beispiel.value !== "") {
+        regler.value = beispiel.value;
+        aktualisieren();
+      }
+    });
+
+    // Wenn auf "Neue Datenwolke" geklickt wird
+    document.getElementById("neueDaten").addEventListener("click", function () {
+      neueDaten();
+      aktualisieren();
+    });
+
+    // Programm beim Öffnen starten
+    neueDaten();
+    aktualisieren();
+  </script>
+</body>
+</html>
