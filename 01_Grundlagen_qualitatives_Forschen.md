@@ -60,14 +60,17 @@ John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Quali
 
 In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
-- **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.  
-  * *z. B. Inwieweit ist ein High-Intensity-Training (HIT) effektiver für die VO2max-Steigerung als ein Grundlagentraining nach der norwegischen Methode?*
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Quantitatives Paradigma:</b> Standardisiert, messend, prüft vorab formulierte Hypothesen.
+</div>
 
-- **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Gegenstandsbereiche.  
-  * *z. B. Wie erleben und verarbeiten Nachwuchsleistungssportler:innen den Übergang vom Breitensport in das Internat eines Nachwuchsleistungszentrums?*
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">Qualitatives Paradigma:</b> Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
+</div>
 
-- **Mixed-Methods:** Die systematische Verzahnung qualitativer und quantitativer Ansätze.  
-  * *z. B. In welchen Zusammenhang stehen Beanspruchung (physiologische Stressmarker als subjektives Erleben) und Traininspensum bei Athlet:innen in Trainingsphasen zueinander?*
+<div style="border: 2px solid #643d8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #643d8d;">Mixed-Methods:</b> Die systematische Kombination qualitativer und quantitativer Ansätze.
+</div>
 
 > **Wichtige Abgrenzung:**
 > Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten). 
@@ -85,24 +88,59 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 
 ### Gegenstandsbereich und Erkenntnisinteresse
 
-Der zentrale Forschungsauftrag der qualitativen Forschung ist die **Rekonstruktion von Sinn, subjektiven Sichtweisen, Alltagstheorien und Bedeutungskonstruktionen** (Helfferich, 2011).
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstruktion von Sinn, subjektiven Sichtweisen, Alltagstheorien und Bedeutungskonstruktionen</b> <small>(Helfferich, 2011)</small>.
+</div>
 
-Leitende Forschungsfragen betreffen:
-* **Warum** tun Menschen das, was sie tun?
-* Welche **subjektive Bedeutung** schreiben Personen ihren Handlungen und Erfahrungen zu?
-* Welche **Sinnstrukturen** und sozialen Wissensordnungen steuern ihr Handeln?
+<b>Leitende Forschungsfragen betreffen:</b>
+
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+- **Warum** tun Menschen das, was sie tun?
+- Welche **subjektive Bedeutung** schreiben Personen ihren Handlungen und Erfahrungen zu?
+- Welche **Sinnstrukturen** und sozialen Wissensordnungen steuern ihr Handeln?
+</div>
 
 ---
 
 ### Grundsätze qualitativen Denkens
+<section>
 
-Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien aus:
+#### Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien aus:
 
-1. **Orientierung am Subjekt:** Das konkrete Handeln, Denken und Erleben der Beforschten steht im Mittelpunkt.
-2. **Deskription:** Detaillierte, kontextualisierte Beschreibung des Phänomens vor jeder Bewertung oder Reduktion.
-3. **Interpretation:** Die Daten werden durch Verstehen, Sinnrekonstruktion und Interpretation erschlossen.
-4. **Untersuchung im natürlichen Umfeld:** Die Erhebung findet möglichst in der gewohnten Umgebung der Beteiligten statt (Feldorientierung).
-5. **Verallgemeinerungsprozess:** Generalisierung erfolgt schrittweise, begründet und typisierend – anstelle einer statistischen Repräsentativität.
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin:1rem 0;">
+
+  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #6b8bff; padding:1rem 1.2rem;">
+    <div style="font-size:1.8rem;">🧑</div>
+    <b style="color:#4e66bd;">1 · Orientierung am Subjekt</b><br>
+    Das konkrete Handeln, Denken und Erleben der Beforschten steht im Mittelpunkt.
+  </div>
+
+  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #5a76dd; padding:1rem 1.2rem;">
+    <div style="font-size:1.8rem;">📝</div>
+    <b style="color:#4e66bd;">2 · Deskription</b><br>
+    Detaillierte, kontextualisierte Beschreibung des Phänomens vor jeder Bewertung oder Reduktion.
+  </div>
+
+  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #4e66bd; padding:1rem 1.2rem;">
+    <div style="font-size:1.8rem;">🔍</div>
+    <b style="color:#4e66bd;">3 · Interpretation</b><br>
+    Die Daten werden durch Verstehen, Sinnrekonstruktion und Interpretation erschlossen.
+  </div>
+
+  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #465aa3; padding:1rem 1.2rem;">
+    <div style="font-size:1.8rem;">🏡</div>
+    <b style="color:#4e66bd;">4 · Untersuchung im natürlichen Umfeld</b><br>
+    Die Erhebung findet möglichst in der gewohnten Umgebung der Beteiligten statt (Feldorientierung).
+  </div>
+
+  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #2f3d70; padding:1rem 1.2rem;">
+    <div style="font-size:1.8rem;">🧩</div>
+    <b style="color:#4e66bd;">5 · Verallgemeinerungsprozess</b><br>
+    Generalisierung erfolgt schrittweise, begründet und typisierend, anstelle einer statistischen Repräsentativität.
+  </div>
+
+</div>
+</section>
 
 ---
 
@@ -119,12 +157,17 @@ Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien
 
 ## Qualitative Forschungsmethoden
 
+![Schaubild](img/Schaubild-Qualitative-Forschungsmethoden.jpg)
+
 ### Methoden als *Tools*
 
-Methoden sind wissenschaftliche Werkzeuge (Reichertz, 2019). Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
+Methoden sind **wissenschaftliche Werkzeuge** 🛠️ (Reichertz, 2019). Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
 
-* **Primäres Auswahlkriterium:** Gegenstand der Untersuchung, Forschungsfrage und theoretischer Rahmen.
-* **Sekundäres Auswahlkriterium:** Verfügbare zeitliche, personelle und finanzielle Ressourcen.
+> [!Note] 1️⃣ **Primäres Auswahlkriterium**
+> Gegenstand der Untersuchung, Forschungsfrage und theoretischer Rahmen.
+
+> [!TIP] 2️⃣ **Sekundäres Auswahlkriterium**
+> Verfügbare zeitliche, personelle und finanzielle Ressourcen.
 
 ---
 
@@ -182,6 +225,26 @@ Die qualitative Forschung hält ein breites Spektrum an Erhebungsmethoden bereit
 <div style="text-align: right; font-size: 0.8em; color: #718096;">
 <i>(nach Mey & Mruck, 2020; Flick et al., 1995)</i>
 </div>
+
+---
+
+### Wann setzt man qualitative Methoden ein?
+<section>
+
+#### Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden Situationen indiziert:
+
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Erschließen neuer Felder:</b> Erkundung und Beschreibung bislang wenig erforschter oder fremder Lebenswelten.
+</div>
+
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">Theoriegenerierung:</b> Entdeckung neuer Phänomene und Entwicklung theoretischer Konzepte <i>(Grounded Theory)</i>.
+</div>
+
+<div style="border: 2px solid #643d8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #643d8d;">Tiefe Exploration:</b> Verstehen von hochkomplexen Handlungszusammenhängen, subjektiven Wahrnehmungen und Alltagsinterpretationen.
+</div>
+</section> 
 
 ---
 
