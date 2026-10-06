@@ -351,17 +351,31 @@ Beispiel:
 
 Lehrbuch Hinweis: In unserem Fall könnte man also neben der gelaufenen Distanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
 
+---
+
 ## Statistische Analyse
 ### Variablenarten                                                      
 *Welche Variablenarten gibt es?*
 
+---
+
 ### Skalenniveaus                                                       
 *Was ist ein Skalenniveau und was bedeutet es?*
+
+---
 
 ### Deskriptive Statistik                                               
 *Wie ist die bedeutet von Mittelwert, Median, Modus und Range?*
 
 
+<iframe
+  src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/ausreisser-musik-12min.html"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
+
+---
 
 
 ## Untersuchungsplannung 
