@@ -46,7 +46,7 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 * Statistische Analyse
   + Variablenarten                                                      - *Welche Variablenarten gibt es?*
   + Skalenniveaus                                                       - *Was ist ein Skalenniveau und was bedeutet es?*
-  + Deskriptive Statistik                                               - *Wie ist die bedeutet von Mittelwert, Median, Modus und Range?*
+  + Deskriptive Statistik                                               - *Wie fasse ich Daten in wenigen Kennwerten zusammen?*
 
 
 
@@ -410,7 +410,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 ```
 
 ### Variablenarten                                                      
-*Welche Variablenarten gibt es?*
+>*Welche Variablenarten gibt es?*
 
 In quantitativen Studien – insbesondere in Experimenten – wird zwischen verschiedenen Variablentypen unterschieden:
 
@@ -452,7 +452,7 @@ In unserem Beispiel soll geprüft werden, ob Musik die gelaufene Strecke veränd
 ---
 
 ### Skalenniveaus                                                       
-*Was ist ein Skalenniveau und was bedeutet es?*
+>*Was ist ein Skalenniveau und was bedeutet es?*
 
 
 Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.
