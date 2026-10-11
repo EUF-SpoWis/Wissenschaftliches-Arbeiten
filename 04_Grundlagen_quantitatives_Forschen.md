@@ -606,16 +606,12 @@ Wie stark ein einzelner **Ausreißer** diese Kennwerte verändern kann, probiers
 - [( )] Spannweite
 - [( )] Standardabweichung
 
-***
-
 <details>
 <summary><b>👉 Erklärung</b></summary>
 
 Der Median hängt nur von der Rangfolge der Werte ab. Mittelwert, Spannweite und Standardabweichung werden von extremen Werten stark beeinflusst.
 
 </details>
-
-***
 
 **Frage 2:** Für welche Variable ist der **Mittelwert nicht** sinnvoll?
 
@@ -638,14 +634,14 @@ Der Mittelwert setzt metrische Daten voraus.
 - [(X)] Die Strecken weichen im Durchschnitt etwa 114 m vom Mittelwert ab.
 - [( )] Die größte und die kleinste Strecke unterscheiden sich um 114 m.
 
-***
 
 <details>
 <summary><b>👉 Erklärung</b></summary>
+
 Die Standardabweichung beschreibt die typische Abweichung der Werte vom Mittelwert. Der Abstand zwischen größter und kleinster Strecke ist die Spannweite (hier 350 m).
+
 </details>
 
-***
 
 ---
 
