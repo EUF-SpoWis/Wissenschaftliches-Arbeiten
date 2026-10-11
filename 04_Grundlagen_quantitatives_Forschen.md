@@ -333,7 +333,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
 
- * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
+ * **Validität:** Gültigkeit – misst das Verfahren tatsächlich den gewollten Gegenstand?
 
 
 ### Herausforderung                                                     
@@ -345,7 +345,7 @@ Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen
 
 * **Decken- und Bodeneffekte:** Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.
 
-* **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil des zu messenden Konstrukts sind.
+* **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil der Forschung sind.
 
 
 ### Befragungsverfahren mit Fragebogen                                                          
