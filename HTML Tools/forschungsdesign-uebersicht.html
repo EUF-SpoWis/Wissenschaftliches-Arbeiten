@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forschungsdesigns im Überblick</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2933; --muted: #64748b; --card: #f3f6fa; --line: #cbd5e1;
+    --pt: #2563eb; --out: #dc2626; --ok: #16a34a; --warn: #ea580c; --accent: #2563eb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111827; --fg: #e5e7eb; --muted: #94a3b8; --card: #1f2937; --line: #475569;
+            --pt: #60a5fa; --out: #f87171; --ok: #4ade80; --warn: #fb923c; --accent: #60a5fa; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg);
+         margin: 0; padding: 16px; line-height: 1.5; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 2px; }
+  .sub { color: var(--muted); margin: 0 0 14px; }
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .tab { flex: 1 1 180px; padding: 10px 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--card);
+         color: var(--fg); cursor: pointer; text-align: left; font-size: .95rem; }
+  .tab small { display: block; color: var(--muted); font-size: .8rem; }
+  .tab[aria-selected="true"] { border-color: var(--accent); background: var(--bg); }
+  .tab b { font-size: 1rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .opt { background: var(--card); border-radius: 14px; padding: 12px 14px; border: 2px solid transparent; }
+  .opt h3 { margin: 6px 0 2px; font-size: 1.05rem; }
+  .opt .def { margin: 0 0 6px; }
+  .opt .ex { margin: 0; color: var(--muted); font-size: .9rem; }
+  .opt svg { width: 100%; height: auto; background: var(--bg); border-radius: 10px; display: block; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 99px; background: var(--accent); color: #fff;
+         font-size: .75rem; font-weight: 600; }
+  .card { background: var(--card); border-radius: 14px; padding: 12px 16px; margin-top: 14px; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 8px; }
+  .seg { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; align-items: center; }
+  .seg > span { min-width: 82px; color: var(--muted); font-size: .9rem; }
+  .seg button, .quiz button { padding: 6px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg);
+                              color: var(--fg); cursor: pointer; font-size: .9rem; }
+  .seg button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+  .result { padding: 10px 12px; border-radius: 10px; background: var(--bg); border-left: 4px solid var(--accent); }
+  .quiz .q { margin-bottom: 12px; }
+  .quiz .opts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .quiz .fb { margin-top: 6px; font-size: .92rem; min-height: 1.2em; }
+  .ok { color: var(--ok); font-weight: 600; } .bad { color: var(--out); font-weight: 600; }
+  svg text { font-family: inherit; fill: var(--fg); }
+  .m { fill: var(--muted) !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Design: Welche Möglichkeiten habe ich bei der Forschung?</h1>
+  <p class="sub">Ein Forschungsdesign entsteht aus drei Entscheidungen: <b>Wann</b> wird gemessen, <b>wo</b> wird gemessen und <b>wie stark greife ich ein</b>?</p>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="grid" id="grid"></div>
+
+  <div class="card">
+    <h2>Dein Design zusammenstellen</h2>
+    <div class="seg" id="segZeit"><span>Zeitpunkt</span></div>
+    <div class="seg" id="segOrt"><span>Umgebung</span></div>
+    <div class="seg" id="segArt"><span>Eingriff</span></div>
+    <div class="result" id="result"></div>
+  </div>
+
+  <div class="card quiz">
+    <h2>Teste dich: Experiment, Quasi-Experiment oder Nicht-Experiment?</h2>
+    <div id="quiz"></div>
+  </div>
+</div>
+
+<script>
+// ---------- SVG-Illustrationen ----------
+const P = 'fill="var(--pt)"', O = 'fill="var(--out)"', L = 'stroke="var(--line)" stroke-width="2" fill="none"';
+const dot = (x, y, c = 'var(--pt)', r = 6) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${c}"/>`;
+
+const svgs = {
+  quer: `<svg viewBox="0 0 240 130" role="img" aria-label="Alle Personen werden einmal gemessen">
+    <line x1="20" y1="108" x2="220" y2="108" ${L}/>
+    <text x="222" y="112" font-size="11" class="m" text-anchor="end">Zeit</text>
+    <rect x="100" y="10" width="40" height="92" rx="8" fill="var(--accent)" opacity=".15"/>
+    <line x1="120" y1="104" x2="120" y2="112" ${L}/><text x="120" y="124" font-size="12" text-anchor="middle">t₁</text>
+    ${[22,38,54,70,86].map(y => dot(120, y)).join('')}
+    <text x="20" y="46" font-size="11" class="m">viele Personen</text>
+    <text x="20" y="60" font-size="11" class="m">einmal gemessen</text></svg>`,
+  laeng: `<svg viewBox="0 0 240 130" role="img" aria-label="Dieselben Personen werden mehrfach gemessen">
+    <line x1="20" y1="108" x2="220" y2="108" ${L}/>
+    <text x="222" y="112" font-size="11" class="m" text-anchor="end">Zeit</text>
+    ${[[60,'t₁'],[120,'t₂'],[180,'t₃']].map(([x,t]) => `<line x1="${x}" y1="104" x2="${x}" y2="112" ${L}/><text x="${x}" y="124" font-size="12" text-anchor="middle">${t}</text>`).join('')}
+    ${[[28,'var(--pt)'],[58,'var(--out)'],[88,'var(--ok)']].map(([y,c]) =>
+      `<line x1="60" y1="${y}" x2="180" y2="${y}" stroke="${c}" stroke-width="2" opacity=".5"/>` +
+      [60,120,180].map(x => dot(x, y, c)).join('')).join('')}
+    <text x="20" y="20" font-size="11" class="m">dieselben Personen</text></svg>`,
+  feld: `<svg viewBox="0 0 240 130" role="img" aria-label="Laufbahn im Freien">
+    <circle cx="205" cy="24" r="12" fill="#f5b301"/>
+    <rect x="10" y="10" width="220" height="110" rx="12" fill="var(--ok)" opacity=".18"/>
+    <rect x="45" y="35" width="150" height="62" rx="31" ${L}/>
+    <rect x="65" y="50" width="110" height="32" rx="16" ${L}/>
+    ${dot(70, 36, 'var(--out)', 6)}${dot(155, 97, 'var(--pt)', 6)}
+    <text x="120" y="70" font-size="12" text-anchor="middle">Trainingsplatz</text>
+    <text x="20" y="116" font-size="11" class="m">real, aber weniger kontrollierbar</text></svg>`,
+  labor: `<svg viewBox="0 0 240 130" role="img" aria-label="Diagnostiklabor mit Laufband">
+    <rect x="10" y="10" width="220" height="110" rx="6" fill="var(--bg)" ${L}/>
+    <rect x="40" y="82" width="100" height="14" rx="5" fill="var(--muted)" opacity=".6"/>
+    ${dot(90, 50, 'var(--pt)', 8)}<line x1="90" y1="58" x2="90" y2="80" stroke="var(--pt)" stroke-width="4"/>
+    <rect x="160" y="30" width="56" height="40" rx="4" fill="none" stroke="var(--fg)" stroke-width="2"/>
+    <polyline points="166,58 176,44 186,56 196,38 210,50" fill="none" stroke="var(--out)" stroke-width="2"/>
+    <text x="20" y="114" font-size="11" class="m">kontrolliert, aber künstlich</text></svg>`,
+  exp: `<svg viewBox="0 0 240 130" role="img" aria-label="Zufällige Zuteilung auf zwei Trainingsgruppen">
+    ${[[18,30],[34,45],[18,60],[34,75],[18,90],[34,105]].map(([x,y],i) => dot(x, y, i % 2 ? 'var(--pt)' : 'var(--out)', 6)).join('')}
+    <line x1="48" y1="68" x2="88" y2="68" ${L}/>
+    <rect x="88" y="50" width="34" height="34" rx="7" fill="var(--bg)" stroke="var(--fg)" stroke-width="2"/>
+    ${[[99,61],[111,73],[105,67]].map(([x,y]) => `<circle cx="${x}" cy="${y}" r="2.6" fill="var(--fg)"/>`).join('')}
+    <text x="105" y="102" font-size="11" text-anchor="middle">Zufall</text>
+    <line x1="122" y1="60" x2="150" y2="36" ${L}/><line x1="122" y1="76" x2="150" y2="100" ${L}/>
+    <rect x="150" y="12" width="80" height="48" rx="8" fill="var(--pt)" opacity=".15" stroke="var(--pt)"/>
+    <text x="190" y="30" font-size="12" text-anchor="middle">Training A</text>
+    ${[170,190,210].map(x => dot(x, 46, 'var(--pt)', 5)).join('')}
+    <rect x="150" y="76" width="80" height="48" rx="8" fill="var(--out)" opacity=".15" stroke="var(--out)"/>
+    <text x="190" y="94" font-size="12" text-anchor="middle">Training B</text>
+    ${[170,190,210].map(x => dot(x, 110, 'var(--out)', 5)).join('')}</svg>`,
+  quasi: `<svg viewBox="0 0 240 130" role="img" aria-label="Zwei bestehende Gruppen werden verglichen">
+    <rect x="12" y="14" width="96" height="86" rx="10" fill="var(--pt)" opacity=".15" stroke="var(--pt)"/>
+    <text x="60" y="34" font-size="12" text-anchor="middle">Klasse A</text>
+    ${[34,60,86].map(x => dot(x, 56, 'var(--pt)', 5)).join('')}${[34,60,86].map(x => dot(x, 76, 'var(--pt)', 5)).join('')}
+    <rect x="132" y="14" width="96" height="86" rx="10" fill="var(--out)" opacity=".15" stroke="var(--out)"/>
+    <text x="180" y="34" font-size="12" text-anchor="middle">Klasse B</text>
+    ${[154,180,206].map(x => dot(x, 56, 'var(--out)', 5)).join('')}${[154,180,206].map(x => dot(x, 76, 'var(--out)', 5)).join('')}
+    <text x="60" y="94" font-size="10" class="m" text-anchor="middle">Training A</text>
+    <text x="180" y="94" font-size="10" class="m" text-anchor="middle">Training B</text>
+    <rect x="108" y="48" width="24" height="24" rx="5" fill="var(--bg)" stroke="var(--muted)"/>
+    <line x1="111" y1="70" x2="129" y2="50" stroke="var(--out)" stroke-width="3"/>
+    <text x="120" y="118" font-size="11" text-anchor="middle" class="m">bestehende Gruppen, keine Zufallszuteilung</text></svg>`,
+  korr: `<svg viewBox="0 0 240 130" role="img" aria-label="Streudiagramm: nur Messung, kein Eingriff">
+    <line x1="34" y1="104" x2="34" y2="12" ${L}/><line x1="34" y1="104" x2="226" y2="104" ${L}/>
+    <text x="130" y="122" font-size="11" text-anchor="middle" class="m">Variable X (z. B. Trainingsumfang)</text>
+    <text x="14" y="58" font-size="11" class="m" transform="rotate(-90 14 58)" text-anchor="middle">Variable Y</text>
+    ${[[56,88],[76,78],[96,84],[116,62],[136,66],[156,46],[176,52],[196,30],[210,38]].map(([x,y]) => dot(x, y, 'var(--pt)', 5)).join('')}
+    <line x1="50" y1="92" x2="214" y2="28" stroke="var(--warn)" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="226" y="26" font-size="11" text-anchor="end" class="m">nur messen</text></svg>`
+};
+
+// ---------- Inhalte ----------
+const groups = [
+  { id: 'zeit', title: '1 · Wann?', q: 'Messzeitpunkte', options: [
+    { key: 'Querschnitt', svg: 'quer', name: 'Querschnittstudie',
+      def: 'Einmalige Messung zu einem Zeitpunkt bei mehreren Personen.',
+      ex: 'Beispiel: Alle Teilnehmenden laufen einmal 12 Minuten, und die Strecken werden verglichen.' },
+    { key: 'Längsschnitt', svg: 'laeng', name: 'Längsschnittstudie',
+      def: 'Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design).',
+      ex: 'Beispiel: Cooper-Test vor und nach einem achtwöchigen Ausdauertraining.' } ] },
+  { id: 'ort', title: '2 · Wo?', q: 'Umgebung', options: [
+    { key: 'Feld', svg: 'feld', name: 'Feldstudie',
+      def: 'Natürliche, reale Umgebung (z. B. Trainingsplatz, Wettkampf).',
+      ex: 'Vorteil: hohe Alltagsnähe. Nachteil: Störfaktoren wie Wetter sind schwer zu kontrollieren.' },
+    { key: 'Labor', svg: 'labor', name: 'Laborstudie',
+      def: 'Kontrollierte, künstliche Umgebung (z. B. Diagnostiklabor).',
+      ex: 'Vorteil: gut kontrollierbar. Nachteil: Ergebnisse lassen sich weniger leicht auf den Alltag übertragen.' } ] },
+  { id: 'art', title: '3 · Wie stark greife ich ein?', q: 'Eingriff', options: [
+    { key: 'Experiment', svg: 'exp', name: 'Experiment',
+      def: 'Forschende manipulieren aktiv einen Faktor (z. B. Trainingsart) und teilen die Personen zufällig zu (Randomisierung).',
+      ex: 'Nur hier sind Aussagen über Ursache und Wirkung am besten abgesichert.' },
+    { key: 'Quasi-Experiment', svg: 'quasi', name: 'Quasi-Experiment',
+      def: 'Ein Faktor wird manipuliert oder Gruppen werden verglichen, aber ohne Randomisierung (z. B. zwei bereits bestehende Schulklassen).',
+      ex: 'Die Gruppen können sich schon vorher unterscheiden, deshalb sind Ursache-Wirkung-Aussagen schwächer.' },
+    { key: 'Nicht-Experiment', svg: 'korr', name: 'Nicht-Experiment / Korrelative Studie',
+      def: 'Keine Manipulation des Faktors, es werden nur bestehende Unterschiede gemessen.',
+      ex: 'Man findet Zusammenhänge, aber keine Kausalität.' } ] }
+];
+
+// ---------- Tabs & Karten ----------
+const tabs = document.getElementById('tabs'), grid = document.getElementById('grid');
+let active = 0;
+function renderTabs() {
+  tabs.innerHTML = groups.map((g, i) =>
+    `<button class="tab" role="tab" aria-selected="${i === active}" data-i="${i}"><b>${g.title}</b><small>${g.q}</small></button>`).join('');
+  tabs.querySelectorAll('.tab').forEach(b => b.onclick = () => { active = +b.dataset.i; renderTabs(); renderGrid(); });
+}
+function renderGrid() {
+  grid.innerHTML = groups[active].options.map(o => `
+    <div class="opt">${svgs[o.svg]}
+      <h3>${o.name}</h3>
+      <p class="def">${o.def}</p>
+      <p class="ex">${o.ex}</p>
+    </div>`).join('');
+}
+
+// ---------- Konfigurator ----------
+const sel = { zeit: 'Querschnitt', ort: 'Feld', art: 'Experiment' };
+const segIds = { zeit: 'segZeit', ort: 'segOrt', art: 'segArt' };
+function renderSeg() {
+  groups.forEach(g => {
+    const el = document.getElementById(segIds[g.id]);
+    el.querySelectorAll('button').forEach(b => b.remove());
+    g.options.forEach(o => {
+      const b = document.createElement('button');
+      b.textContent = o.key; b.setAttribute('aria-pressed', sel[g.id] === o.key);
+      b.onclick = () => { sel[g.id] = o.key; renderSeg(); renderResult(); };
+      el.appendChild(b);
+    });
+  });
+}
+function renderResult() {
+  const ortWort = sel.ort === 'Feld' ? 'im Feld' : 'im Labor';
+  const zeitAdj = sel.zeit === 'Querschnitt' ? 'querschnittliche' : 'längsschnittliche';
+  let name;
+  if (sel.art === 'Experiment') name = `${zeitAdj.charAt(0).toUpperCase() + zeitAdj.slice(1)}s ${sel.ort === 'Feld' ? 'Feldexperiment' : 'Laborexperiment'}`;
+  else if (sel.art === 'Quasi-Experiment') name = `${zeitAdj.charAt(0).toUpperCase() + zeitAdj.slice(1)}s Quasi-Experiment ${ortWort}`;
+  else name = `${zeitAdj.charAt(0).toUpperCase() + zeitAdj.slice(1)} korrelative Studie ${ortWort}`;
+  const kausal = sel.art === 'Experiment' ? 'Starke Basis für Ursache-Wirkung-Aussagen.'
+               : sel.art === 'Quasi-Experiment' ? 'Eingeschränkte Ursache-Wirkung-Aussagen, da keine Zufallszuteilung.'
+               : 'Es sind Aussagen über Zusammenhänge möglich, aber nicht über Ursachen.';
+  document.getElementById('result').innerHTML =
+    `<b>${name}</b><br>` +
+    `<span class="tag">${sel.zeit}</span> <span class="tag">${sel.ort}</span> <span class="tag">${sel.art}</span><br>` +
+    `<span style="color:var(--muted)">${kausal} Die drei Entscheidungen sind unabhängig voneinander kombinierbar.</span>`;
+}
+
+// ---------- Quiz ----------
+const items = [
+  { t: 'Du teilst 40 Sportstudierende per Los in zwei Trainingsgruppen ein und vergleichst nach 8 Wochen ihre Ausdauer.',
+    a: 'Experiment', why: 'Der Faktor (Training) wird manipuliert und die Zuteilung erfolgt zufällig.' },
+  { t: 'Du vergleichst zwei bestehende Schulklassen, die in unterschiedlichen Trainingsformen unterrichtet werden.',
+    a: 'Quasi-Experiment', why: 'Gruppen werden verglichen, aber nicht zufällig zugeteilt.' },
+  { t: 'Du misst bei 50 Läufer:innen den wöchentlichen Trainingsumfang und die Zeit über 10 km und berechnest den Zusammenhang.',
+    a: 'Nicht-Experiment', why: 'Es wird nichts manipuliert, es werden nur bestehende Unterschiede gemessen.' }
+];
+const choices = ['Experiment', 'Quasi-Experiment', 'Nicht-Experiment'];
+document.getElementById('quiz').innerHTML = items.map((it, i) => `
+  <div class="q"><div><b>${i + 1}.</b> ${it.t}</div>
+    <div class="opts">${choices.map(c => `<button data-i="${i}" data-c="${c}">${c}</button>`).join('')}</div>
+    <div class="fb" id="fb${i}"></div></div>`).join('');
+document.querySelectorAll('#quiz button').forEach(b => b.onclick = () => {
+  const i = +b.dataset.i, it = items[i], right = b.dataset.c === it.a;
+  document.getElementById('fb' + i).innerHTML = right
+    ? `<span class="ok">Richtig.</span> ${it.why}`
+    : `<span class="bad">Nicht ganz.</span> Überlege noch einmal: Wird etwas manipuliert, und gibt es eine zufällige Zuteilung?`;
+});
+
+renderTabs(); renderGrid(); renderSeg(); renderResult();
+</script>
+</body>
+</html>
