@@ -29,7 +29,7 @@ import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
 ## Inhalt der Sitzung
 
-> **Lehrbuchhinweis** Im folgenden sollt ihr einen Einblick in die qualitative Forschung bekommen. Der Kurs soll folgende Fragen beantworten: 
+>**Lehrbuchhinweis** Im folgenden sollt ihr einen Einblick in die qualitative Forschung bekommen. Der Kurs soll folgende Fragen beantworten: 
 
 * Untersuchungsplannung
   + Einsatz von quantitativen Methoden                                  - *Was ist quantitatives Forschen?*
@@ -66,19 +66,29 @@ Hier für gehen wir Schritt für Schritt den Ablauf für quantitative Forschung 
 
 ---
 
-## Untersuchungsplannung --Nochmal genau angucken und auf Beispiel anpassen
+## Untersuchungsplannung 
 
 Quantitative Test- und Messverfahren kommen insbesondere dann zum Einsatz, wenn Vergleichbarkeit und Generalisierbarkeit im Zentrum stehen:
 
-* **Objektiver Leistungsvergleich:** Wenn subjektive Selbsteinschätzungen (z. B. in Interviews) zu verzerrt oder ungenau wären
+>* **Objektiver Leistungsvergleich:** Wenn subjektive Selbsteinschätzungen (z. B. in Interviews) zu verzerrt oder ungenau wären
 
-* **Veränderungsmessung:** Wenn Effekte einer Intervention über die Zeit (Prä-Post-Design) quantifiziert werden sollen
+--{{0}}--Im Beispiel von Ausdauer, nehmen SportlerInnen Anstregnung unterschiedlich wahr und es wäre schwer mit Hilfe von Interviews einen objektiven Vergleich herzustellen
 
-* **Normierung:** Wenn Ergebnisse mit bestehenden Referenz- oder Normwerten verglichen werden sollen
+>* **Veränderungsmessung:** Wenn Effekte einer Intervention über die Zeit (z.B. Prä-Post-Design) quantifiziert werden sollen
 
-* **Große Stichproben:** Wenn viele Personen in vertretbarer Zeit erfasst werden müssen
+--{{0}}-- Hier könnte man sich zum Beispiel angucken wie sich die Ausdauerleistung verändert, abhängig von der Anwesenheit von Musik.
 
-* **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
+>* **Normierung:** Wenn Ergebnisse mit bestehenden Referenz- oder Normwerten verglichen werden sollen
+
+--{{0}}-- Es gibt schon Studien die sich mit dem Einfluss von Musik beschäftigen und hier soll es jetzt zum Beispiel auf eine andere Zielgruppe angewandt werden.
+
+>* **Große Stichproben:** Wenn viele Personen in vertretbarer Zeit erfasst werden müssen
+
+--{{0}}--  Die Hypothesen, dass Musik einen postiven Einfluss auf die Ausdauerleistung haben soll, soll anhand einer großen Stichprobe (vielen Menschen) überprüft werden.
+
+>* **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
+
+--{{0}}-- Hier kann zum Beispiel überprüft werden ob Musik einen positiven Einfluss auf die Ausdauerleistung hat oder ob es andere Faktoren sind. 
 
 
 ---
@@ -92,14 +102,14 @@ Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indizi
 * **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
 * **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
 
---{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass Musik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
+>--{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass Musik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
 
 ---
 
 ### Fragestellungen                                                     
 >*Was für Fragen lassen sich mit quantitativer Forschung beantworten?*
 
---{{0}}-- ** Lehrbuch Hinweis: ** Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
+>--{{0}}-- ** Lehrbuch Hinweis: ** Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
 
 Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
 
@@ -113,7 +123,7 @@ Leitende Forschungsfragen betreffen:
 ### Grundsätze                                                          
 >*Welche Grundsätze gibt es in der quantitativen Forschung?*
 
---{{0}}-- ** Lehrbuch Hinweis: ** Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
+>--{{0}}-- **Lehrbuch Hinweis:** Nachdem nun geklärt ist welchen Fragen du dich widmen könntest, kannst du nun anfangen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. 
 
 Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 
@@ -128,34 +138,12 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
 
 
->Überlege dir was das für deine Studie zum Thema "Einfluss von Musik auf Ausdauerleistung" bedeuten kann.
-
-| Kernprinzip | Erklärung | Deine Gedanken |
-| :--- | :-- | :--- |
-| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | <textarea rows="3" style="width:100%;"></textarea> |
-| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | <textarea rows="4" style="width:100%;"></textarea> |
-| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | <textarea rows="4" style="width:100%;"></textarea> |
-| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | <textarea rows="4" style="width:100%;"></textarea> |
-| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | <textarea rows="4" style="width:100%;"></textarea> |
-
-
-<details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
-
-| Kernprinzip | Erklärung | Deine Gedanken |
-| :--- | :--- | :--- |
-| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
-| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke, Herzfrequenz, Borg-Skala gemessen |
-| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
-| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nicht zusätzlich an und erklärt die Aufgabe jeden Mal gleich. |
-| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet, heißt nichts ausschließlich ProfisportlerInnen oder eine bestimmte Altergruppe, außer das ist gewünscht. |
-
-</details>
-
 ---
 
 ### Design                                                              
 >*Welche Designmöglichkeiten habe ich bei der Forschung?*
+
+>--{{0}}-- **Lehrbuch Hinweis:** Neben den Kernprinzipien, solltest du dir nun überlegen welches Design du verwenden möchtest. Hier gibt es verschieden Faktoren über die du entscheiden musst.
 
 Untersuchungen können zu unterschiedlichen Zeitpunkten erhoben werden:
 
@@ -177,12 +165,24 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 
 * Der Faktor wird manipuliert oder Gruppen werden verglichen, aber ohne Randomisierung (z. B. Vergleich zweier bereits bestehender Schulklassen) -> **Quasi-Experiment**
 
+<details>
+<summary><b>👉 Klicke hier für eine interaktive Übersicht</b></summary>
+
+<iframe
+  src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/forschungsdesign-uebersicht.html"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
+
+</details>
+
 ---
 
 ### Forschungsfrage
 >*Wie formuliert man eine Forschungsfrage?*
 
---{{0}}-- ** Lehrbuch Hinweis: ** Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
+>--{{0}}-- **Lehrbuch Hinweis:** Jetzt hast du dir Gedanken zu den Kernprinzipien und dem Design gemacht. Jetzt ist es Zeit deine Forschungsfrage zu formulieren. Dabei kommt jetzt alles zusammen, die Prinzipien und das Design. 
 
 * **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
 
@@ -190,8 +190,10 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 
 * **Reduktion:** Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.
 
-> **Merke:**
-> Eine *Forschungshypothese* (z. B. "Musik erhöht die Ausdauerfähigkeit") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem *globalen Forschungsthema* (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
+>**Merke:**
+>Eine *Forschungshypothese* (z. B. "Musik erhöht die Ausdauerfähigkeit") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem *globalen Forschungsthema* (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
+
+>✅ Formuliere hier eine Forschungsfrage.
 
 | Beispiel Forschungsfrage | Deine Formulierung | 
 | :--- | :-- | 
@@ -211,6 +213,8 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 ### Hypothesen                                                          
 >*Was ist eine Hypothese und wie formuliere ich sie?*
 
+>--{{0}}-- **Lehrbuch Hinweis:** Jetzt hast du eine Forschungsfrage, diese wird jetzt um Hypothesen ergänzt. 
+
 Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
 
 Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
@@ -225,7 +229,7 @@ Hypothesen können entweder gerichtet sein, wie zum Beispiel:
 
 Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.
 
->Formuliere hier eine Null-Hypothese und eine gerichtete Hypothese für die Forschungsfrage: Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die gelaufene Distanz in 12 min von Sportstudierenden?
+> ✅ Formuliere hier eine Null-Hypothese und eine gerichtete Hypothese für die Forschungsfrage: Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die gelaufene Distanz in 12 min von Sportstudierenden?
 
 
 | Beispiel Hypothese | Deine Formulierung | 
@@ -245,197 +249,10 @@ Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht da
 
 ---
 
-### Check-Up Untersuchungsplannung -- Fragen anpassen
+### Check-Up 
 
-Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
-[[X]] Die quantitative Forschung überprüft vorab festgelegte Hypothesen anhand möglichst standardisierter Erhebung.
-[[ ]] Das quantitative Paradigma konzentriert sich primär auf die Rekonstruktion subjektiven Sinns.
-[[ ]] Qualitatives Forschen unterscheidet sich von quantitativem dadurch, dass nur Ersteres empirisch arbeitet.
-[[?]] **Erklärung:** Sowohl qualitative als auch quantitative Forschung sind empirisch, da beide auf der Erhebung realer Daten basieren. Sie unterscheiden sich im Erkenntnisinteresse und Vorgehen, nicht im empirischen Charakter.
-
----
-
-Wähle die passenden Grundsätze quantitativen Denkens aus:
-
-* Die Überführung theoretischer Konstrukte in messbare Variablen nennt man [[ Standardisierung | (Untersuchungsplannung ) | Generalisierung ]].
-* Identische Erhebungsbedingungen für alle Untersuchten entsprechen dem Prinzip der [[ (Standardisierung) | Distanz zum Gegenstand | Hypothesenprüfung ]].
-* Verallgemeinerung über statistische Kennwerte und Stichproben entspricht dem Prinzip der [[ Untersuchungsplannung  | Hypothesenprüfung | (Generalisierung durch Repräsentativität) ]].
-* Beim quantitativen Vorgehen [[ werden Hypothesen erst im Verlauf der Datenanalyse gebildet | (werden aus der Theorie abgeleitete Hypothesen gezielt anhand der Daten geprüft) | greift die forschende Person aktiv in das Feld ein, um Sinn zu rekonstruieren ]]
-
----
-
-Welche Aussage unterscheidet eine quantitative Forschungshypothese von einer Messvariable?
-
-[( )] Die Messvariable wird den Untersuchten direkt als Hypothese vorgelegt.
-[( )] Die Forschungshypothese muss immer offen und explorativ formuliert sein, während Messvariablen standardisiert sind.
-[(X)] Die Forschungshypothese formuliert die zu prüfende Annahme.
-
-
-## Datenerhebung
-
---{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplannung angelangt und gehen nun weiter zur Datenerhebung.   
-
-
-Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
-
-```ascii
-+---------------------------+      +---------------------+      +----------------------------+
-| 1. Untersuchungsplannung  | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
-+---------------------------+      +---------------------+      +----------------------------+
-```
-
-### Standardisierter Teste & Art und Weisen der Datenerhebung           
->*Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?*
-
---{{0}}-- ** Lehrbuch Hinweis: ** Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
-
-**Tabelle einfügen mit Beispiel**
-
-* **Befragungsverfahren:**
-  * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
-  * Standardisierte, strukturierte Interviews mit festem Frageschema
-
-* **Beobachtungsverfahren:**
-  * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
-  * Video-/Sensor-gestützte Bewegungsanalyse
-
-* **Test- und Messverfahren:**
-  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
-  * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
-
-* **Experimentelle Verfahren:**
-  * Feld- und Laborexperimente mit Kontrollgruppendesign
-  * Quasi-Experimente ohne vollständige Randomisierung
-                                                                            (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
-
-
-### Gütekriterien                                                       
->*Was sind Gütekriterien?*
-
---{{0}}-- **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
-
-
-  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
-
-  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
-
-  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
-
-
-### Herausforderung                                                     
->*Welche Herausforderungen habe ich bei der Datenerhebung?*
-
-Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforderungen:
-
-* **Testleiter-Effekte:** Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.
-
-* **Decken- und Bodeneffekte:** Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.
-
-* **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil des zu messenden Konstrukts sind.
-
-
-### Fragebogen                                                          
->*Was ist ein Fragebogen?*
-
-* Standardisierte Fragebögen erfassen 
-  + Einstellungen
-  + Motive 
-  + Erleben 
-  
-  über vorformulierte, geschlossene Items.
-
-Beispiel: 
-
-**Einfügen!!!**
-
-Lehrbuch Hinweis: In unserem Fall könnte man also neben der gelaufenen Distanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
-
----
-
-## Statistische Analyse
-### Variablenarten                                                      
-*Welche Variablenarten gibt es?*
-
----
-
-### Skalenniveaus                                                       
-*Was ist ein Skalenniveau und was bedeutet es?*
-
----
-
-### Deskriptive Statistik                                               
-*Wie ist die bedeutet von Mittelwert, Median, Modus und Range?*
-
-
-<iframe
-  src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/ausreisser-musik-12min.html"
-  width="100%"
-  height="600px"
-  style="border: none;">
-</iframe>
-
----
-
-
-## Untersuchungsplannung 
-
---{{0}}-- ** Lehrbuch Hinweis: ** Um Fragen wie diese zu beantworten gibt es verschiedene Herangehensweisen. In den letzten Einheiten gibt es primäre um das qualitative Paradigma. Wir beschäftigen uns im folgenden auf quantitative Paradigmen. Als Wiederholung ist hier nochmal die Übersicht aufgestellt. 
-
-
-In den empirischen Sozial- und Sportwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
-
-* **Quantitatives Paradigma:** Standardisiert, messend, prüft vorab formulierte Hypothesen.
-* **Qualitatives Paradigma:** Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
-* **Mixed-Methods:** Die systematische Kombination qualitativer und quantitativer Ansätze.
-
---{{0}}-- **Wichtige Abgrenzung:** Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten).
->
-> *Nicht-empirische Paradigmen* (wie reine Theoriearbeit oder begriffsanalytische Zugänge) arbeiten hingegen interpretatorisch oder deduktiv-theoretisch, ohne eigene empirische Daten im Feld zu erheben.
-
----
-
-### Wann setzt man quantitative Methoden ein?
-
-Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
-
-* **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
-* **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
-* **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
-
---{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass mUsik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
-
----
-
-### Was für Fragen lassen sich mit Hilfe von quantitativer Forschung beantworten?
-
---{{0}}-- ** Lehrbuch Hinweis: ** Um sich jetzt der Frage anzunehmen wie Musik die sportliche Leistungsfähigkeit beeinflusst, muss zunächst geklärt werden was genau du hier untersuchen möchtest. Hierbei kannst du dir folgende Fragen stellen:
-
-Der zentrale Forschungsauftrag der quantitativen Forschung ist das **Messen, Erklären und Vorhersagen von Zusammenhängen zwischen Variablen** auf Basis zahlenbasierter Daten (Bortz & Döring, 2016).
-
-Leitende Forschungsfragen betreffen:
-* **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?
-* Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die Laufdistanz mit der BPM Anzahl der Musik) statistisch nachweisen?
-* Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?
-
----
-
-### Welche Grundsätze gibt es in der quantitativen Forschung? 
-
---{{0}}-- ** Lehrbuch Hinweis: ** Nachdem nun geklärt ist welcher Frage du dich widmen möchtest, kannst du beginnnen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. Überlege die hier was das konkret für deine Fragestellung bedeuten kann. Fülle dafür deine Antwort in die Textboxen.
-
-Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
-
-1. **Standardisierung:** Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.
-
-2. **Operationalisierung:** Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt.
-
-3. **Hypothesenprüfung:** Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).
-
-4. **Distanz zum Gegenstand:** Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
-
-5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
-
+>Jetzt bist du dran, überlege dir was das für deine Studie zum Thema "Einfluss von Musik auf Ausdauerleistung" du durchführen könntest. Unten sind nochmal die Kernprinzipien für quantitatives Forschen aufgeführt. Überlege dir zu jeden Punkt, was das genau für deine eigene Studie bedeuten kann. 
 
 | Kernprinzip | Erklärung | Deine Gedanken |
 | :--- | :-- | :--- |
@@ -452,91 +269,16 @@ Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
 | Kernprinzip | Erklärung | Deine Gedanken |
 | :--- | :--- | :--- |
 | **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
-| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke, Herzfrequenz, Borg-Skala gemessen |
+| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke und Herzfrequenz gemessen |
 | **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
 | **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nicht zusätzlich an und erklärt die Aufgabe jeden Mal gleich. |
 | **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet, heißt nichts ausschließlich ProfisportlerInnen oder eine bestimmte Altergruppe, außer das ist gewünscht. |
 
 </details>
 
----
+## Datenerhebung
 
-### Wie formuliert man eine Forschungsfrage?
-
---{{0}}-- ** Lehrbuch Hinweis: ** Jetzt hast du dir Gedanken zu den Kernprinzipien gemacht. Deine Notizen hierzu, sollten die dabei helfen die Forschungsfrage richtig zu formulieren. 
-
-* **Ausgangspunkt:** Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.
-
-* **Präzision:** Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.
-
-* **Reduktion:** Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.
-
-> **Merke:**
-> Eine *Forschungshypothese* (z. B. "Musik erhöht die Ausdauerfähigkeit") ist klar zu unterscheiden von der konkreten *Messvariable* (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem *globalen Forschungsthema* (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
-
-| Beispiel Forschungsfrage | Deine Formulierung | 
-| :--- | :-- | 
-| **Forschungsfrage:** | <textarea rows="2" style="width:100%;"></textarea> |
-
-<details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
-
-| Beispiel Forschungsfrage | Deine Formulierung | 
-| :--- | :-- | 
-| **Forschungsfrage:** | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden? |
-
-</details>
-
----
-
-### Welche zusätzlichen Faktoren spielen bei der Auswahl der Methoden mit rein?
-
-Auch quantitative Methoden sind wissenschaftliche Werkzeuge. Welche Methode gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
-
-* **Primäres Auswahlkriterium:** Gegenstand der Untersuchung, Forschungshypothese und theoretischer Rahmen.
-
-* **Sekundäres Auswahlkriterium:** Verfügbare zeitliche, personelle, apparative und finanzielle Ressourcen.
-
---{{0}}-- ** Lehrbuch Hinweis: ** Für unsere Studie bedeutet das primär die Frage was wollen wir Untersuchen -> **die Ausdauerleistung**, und sekundär welche Ressourcen stehen und dafür zur Verfügung. Zum Beispiel: Ist es möglich die Messung auf dem Laufband zu machen? Die Herzfreuqenz zu messen? Steht pro TeilnehmerIn immer ein ForscherIn zur Verfügung? Findet die Untersuchung draußen oder drinnen statt?
-
-
----
-
-### Check-Up Untersuchungsplannung 
-
-Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
-
-[[X]] Die quantitative Forschung überprüft vorab festgelegte Hypothesen anhand möglichst standardisierter Erhebung.
-[[ ]] Das quantitative Paradigma konzentriert sich primär auf die Rekonstruktion subjektiven Sinns.
-[[ ]] Qualitatives Forschen unterscheidet sich von quantitativem dadurch, dass nur Ersteres empirisch arbeitet.
-[[?]] **Erklärung:** Sowohl qualitative als auch quantitative Forschung sind empirisch, da beide auf der Erhebung realer Daten basieren. Sie unterscheiden sich im Erkenntnisinteresse und Vorgehen, nicht im empirischen Charakter.
-
----
-
-Wähle die passenden Grundsätze quantitativen Denkens aus:
-
-* Die Überführung theoretischer Konstrukte in messbare Variablen nennt man [[ Standardisierung | (Untersuchungsplannung ) | Generalisierung ]].
-* Identische Erhebungsbedingungen für alle Untersuchten entsprechen dem Prinzip der [[ (Standardisierung) | Distanz zum Gegenstand | Hypothesenprüfung ]].
-* Verallgemeinerung über statistische Kennwerte und Stichproben entspricht dem Prinzip der [[ Untersuchungsplannung  | Hypothesenprüfung | (Generalisierung durch Repräsentativität) ]].
-* Beim quantitativen Vorgehen [[ werden Hypothesen erst im Verlauf der Datenanalyse gebildet | (werden aus der Theorie abgeleitete Hypothesen gezielt anhand der Daten geprüft) | greift die forschende Person aktiv in das Feld ein, um Sinn zu rekonstruieren ]]
-
----
-
-Welche Aussage unterscheidet eine quantitative Forschungshypothese von einer Messvariable?
-
-[( )] Die Messvariable wird den Untersuchten direkt als Hypothese vorgelegt.
-[( )] Die Forschungshypothese muss immer offen und explorativ formuliert sein, während Messvariablen standardisiert sind.
-[(X)] Die Forschungshypothese formuliert die zu prüfende Annahme.
-
-
----
-
-
----
-
-### Was passiert nach der Untersuchungsplannung ?
-
---{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplannung angelangt und gehen nun weiter zur Datenerhebung.   
+>--{{0}}-- **Lehrbuch Hinweis:** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplannung angelangt und gehen nun weiter zur Datenerhebung.   
 
 
 Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
@@ -547,75 +289,57 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 +---------------------------+      +---------------------+      +----------------------------+
 ```
 
----
+### Standardisierte Tests & Art und Weisen der Datenerhebung           
+>*Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?*
 
-## Datenerhebung
+>--{{0}}-- ** Lehrbuch Hinweis: ** Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können. Habe hier wieder deine Forschungsfrage und die Hypothese im Hinterkopf und überlege dir welches Verfahren für dich hilfreich sein könnte.  
 
-### Welche Verfahren zur Datenerhebung gibt es?
-
---{{0}}-- ** Lehrbuch Hinweis: ** Wenn nun Daten erhoben werden sollen, gibt es verscheiden Verfahren die hier angewandt werden können.  
 
 * **Befragungsverfahren:**
   * Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen)
-  * Standardisierte, strukturierte Interviews mit festem Frageschema
 
 * **Beobachtungsverfahren:**
   * Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle)
   * Video-/Sensor-gestützte Bewegungsanalyse
 
 * **Test- und Messverfahren:**
-  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Lactate-Test)
-  * Psychometrische Testverfahren (standardisierte Skalen zu Motivation, Angst etc.)
+  * Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Laktat-Test)
+  * Psychometrische Testverfahren (standardisierte Skalen zu Anstregung etc.)
 
 * **Experimentelle Verfahren:**
   * Feld- und Laborexperimente mit Kontrollgruppendesign
   * Quasi-Experimente ohne vollständige Randomisierung
                                                                             (nach Bortz & Döring, 2016; Wagner & Fischer, 2019)
 
----
+<details>
+<summary><b>👉 Klicke hier, um zu sehen wie das für deine Studie aussehen könnte.</b></summary>
 
-### Was bedeutet ein standardisierter Test? 
+| Instrument | Erklärung | Beispiel |
+| :--- | :--- | :--- |
+| **Befragungsverfahren:** | Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Likert-Skalen) | "Ich war während des Laufs die Anstregung kaum gespürt." Trifft nicht zu/trifft eher nicht zu/trifft eher zu/trifft zu |
+| **Beobachtungsverfahren:** | Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle); Video-/Sensor-gestützte Bewegungsanalyse | Beobachtung während eines 5km Wettkampfs und Vergleich zwischen den Athleten mit Musik und denen ohne. |
+| **Test- und Messverfahren:** | Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Laktat-Test) | Leistungstest wie der Coopertest, einmal mit einmal ohne Musik |
+| **Experimentelle Verfahren:**| Feld- und Laborexperimente mit Kontrollgruppendesign; Quasi-Experimente ohne vollständige Randomisierung | Querschnitt-Design, bei welchem eine Klasse mit Musik läuft und eine Klasse ohne Musik. |
 
---{{0}}-- **Überblick:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
-
-* **A. Gütekriterien**
-
-  * **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
-
-  * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
-
-  * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
-
----
-
-### Wann ist der Einsatz standardisierter Tests sinnvoll?
-
-Test- und Messverfahren kommen insbesondere dann zum Einsatz, wenn Vergleichbarkeit und Generalisierbarkeit im Zentrum stehen:
-
-* **Objektiver Leistungsvergleich:** Wenn subjektive Selbsteinschätzungen (z. B. in Interviews) zu verzerrt oder ungenau wären
-
-* **Veränderungsmessung:** Wenn Effekte einer Intervention über die Zeit (Prä-Post-Design) quantifiziert werden sollen
-
-* **Normierung:** Wenn Ergebnisse mit bestehenden Referenz- oder Normwerten verglichen werden sollen
-
-* **Große Stichproben:** Wenn viele Personen in vertretbarer Zeit erfasst werden müssen
-
-* **Kausale Aussagen:** Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird
+</details>
 
 
+### Gütekriterien                                                       
+>*Was sind Gütekriterien?*
 
-Standardisierte Tests können zu unterschiedlichen Zeitpunkten erhoben werden:
+>--{{0}}-- **Lehrbuch Hinweis:** Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten – Voraussetzung dafür ist die Einhaltung der Gütekriterien. 
 
-* Einmalige Messung zu einem Zeitpunkt bei mehreren Personen -> **Querschnittstudie**
+* **Objektivität:** Unabhängigkeit der Ergebnisse von der durchführenden Person (Durchführungs-, Auswertungs-, Interpretationsobjektivität)
 
-* Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
+ * **Reliabilität:** Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen
+
+ * **Validität:** Gültigkeit – misst das Verfahren tatsächlich das intendierte Konstrukt?
 
 
----
+### Herausforderung                                                     
+>*Welche Herausforderungen habe ich bei der Datenerhebung?*
 
-### Welche Herausforderungen gibt es bei der Datenerhebung? 
-
-Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforderungen:
+Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen:
 
 * **Testleiter-Effekte:** Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.
 
@@ -623,156 +347,70 @@ Standardisierte Testungen stehen stets vor spezifischen methodischen Herausforde
 
 * **Störvariablen:** Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil des zu messenden Konstrukts sind.
 
----
 
-### Praxiseinheit: Einfluss von Musik auf die Ausdauerleistung - Der Praxistest
+### Befragungsverfahren mit Fragebogen                                                          
+>*Was ist ein Fragebogen?*
 
-In dieser Übung protokollierst du die Durchführung eines **standardisierten Lauftests**.
-Du möchtest die folgende **Forschungsfrage** mit deiner Testreihe beantworten:
-> *„Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleitung von Sportstudierenden?“*
+>--{{0}}-- **Lehrbuch Hinweis:** Wie angesprochen gibt es die Möglichkeit Daten mit einem Fragebogen zu erheben, dieser kann entweder online oder als Papierversion erhoben werden. Wichtig ist, dass er standardisiert ist um so einen systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten zu gewährleisten.
 
+* Standardisierte Fragebögen erfassen z.B.
 
-
-<div style="flex: 1; position: sticky; top: 10px;">
-
-
-> **Tipp:** Spiele das Video ab und pausiere es, während du rechts deine Eintragungen vornimmst.
-
-
-#### Testprotokoll
-
-| Durchgang & Fokus | Orientierungsfragen & Perspektive | Deine Beobachtungen |
-| :--- | :--- | :--- |
-| **Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? Wo gibt es Abweichungen? | <textarea rows="3" style="width:100%;"></textarea> |
-| **Objektivität** | Beeinflusst die testende Person das Ergebnis (z. B. durch Anfeuern, Tonfall, Körperhaltung)? | <textarea rows="4" style="width:100%;"></textarea> |
-| **Störvariablen** | Welche nicht kontrollierten Einflüsse (Untergrund, Schuhwerk, Tagesform) könnten das Ergebnis verzerren? | <textarea rows="4" style="width:100%;"></textarea> |
-| **Auswertung** | Wie wird der Messwert erfasst und dokumentiert (z. B. Maßband, Sensor, Video-Tracking)? | <textarea rows="4" style="width:100%;"></textarea> |
-
-
-</div>
-
-<details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
-
-| Durchgang & Fokus | Orientierungsfragen & Perspektive | Musterlösung / Erwartete Beobachtung |
-| :--- | :--- | :--- |
-| **Standardisierung** | Werden Aufwärmen, Instruktion und Testablauf bei allen Personen identisch durchgeführt? |  |
-| **Objektivität** | Beeinflusst die testende Person das Ergebnis? |  |
-| **Störvariablen** | Welche nicht kontrollierten Einflüsse könnten das Ergebnis verzerren? | |
-| **Auswertung** | Wie wird der Messwert erfasst und dokumentiert? |  |
-
-</details>
-
---------------------------------------------------
-
-### Was ist bei einer Datenerhebung mit Fragebogen zu beachten?
-
->**Überblick:** Standardisierte Fragebögen erfassen Einstellungen, Motive oder Erleben über vorformulierte, geschlossene Items – ihre Qualität hängt entscheidend von einer sorgfältigen Item-Konstruktion ab. In unserem Fall könnte man also neben der gelaufenen Disntanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
+  + Einstellungen
+  + Motive 
+  + Erleben 
   
+  über vorformulierte, geschlossene Items.
 
-  
-Ordnung der Erhebungsmethoden und Einsatzszenarien:
+**Beispiel:** 
 
-* Standardisierte Fragebögen mit Likert-Skalen gehören zu den [[ Beobachtungsverfahren | Experimentellen Verfahren | (Befragungsverfahren) ]].
-* Wenn ein kausaler Effekt eines Trainingsprogramms nachgewiesen werden soll, nutzt man [[ Exploration eines neuen Feldes | (Experimentelle Verfahren mit Kontrollgruppe) | Rekonstruktion subjektiven Sinns ]].
+Bitte gib an, wie sehr die Aussage auf dich zutrifft (1 = trifft gar nicht zu, 7 = trifft völlig zu).
 
-### Fragebogen-Konstruktionssimulator
+| Nr. | Dimension | Aussage | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --------- | ------- | - | - | - | - | - | - | - |
+| 1 | Interesse/Freude | Der 12-Minuten-Lauf hat mir Spaß gemacht. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 2 | Interesse/Freude | Das Laufen mit Musik fand ich angenehm. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 3 | Kompetenz | Ich bin mit meiner Laufleistung zufrieden. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 4 | Kompetenz | Ich hatte das Gefühl, den Lauf gut bewältigen zu können. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 5 | Anstrengung | Ich habe mich beim Lauf angestrengt. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 6 | Anstrengung | Es war mir wichtig, eine möglichst große Strecke zu laufen. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 7 | Druck/Anspannung | Ich war während des Laufs angespannt. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| 8 | Druck/Anspannung | Ich habe mich beim Laufen unter Druck gefühlt. | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
 
-Mit diesem interaktiven Simulator konstruierst du schrittweise ein **standardisiertes Item** für einen Fragebogen zur Motivation während eines Ausdauertests. Du möchtest folgende Forschungsfrage mit deinem Fragebogen beantworten:
-> *„Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Motivation von Sportstudierenden?“*
+*Orientiert an den Dimensionen des Intrinsic Motivation Inventory (Ryan, 1982; McAuley et al., 1989). Die Items sind selbst formuliert und nicht validiert.*
 
-Du wirst nun wiederholt vor die Wahl gestellt, welche Formulierung oder Vorgehensweise für ein standardisiertes Item am geeignetsten ist. Habe hier die bennanten Gütekriterien im Kopf.
-
-<section>
-
-### Welche Item-Formulierung ist für ein standardisiertes Motivations-Item am geeignetsten?
-
-- [( )] "Findest du dein Training eigentlich motivierend, oder eher nicht?"
-- [( )] "Bist du bereit, ein paar wissenschaftliche Fragen zu deiner Motivation zu beantworten?"
-- [(x)] "Ich laufe, weil es mir Spaß macht." (Skala: trifft gar nicht zu – trifft voll zu)
-
-[[?]] ✅ Merke: Ein gutes standardisiertes Item ist eine **eindeutige, unipolare Aussage** mit einheitlichem Antwortformat (hier: Rating-Skala), nicht eine offene oder doppeldeutige Frage.
-
-</section>
-
-<section>
-
-### Du willst nun das Konstrukt "Motivation" operationalisieren. Welches Item ist dafür am geeignetsten?
-
-- [(x)] "Ich habe das Gefühl, die Laufaufgabe gut zu beherrschen." (Skala: trifft gar nicht zu – trifft voll zu)
-- [( )] "Fühlst du dich manchmal gelangweilt oder überwältigt, oder eher so ein Mittelding?"
-- [( )] "Inwiefern erlebst du dich im Trainingskontext als motiviert?"
-
-[[?]] ✅ Merke: Items sollten in der Sprache der Zielgruppe formuliert sein und nur **eine** Dimension gleichzeitig erfassen – Doppelbarrel-Fragen (zwei Aspekte in einer Frage) und Fachsprache sind zu vermeiden.
-
-</section>
-
-<section>
-
-### Beim Pretest fällt auf, dass fast alle TeilnehmerInnen bei einem Item "trifft voll zu" ankreuzen. Wie gehst du damit um?
-
-- [( )] Du lässt das Item unverändert, da ein eindeutiges Ergebnis vorliegt.
-- [(x)] Du prüfst das Item auf einen möglichen Deckeneffekt und schärfst die Formulierung, um besser zu differenzieren.
-- [( )] Du ergänzt spontan eine offene Nachfrage, um mehr Kontext zu erhalten.
-
-[[?]] ✅ Merke: Ein **Deckeneffekt** (kaum Varianz, da fast alle den Extremwert wählen) mindert die Trennschärfe eines Items und sollte vor dem Haupteinsatz durch einen Pretest erkannt und korrigiert werden.
-
-</section>
-
-<section>
-
-### Welche Antwortskala ist für das Item "Ich trainiere, weil es mir Spaß macht." am besten geeignet?
-
-- [( )] Ja / Nein
-- [(x)] 5-stufige Likert-Skala von "trifft gar nicht zu" bis "trifft voll zu"
-- [( )] Ein offenes Textfeld zur freien Beschreibung
-
-[[?]] ✅ Merke: Für die statistische Auswertung (z. B. Mittelwertvergleiche, Korrelationen) sind **abgestufte, geschlossene Antwortformate** wie Likert-Skalen notwendig – offene Textfelder erfordern eine qualitative statt quantitative Auswertung.
-
-</section>
-
-
-<section>
-
-### Der Fragebogen soll auch bei einer anderen Laufgruppe eingesetzt werden. Was ist dafür entscheidend?
-
-- [(x)] Eine identische, standardisierte Durchführung (gleiche Instruktion, gleiche Bedingungen) für beide Gruppen.
-- [( )] Eine individuelle Anpassung der Formulierungen an jede Klasse.
-- [( )] Ein Verzicht auf schriftliche Instruktionen, um Zeit zu sparen.
-
-[[?]] ✅ Merke: Nur eine **standardisierte Durchführung** stellt sicher, dass Unterschiede zwischen den Gruppen tatsächlich das Konstrukt und nicht die Erhebungsbedingungen widerspiegeln.
-
-</section>
+>--{{0}}-- **Lehrbuch Hinweis:** In unserem Fall könnte man also neben der gelaufenen Distanz auch noch Faktoren wie Motivation oder Anstregungsempfinden messen. Auch ein Fragebogen muss die Gütekritrien erfüllen. Im folgenden kannst du versuchen dir deinen eigenen Fragebogen zu bauen. 
 
 ---
 
-### Zusammenfassung I
+### Test- und Messverfahren
 
-- Quantitatives Forschen prüft aus der Theorie abgeleitete Hypothesen anhand standardisierter, operationalisierter Messungen
+>--{{0}}-- ** Lehrbuch Hinweis: Neben der Möglichkeit einen Fragebogen zu erheben, gibt es die Möglichkeit einen praktischen Test als Datenerhebung durchzuführen. 
 
-- Der Forschungsprozess verläuft von der Operationalisierung über die Datenerhebung bis zur statistischen Analyse
+Test- und Messverfahren können folgende Tests sein: 
 
-- Objektivität, Reliabilität und Validität sind zentrale Gütekriterien für Tests und Fragebögen
-
-- Standardisierte Tests und Fragebögen sind die zentralen quantitativen Erhebungsmethoden in der Sportwissenschaft
+* **Motorische und physiologische Leistungstests** (z. B. Sprungkrafttest, Laktat-Test) -> Diese Tests sind auch standardisiert und messen, das was sie sollen. Ausdauerleistung kann zum Beispiel durch eine Leistungsdiagnostik mit Laktattest gemessen werden oder durch einen Lauftest.
 
 
-### Was passiert nach der Datenerhebung?
+* **Psychometrische Testverfahren** (standardisierte Skalen zu Anstregung etc.) -> Hier kann zum Beispiel eine Borg Skala genutzt werden die Anstregung misst. 
 
---{{0}}-- >** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt und gehen nun weiter zur Statistischen Analyse.   
-
-
-```ascii
-+------------------------+      +---------------------+      +----------------------------+
-| 1. Operationalisierung | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse    |
-+------------------------+      +---------------------+      +----------------------------+
-```
 
 ---
 
 ## Statistische Analyse
 
-### Welche Grundbegriffe gibt es in der statistischen Analyse?
+>--{{0}}-- ** Lehrbuch Hinweis: ** Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt, wir stellen uns vor, dass wir Daten erhoben haben und gehen nun weiter zur statistischen Analyse.   
+
+
+Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
+
+```ascii
++---------------------------+      +---------------------+      +---------------------------+
+| 1. Untersuchungsplannung  | ---> | 2. Datenerhebung    | ---> | 3. Statistische Analyse   |
++---------------------------+      +---------------------+      +---------------------------+
+```
+
+### Variablenarten                                                      
+*Welche Variablenarten gibt es?*
 
 In quantitativen Studien – insbesondere in Experimenten – wird zwischen verschiedenen Variablentypen unterschieden:
 
@@ -787,266 +425,230 @@ In quantitativen Studien – insbesondere in Experimenten – wird zwischen vers
 > **Merke:**
 > Die Faustregel lautet: *Die UV geht rein, die AV kommt raus.* Man **manipuliert** die UV, um zu sehen, wie sich die AV **verändert**.
 
---{{0}}-- ** Lehrbuch Hinweis: ** In unserem Fall handelt es sich bei der An - bzw. Abwesenheit von Musik um die **unanhängige Variable** und die gelaufene Distanz um die **abhängige Variable**. 
+--{{0}}-- **Lehrbuch Hinweis:** In unserem Fall handelt es sich bei der An - bzw. Abwesenheit von Musik um die **unanhängige Variable** und die gelaufene Distanz um die **abhängige Variable**. 
 
 
----
+| Variablenart | Bedeutung | Beispiel |
+| ------------ | --------- | -------- |
+| **Unabhängige Variable (UV)** | wird variiert bzw. als Einflussfaktor betrachtet | Musik (mit / ohne) |
+| **Abhängige Variable (AV)** | wird gemessen, soll vom Einfluss abhängen | gelaufene Strecke in m |
+| **Störvariable** | beeinflusst die AV zusätzlich und kann das Ergebnis verzerren | Tagesform, Temperatur, Vorerfahrung |
+| **Kontrollvariable** | wird bewusst konstant gehalten, um Einfluss auf die AV auszuschließen | Ernährung, Trainingsumfang außerhalb der Studie |
 
-### Beispiel aus der Sportwissenschaft
+<details>
+<summary><b>👉 Check-Up</b></summary>
 
-| Studie | Unabhängige Variable (UV) | Abhängige Variable (AV) |
-| :--- | :--- | :--- |
-| Wirkung von Sprungkrafttraining | Trainingsart (Sprungkrafttraining vs. kein Training) | Sprunghöhe (cm) |
-| Wirkung von Koffein auf Ausdauerleistung | Koffeindosis (0 mg vs. 3 mg/kg Körpergewicht) | Zeit bis zur Erschöpfung (min) |
-| Einfluss von Musik auf Trainingsmotivation | Musik während des Trainings (mit vs. ohne) | Selbstberichtete Motivation (Skalenwert) |
+In unserem Beispiel soll geprüft werden, ob Musik die gelaufene Strecke verändert. Welche Variable ist die **abhängige Variable**?
 
----
+- [( )] Musik (mit / ohne)
+- [(X)] gelaufene Strecke in Metern
+- [( )] Alter der Proband:innen
+- [( )] Lieblings-Musikgenre
 
-### Was muss noch bei den Varaiblen beachtet werden? - Skalenniveaus der Variablen
+[[?]] Die abhängige Variable ist die, die gemessen wird und sich "in Abhängigkeit" vom Einfluss verändern soll.
 
-Damit eine Variable statistisch sinnvoll ausgewertet werden kann, muss ihr **Skalenniveau** bekannt sein:
-
-1. **Nominalskala:** Reine Kategorien ohne Rangordnung (z. B. Sportart: Fußball, Handball, Volleyball)
-
-2. **Ordinalskala:** Kategorien mit Rangordnung, aber ohne gleiche Abstände (z. B. Platzierung: 1., 2., 3. Platz)
-
-3. **Intervallskala:** Gleiche Abstände zwischen den Werten, aber kein echter Nullpunkt (z. B. Testosteronwert in relativen Einheiten)
-
-4. **Verhältnisskala:** Gleiche Abstände **und** echter Nullpunkt (z. B. Sprunghöhe in cm, Zeit in Sekunden)
-
---{{0}}-- Das Skalenniveau der AV bestimmt maßgeblich, welche statistischen Kennwerte und Tests später zulässig sind.
-
-### Check-Up: Variablen
-
-Ordne die Rollen im folgenden Studiendesign richtig zu: *„Einfluss der Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden?"*
-
-* Die Nutzung von Musik ist die [[ (unabhängige Variable) | abhängige Variable | Störvariable ]].
-* Die Ausdauerleistung ist die [[ unabhängige Variable | (abhängige Variable) | Kontrollvariable ]].
-* Der immer gleiche Ort für die Erhebung ist eine [[ Störvariable | abhängige Variable | (Kontrollvariable) ]].
-* Ein unbemerkter Trainingsplan während der Studie wäre eine [[ (Störvariable) | Kontrollvariable | unabhängige Variable ]].
+</details>
 
 ---
 
-Welchem Skalenniveau entspricht die Variable "Gelaufene Meter in 12 min"?
+### Skalenniveaus                                                       
+*Was ist ein Skalenniveau und was bedeutet es?*
 
-[( )] Nominalskala
-[( )] Ordinalskala
-[( )] Intervallskala
-[(X)] Verhältnisskala
+
+Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.
+
+| Skalenniveau | Eigenschaft | Beispiel aus dem Lauf-Experiment | sinnvolle Kennwerte |
+| ------------ | ----------- | -------------------------------- | ------------------- |
+| **Nominal** | Kategorien ohne Rangordnung | Bedingung (mit/ohne Musik), Lieblingsgenre | Häufigkeiten, Modus |
+| **Ordinal** | Rangordnung, aber unbekannte Abstände | Platzierung im Lauf, Zustimmung auf einer Skala von 1 bis 7 | Median, Quartile, Modus |
+| **Intervall** | gleiche Abstände, **kein** natürlicher Nullpunkt | Lufttemperatur in °C | Mittelwert, Standardabweichung |
+| **Verhältnis** | gleiche Abstände **und** natürlicher Nullpunkt | gelaufene Strecke in m, Herzfrequenz, Alter | Mittelwert, Standardabweichung, Verhältnisse |
+
+<details>
+<summary><b>👉 Vertiefung</b></summary>
+
+**Nominalskala**
+
+Die Werte sind **Namen oder Kategorien**. Man kann sie nur unterscheiden und zählen.
+
+- Beispiel: Die Variable *Bedingung* hat die Ausprägungen "mit Musik" und "ohne Musik".
+- Ein Zahlencode (1 = ohne, 2 = mit) ändert nichts daran: Die Zahlen sind nur Etiketten.
+
+**Ordinalskala**
+
+Die Werte lassen sich **ordnen**, aber die Abstände zwischen ihnen sind nicht gleich groß.
+
+- Beispiel: Platz 1, 2 und 3 im Lauf. Der Abstand von Platz 1 zu 2 kann 5 m betragen, der von Platz 2 zu 3 aber 80 m.
+- Auch Antworten auf Ratingskalen (1 = trifft gar nicht zu, 7 = trifft völlig zu) sind streng genommen ordinal. In der Praxis werden sie bei vielen Items oft wie intervallskalierte Daten behandelt. Das solltest du aber begründen.
+
+**Intervallskala**
+
+Die Abstände zwischen den Werten sind **gleich groß**, der Nullpunkt ist aber willkürlich festgelegt.
+
+- Beispiel: 20 °C zu 10 °C ist ein Unterschied von 10 Grad, genauso wie 30 °C zu 20 °C.
+- Aber: 20 °C ist **nicht** "doppelt so warm" wie 10 °C, denn 0 °C bedeutet nicht "keine Temperatur".
+
+**Verhältnisskala**
+
+Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
+
+- Beispiel: 3000 m ist doppelt so weit wie 1500 m. 0 m bedeutet "keine Strecke gelaufen".
+
+
+</details>
+
+### Check-Up: Skalenniveaus
+
+**Frage 1:** Auf welchem Skalenniveau liegt die Variable *Lieblings-Musikgenre* (Pop, Rock, Hip-Hop, ...)?
+
+- [(X)] nominal
+- [( )] ordinal
+- [( )] intervallskaliert
+- [( )] verhältnisskaliert
+
+***
+
+<details>
+<summary><b>💡 Hilfe</b></summary> Die Genres haben keine natürliche Reihenfolge. Es handelt sich um reine Kategorien.
+</details>
+
+***
+
+**Frage 2:** Auf welchem Skalenniveau liegt die *gelaufene Strecke in Metern*?
+
+- [( )] nominal
+- [( )] ordinal
+- [( )] intervallskaliert
+- [(X)] verhältnisskaliert
+
+***
+
+<details>
+<summary><b>💡 Hilfe</b></summary> Es gibt einen echten Nullpunkt (0 m), und gleiche Abstände bedeuten gleiche Streckenunterschiede.
+</details>
+
+***
+
+**Frage 3:** Welche Aussagen sind korrekt? (Mehrfachauswahl)
+
+- [[X]] Die Platzierung im Lauf ist ordinalskaliert.
+- [[ ]] Die Lufttemperatur in °C ist verhältnisskaliert.
+- [[X]] Die Lufttemperatur in °C ist intervallskaliert.
+- [[ ]] Der Mittelwert ist für nominale Daten sinnvoll.
+
+[[?]] Überlege bei der Temperatur, ob 0 °C "keine Temperatur" bedeutet.
+
+
+### Relevanz des Skalenniveaus
+>*Warum ist das wichtig?*
+
+Das Skalenniveau entscheidet, welche **Kennwerte** und **Tests** du verwenden darfst. Für den Mittelwert gilt zum Beispiel, die Summe aller Werte durch ihre Anzahl.
+
+Diese Berechnung setzt allerdings metrische Daten voraus. Für nominale Merkmale wie das Musikgenre ist sie sinnlos, hier zählst du stattdessen Häufigkeiten.
 
 ---
 
-Welche Aussage zur unabhängigen Variable (UV) trifft zu?
+### Deskriptive Statistik
+>*Wie fasse ich Daten in wenigen Kennwerten zusammen?*
 
-[[X]] Die UV wird von der forschenden Person gezielt manipuliert.
-[[ ]] Die UV wird ausschließlich am Ende der Studie gemessen.
-[[ ]] Die UV muss immer nominalskaliert sein.
-[[?]] **Erklärung:** Die UV ist die Einflussgröße, die aktiv verändert wird (z. B. zwei Trainingsbedingungen); ihr Effekt zeigt sich in der AV. Das Skalenniveau der UV hängt vom Studiendesign ab und ist nicht auf Nominalskalen beschränkt.
+Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennwerten zusammen. 
 
----
+>Wir nutzen hier das Beispiel: die in 12 Minuten **gelaufene Strecke (m)** von 10 Personen, die mit Musik gelaufen sind.
 
-### Wozu dient deskriptive Statistik?
+`2250, 2380, 2520, 2410, 2600, 2330, 2470, 2290, 2550, 2430`
 
-Bevor Hypothesen inferenzstatistisch geprüft werden, werden erhobene Daten zunächst **beschrieben und zusammengefasst**. Die deskriptive Statistik liefert dafür zwei zentrale Kennwertfamilien:
+Sortiert: `2250, 2290, 2330, 2380, 2410, 2430, 2470, 2520, 2550, 2600`
 
-**Lagemaße:** Wo liegt die "Mitte" der Daten?
+**Wo liegt die Mitte?**
 
-1. **Modus:** Der am häufigsten vorkommende Wert – einsetzbar bei jedem Skalenniveau.
-2. **Median:** Der mittlere Wert einer der Größe nach sortierten Reihe – robust gegenüber Ausreißern.
-3. **Arithmetisches Mittel (Mittelwert):** Die Summe aller Werte geteilt durch ihre Anzahl – nur sinnvoll ab Intervallskalenniveau.
-
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
-
-> **Merke:**
-> Bei stark schiefen Verteilungen oder Ausreißern (z. B. ein extrem langsamer Lauf in einer sonst schnellen Gruppe) ist der **Median** oft aussagekräftiger als der Mittelwert.
-
-**Streuungsmaße:** Wie stark streuen die Werte um diese Mitte?
-
-1. **Spannweite (Range):** Differenz zwischen größtem und kleinstem Wert.
-
-2. **Varianz:** Mittlere quadrierte Abweichung der Werte vom Mittelwert.
-
-3. **Standardabweichung:** Die Wurzel der Varianz – gibt die durchschnittliche Abweichung vom Mittelwert in der Originaleinheit an (z. B. cm).
-
-$$s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
-
---{{0}}-- Zwei Gruppen können denselben Mittelwert haben und sich trotzdem stark in ihrer Streuung unterscheiden – deshalb gehören Lage- und Streuungsmaße immer zusammen berichtet.
-
----
+| Kennwert | Bedeutung | Skalenniveau | Ergebnis im Beispiel |
+| -------- | --------- | ------------ | -------------------- |
+| **Mittelwert** $\bar{x}$ | Summe aller Werte geteilt durch die Anzahl | metrisch | 2423 m |
+| **Median** | mittlerer Wert der sortierten Reihe | mindestens ordinal | 2420 m |
+| **Modus** | häufigster Wert | ab nominal | keiner (alle Werte kommen nur einmal vor) |
 
 
-### Interaktive Berechnung mit Live-Code
+**Wie unterschiedlich sind die Werte?**
+
+| Kennwert | Bedeutung | Ergebnis im Beispiel |
+| -------- | --------- | -------------------- |
+| **Spannweite** | Maximum minus Minimum | $2600 - 2250 = 350$ m |
+| **Varianz** $s^2$ | mittlere quadrierte Abweichung vom Mittelwert | ca. 13046 m² |
+| **Standardabweichung** $s$ | Wurzel der Varianz, in der Einheit der Daten | ca. 114 m |
 
 
-Hier kannst du Live-Berechnungen machen. Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen ohne Musik. Unter Ausdauerleistung findest du einen "Datensatz" von gelaufenen Metern in m. Wenn du in das Feld klickst siehst du in der rechten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
-
-``` python @PyScript.repl
-import statistics
-
-distanzohnemusik = [1800, 1300, 2000, 1500, 1500, 2000, 1400, 1600]
-
-print("Modus:", statistics.mode(distanzohnemusik))
-print("Median:", statistics.median(distanzohnemusik))
-print("Mittelwert:", round(statistics.mean(distanzohnemusik), 2))
-print("Spannweite:", max(distanzohnemusik) - min(distanzohnemusik))
-print("Standardabweichung:", round(statistics.stdev(distanzohnemusik), 2))
-```
-
-Verändert die Werte in der Liste `distanzohnemusik` (z. B. fügt einen Ausreißer wie `5000` hinzu) und führt den Code erneut aus (Run-Button unter dem Codefenster). Beobachtet, wie stark sich Mittelwert und Median dadurch jeweils verändern.
+> 💡 Bei metrischen, annähernd symmetrisch verteilten Daten berichtest du **Mittelwert und Standardabweichung**. Bei ordinalen Daten oder Ausreißern nutzt du **Median und Quartile bzw. IQR**.
 
 
-Hier kannst du Live-Berechnungen machen. Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen ohne Musik. Unter Ausdauerleistung findest du einen "Datensatz" von gelaufenen Metern in m. Wenn du in das Feld klickst siehst du in der rechten Ecke einen grünen Ausführungspfeil. Klickst du diesen Pfeil werden deine deskriptiven Daten berechnet. 
+Die Proband:innen liefen im Mittel 2423 m (*SD* = 114 m) in 12 Minuten.
 
-``` python @PyScript.repl
-import statistics
+Wie stark ein einzelner **Ausreißer** diese Kennwerte verändern kann, probierst du im interaktiven Beispiel zu Ausreißern aus.
 
-distanzmitmusik = [2800, 2300, 2000, 1900, 2500, 2500, 2400, 2600]
+<details>
+<summary><b>👉 Anschauliche Darstellung von Außreißern</b></summary>
 
-print("Modus:", statistics.mode(distanzmitmusik))
-print("Median:", statistics.median(distanzmitmusik))
-print("Mittelwert:", round(statistics.mean(distanzmitmusik), 2))
-print("Spannweite:", max(distanzmitmusik) - min(distanzmitmusik))
-print("Standardabweichung:", round(statistics.stdev(distanzmitmusik), 2))
-```
+<iframe
+  src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/ausreisser-musik-12min.html"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
 
-Betrachte die Mittelwerte von den beiden Variablen. Diese sind der Ausgangspunkt für alle weitere Berechnungen. 
+</details>
 
-
----
 
 ### Check-Up: Deskriptive Statistik
 
-Welches Lagemaß ist am robustesten gegenüber Ausreißern?
+**Frage 1:** Welcher Kennwert ist bei einem Ausreißer am **robustesten**?
 
-[( )] Arithmetisches Mittel
-[(X)] Median
-[( )] Spannweite
+- [( )] Mittelwert
+- [(X)] Median
+- [( )] Spannweite
+- [( )] Standardabweichung
 
----
-
-Ordne die Kennwerte den passenden Kategorien zu:
-
-* Die Standardabweichung gehört zu den [[ Lagemaßen | (Streuungsmaßen) ]].
-* Der Modus gehört zu den [[ (Lagemaßen) | Streuungsmaßen ]].
-* Die Spannweite gehört zu den [[ Lagemaßen | (Streuungsmaßen) ]].
-* Der Mittelwert gehört zu den [[ (Lagemaßen) | Streuungsmaßen ]].
-
----
-
-Zwei Trainingsgruppen haben denselben Mittelwert in den gelaufenen Metern in 12 min. Was lässt sich daraus **allein** ableiten?
-
-[[ ]] Beide Gruppen sind in jeder einzelnen Distanz identisch.
-[[X]] Über die Streuung innerhalb der Gruppen ist noch nichts ausgesagt.
-[[ ]] Die Gruppen unterscheiden sich sicher nicht in ihrer Standardabweichung.
-[[?]] **Erklärung:** Ein gleicher Mittelwert sagt nichts über die Streuung aus – eine Gruppe kann sehr homogen, die andere sehr heterogen sein. Erst Lage- **und** Streuungsmaße zusammen ergeben ein vollständiges Bild.
-
----
-
-### Zusammenfassung II
-
-- Die **unabhängige Variable (UV)** wird gezielt manipuliert, die **abhängige Variable (AV)** wird als Reaktion darauf gemessen
-- Kontroll- und Störvariablen müssen mitgedacht werden, um Ergebnisse korrekt zu interpretieren
-- Das **Skalenniveau** einer Variable bestimmt, welche statistischen Kennwerte zulässig sind
-- **Lagemaße** (Modus, Median, Mittelwert) beschreiben die Mitte, **Streuungsmaße** (Spannweite, Varianz, Standardabweichung) die Variabilität eines Datensatzes
-- Lage- und Streuungsmaße sollten stets gemeinsam berichtet werden
-
-## Quellen & weiterführende Literatur
-
-- Bortz, J. & Döring, N. (2016). *Forschungsmethoden und Evaluation*. Springer.
-- Eid, M., Gollwitzer, M. & Schmitt, M. (2017). *Statistik und Forschungsmethoden*. Beltz.
-- Witte, K. (2019) *Angewandte Statistik in der Beweguungswissenschaft* Springer.
-- Moosbrugger, H. & Kelava, A. (2020). *Testtheorie und Fragebogenkonstruktion*. Springer.
-
-
----
-
-#### Vertiefung Hypothesen
-
-Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist. 
-
-Hierbei gibt es verscheidene Merkmale die wichtig sind. Eine Hypothese ist:
-- Vorläufig --> Bedeutet sie ist noch nicht bewiesen. 
-- Überprüfbar --> Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen. 
-- Bezug --> Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen. 
-
-Hypothesen können entweder gerichtet sein, wie zum Beispiel: 
-
-- Wenn X passiert, dann folgt Y.
-- Je mehr X, desto mehr Y.
-
-Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig (\(H_{0}\)), bis seine Schuld bewiesen ist.
-
-**Zur Entscheidung über Hypothesen**
-
-Bei einer Entscheidung für oder gegen eine der Hypothesen können zwei Arten von Fehlern auftreten:
-
-- α-Fehler: H0 wird fälschlicherweise verworfen. 
-- β-Fehler: H0 wird fälschlicherweise beibehalten.
-
-Ein α-Fehler liegt etwa vor, wenn eine Trainingsinnovation zur Stärkung des Herzens als hoch wirksam  angenommen wird, obwohl sie es nicht ist. Ein α-Fehler würde also fälschlicherweise zur Ablehnung von H0 und der falschen Unterstützung von H1 führen. 
-
-Ein β-Fehler verhält sich andersrum. Er liegt etwa vor, wenn eine Trainingsinnovation zwar wirksam ist, jedoch H0 beibehalten wird. Ein β-Fehler würde also fälschlicherweise zur Beibehaltung von H0 und der falschen Ablehnung von H1 führen.  
-
----
-
-#### Anwendung Hypothesen
-
-**Ausgangslage**
-
-Karl hat eine Münze. Er vermutet, dass diese *nicht fair* ist, d. h. er nimmt an: Beim Werfen der Münze ist die Wahrscheinlichkeit, dass das Ergebnis *Zahl* ist, nicht ebenso groß wie die Wahrscheinlichkeit, dass das Ergebnis *Kopf* ist. Seine Annahmen lassen sich wie folgt in Hypothesen überführen:
-
-**Operationalisierte Hypothesen** 
-
-- H0: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist 50 %. 
-- H1: Die Wahrscheinlichkeit, dass die Münze Zahl zeigt, ist nicht 50 %. 
-
-**Statistische Hypothesen**
-
-- H0: P("Zahl") = 0,5 
-- H1: P("Zahl) ≠ 0,5
-
-**Statistischer Hintergrund**
-
-Bei einer fairen Münze würde man annehmen, dass bei mehrmaligem Werfen, z. B. 30 Würfen, *Kopf* und *Zahl* annährend gleich häufig vorkommen. Dabei wird man wahrscheinlich nicht exakt eine Gleichverteilug erhalten. In unserem Fall ist also anzunehmen, dass das Ergenis *Zahl* nicht genau 15 lauten wird. Dem *Gesetz der großen Zahl* nach zu folgen wird man jedoch feststellen: 
-
-![Binomialverteilung des Ereignisses Anzahl Zahl](img/30er_Muenze.jpg "Binomialverteilung zum Ereignis **Anzahl Zahl bei 30 Würfen")
-Wenn man die Aktion "30 mal Werfen" sehr häufig ausführt und stets das Ergebnis von *Anzahl Zahl bei 30 Würfen* in ein Histogramm einträgt, desto stärker nähert sich die Verteilung des Ereignisses *Anzahl Zahl bei 30 Würfen* einer Binomialverteilung mit Mittelwert 15 an. Eine Binomialverteilung zeigt die linke Abbildung. Um etwa zu bestimmen, wie hoch die Wahrscheinlichkeit ist, dass man genau 15 mal Zahl wirft, berechnte man: 
-$$
-P(\text{15-mal Zahl})
-= \binom{30}{15} \cdot 0.5^{15} \cdot 0.5^{30-15}
-= 14,45 \%
-$$
-
-**Empirisches Vorgehen**
-
-- Karl entscheidet sich: Wenn die Münze weniger als 10 mal Zahl oder mehr als 20 mal Zahl zeigt, ist die Münze nicht fair. D. h. genau dann, wenn beim 30-maligen Werfen das Ergebnis Zahl die Häufigkeit 0, 1, 2, 3, ... 10 oder 20, 21, 22, ...30 hat, würde Karl die Münze als *unfair* bezeichnen. 
-- Die Menge dieser Ergebnisse V = \{0, 1, 2, 3, ... 9, 21, 22, 23, 24, ... 30\} bezeichnet man auch als *Verwerfungsbereich*. 
-- Mit welcher Wahrscheinlichkeit zeigt eine faire Münze ein Ergebnis, dass in den Verwerfungsbereich fällt?
-- Hierfür sind alle Wahrscheinlichkeiten aller Ergebnisse im Verwerfungsbereich aufzusummieren. Die Wahrscheinlichkeit, dass das Ergebis im Verwerfungsbereich liegt, beträgt demnach 4,38 %. 
-- Karl wirft 30 mal und erhält 6 mal Zahl. Da das Ergebnis in den Verwerfungsbereich fällt, würde er somit zu einer Wahrscheinlichkeit von 4,38 % einen α-Fehler begehen. 
-- Karl entscheidet sich: Zu diesem *Signifikanzniveau* von 4,38 nimmt er die H1 an und lehnt die H0 ab. Die Münze ist für ihn unfair.
-
-
-
-### Praxisübung: Deskriptive Statistik berechnen
-
-Ihr habt hier die Ausdauerleistung (gelaufene Meter in 12 min) von 8 TeilnehmerInnen mit Musik: 
-
-**Werte:** 2800, 2300, 2000, 1900, 2500, 2500, 2400, 2600
-
-Berechnet Modus, Median, Mittelwert, Spannweite und Standardabweichung für diesen Datensatz.
-
-<textarea rows="6" style="width:100%;" placeholder="Notiere hier deinen Rechenweg..."></textarea>
+***
 
 <details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+<summary><b>👉 Erklärung</b></summary>
 
-| Kennwert | Wert | Rechenweg (Kurzfassung) |
-| :--- | :--- | :--- |
-| Modus | 28 | Wert 28 kommt zweimal vor, alle anderen nur einmal |
-| Median | 28,5 | Sortiert: 26, 27, 28, 28, 29, 30, 31, 35 → Mittel der beiden mittleren Werte (28+29)/2 |
-| Mittelwert | 29,25 | (28+30+27+35+29+31+28+26) / 8 = 234 / 8 |
-| Spannweite | 9 | 35 − 26 |
-| Standardabweichung | ≈ 2,6 | Wurzel aus der mittleren quadrierten Abweichung vom Mittelwert (n−1 im Nenner) |
+Der Median hängt nur von der Rangfolge der Werte ab. Mittelwert, Spannweite und Standardabweichung werden von extremen Werten stark beeinflusst.
+
+</details>
+
+***
+
+**Frage 2:** Für welche Variable ist der **Mittelwert nicht** sinnvoll?
+
+- [(X)] Lieblings-Musikgenre (nominal)
+- [( )] Gelaufene Strecke in Metern
+- [( )] Alter in Jahren
+- [( )] Herzfrequenz in Schlägen pro Minute
 
 <details>
+<summary><b>👉 Erklärung</b></summary>
+
+Der Mittelwert setzt metrische Daten voraus.
+
+</details>
+
+
+**Frage 3:** Die Standardabweichung der Laufstrecken beträgt ca. 114 m. Was bedeutet das?
+
+- [( )] Alle Personen liefen genau 114 m.
+- [(X)] Die Strecken weichen im Durchschnitt etwa 114 m vom Mittelwert ab.
+- [( )] Die größte und die kleinste Strecke unterscheiden sich um 114 m.
+
+***
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+Die Standardabweichung beschreibt die typische Abweichung der Werte vom Mittelwert. Der Abstand zwischen größter und kleinster Strecke ist die Spannweite (hier 350 m).
+</details>
+
+***
+
+---
+
+## Ausblick
+
+Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (beschreibend) analysieren können sondern auch Berechnungen durchführen und ausschlaggebende Aussagen darüber treffen zu können ob Musik einen Einfluss auf die Ausdauerleistung hat. 
