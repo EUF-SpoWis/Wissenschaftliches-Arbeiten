@@ -107,38 +107,37 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 
 #### Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien aus:
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin:1rem 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
 
-  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #6b8bff; padding:1rem 1.2rem;">
-    <div style="font-size:1.8rem;">🧑</div>
-    <b style="color:#4e66bd;">1 · Orientierung am Subjekt</b><br>
-    Das konkrete Handeln, Denken und Erleben der Beforschten steht im Mittelpunkt.
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
+    <strong style="display: block; margin-bottom: 5px;">1. Orientirung am Subjekt</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Das konkrete Handeln, Denken und Erleben der Beforschten steht im Mittelpunkt.</span>
   </div>
 
-  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #5a76dd; padding:1rem 1.2rem;">
-    <div style="font-size:1.8rem;">📝</div>
-    <b style="color:#4e66bd;">2 · Deskription</b><br>
-    Detaillierte, kontextualisierte Beschreibung des Phänomens vor jeder Bewertung oder Reduktion.
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
+    <strong style="display: block; margin-bottom: 5px;">2. Deskription</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Detaillierte, kontextualisierte Beschreibung des Phänomens vor jeder Bewertung oder Reduktion.</span>
   </div>
 
-  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #4e66bd; padding:1rem 1.2rem;">
-    <div style="font-size:1.8rem;">🔍</div>
-    <b style="color:#4e66bd;">3 · Interpretation</b><br>
-    Die Daten werden durch Verstehen, Sinnrekonstruktion und Interpretation erschlossen.
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
+    <strong style="display: block; margin-bottom: 5px;">3. Interpretation</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Die Daten werden durch Verstehen, Sinnrekonstruktion und Interpretation erschlossen.</span>
   </div>
 
-  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #465aa3; padding:1rem 1.2rem;">
-    <div style="font-size:1.8rem;">🏡</div>
-    <b style="color:#4e66bd;">4 · Untersuchung im natürlichen Umfeld</b><br>
-    Die Erhebung findet möglichst in der gewohnten Umgebung der Beteiligten statt (Feldorientierung).
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
+    <strong style="display: block; margin-bottom: 5px;">4. Untersuchung im natürlichen Umfeld</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Die Erhebung findet möglichst in der gewohnten Umgebung der Beteiligten statt (Feldorientierung).</span>
   </div>
 
-  <div style="background:#f2f6fb; border-radius:12px; border-top:5px solid #2f3d70; padding:1rem 1.2rem;">
-    <div style="font-size:1.8rem;">🧩</div>
-    <b style="color:#4e66bd;">5 · Verallgemeinerungsprozess</b><br>
-    Generalisierung erfolgt schrittweise, begründet und typisierend, anstelle einer statistischen Repräsentativität.
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
+    <strong style="display: block; margin-bottom: 5px;">5. Verallgemeinerungsprozess</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Generalisierung erfolgt schrittweise, begründet und typisierend, anstelle einer statistischen Repräsentativität.</span>
   </div>
-
 </div>
 </section>
 
@@ -502,7 +501,7 @@ Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor 
 - ✅ Ziel des Gesprächs nochmals altersgerecht und offen erklären
 - ✅ Freiwilligkeit & Recht auf Pause/Abbruch kommunizieren
 - ✅ Genug Zeit einplanen, keine Hetze
-Für Beispieldokumente zur Durchführung studentischer Untersuchungen an Schulen in Schleswig-Holstein [hier](https://deine-url-hier.de) klicken.
+Für Beispieldokumente zur Durchführung studentischer Untersuchungen an Schulen in Schleswig-Holstein [hier](https://www.uni-flensburg.de/zfl/service#c192399) klicken.
 
 </details>
 
