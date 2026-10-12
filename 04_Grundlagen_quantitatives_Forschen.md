@@ -596,6 +596,466 @@ Wie stark ein einzelner **Ausreißer** diese Kennwerte verändern kann, probiers
 
 </details>
 
+### Alternative interaktive Oberfläche
+
+<div id="lauf-musik-widget"></div>
+
+<script>
+(() => {
+  const root = document.getElementById("lauf-musik-widget");
+  if (!root || root.dataset.initialized === "true") return;
+  root.dataset.initialized = "true";
+
+  const base = {
+    musik: [
+      2480, 2650, 2310, 2790, 2540,
+      2420, 2880, 2610, 2350, 2720,
+      2500, 2830, 2260, 2680, 2570,
+      2440, 2950, 2390, 2750, 2590
+    ],
+    ohne: [
+      2350, 2480, 2200, 2620, 2410,
+      2290, 2740, 2450, 2240, 2580,
+      2370, 2690, 2130, 2530, 2430,
+      2320, 2810, 2260, 2610, 2470
+    ]
+  };
+
+  const groups = [
+    { key: "musik", label: "Mit Musik", color: "#2563eb" },
+    { key: "ohne", label: "Ohne Musik", color: "#d97706" }
+  ];
+
+  root.innerHTML = `
+    <style>
+      #lauf-musik-widget {
+        font-family: system-ui, sans-serif;
+        color: #172033;
+        background: #f5f7fb;
+        border: 1px solid #dbe2eb;
+        border-radius: 16px;
+        padding: 20px;
+        max-width: 1100px;
+        margin: 20px auto;
+        box-sizing: border-box;
+      }
+      #lauf-musik-widget * { box-sizing: border-box; }
+      #lauf-musik-widget h3 {
+        margin: 0 0 10px;
+        font-size: 1.15rem;
+        color: #172033;
+      }
+      #lauf-musik-widget p {
+        margin: 0 0 16px;
+        line-height: 1.5;
+      }
+      #lauf-musik-widget .lm-layout {
+        display: grid;
+        grid-template-columns: minmax(250px, .85fr) minmax(320px, 1.3fr);
+        gap: 20px;
+        align-items: start;
+      }
+      #lauf-musik-widget .lm-card {
+        background: white;
+        border: 1px solid #e1e6ef;
+        border-radius: 12px;
+        padding: 16px;
+        min-width: 0;
+      }
+      #lauf-musik-widget .lm-right {
+        display: grid;
+        gap: 16px;
+      }
+      #lauf-musik-widget table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: .92rem;
+        font-variant-numeric: tabular-nums;
+      }
+      #lauf-musik-widget th,
+      #lauf-musik-widget td {
+        padding: 7px 8px;
+        border-bottom: 1px solid #e5eaf1;
+        text-align: right;
+      }
+      #lauf-musik-widget th {
+        background: #edf2f8;
+        color: #172033;
+      }
+      #lauf-musik-widget .lm-data th {
+        text-align: center;
+      }
+      #lauf-musik-widget .lm-data tbody tr:nth-child(even) {
+        background: #f8fafc;
+      }
+      #lauf-musik-widget .lm-extra td {
+        background: #eff6ff;
+        padding: 8px;
+      }
+      #lauf-musik-widget input {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        border: 1px solid #93a8c3;
+        border-radius: 6px;
+        background: white;
+        color: #172033;
+        padding: 9px 8px;
+        font: inherit;
+        text-align: right;
+      }
+      #lauf-musik-widget input:focus {
+        outline: 3px solid #bfdbfe;
+        border-color: #2563eb;
+      }
+      #lauf-musik-widget input[aria-invalid="true"] {
+        border-color: #b91c1c;
+        background: #fff1f2;
+      }
+      #lauf-musik-widget .lm-stats th:first-child,
+      #lauf-musik-widget .lm-stats td:first-child {
+        text-align: left;
+      }
+      #lauf-musik-widget .lm-scroll {
+        overflow-x: auto;
+      }
+      #lauf-musik-widget .lm-note {
+        color: #526176;
+        font-size: .83rem;
+        margin: 12px 0 0;
+      }
+      #lauf-musik-widget .lm-error {
+        color: #b91c1c;
+        font-size: .85rem;
+        min-height: 1.3em;
+        margin-top: 8px;
+      }
+      #lauf-musik-widget .lm-difference {
+        margin-top: 14px;
+        padding: 10px 12px;
+        background: #edf2f8;
+        border-radius: 8px;
+        line-height: 1.5;
+      }
+      #lauf-musik-widget button {
+        margin-top: 12px;
+        border: 1px solid #93a8c3;
+        border-radius: 7px;
+        padding: 8px 12px;
+        background: white;
+        color: #172033;
+        font: inherit;
+        cursor: pointer;
+      }
+      #lauf-musik-widget button:hover {
+        background: #edf2f8;
+      }
+      #lauf-musik-widget svg {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      @media (max-width: 760px) {
+        #lauf-musik-widget .lm-layout {
+          grid-template-columns: 1fr;
+        }
+        #lauf-musik-widget {
+          padding: 12px;
+        }
+      }
+    </style>
+
+    <h3>12-Minuten-Lauf: mit und ohne Musik</h3>
+    <p>
+      Laufleistungen in Metern. Ergänze je Gruppe bis zu zwei Werte.
+      Die Auswertung wird automatisch aktualisiert.
+    </p>
+
+    <div class="lm-layout">
+      <section class="lm-card">
+        <h3>Laufleistungen</h3>
+        <table class="lm-data">
+          <thead>
+            <tr>
+              <th scope="col">Mit Musik (m)</th>
+              <th scope="col">Ohne Musik (m)</th>
+            </tr>
+          </thead>
+          <tbody class="lm-values"></tbody>
+        </table>
+        <p class="lm-note">
+          20 fiktive Ausgangswerte je Gruppe.
+          Die beiden blauen Zeilen dienen für zusätzliche Werte.
+          Die Werte einer Zeile sind keine zugeordneten Messpaare.
+        </p>
+        <div class="lm-error" role="status"></div>
+        <button type="button" class="lm-reset">
+          Zusätzliche Einträge löschen
+        </button>
+      </section>
+
+      <div class="lm-right">
+        <section class="lm-card">
+          <h3>Deskriptive Kennwerte</h3>
+          <div class="lm-scroll">
+            <table class="lm-stats">
+              <thead>
+                <tr>
+                  <th scope="col">Kennwert</th>
+                  <th scope="col">Mit Musik</th>
+                  <th scope="col">Ohne Musik</th>
+                </tr>
+              </thead>
+              <tbody class="lm-stat-values"></tbody>
+            </table>
+          </div>
+          <div class="lm-difference" aria-live="polite"></div>
+          <p class="lm-note">
+            Alle Streckenkennwerte in Metern.
+            SD = Stichprobenstandardabweichung mit Nenner n − 1.
+            Leere oder ungültige Zusatzfelder werden nicht mitgerechnet.
+          </p>
+        </section>
+
+        <section class="lm-card">
+          <h3>Mittlere Laufleistung</h3>
+          <div class="lm-chart"></div>
+          <p class="lm-note">
+            Die Balken zeigen die Gruppenmittelwerte, keine Einzelwerte.
+            Die vertikale Achse beginnt bei 0.
+          </p>
+        </section>
+      </div>
+    </div>
+  `;
+
+  const tableBody = root.querySelector(".lm-values");
+  const fmt = (value, digits = 1) =>
+    value.toLocaleString("de-DE", {
+      minimumFractionDigits: digits,
+      maximumFractionDigits: digits
+    });
+
+  for (let i = 0; i < 20; i++) {
+    const row = document.createElement("tr");
+    for (const group of groups) {
+      const cell = document.createElement("td");
+      cell.textContent = fmt(base[group.key][i], 0);
+      row.appendChild(cell);
+    }
+    tableBody.appendChild(row);
+  }
+
+  for (let i = 1; i <= 2; i++) {
+    const row = document.createElement("tr");
+    row.className = "lm-extra";
+
+    for (const group of groups) {
+      const cell = document.createElement("td");
+      const input = document.createElement("input");
+      input.type = "text";
+      input.inputMode = "decimal";
+      input.dataset.group = group.key;
+      input.placeholder = "Zusatzwert " + i;
+      input.setAttribute(
+        "aria-label",
+        group.label + ": zusätzlicher Laufwert " + i + " in Metern"
+      );
+      input.setAttribute("aria-invalid", "false");
+      input.addEventListener("input", update);
+      cell.appendChild(input);
+      row.appendChild(cell);
+    }
+
+    tableBody.appendChild(row);
+  }
+
+  function getData(key) {
+    const values = [...base[key]];
+
+    root.querySelectorAll('input[data-group="' + key + '"]')
+      .forEach(input => {
+        const text = input.value.trim();
+        if (text === "") {
+          input.setAttribute("aria-invalid", "false");
+          return;
+        }
+
+        // Dezimalpunkt oder Dezimalkomma, keine Tausendertrennzeichen.
+        const validSyntax = /^[0-9]+([.,][0-9]+)?$/.test(text);
+        const value = Number(text.replace(",", "."));
+        const valid =
+          validSyntax && Number.isFinite(value) &&
+          value >= 0 && value <= 10000;
+
+        input.setAttribute("aria-invalid", String(!valid));
+        if (valid) values.push(value);
+      });
+
+    return values;
+  }
+
+  function statistics(values) {
+    const sorted = [...values].sort((a, b) => a - b);
+    const n = values.length;
+    const mean = values.reduce((sum, value) => sum + value, 0) / n;
+    const middle = Math.floor(n / 2);
+    const median = n % 2
+      ? sorted[middle]
+      : (sorted[middle - 1] + sorted[middle]) / 2;
+    const variance = values.reduce(
+      (sum, value) => sum + (value - mean) ** 2, 0
+    ) / (n - 1);
+
+    return {
+      n,
+      mean,
+      median,
+      sd: Math.sqrt(variance),
+      min: sorted[0],
+      max: sorted[n - 1],
+      range: sorted[n - 1] - sorted[0]
+    };
+  }
+
+  function drawChart(stats) {
+    const width = 560;
+    const height = 350;
+    const left = 72;
+    const right = 22;
+    const top = 42;
+    const bottom = 66;
+    const plotHeight = height - top - bottom;
+    const baseline = height - bottom;
+
+    // Gemeinsame Achsenskalierung, mindestens 3500 m.
+    const maxMean = Math.max(stats.musik.mean, stats.ohne.mean);
+    const ceiling = Math.max(
+      3500,
+      Math.ceil((maxMean * 1.15) / 500) * 500
+    );
+    const tickStep = ceiling > 5000 ? 1000 : 500;
+    let grid = "";
+
+    for (let value = 0; value <= ceiling; value += tickStep) {
+      const y = baseline - (value / ceiling) * plotHeight;
+      grid += `
+        <line x1="${left}" y1="${y}"
+              x2="${width - right}" y2="${y}"
+              stroke="#dbe2eb" />
+        <text x="${left - 10}" y="${y + 4}"
+              text-anchor="end" fill="#526176"
+              font-size="12">${fmt(value, 0)}</text>
+      `;
+    }
+
+    const centers = [190, 405];
+    const barWidth = 94;
+    const bars = groups.map((group, index) => {
+      const result = stats[group.key];
+      const barHeight = result.mean / ceiling * plotHeight;
+      const x = centers[index] - barWidth / 2;
+      const y = baseline - barHeight;
+
+      return `
+        <rect x="${x}" y="${y}" width="${barWidth}"
+              height="${barHeight}" fill="${group.color}" rx="4">
+          <title>${group.label}: ${fmt(result.mean)} m;
+          n = ${result.n}</title>
+        </rect>
+        <text x="${centers[index]}" y="${y - 10}"
+              text-anchor="middle" fill="#172033"
+              font-size="15" font-weight="600">
+          ${fmt(result.mean)} m
+        </text>
+        <text x="${centers[index]}" y="${baseline + 26}"
+              text-anchor="middle" fill="#172033" font-size="14">
+          ${group.label}
+        </text>
+        <text x="${centers[index]}" y="${baseline + 46}"
+              text-anchor="middle" fill="#526176" font-size="12">
+          n = ${result.n}
+        </text>
+      `;
+    }).join("");
+
+    root.querySelector(".lm-chart").innerHTML = `
+      <svg viewBox="0 0 ${width} ${height}"
+           role="img" aria-label="Gruppenmittelwerte der Laufleistung">
+        <title>Mittlere Laufleistung im 12-Minuten-Lauf</title>
+        <desc>
+          Mit Musik: ${fmt(stats.musik.mean)} Meter.
+          Ohne Musik: ${fmt(stats.ohne.mean)} Meter.
+        </desc>
+        <text x="${left}" y="20" fill="#526176" font-size="12">
+          Laufstrecke (m)
+        </text>
+        ${grid}
+        <line x1="${left}" y1="${baseline}"
+              x2="${width - right}" y2="${baseline}"
+              stroke="#64748b" />
+        ${bars}
+      </svg>
+    `;
+  }
+
+  function update() {
+    const stats = {
+      musik: statistics(getData("musik")),
+      ohne: statistics(getData("ohne"))
+    };
+
+    const metrics = [
+      ["Anzahl (n)", "n", 0],
+      ["Mittelwert", "mean", 1],
+      ["Median", "median", 1],
+      ["Standardabweichung (SD)", "sd", 1],
+      ["Minimum", "min", 1],
+      ["Maximum", "max", 1],
+      ["Spannweite", "range", 1]
+    ];
+
+    root.querySelector(".lm-stat-values").innerHTML =
+      metrics.map(([label, key, digits]) => `
+        <tr>
+          <th scope="row">${label}</th>
+          <td>${fmt(stats.musik[key], digits)}</td>
+          <td>${fmt(stats.ohne[key], digits)}</td>
+        </tr>
+      `).join("");
+
+    const difference = stats.musik.mean - stats.ohne.mean;
+    const signed = difference > 0
+      ? "+" + fmt(difference)
+      : fmt(difference);
+
+    root.querySelector(".lm-difference").textContent =
+      "Mittelwertdifferenz (mit Musik − ohne Musik): " + signed + " m";
+
+    const invalidCount =
+      root.querySelectorAll('input[aria-invalid="true"]').length;
+
+    root.querySelector(".lm-error").textContent = invalidCount
+      ? "Bitte Zahlen zwischen 0 und 10000 eingeben, ohne " +
+        "Tausendertrennzeichen (z. B. 2450 oder 2450,5). " +
+        "Ungültige Felder werden nicht berücksichtigt."
+      : "";
+
+    drawChart(stats);
+  }
+
+  root.querySelector(".lm-reset").addEventListener("click", () => {
+    root.querySelectorAll("input").forEach(input => {
+      input.value = "";
+      input.setAttribute("aria-invalid", "false");
+    });
+    update();
+  });
+
+  update();
+})();
+</script>
+
 
 ### Check-Up: Deskriptive Statistik
 
