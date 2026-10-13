@@ -1,6 +1,18 @@
 # Style-Book 🎨  
 <section>
 
+<!--
+author: Melina Burmeister
+version: 0.0.1
+language: de
+narrator: Deutsch Female
+
+import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
+
+import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
+
+-->
+
 ## Für Folien mit dem gewissen Etwas
 
 Hier findest du **Gestaltungselemente zum Kopieren**: Boxen, Tabellen, Aufklappbares, Abbildungen und viels mehr. Damit werden aus langen Stichpunktlisten Folien, durch die man sich gern klickt.
