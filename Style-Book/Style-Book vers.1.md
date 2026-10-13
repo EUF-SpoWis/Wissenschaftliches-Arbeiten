@@ -184,4 +184,72 @@ Unmarkierter Textabschnitt <span style="background: linear-gradient(transparent 
 
 ## Besondere Abbildungen
 
+### Analyseebenen 
+
+<div style="max-width:720px;margin:1em auto;padding:16px 20px;border:3px solid #1f3a5f;border-radius:10px;background:#e8eef7;color:#1a1a1a;text-align:center;font-family:sans-serif;">
+
+<div style="font-size:1.3em;"><b>MAKROEBENE</b></div>
+
+<div>Gesellschaftliche Teilsysteme</div>
+
+<div style="margin:8px 0 14px 0;"><i>Sport als Teilsystem der Gesellschaft<br>Beziehungen zu Politik, Wirtschaft, Medien u. a.</i></div>
+
+<div style="padding:14px 18px;border:3px solid #2f6b4f;border-radius:10px;background:#e6f2ea;color:#1a1a1a;">
+
+<div style="font-size:1.2em;"><b>MESOEBENE</b></div>
+
+<div>Komplexere soziale Ordnungsmuster</div>
+
+<div style="margin:8px 0 14px 0;"><i>Sportvereine und Verbände<br>Schulen und Hochschulen<br>Teams, Fanszenen, Subkulturen</i></div>
+
+<div style="padding:12px 16px;border:3px solid #9a5b13;border-radius:10px;background:#fbefdc;color:#1a1a1a;">
+
+<div style="font-size:1.1em;"><b>MIKROEBENE</b></div>
+
+<div>Interaktionen in kleineren sozialen Gebilden</div>
+
+<div style="margin-top:8px;"><i>Trainer:in und Athlet:in<br>Lehrkraft und Klasse<br>Mitglieder innerhalb einer formellen/informellen Gruppe</i></div>
+
+</div>
+
+</div>
+
+</div>
+
+**Code zum Kopieren:**
+
+```html
+<div style="max-width:720px;margin:1em auto;padding:16px 20px;border:3px solid #1f3a5f;border-radius:10px;background:#e8eef7;color:#1a1a1a;text-align:center;font-family:sans-serif;">
+
+<div style="font-size:1.3em;"><b>MAKROEBENE</b></div>
+
+<div>Gesellschaftliche Teilsysteme</div>
+
+<div style="margin:8px 0 14px 0;"><i>Sport als Teilsystem der Gesellschaft<br>Beziehungen zu Politik, Wirtschaft, Medien u. a.</i></div>
+
+<div style="padding:14px 18px;border:3px solid #2f6b4f;border-radius:10px;background:#e6f2ea;color:#1a1a1a;">
+
+<div style="font-size:1.2em;"><b>MESOEBENE</b></div>
+
+<div>Komplexere soziale Ordnungsmuster</div>
+
+<div style="margin:8px 0 14px 0;"><i>Sportvereine und Verbände<br>Schulen und Hochschulen<br>Teams, Fanszenen, Subkulturen</i></div>
+
+<div style="padding:12px 16px;border:3px solid #9a5b13;border-radius:10px;background:#fbefdc;color:#1a1a1a;">
+
+<div style="font-size:1.1em;"><b>MIKROEBENE</b></div>
+
+<div>Interaktionen in kleineren sozialen Gebilden</div>
+
+<div style="margin-top:8px;"><i>Trainer:in und Athlet:in<br>Lehrkraft und Klasse<br>Mitglieder innerhalb einer formellen/informellen Gruppe</i></div>
+
+</div>
+
+</div>
+
+</div>
+```
+
+**Anpassen:** Die Farben der einzelnen Ebenen können jeweils über `#1f3a5f`, `#2f6b4f`, `#9a5b13` geändert werden. Natürlich kann auch der Text innerhalb der Abbildung geändert werden, sodass inhaltlich Spielraum für verschiedene Ebenen-Darstellungen ist.  
+
 ## Für Details 
