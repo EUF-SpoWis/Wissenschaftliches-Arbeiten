@@ -8,8 +8,9 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeite
 
 import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
--->
+link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
+-->
 
 # Grundlagen qualitatives Forschen
 
@@ -30,9 +31,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main
 
 ## Einstiegsbeispiel
 
+<!-- class="animate__animated animate__fadeInUp" -->
 >[!Note] Arbeitsauftrag
 >*Think*: Was macht für dich ein gutes Gedicht aus?
 
+<!-- class="animate__animated animate__fadeInUp" -->
 <details><summary><b>👉 Klicke hier, wenn du Gedanken gesammelt hast</b></summary>
 
 <p style="margin-bottom: 20px;">
@@ -47,6 +50,7 @@ Schaue nun einen Ausschnitt aus der folgenden Szene des Films <i>Dead Poets Soci
 
 </details>
 
+<!-- class="animate__animated animate__fadeInUp" -->
 <details><summary><b>👉 Klicke hier, wenn du den Ausschnitt geschaut hast</b></summary>
 
 John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Qualität eines Gedichts numerisch messbar sei. Manche Dinge benötigen detailliertere Verfahren der Auseinandersetzung, um sie zu durchdringen. 
@@ -57,26 +61,37 @@ John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Quali
 
 
 ## Qualitatives Forschen als Paradigma
+<style>
+.lia-effect__circle {
+  display: none !important;
+}
+</style>
 
+<!-- class="animate__animated animate__fadeIn" -->
 In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwischen drei **Forschungsparadigmen**:
 
+<!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #278f25;">Quantitatives Paradigma:</b> Standardisiert, messend, prüft vorab formulierte Hypothesen.
 </div>
 
+<!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #1a9f8d;">Qualitatives Paradigma:</b> Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
 </div>
 
+<!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #643d8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #643d8d;">Mixed-Methods:</b> Die systematische Kombination qualitativer und quantitativer Ansätze.
 </div>
 
+<!-- class="animate__animated animate__fadeInUp" -->
 > **Wichtige Abgrenzung:**
 > Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten). 
 > 
 > *Nicht-empirische Paradigmen* (wie die reine Hermeneutik oder geisteswissenschaftliche Textanalyse) arbeiten hingegen interpretatorisch oder begriffsanalytisch, ohne eigene empirische Daten im Feld zu erheben.
 
+{{1}}
 >[!Note] **Welche Forschungsfrage gehört zu welchem Paradigma? Ordne die Forschungsfrage korrekt zu:**
 >
 >* In welchem Zusammenhang stehen physiologische Stressmarker, Trainingspensum und das subjektive Beanspruchungserleben bei Athlet:innen in intensiven Trainingsphasen? [[ Quantitatives Paradigma | Qualitatives Paradigma | (Mixed-Methods) ]]
@@ -88,12 +103,15 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 
 ### Gegenstandsbereich und Erkenntnisinteresse
 
+<!-- class="animate__animated animate__slideInLeft" -->
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstruktion von Sinn, subjektiven Sichtweisen, Alltagstheorien und Bedeutungskonstruktionen</b> <small>(Helfferich, 2011)</small>.
 </div>
 
+<!-- class="animate__animated animate__padeInUp" -->
 <b>Leitende Forschungsfragen betreffen:</b>
 
+<!-- class="animate__animated animate__padeInUp" -->
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
 - **Warum** tun Menschen das, was sie tun?
 - Welche **subjektive Bedeutung** schreiben Personen ihren Handlungen und Erfahrungen zu?
@@ -105,35 +123,36 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 ### Grundsätze qualitativen Denkens
 <section>
 
+<!-- class="animate__animated animate__fadeIn" -->
 #### Nach Mayring (2002) zeichnet sich qualitatives Denken durch fünf Kernprinzipien aus:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
     <strong style="display: block; margin-bottom: 5px;">1. Orientirung am Subjekt</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Das konkrete Handeln, Denken und Erleben der Beforschten steht im Mittelpunkt.</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
     <strong style="display: block; margin-bottom: 5px;">2. Deskription</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Detaillierte, kontextualisierte Beschreibung des Phänomens vor jeder Bewertung oder Reduktion.</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
     <strong style="display: block; margin-bottom: 5px;">3. Interpretation</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Die Daten werden durch Verstehen, Sinnrekonstruktion und Interpretation erschlossen.</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-3s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
     <strong style="display: block; margin-bottom: 5px;">4. Untersuchung im natürlichen Umfeld</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Die Erhebung findet möglichst in der gewohnten Umgebung der Beteiligten statt (Feldorientierung).</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-4s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
     <strong style="display: block; margin-bottom: 5px;">5. Verallgemeinerungsprozess</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Generalisierung erfolgt schrittweise, begründet und typisierend, anstelle einer statistischen Repräsentativität.</span>
@@ -145,10 +164,12 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 
 ### Forschungsfragen in der qualitativen Forschung
 
+<!-- class="animate__animated animate__slideInLeft" -->
 * **Ausgangspunkt:** Qualitative Forschung startet bei einem Phänomen oder sozialen Problem, **nicht** bei einer Hypothese.
 * **Offenheit:** Die Fragestellung ist so formuliert, dass die Komplexität des Gegenstands erhalten bleibt. 
 * **Reduktion:** Die Verringerung von Komplexität erfolgt erst Schritt für Schritt im Prozess der Datenanalyse, nicht vorab bei der Erhebung.
 
+<!-- class="animate__animated animate__fadeInUp" --> 
 > **Merke:** 
 > Eine *Forschungsfrage* bestimmt das wissenschaftliche Erkenntnisziel und ist klar zu unterscheiden von etwa konkreten *Interviewfragen* (Konkretisierung im Erhebungsinstrument) sowie dem *globalen Forschungsthema*.
 
@@ -159,40 +180,47 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 ![Schaubild](img/Schaubild-Qualitative-Forschungsmethoden.jpg)
 
 ### Methoden als *Tools*
+<section>
 
-Methoden sind **wissenschaftliche Werkzeuge** 🛠️ (Reichertz, 2019). Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
+<!-- class="animate__animated animate__fadeIn" -->
+#### Methoden sind **wissenschaftliche Werkzeuge** 🛠️ (Reichertz, 2019). Welches Werkzeug gewählt wird, hängt primär von der Forschungsfrage und dem Gegenstand ab:
 
+<!-- class="animate__animated animate__fadeInUp" -->
 > [!Note] 1️⃣ **Primäres Auswahlkriterium**
 > Gegenstand der Untersuchung, Forschungsfrage und theoretischer Rahmen.
 
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
 > [!TIP] 2️⃣ **Sekundäres Auswahlkriterium**
 > Verfügbare zeitliche, personelle und finanzielle Ressourcen.
+</section>
 
 ---
 
 ### Übersicht des methodischen Spektrums
+<section>
 
-Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
+<!-- class="animate__animated animate__fadeIn" -->
+#### Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
 
 <div style="position: relative; margin: 30px 0 60px 0;">
 
   <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
-    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <div class="animate__animated animate__fadeInUp" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
       <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
       <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
     </div>
 
-    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
 
-    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
       <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
       <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
     </div>
 
-    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
 
-    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
       <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
       <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
     </div>
@@ -210,11 +238,15 @@ Der qualitative Forschungsprozess gliedert sich in drei aufeinander aufbauende P
   </div>
 
 </div>
+</section>
 
 ### Typische Verfahren zur Datenerhebung
+<section>
 
-Die qualitative Forschung hält ein breites Spektrum an Erhebungsmethoden bereit, die je nach Fragestellung und Forschungsgegenstand eingesetzt werden:
+<!-- class="animate__animated animate__fadeIn" -->
+#### Die qualitative Forschung hält ein breites Spektrum an Erhebungsmethoden bereit, die je nach Fragestellung und Forschungsgegenstand eingesetzt werden:
 
+<!-- class="animate__animated animate__fadeInUp" -->
 | Verfahrenskategorie | Ausprägungen & Methoden |
 | :--- | :--- |
 | **🗣️ Befragungsverfahren** | • Qualitative Interviews *(fokussiert, leitfadengestützt, narrativ, episodisch)*<br>• Gruppendiskussionen & Fokusgruppen<br>• Lautes Denken & Introspektion |
@@ -224,13 +256,16 @@ Die qualitative Forschung hält ein breites Spektrum an Erhebungsmethoden bereit
 <div style="text-align: right; font-size: 0.8em; color: #718096;">
 <i>(nach Mey & Mruck, 2020; Flick et al., 1995)</i>
 </div>
+</section>
 
 ---
 
 ### Wann setzt man qualitative Methoden ein?
 <section>
 
+<!-- class="animate__animated animate__fadeIn" -->
 #### Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden Situationen indiziert:
+
 
 <div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #278f25;">Erschließen neuer Felder:</b> Erkundung und Beschreibung bislang wenig erforschter oder fremder Lebenswelten.
