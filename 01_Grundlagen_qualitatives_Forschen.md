@@ -108,10 +108,10 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstruktion von Sinn, subjektiven Sichtweisen, Alltagstheorien und Bedeutungskonstruktionen</b> <small>(Helfferich, 2011)</small>.
 </div>
 
-<!-- class="animate__animated animate__padeInUp" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <b>Leitende Forschungsfragen betreffen:</b>
 
-<!-- class="animate__animated animate__padeInUp" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
 - **Warum** tun Menschen das, was sie tun?
 - Welche **subjektive Bedeutung** schreiben Personen ihren Handlungen und Erfahrungen zu?
@@ -266,15 +266,17 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 <!-- class="animate__animated animate__fadeIn" -->
 #### Nach Oswald (1997) ist der Einsatz qualitativer Zugänge besonders in folgenden Situationen indiziert:
 
-
+<!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #278f25;">Erschließen neuer Felder:</b> Erkundung und Beschreibung bislang wenig erforschter oder fremder Lebenswelten.
 </div>
 
+<!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #1a9f8d;">Theoriegenerierung:</b> Entdeckung neuer Phänomene und Entwicklung theoretischer Konzepte <i>(Grounded Theory)</i>.
 </div>
 
+<!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #643d8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #643d8d;">Tiefe Exploration:</b> Verstehen von hochkomplexen Handlungszusammenhängen, subjektiven Wahrnehmungen und Alltagsinterpretationen.
 </div>
@@ -283,137 +285,169 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 ---
 
 ## Check-Up
+{{1}} <section>
 
-Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
+### Welche der folgenden Aussagen zur Abgrenzung von Forschungsparadigmen sind korrekt?
 
 [[ ]] Die qualitative Forschung überprüft vorab festgelegte Hypothesen anhand repräsentativer Stichproben.
 [[X]] Das qualitative Paradigma konzentriert sich auf die Sinnrekonstruktion und das Verstehen subjektiven Perspektiven.
 [[ ]] Quantitatives Forschen unterscheidet sich von qualitativem dadurch, dass nur Ersteres empirisch arbeitet.
 [[?]] **Erklärung:** Sowohl qualitative als auch quantitative Forschung sind empirisch, da beide auf der Erhebung realer Daten basieren. Geisteswissenschaftliche Textanalyse oder Hermeneutik ohne Felderhebungen gelten als nicht-empirisch.
+</section>
 
 ---
+{{2}} <section>
 
-Wähle die passenden Grundsätze nach Mayring (2002) aus:
+### Wähle die passenden Grundsätze nach Mayring (2002) aus:
 
 * Die Erhebung im vertrauten Kontext der Beteiligten nennt man [[ (Untersuchung im natürlichen Umfeld) | Deskription | Orientierung am Subjekt ]].
 * Eine schrittweise und begründete Abstraktion anstelle statistischer Repräsentativität entspricht dem [[ Interpretation | Forschungsauftrag | (Verallgemeinerungsprozess)]].
 * Die Fokussierung auf das konkrete Handeln, Denken und Erleben der Beforschten gilt als [[ Marginalisierung des Forschungsgegenstands  | (Orientierung am Subjekt)  | Vereinfachung des Forschungsprozesses ]]
 * Bei der Interpretation [[ fließt der subjektive Sinn der Forschenden mit ein | werden fiktive Hintergrundinformationen zur Ausgestaltung der Daten erstellt | (werden die Daten verstanden und ausschließlich anhand dieser Sinn interpretativ rekonstruiert) ]]
+</section>
 
 ---
+{{3}} <section>
 
-Welche Aussage unterscheidet eine qualitative Forschungsfrage von einer Interviewfrage?
+### Welche Aussage unterscheidet eine qualitative Forschungsfrage von einer Interviewfrage?
 
 [( )] Die Forschungsfrage wird den Teilnehmenden im Interview direkt vorgelesen.
 [( )] Die Forschungsfrage muss immer hypothesenprüfend formuliert sein, während Interviewfragen offen bleiben.
 [(X)] Die Forschungsfrage definiert das wissenschaftliche Erkenntnisziel; die Interviewfrage konkretisiert dieses für das Erhebungsinstrument.
+</section>
 
 ---
+{{4}} <section>
 
-Was ist das **primäre** Auswahlkriterium für den Einsatz einer bestimmten qualitativen Methode?
+### Was ist das **primäre** Auswahlkriterium für den Einsatz einer bestimmten qualitativen Methode?
 
 [( )] Die zur Verfügung stehenden Ressourcen (z.B. Zeit, finanzielle oder personale Mittel)
 [( )] Die persönlichen Präferenzen der Beforschten
 [(X)] Die Forschungsfrage, der Gegenstand und der theoretische Rahmen
 
+</section>
 ---
+{{5}} <section>
 
-Ordnung der Erhebungsmethoden und Einsatzszenarien:
+### Ordnung der Erhebungsmethoden und Einsatzszenarien:
 
 * Gruppendiskussionen und Fokusgruppen gehören zu den [[ Beobachtungsverfahren | Non-reaktiven Verfahren | (Befragungsverfahren) ]].
 * Wenn ein völlig unbekanntes Feld erkundet werden soll, nutzt man qualitative Methoden zur [[ Vorab-Hypothesenprüfung  | (Theoriegenerierung / Erschließung neuer Felder) | statistischen Repräsentativität]].
+</section>
 
 ---
 
 ## Beobachtungen
 
-> **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
+<!-- class="animate__animated animate__fadeIn" -->
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+**Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
+</div>
 
 ---
 
 ### Wann ist der Einsatz von Beobachtungen sinnvoll?
+<section>
 
-Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Auskünfte (z. B. in Interviews) an ihre Grenzen stoßen oder das reale Handeln im Zentrum steht:
+<!-- class="animate__animated animate__fadeIn" -->
+#### Beobachtungsverfahren kommen insbesondere dann zum Einsatz, wenn sprachliche Auskünfte (z. B. in Interviews) an ihre Grenzen stoßen oder das reale Handeln im Zentrum steht:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">👁️</div>
     <strong style="display: block; margin-bottom: 5px;">Verfälschtes Verhalten</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Unbewusst verzerrt oder sozial erwünscht dargestellt</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🙋</div>
     <strong style="display: block; margin-bottom: 5px;">Nonverbale Signale</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Mimik, Gestik, Körpersprache und Bewegungen</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🔄</div>
     <strong style="display: block; margin-bottom: 5px;">Schwer Beschreibbares</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Handlungsabläufe lassen sich kaum in Worte fassen</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-3s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">👥</div>
     <strong style="display: block; margin-bottom: 5px;">Interaktionsmuster</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Gruppenstrukturen, Rollen und soziale Gefüge</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-4s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">⏱️</div>
     <strong style="display: block; margin-bottom: 5px;">Dynamische Ereignisse</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Schnelle, komplexe Abläufe im Zusammenhang erfassen</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-5s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🧭</div>
     <strong style="display: block; margin-bottom: 5px;">Exploration</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Ein unbekanntes Feld zunächst kennenlernen</span>
   </div>
 
 </div>
+</section>
 
 ---
 
 ### Dimensionen von Beobachtungsverfahren
+<section>
 
-Beobachtungen lassen sich anhand von zwei unabhängigen Fragen einordnen:
+<!-- class="animate__animated animate__fadeIn" --> 
+#### Beobachtungen lassen sich anhand von zwei unabhängigen Fragen einordnen:
 
+<!-- class="animate__animated animate__slideInLeft" -->
 | Dimension | Leitfrage | Ausprägungen |
 |:--|:--|:--|
 | **Distanz zur Situation** | Ist die forschende Person Teil des Geschehens? | Teilnehmend ↔ nicht teilnehmend |
 | **Strukturierungsgrad** | Was steht vor der Beobachtung bereits fest? | Offen ↔ halb- oder vollstandardisiert |
 
+<!-- class="animate__animated animate__slideInRight" -->
 > #### Methodische Herausforderungen & Dilemmata
 >
 > Qualitative Beobachtungen stehen stets vor spezifischen methodischen Feldherausforderungen:
 >
 > - **Feldzugang vs. Einflussnahme:** Forschende müssen vertrauensvollen Zugang gewinnen, dürfen aber den natürlichen Ablauf der Ereignisse nicht verfälschen.
 > - **Reaktivität:** Die bloße Anwesenheit von Beobachtenden kann das Verhalten der Akteur:innen verändern.
+</section>
 
 ---
 
 ### Praktische Übung I: Beobachtung im Sportunterricht
 
-> **Theoretischer Hintergrund: Klassenführung**  
-> Wissenschaftliche Beobachtung erfordert eine **theoretische Brille**. In dieser Übung nutzen wir das Konzept der **Klassenführung**:
->
-> - **Definition:** Klassenführung umfasst alle Maßnahmen einer Lehrkraft, die dazu führen, dass Lehr-Lernprozesse möglichst reibungslos ablaufen und damit die aktive Lern- bzw. Bewegungszeit maximiert wird *(Helmke, 2022)*, Störungen minimiert werden und alle Schüler:innen am Lerngeschehen beteiligt sind *(Kunter & Ewald, 2016)*.
-> - **Ein Teilbereich der Klassenführung ist *Momentum & Übergänge*:** Hierunter fällt die **Reibungslosigkeit** des Unterrichtsflusses, d. h. das Ausbleiben organisatorischer Verzögerungen und unnötiger Leerläufe *(Helmke, 2022; Kounin, 2006)*.
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+**Theoretischer Hintergrund: Klassenführung**  
+Wissenschaftliche Beobachtung erfordert eine **theoretische Brille**. In dieser Übung nutzen wir das Konzept der **Klassenführung**:
 
-In dieser Übung führst du eine **nicht-teilnehmende, halbstandardisierte Beobachtung** durch. 
-Du nutzt den oben genannten theoretischen Hintergrund als Orientierung und beantwortest folgende **Forschungsfrage**: 
+- **Definition:** Klassenführung umfasst alle Maßnahmen einer Lehrkraft, die dazu führen, dass Lehr-Lernprozesse möglichst reibungslos ablaufen und damit die aktive Lern- bzw. Bewegungszeit maximiert wird *(Helmke, 2022)*, Störungen minimiert werden und alle Schüler:innen am Lerngeschehen beteiligt sind *(Kunter & Ewald, 2016)*.
+- **Ein Teilbereich der Klassenführung ist *Momentum & Übergänge*:** Hierunter fällt die **Reibungslosigkeit** des Unterrichtsflusses, d. h. das Ausbleiben organisatorischer Verzögerungen und unnötiger Leerläufe *(Helmke, 2022; Kounin, 2006)*.
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<section>
+
+#### In dieser Übung führst du eine **nicht-teilnehmende, halbstandardisierte Beobachtung** durch. Du nutzt den oben genannten theoretischen Hintergrund als Orientierung und beantwortest folgende **Forschungsfrage**: 
 
 > *„Wie gestaltet sich die Bewegungsintensität von Schüler:innen im Sportunterricht unter besonderer Berücksichtigung der Raumorganisation in Bewegungsphasen?“*
+</section>
 
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<section>
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem;">
 **Indikatoren, auf die du gezielt achten solltest:**
 - **Raum- & Organisationsstruktur:** Einteilung von Bewegungs- vs. Wartezonen
 - **Bewegungszeit:** Verhältnismäßigkeit von aktiver Bewegungszeit zu Passivität/Anstehen
 - **Verhaltensweisen im Warteraum:** Aufrechterhaltung des Gruppenfokus vs. Entstehung von Nebenschauplätzen
 
-Schau dir hierzu das Video so oft du es brauchst an und fokussiere dich auf die angegebenen Beobachtungsdimensionen im Leitfaden.
+</div>
+**➔ Schau dir hierzu das Video so oft du es brauchst an und fokussiere dich auf die angegebenen Beobachtungsdimensionen im Leitfaden.** 
+</section>
 
 ---
 
@@ -461,19 +495,26 @@ Schau dir hierzu das Video so oft du es brauchst an und fokussiere dich auf die 
 
 ### Praktische Übung II: Barrierefreiheit von Spielplätzen
 
+<!-- class="animate__animated animate__fadeInUp" -->
 **Theoretischer Hintergrund** 
-> {{0-1}}„Nicht umfänglich barrierefreie Schulgebäude, die aktuell gebaut oder umfangreich saniert werden, manifestieren für die nächsten 40 bis 50 Jahre das Nichteinlösen menschenrechtlicher Verpflichtungen und stellen im Sinne der versagten angemessenen Vorkehrungen einen Akt der Diskriminierung dar.“ (Degenhardt, 2018, S. 148)
 
-{{2}}
-> Lehrkräfte sollen über die Gestaltung und konzeptuelle Nutzung von Schulräumen mitentscheiden (HRK & KMK, 2015), also müssen sie auch wissen, inwieweit materiell-räumliche Gegebenheiten Barrierepotenziale bergen und wie diese abgebaut oder umgangen werden können. Es erscheint daher notwendig, entsprechendes professionelles Wissen über Barrieren im Rahmen einer inklusionsorientierten Lehrer*innenbildung zu stärken (Bükers et al., 2021; HRK & KMK, 2015; UNESCO, 2013).
+{{1}} <div style="border-left: 6px solid #734ebd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+„Nicht umfänglich barrierefreie Schulgebäude, die aktuell gebaut oder umfangreich saniert werden, manifestieren für die nächsten 40 bis 50 Jahre das Nichteinlösen menschenrechtlicher Verpflichtungen und stellen im Sinne der versagten angemessenen Vorkehrungen einen Akt der Diskriminierung dar.“ (Degenhardt, 2018, S. 148)
+</div>
 
-{{3}}
+{{2}} <div style="border-left: 6px solid #6a4ebd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+Lehrkräfte sollen über die Gestaltung und konzeptuelle Nutzung von Schulräumen mitentscheiden (HRK & KMK, 2015), also müssen sie auch wissen, inwieweit materiell-räumliche Gegebenheiten Barrierepotenziale bergen und wie diese abgebaut oder umgangen werden können. Es erscheint daher notwendig, entsprechendes professionelles Wissen über Barrieren im Rahmen einer inklusionsorientierten Lehrer*innenbildung zu stärken (Bükers et al., 2021; HRK & KMK, 2015; UNESCO, 2013).
+</div>
+
+{{3}} <div style="border-left: 6px solid #4e5fbd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 **SUPA-Analyseschema**
-> Das SUPA (=Schul- und Pausenhof Analyseschema) kann zur Beurteilung der Barrierefreiheit von bewegungsräumen wie Spielplätzen verwendet werden. Es unterscheidet zwischen den Dimensionen *Raum* und *Qualität* (Bükers & Wibowo, 2020; Bükers & Heemsoth, 2022).
+Das SUPA (=Schul- und Pausenhof Analyseschema) kann zur Beurteilung der Barrierefreiheit von bewegungsräumen wie Spielplätzen verwendet werden. Es unterscheidet zwischen den Dimensionen *Raum* und *Qualität* (Bükers & Wibowo, 2020; Bükers & Heemsoth, 2022).
+</div>
 
-{{4}}
+{{4}} <div style="border-left: 6px solid #4e9cbd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 **Exemplarischer Spielplatz**
-> Arbeitsauftrag: Erkunde beobachtend den folgenden Spielplatz. Nutze dafür das SUPA. Welche positiven und welche negativen Beobachtungen machst du? 
+Arbeitsauftrag: Erkunde beobachtend den folgenden Spielplatz. Nutze dafür das SUPA. Welche positiven und welche negativen Beobachtungen machst du? 
+</div>
 
 **Spielplatz 1**
 
