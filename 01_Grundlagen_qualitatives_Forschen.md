@@ -326,6 +326,7 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 [(X)] Die Forschungsfrage, der Gegenstand und der theoretische Rahmen
 
 </section>
+
 ---
 {{5}} <section>
 
@@ -340,7 +341,7 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 ## Beobachtungen
 
 <!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
 </div>
 
@@ -549,25 +550,34 @@ Arbeitsauftrag: Erkunde beobachtend den folgenden Spielplatz. Nutze dafür das S
 
 ---
 
-### Interview-Simulator 
-Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
+### Interview-Simulator
+<section>
+
+<!-- class="animate__animated animate__fadeInUp" -->
+#### Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
+<!-- class="animate__animated animate__slideInLeft" -->
 > ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 
+<!-- class="animate__animated animate__fadeInUp" -->
 - Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
--> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!
+**-> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!**
 
+<!-- class="animate__animated animate__slideInLeft animate__delay-3s" -->
 <div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-🎙️ <b>Hinweis:</b> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Hinweis</span> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
 </div>
+</section>
 
 #### Bevor es losgeht: Deine Vorbereitung
-Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor beachten?**
 
--> Nimm dir kurz Zeit und überleg dir in Ruhe 3–4 Punkte, bevor du weiterklickst.
+<!-- class="animate__animated animate__fadeInUp" -->
+> Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor beachten?**
+> Nimm dir kurz Zeit und überleg dir in Ruhe 3–4 Punkte, bevor du weiterklickst.
 <div style="text-align:left;">
   <img src="img\Interview-Checkliste.jpg" style="width:450px; max-width:100%; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
 </div>
 
+<!-- class="animate__animated animate__slideInLeft animate__delay-3s" -->
 <details>
 <summary>🔍 Klick hier, um eine Beispiel-Checkliste zum Vergleich zu sehen</summary>
 
