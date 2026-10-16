@@ -1,6 +1,4 @@
 # Style-Book 🎨  
-<section>
-
 <!--
 author: Melina Burmeister
 version: 0.0.1
@@ -11,22 +9,23 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeite
 
 import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
+link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+
 -->
 
+<section>
 ## Für Folien mit dem gewissen Etwas
 
-Hier findest du **Gestaltungselemente zum Kopieren**: Boxen, Tabellen, Aufklappbares, Abbildungen und viels mehr. Damit werden aus langen Stichpunktlisten Folien, durch die man sich gern klickt.
-
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-Jedes Element ist <b>kurz erklärt</b>, hat eine <b>Vorschau</b> und einen <b>Code zum Kopieren</b> 📋.
-</div>
+### Hier findest du **Gestaltungselemente zum Kopieren**: Boxen, Tabellen, Aufklappbares, Abbildungen und viels mehr. Damit werden aus langen Stichpunktlisten Folien, durch die man sich gern klickt.
 
 ### So ist jeder Beitrag aufgebaut
 
-1. **Name und Einsatzzweck:** wann lohnt sich das Element?
-2. **Vorschau:** so sieht es aus.
-3. **Code zum Kopieren:** kopieren, einfügen, Text austauschen, fertig.
-4. **Anpassen:** an welchen Stellschrauben du drehen kannst (Farbe, Rundung, Abstand).
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+(0. **Name und Einsatzzweck:** wann lohnt sich das Element?) 
+1. **Vorschau:** so sieht es aus.
+2. **Code zum Kopieren:** kopieren, einfügen, Text austauschen, fertig.
+3. **Anpassen:** an welchen Stellschrauben du drehen kannst (Farbe, Rundung, Abstand).
+</div>
 </section>
 
 ---
@@ -192,7 +191,591 @@ Unmarkierter Textabschnitt <span style="background: linear-gradient(transparent 
 
 ## Anordnen
 
-## Aufklappen und Enthüllen
+### Trennlinien
+
+Abschnitt 1 
+
+<hr style="border: none; border-top: 2px solid #4e66bd; margin: 1.5rem 0;">
+
+Abschnitt 2
+
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #4e66bd, transparent); margin: 1.5rem 0;">
+
+Abschnitt 3
+
+**Code zum Kopieren**:
+
+```html
+Abschnitt 1 
+
+<hr style="border: none; border-top: 2px solid #4e66bd; margin: 1.5rem 0;">
+
+Abschnitt 2
+
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #4e66bd, transparent); margin: 1.5rem 0;">
+
+Abschnitt 3
+```
+
+### Zwei Spalten Links-Rechts
+
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 220px;">
+Hier dein Text links.
+</div>
+
+<div style="flex: 1; min-width: 220px;">
+<img src="img\Interviewsituation.jpg" style="max-width: 100%; border-radius: 8px;">
+</div>
+
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 220px;">
+Hier dein Text links.
+</div>
+
+<div style="flex: 1; min-width: 220px;">
+<img src="Hier Video/Bild/Medie einfügen" style="max-width: 100%; border-radius: 8px;">
+</div>
+
+</div>
+```
+
+### Kacheln/Karten
+<section>
+
+#### Nach Wunsch, können die jeweiligen Zeilen (Emoji, Überschrift, Text) gelöscht oder vertauscht werden.
+
+**Varainte 1: Ohne Animation**
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+</div>
+```
+
+**Variante 2: Mit Animation**
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__fadeInUp" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-3s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-4s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__fadeInUp" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧑</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-3s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+
+  <div class="animate__animated animate__fadeInUp animate__delay-4s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🧩</div>
+    <strong style="display: block; margin-bottom: 5px;">Überschrift</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Dein Text.</span>
+  </div>
+</div>
+```
+</section>
+
+### Aufklappbare Details
+**Eignet sich beispielsweise für Check-Listen, Zusatzinfos, Beispiele etc.**
+
+<details>
+<summary>🔍 Klick hier, um ein Beispiel zu sehen</summary>
+
+- Deine "versteckten" Infos
+
+</details>
+
+**Code zum Kopieren**:
+
+```html
+<details>
+<summary>🔍 Klick hier, um ein Beispiel zu sehen</summary>
+
+- Deine "versteckten" Infos
+
+</details>
+```
+
+<b>Frage:</b> Hier steht die Frage.
+
+<details>
+<summary>👉 Lösung anzeigen</summary>
+
+Hier steht die Antwort.
+
+</details>
+
+**Code zum Kopieren**:
+
+```html
+<b>Frage:</b> Hier steht die Frage.
+
+<details>
+<summary>👉 Lösung anzeigen</summary>
+
+Hier steht die Antwort.
+
+</details>
+```
+
+### Zeitleiste/Ablaufpfeile
+
+<div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+<div style="border: 2px solid #8b4ebd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 1</div>
+<span style="font-size: 1.5em;">➜</span>
+<div style="border: 2px solid #544ebd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 2</div>
+<span style="font-size: 1.5em;">➜</span>
+<div style="border: 2px solid #4eb2bd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 3</div>
+</div>
+
+**Code zum Kopieren**: 
+
+```html
+<div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+<div style="border: 2px solid #8b4ebd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 1</div>
+<span style="font-size: 1.5em;">➜</span>
+<div style="border: 2px solid #544ebd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 2</div>
+<span style="font-size: 1.5em;">➜</span>
+<div style="border: 2px solid #4eb2bd; border-radius: 12px; padding: 0.5rem 1rem;">Schritt 3</div>
+</div>
+```
+
+<div style="border-left: 3px solid #4e66bd; padding-left: 1.2rem; margin-left: 0.5rem;">
+
+<div style="margin-bottom: 1rem;">
+<b>1. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+<div style="margin-bottom: 1rem;">
+<b>2. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+<div>
+<b>3. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+</div>
+
+**Code zum Kopieren**: 
+
+```html
+<div style="border-left: 3px solid #4e66bd; padding-left: 1.2rem; margin-left: 0.5rem;">
+
+<div style="margin-bottom: 1rem;">
+<b>1. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+<div style="margin-bottom: 1rem;">
+<b>2. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+<div>
+<b>3. Phase: Titel</b><br>
+Hier eine kurze Beschreibung.
+</div>
+
+</div>
+```
+
+## Präsentationsübergänge
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+Um den Elementen in deinen Folien etwas Bewegung zu geben, gibt es verschiedene Animationen zum Ein- und Ausblenden. 
+</div>
+
+### Per Klick einblenden
+<section>
+
+#### Wie auch im gängigen Powerpointformat, hast du die Möglichkeit, jedes Element per Klick einblenden zu lassen. 
+
+Mit Pfeil rechts bzw. „Weiter" erscheint jeweils der nächste Kasten.
+
+{{1}}
+- Schritt 1
+
+{{2}}
+- Schritt 2
+
+{{3}}
+- Schritt 3
+
+**Code zum Kopieren**: 
+```html
+{{1}}
+- Schritt 1
+
+{{2}}
+- Schritt 2
+
+{{3}}
+- Schritt 3
+```
+</section>
+
+### Animation beim Erscheinen der Folie
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
+```html
+ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+ ```
+</div>
+
+#### Einfaches Einblenden
+--{{0}}-- **Hinweis:** Der kleine, aber feine Unterschied in der Animation der 'einfachen' Lia-Script Elementen und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block)
+
+<!-- class="animate__animated animate__fadeIn" -->
+- So lässt du einfach Markdown Elemente erscheinen
+
+<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+Aber auch html Elemente können eingeblendet werden. 
+</div>
+
+**Code zum Kopieren**:
+```html
+<!-- class="animate__animated animate__fadeIn" -->
+- So lässt du einfach Markdown Elemente erscheinen
+
+<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+Aber auch html Elemente können eingeblendet werden. 
+</div>
+```
+
+#### Einblenden von Oben/Unten
+
+<!-- class="animate__animated animate__fadeInUp" -->
+> Das hier kommt von oben!
+
+<!-- class="animate__animated animate__fadeInDown" -->
+> Das hier kommt von unten!
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__fadeInUp" -->
+> Das hier kommt von oben!
+
+<!-- class="animate__animated animate__fadeInDown" -->
+> Das hier kommt von unten!
+```
+
+#### Einblenden von Links/Rechts
+
+<!-- class="animate__animated animate__slideInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links</b> 
+</div>
+
+<!-- class="animate__animated animate__slideInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__slideInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links</b> 
+</div>
+
+<!-- class="animate__animated animate__slideInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+</div>
+```
+
+#### Nacheinander einblenden 
+
+<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das erscheint sofort.
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das nach 1 Sekunde
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Und das dann nach 2 Sekunden
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das erscheint sofort.
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das nach 1 Sekunde
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Und das dann nach 2 Sekunden
+</div>
+```
+## Präsentationsübergänge
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+Um den Elementen in deinen Folien etwas Bewegung zu geben, gibt es verschiedene Animationen zum Ein- und Ausblenden. 
+</div>
+
+### Per Klick einblenden
+<section>
+
+#### Wie auch im gängigen Powerpointformat, hast du die Möglichkeit, jedes Element per Klick einblenden zu lassen. 
+
+Mit Pfeil rechts bzw. „Weiter" erscheint jeweils der nächste Kasten.
+
+{{1}}
+- Schritt 1
+
+{{2}}
+- Schritt 2
+
+{{3}}
+- Schritt 3
+
+**Code zum Kopieren**: 
+```html
+{{1}}
+- Schritt 1
+
+{{2}}
+- Schritt 2
+
+{{3}}
+- Schritt 3
+```
+</section>
+
+### Animation beim Erscheinen der Folie
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
+```html
+ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+ ```
+</div>
+
+#### Einfaches Einblenden
+--{{0}}-- **Hinweis:** Der kleine, aber feine Unterschied in der Animation der 'einfachen' Lia-Script Elementen und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block)
+
+<!-- class="animate__animated animate__fadeIn" -->
+- So lässt du einfach Markdown Elemente erscheinen
+
+<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+Aber auch html Elemente können eingeblendet werden. 
+</div>
+
+**Code zum Kopieren**:
+```html
+<!-- class="animate__animated animate__fadeIn" -->
+- So lässt du einfach Markdown Elemente erscheinen
+
+<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+Aber auch html Elemente können eingeblendet werden. 
+</div>
+```
+
+#### Einblenden von Oben/Unten
+
+<!-- class="animate__animated animate__fadeInUp" -->
+> Das hier kommt von oben!
+
+<!-- class="animate__animated animate__fadeInDown" -->
+> Das hier kommt von unten!
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__fadeInUp" -->
+> Das hier kommt von oben!
+
+<!-- class="animate__animated animate__fadeInDown" -->
+> Das hier kommt von unten!
+```
+
+#### Einblenden von Links/Rechts
+
+<!-- class="animate__animated animate__slideInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links</b> 
+</div>
+
+<!-- class="animate__animated animate__slideInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__slideInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links</b> 
+</div>
+
+<!-- class="animate__animated animate__slideInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+</div>
+```
+
+#### Nacheinander einblenden 
+
+<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das erscheint sofort.
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das nach 1 Sekunde
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Und das dann nach 2 Sekunden
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das erscheint sofort.
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Das nach 1 Sekunde
+</div>
+
+<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
+Und das dann nach 2 Sekunden
+</div>
+```
 
 ## Besondere Abbildungen
 
@@ -263,5 +846,170 @@ Unmarkierter Textabschnitt <span style="background: linear-gradient(transparent 
 ```
 
 **Anpassen:** Die Farben der einzelnen Ebenen können jeweils über `#1f3a5f`, `#2f6b4f`, `#9a5b13` geändert werden. Natürlich kann auch der Text innerhalb der Abbildung geändert werden, sodass inhaltlich Spielraum für verschiedene Ebenen-Darstellungen ist.  
+
+### Phasendiagramm
+
+(Hier am Beispiel des methodischen Spektrums)
+
+**Variante 1: Ohne Animation**
+
+<div style="position: relative; margin: 30px 0 60px 0;">
+
+  <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
+    </div>
+
+  </div>
+
+  <div style="position: absolute; right: 5%; left: 5%; bottom: -35px; height: 30px;">
+    <svg width="100%" height="100%" viewBox="0 0 500 40" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M 480 5 C 480 35, 20 35, 20 12" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="4 3" fill="none" />
+      <polygon points="15,14 20,4 25,14" fill="#2b6cb0" />
+    </svg>
+    <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
+      evtl. zirkulärer Re-Analyseprozess
+    </span>
+  </div>
+
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="position: relative; margin: 30px 0 60px 0;">
+
+  <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
+    </div>
+
+    <div style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
+    </div>
+
+  </div>
+
+  <div style="position: absolute; right: 5%; left: 5%; bottom: -35px; height: 30px;">
+    <svg width="100%" height="100%" viewBox="0 0 500 40" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M 480 5 C 480 35, 20 35, 20 12" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="4 3" fill="none" />
+      <polygon points="15,14 20,4 25,14" fill="#2b6cb0" />
+    </svg>
+    <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
+      evtl. zirkulärer Re-Analyseprozess
+    </span>
+  </div>
+
+</div>
+```
+
+**Variante 2: Mit bereits eingefügten Animationen** 
+
+<div style="position: relative; margin: 30px 0 60px 0;">
+
+  <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <div class="animate__animated animate__fadeInUp" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
+    </div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
+    </div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
+    </div>
+
+  </div>
+
+  <div style="position: absolute; right: 5%; left: 5%; bottom: -35px; height: 30px;">
+    <svg width="100%" height="100%" viewBox="0 0 500 40" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M 480 5 C 480 35, 20 35, 20 12" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="4 3" fill="none" />
+      <polygon points="15,14 20,4 25,14" fill="#2b6cb0" />
+    </svg>
+    <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
+      evtl. zirkulärer Re-Analyseprozess
+    </span>
+  </div>
+
+</div>
+
+
+**Code zum Kopieren**: 
+
+```html
+<div style="position: relative; margin: 30px 0 60px 0;">
+
+  <div style="display: flex; gap: 15px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <div class="animate__animated animate__fadeInUp" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">1. Datenerhebung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Leitfadeninterviews, teilnehmende/nicht-teilnehmende Beobachtungen</span>
+    </div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-1s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">2. Datenaufbereitung</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Transkription, Anonymisierung, Erstellung des Feldporträts</span>
+    </div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="font-size: 1.5em; color: #a0aec0; font-weight: bold;">➔</div>
+
+    <div class="animate__animated animate__fadeInUp animate__delay-2s" style="flex: 1; min-width: 200px; background: #f0f4f8; border-left: 5px solid #2b6cb0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+      <strong style="color: #2b6cb0; font-size: 1.1em; display: block; margin-bottom: 5px;">3. Analyse & Interpretation</strong>
+      <span style="font-size: 0.9em; color: #4a5568;">z. B. Kodierung, Typenbildung</span>
+    </div>
+
+  </div>
+
+  <div style="position: absolute; right: 5%; left: 5%; bottom: -35px; height: 30px;">
+    <svg width="100%" height="100%" viewBox="0 0 500 40" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M 480 5 C 480 35, 20 35, 20 12" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="4 3" fill="none" />
+      <polygon points="15,14 20,4 25,14" fill="#2b6cb0" />
+    </svg>
+    <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
+      evtl. zirkulärer Re-Analyseprozess
+    </span>
+  </div>
+
+</div>
+```
 
 ## Für Details 
