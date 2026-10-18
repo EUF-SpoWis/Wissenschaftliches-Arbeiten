@@ -53,7 +53,7 @@ Schaue nun einen Ausschnitt aus der folgenden Szene des Films <i>Dead Poets Soci
 <!-- class="animate__animated animate__fadeInUp" -->
 <details><summary><b>👉 Klicke hier, wenn du den Ausschnitt geschaut hast</b></summary>
 
-John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Qualität eines Gedichts numerisch messbar sei. Manche Dinge benötigen detailliertere Verfahren der Auseinandersetzung, um sie zu durchdringen. 
+John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Qualität eines Gedichts numerisch messbar sei. Manche Gegenstände benötigen anders gelagerte Verfahren der Auseinandersetzung, um sie zu durchdringen. 
 
 > Auch derartige Forschungsgegenstände gibt es in der Sportwissenschaft. Sie benötigen Verfahren, die sich mit Details, Hintergründen und Bedeutungen auseinandersetzen.
 
@@ -72,12 +72,12 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 
 <!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #278f25;">Quantitatives Paradigma:</b> Standardisiert, messend, prüft vorab formulierte Hypothesen.
+  <b style="color: #278f25;">Quantitatives Paradigma:</b> Standardisiert, messend, prüft vorab formulierte Hypothesen (theorieprüfend).
 </div>
 
 <!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #1a9f8d;">Qualitatives Paradigma:</b> Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien.
+  <b style="color: #1a9f8d;">Qualitatives Paradigma:</b> Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien (theoriegenerierend).
 </div>
 
 <!-- class="animate__animated animate__slideInLeft" -->
@@ -101,7 +101,7 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 
 ---
 
-### Gegenstandsbereich und Erkenntnisinteresse
+### Gegenstandsbereich
 
 <!-- class="animate__animated animate__slideInLeft" -->
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
@@ -162,7 +162,7 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 
 ---
 
-### Forschungsfragen in der qualitativen Forschung
+### Forschungsfragen
 
 <!-- class="animate__animated animate__slideInLeft" -->
 * **Ausgangspunkt:** Qualitative Forschung startet bei einem Phänomen oder sozialen Problem, **nicht** bei einer Hypothese.
@@ -423,10 +423,10 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 
 <!-- class="animate__animated animate__fadeInUp" -->
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-**Theoretischer Hintergrund: Klassenführung**  
+**Theoretischer Hintergrund:**  
 Wissenschaftliche Beobachtung erfordert eine **theoretische Brille**. In dieser Übung nutzen wir das Konzept der **Klassenführung**:
 
-- **Definition:** Klassenführung umfasst alle Maßnahmen einer Lehrkraft, die dazu führen, dass Lehr-Lernprozesse möglichst reibungslos ablaufen und damit die aktive Lern- bzw. Bewegungszeit maximiert wird *(Helmke, 2022)*, Störungen minimiert werden und alle Schüler:innen am Lerngeschehen beteiligt sind *(Kunter & Ewald, 2016)*.
+- **Definition:** Unter Klassenführung werden alle Maßnahmen einer Lehrkraft verstanden, die für einen reibungslosen Ablauf von Lehr-Lernprozessen sorgen und die aktive Lern- bzw. Bewegungszeit maximieren *(Helmke, 2022)*. Ziel ist es dabei, Störungen zu minimieren und eine aktive Beteiligung aller Schüler:innen am Lerngeschehen zu gewährleisten *(Kunter & Ewald, 2016)*.
 - **Ein Teilbereich der Klassenführung ist *Momentum & Übergänge*:** Hierunter fällt die **Reibungslosigkeit** des Unterrichtsflusses, d. h. das Ausbleiben organisatorischer Verzögerungen und unnötiger Leerläufe *(Helmke, 2022; Kounin, 2006)*.
 </div>
 
@@ -469,11 +469,11 @@ Wissenschaftliche Beobachtung erfordert eine **theoretische Brille**. In dieser 
 
 | Durchgang & Fokus | Orientierungsfragen & Perspektive | Deine Beobachtungen |
 | :--- | :--- | :--- |
-| **1. Durchgang:**<br>**Raumorganisation** | Wie ist die Bewegungsphase räumlich organisiert? Gibt es explizite Bewegungsräume, Warteräume, Räume zur kognitiven Auseinandersetzung etc.? | <textarea rows="3" style="width:100%;"></textarea> |
-| **2a. Durchgang:**<br>**Bewegungsintensität** *(Allgemein)* | Wie hoch ist die *geforderte* vs. *tatsächliche* Bewegungsintensität im Bewegungsraum und außerhalb (für die **gesamte Klasse**)? | <textarea rows="4" style="width:100%;"></textarea> |
-| **2b. Durchgang:**<br>**Bewegungsintensität** *(Einzelfall)* | Wähle **eine gezielte Person** im Video aus: Wie hoch ist ihre individuelle Bewegungsintensität über die gesamte Sequenz hinweg? | <textarea rows="4" style="width:100%;"></textarea> |
-| **3a. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Allgemein)* | Wie verhält sich die **Gruppe außerhalb des Bewegungsraums** (Ablenkung, Beobachten, soziale Interaktion)? | <textarea rows="4" style="width:100%;"></textarea> |
-| **3b. Durchgang:**<br>**Nicht-bewegtes Verhalten** *(Einzelfall)* | Verfolge **dieselbe Person aus 2b**: Was tut sie konkret in den Passivitäts- und Wartephasen? | <textarea rows="4" style="width:100%;"></textarea> |
+| **1. Raum- und Organisationsstruktur** | Wie ist die Bewegungsphase räumlich organisiert? Gibt es explizite Bewegungsräume, Warteräume, Räume zur kognitiven Auseinandersetzung etc.? | <textarea rows="3" style="width:100%;"></textarea> |
+| **2a. Bewegungszeit** *(Allgemein)* | Wie hoch ist die *geforderte* vs. *tatsächliche* Bewegungsintensität im Bewegungsraum und außerhalb (für die **gesamte Klasse**)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **2b. Bewegungszeit** *(Einzelfall)* | Wähle **eine gezielte Person** im Video aus: Wie hoch ist ihre individuelle Bewegungsintensität über die gesamte Sequenz hinweg? | <textarea rows="4" style="width:100%;"></textarea> |
+| **3a. Verhaltensweisen im Warteraum** *(Allgemein)* | Wie verhält sich die **Gruppe außerhalb des Bewegungsraums** (Ablenkung, Beobachten, soziale Interaktion)? | <textarea rows="4" style="width:100%;"></textarea> |
+| **3b. Verhaltensweisen im Warteraum** *(Einzelfall)* | Verfolge **dieselbe Person aus 2b**: Was tut sie konkret in den Passivitäts- und Wartephasen? | <textarea rows="4" style="width:100%;"></textarea> |
 
 </div>
 
@@ -554,21 +554,21 @@ Arbeitsauftrag: Erkunde beobachtend den folgenden Spielplatz. Nutze dafür das S
 <section>
 
 <!-- class="animate__animated animate__fadeInUp" -->
-#### Mit diesem interaktiven **Interview-Simulator** wirst du nun ein **leitfadengestütztes Interview** mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview bestimmte Daten erheben, um die folgende Forschungsfrage zu beantworten:
+#### Mit diesem interaktiven *Interview-Simulator* wirst du nun ein *leitfadengestütztes Interview* mit einem Kind (ca. 14 Jahre) durchführen, welches im Volleyball-Verein spielt. Du möchtest mit dem Interview qualitative Daten erheben, um die folgende Forschungsfrage zu beantworten:
 <!-- class="animate__animated animate__slideInLeft" -->
 > ***„Welche Bedingungen und Handlungen erleben Kinder im Training als förderlich für ihr eigenes Kompetenzerleben?“***
 
 <!-- class="animate__animated animate__fadeInUp" -->
 - Du wirst nun wiederholt vor die Wahl gestellt, welche Interviewfragen und Reaktionen zu bestimmten Gesprächszeitpunkten am geeignetsten sind. Jede deiner Entscheidungen wird bei dem Kind eine andere Reaktion auslösen. 
-**-> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!**
+*** -> Versuche ein Gespür dafür zu entwickeln, wie unterschiedliche Formulierungen und Verhaltensweisen die Antwort von Interviewpartner*innen beeinflussen können!**
 
 <!-- class="animate__animated animate__slideInLeft animate__delay-3s" -->
 <div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Hinweis</span> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Hinweis</span> Die Audioaufnahmen in diesem Simulator wurden mit einer KI-Stimme (© ElevenLabs) erstellt. Alle Aussagen sind rein hypothetischer Natur und entspringen keinem real existierenden Interview. 
 </div>
 </section>
 
-#### Bevor es losgeht: Deine Vorbereitung
+#### Interview-Vorbereitung
 
 <!-- class="animate__animated animate__fadeInUp" -->
 > Du wirst jetzt gleich ein Interview führen! **Was denkst du, solltest du davor beachten?**
@@ -655,7 +655,7 @@ let audios = [
 ];
 
 let kommentare = [
-  "✅Merke: Sprich die Sprache deines Gegenübers, nicht deine eigene Fachsprache. Klare, altersgerechte Fragen verhindern Scheinverhältnisse und soziale Erwünschtheit. „Die Sprache des Befragten sollte als Verständigungsbasis genommen werden.“ (Krieger, 2008, S. 60)",
+  "✅ Merke: Sprich die Sprache deines Gegenübers, nicht deine eigene Fachsprache. Klare, altersgerechte Fragen verhindern Scheinverhältnisse und soziale Erwünschtheit. „Die Sprache des Befragten sollte als Verständigungsbasis genommen werden.“ (Krieger, 2008, S. 60)",
   "❌ Suggestivfrage und mehrdeutig! Das Kind muss sich durch die 'Mittelding'-Option nicht mehr überlegen, wie es seine Erfahrungen wirklich beschreiben würde, sondern wählt nur zwischen den vorgegebenen Antwortmöglichkeiten aus.",
   "❌ Dies ist keine altergerechte Sprache. Das Kind kann mit dieser Formulierung inhaltlich wenig anfangen, wodurch entweder Verwirrung entsteht oder es einfach etwas Beliebiges antwortet, um die Situation zu überbrücken. "
 ];
@@ -1038,6 +1038,165 @@ input == 1;
 <audio id="Audio-Platzhalter-10" src="" controls style="display:none;"></audio>
 
 <p id="Kommentar-Platzhalter-10" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
+
+--------------------------------------------------
+
+### Interviewführung
+
+Wie du durch den Interview-Simulator erfahren hast, führen verschiedene Fragen und Verhaltensweisen des Interviewenden zu unterschiedlichen Antworten und Verhaltensweisen des Interviewten. Folgende 10 Lektionen zur Interviewführung sollten dir nach dem Interview-Simualtor im Gedächtnis bleiben:
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;">
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🤝</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">1. Einstieg & Beziehungsaufbau</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Erst Vertrauen, dann Tiefe.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Der Einstieg legt das gesamte Gesprächsklima fest. Einstiegsfragen müssen leicht zu beantworten sein und sich auf einen angenehmen Gegenstand beziehen (Krieger, 2008).</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🗣️</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">2. Altersgerechte Sprache</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Sprich die Sprache deines Gegenübers.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Die Alltagssprache des Kindes bildet die Basis. Überfordernde Fachbegriffe führen zu Verwirrung oder beliebigen Ausweichantworten (Krieger, 2008).</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">⏳</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">3. Aushalten von Pausen</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Stille ist kein leerer Raum, sondern Nachdenkzeit.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Fehlende Geduld gehört zu den häufigsten Fehlerquellen. Vorschnelles Umformulieren unterbricht den Denkprozess des Kindes (Krieger, 2008).</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">💡</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">4. Interpretationen & Suggestionen</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Anbieten statt Vorgeben.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Suggestivfragen schränken den Antwortraum ein. Deutungsangebote müssen als offene Vorschläge formuliert sein, denen widersprochen werden kann.</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🛡️</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">5. Wahrung des Arbeitsbündnisses</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Neugier zeigen statt Urteile bilden.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Werte und Aussagen des Kindes dürfen nie entwertet werden. Das Bündnis bleibt nur erhalten, wenn sich das Kind sicher fühlt (Richartz, 2008).</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🚫</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">6. Rhetorische Fragen meiden</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Wer die Antwort mitliefert, stellt keine Frage.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Rhetorische Fragen erzeugen erzwungene Zustimmung. Qualitative Interviews erfordern echte, offene Fragen für eigenständiges Material.</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">📖</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">7. Generierung von Narration</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Erzähl mir davon« schlägt »Hast du...?«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Geschlossene Ja/Nein-Fragen bergen das Risiko, dass lediglich Ein-Wort-Antworten entstehen und kein ertragreiches Datenmaterial erzeugt wird.</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">⚖️</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">8. Soziale Erwünschtheit</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Nicht bewerten, sondern neutral nachfragen.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Wertungen erzeugen beim Kind Druck, Erwartungen zu entsprechen. Neutrales, vertiefendes Nachfragen öffnet den Gesprächsraum ohne Drängeln.</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🧭</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">9. Leitfadenflexibilität</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Der Leitfaden ist ein Kompass, keine Checkliste.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Gute Führung hält die Balance zwischen empathischem Folgen des Erzählflusses und strukturierter Rückbesinnung auf die Forschungsfrage.</div>
+</div>
+
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+  <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
+  <div style="font-weight: bold; font-size: 16px; color: #2d3748;">10. Signalverhalten</div>
+  <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Plötzlicher Rückzug signalisiert Grenzüberschreitung.«</div>
+  <div style="font-size: 13px; color: #4a5568; text-align: left;">Ein abrupter Sprachwechsel oder Rückzug deutet auf eine vorherige Bloßstellung hin. Das Erkennen ist essenziell zum Schutz des Vertrauens.</div>
+</div>
+
+</div>
+
+--------------------------------------------------
+
+### Interviewarten
+
+Die qualitative Befragung hält je nach Gegenstand und Forschungsinteresse unterschiedliche Interviewformen bereit:
+
+<div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 120px; border-radius: 50%; background-color: #ffffff; border: 3px solid #cbd5e1; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); z-index: 10;">
+    <span style="font-size: 34px;">🎙️</span>
+    <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
+  </div>
+
+  <div style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Leitfadengestütztes Interview
+  </div>
+
+  <div style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Narratives Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+    Fokussiertes / Problemzentriertes Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Episodisches Interview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Expert:inneninterview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Gruppendiskussion / Fokusgruppe
+  </div>
+
+</div>
+
+<p style="text-align: right; font-size: 0.8em; color: #718096; margin-top: 10px;">
+  <i>(nach Flick, 2019; Helfferich, 2011)</i>
+</p>
+
+--------------------------------------------------
+
+### Ausblick: Datenanalyse in der qualitativen Forschung
+
+Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt die Datenauswertung. Je nach Forschungsfrage und Datenmaterial kommen unterschiedliche Verfahren zum Einsatz. Die in studentischen Abschlussarbeiten am häufigsten verwendeten Verfahren sind:
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 20px 0;">
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
+    <div style="font-size: 28px; margin-bottom: 8px; text-align: center;">📊</div>
+    <div style="font-weight: bold; font-size: 15px; color: #2d3748; text-align: center; margin-bottom: 6px;">Qualitative Inhaltsanalyse</div>
+    <div style="color: #0284c7; font-size: 12px; font-style: italic; text-align: center; margin-bottom: 10px;">(Mayring / Kuckartz)</div>
+    <div style="font-size: 13px; color: #4a5568; line-height: 1.4;">
+      <b>Sinnvoll bei:</b> Textbasiertem Material (Interviewtranskripte, Protokolle) und strukturierter, kategoriegeleiteter Aufarbeitung von Forschungsfragen.
+    </div>
+  </div>
+
+  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
+    <div style="font-size: 28px; margin-bottom: 8px; text-align: center;">⚙️</div>
+    <div style="font-weight: bold; font-size: 15px; color: #2d3748; text-align: center; margin-bottom: 6px;">Grounded Theory Methodology</div>
+    <div style="color: #0284c7; font-size: 12px; font-style: italic; text-align: center; margin-bottom: 10px;">(Strauss & Corbin)</div>
+    <div style="font-size: 13px; color: #4a5568; line-height: 1.4;">
+      <b>Sinnvoll bei:</b> Offenen, explorativen Fragestellungen zur Generierung neuer Theorien direkt aus den Daten (stufenweises Kodieren).
+    </div>
+  </div>
+
+</div>
+
+---
+
+> 🎯 **Ausblick auf die nächsten Kurse:**
+> 
+> In den kommenden Einheiten vertiefen wir diese Ansätze praxisnah:
+> * **Kurs 02:** *Qualitative Inhaltsanalyse* – Kategorienbildung und strukturierte Textarbeit an konkreten Interviewbeispielen.
+> * **Kurs 03:** *Grounded Theory* – Wie aus Felddaten und Codes eigenständige Theorien entstehen.
 
 --------------------------------------------------
 
