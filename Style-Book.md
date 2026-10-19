@@ -13,6 +13,19 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 -->
 
+# Style-Book
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/Style-Book.md)
+
+| Parameter              | Kursinformationen                                                                                              |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Veranstaltung:**     |                                                                                               |
+| **Semester:**          |                                                                                             |
+| **Hochschule:**        | `Europa-Universität Flensburg`                                                                                 |
+| **Inhalte:**           | `Style-Book`                                                                             |
+| **Link auf GitHub:**   | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/Style-Book.md     |
+| **Autoren:**           | Melina Burmeister                                                                                              |
+
 <section>
 ## Für Folien mit dem gewissen Etwas
 
