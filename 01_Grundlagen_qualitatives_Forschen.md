@@ -1042,88 +1042,90 @@ input == 1;
 --------------------------------------------------
 
 ### Interviewführung
+<section>
 
-Wie du durch den Interview-Simulator erfahren hast, führen verschiedene Fragen und Verhaltensweisen des Interviewenden zu unterschiedlichen Antworten und Verhaltensweisen des Interviewten. Folgende 10 Lektionen zur Interviewführung sollten dir nach dem Interview-Simualtor im Gedächtnis bleiben:
+#### Wie du durch den Interview-Simulator erfahren hast, führen verschiedene Fragen und Verhaltensweisen des Interviewenden zu unterschiedlichen Antworten und Verhaltensweisen des Interviewten. Folgende 10 Lektionen zur Interviewführung sollten dir nach dem Interview-Simualtor im Gedächtnis bleiben:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;"></div> 
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🤝</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">1. Einstieg & Beziehungsaufbau</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Erst Vertrauen, dann Tiefe.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Der Einstieg legt das gesamte Gesprächsklima fest. Einstiegsfragen müssen leicht zu beantworten sein und sich auf einen angenehmen Gegenstand beziehen (Krieger, 2008).</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🗣️</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">2. Altersgerechte Sprache</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Sprich die Sprache deines Gegenübers.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Die Alltagssprache des Kindes bildet die Basis. Überfordernde Fachbegriffe führen zu Verwirrung oder beliebigen Ausweichantworten (Krieger, 2008).</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">⏳</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">3. Aushalten von Pausen</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Stille ist kein leerer Raum, sondern Nachdenkzeit.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Fehlende Geduld gehört zu den häufigsten Fehlerquellen. Vorschnelles Umformulieren unterbricht den Denkprozess des Kindes (Krieger, 2008).</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-3s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">💡</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">4. Interpretationen & Suggestionen</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Anbieten statt Vorgeben.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Suggestivfragen schränken den Antwortraum ein. Deutungsangebote müssen als offene Vorschläge formuliert sein, denen widersprochen werden kann.</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-4s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🛡️</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">5. Wahrung des Arbeitsbündnisses</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Neugier zeigen statt Urteile bilden.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Werte und Aussagen des Kindes dürfen nie entwertet werden. Das Bündnis bleibt nur erhalten, wenn sich das Kind sicher fühlt (Richartz, 2008).</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-5s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🚫</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">6. Rhetorische Fragen meiden</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Wer die Antwort mitliefert, stellt keine Frage.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Rhetorische Fragen erzeugen erzwungene Zustimmung. Qualitative Interviews erfordern echte, offene Fragen für eigenständiges Material.</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-6s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">📖</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">7. Generierung von Narration</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Erzähl mir davon« schlägt »Hast du...?«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Geschlossene Ja/Nein-Fragen bergen das Risiko, dass lediglich Ein-Wort-Antworten entstehen und kein ertragreiches Datenmaterial erzeugt wird.</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-7s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">⚖️</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">8. Soziale Erwünschtheit</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Nicht bewerten, sondern neutral nachfragen.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Wertungen erzeugen beim Kind Druck, Erwartungen zu entsprechen. Neutrales, vertiefendes Nachfragen öffnet den Gesprächsraum ohne Drängeln.</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-8s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🧭</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">9. Leitfadenflexibilität</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Der Leitfaden ist ein Kompass, keine Checkliste.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Gute Führung hält die Balance zwischen empathischem Folgen des Erzählflusses und strukturierter Rückbesinnung auf die Forschungsfrage.</div>
 </div>
 
-<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp animate__delay-9s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">10. Signalverhalten</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Plötzlicher Rückzug signalisiert Grenzüberschreitung.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Ein abrupter Sprachwechsel oder Rückzug deutet auf eine vorherige Bloßstellung hin. Das Erkennen ist essenziell zum Schutz des Vertrauens.</div>
 </div>
 
-</div>
+</section>
 
 --------------------------------------------------
 
 ### Interviewarten
+<section>
 
-Die qualitative Befragung hält je nach Gegenstand und Forschungsinteresse unterschiedliche Interviewformen bereit:
+#### Die qualitative Befragung hält je nach Gegenstand und Forschungsinteresse unterschiedliche Interviewformen bereit:
 
 <div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
 
@@ -1132,27 +1134,27 @@ Die qualitative Befragung hält je nach Gegenstand und Forschungsinteresse unter
     <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
   </div>
 
-  <div style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
     Leitfadengestütztes Interview
   </div>
 
-  <div style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
     Narratives Interview
   </div>
 
-  <div style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
     Fokussiertes / Problemzentriertes Interview
   </div>
 
-  <div style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
     Episodisches Interview
   </div>
 
-  <div style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
     Expert:inneninterview
   </div>
 
-  <div style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+  <div class="animate__animated animate__slideInRight" style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
     Gruppendiskussion / Fokusgruppe
   </div>
 
@@ -1162,15 +1164,18 @@ Die qualitative Befragung hält je nach Gegenstand und Forschungsinteresse unter
   <i>(nach Flick, 2019; Helfferich, 2011)</i>
 </p>
 
+</section>
+
 --------------------------------------------------
 
 ### Ausblick: Datenanalyse in der qualitativen Forschung
+<section>
 
-Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt die Datenauswertung. Je nach Forschungsfrage und Datenmaterial kommen unterschiedliche Verfahren zum Einsatz. Die in studentischen Abschlussarbeiten am häufigsten verwendeten Verfahren sind:
+#### Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt die Datenauswertung. Je nach Forschungsfrage und Datenmaterial kommen unterschiedliche Verfahren zum Einsatz. Die in studentischen Abschlussarbeiten am häufigsten verwendeten Verfahren sind:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 20px 0;">
 
-  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
+<div class="animate__animated animate__slideInLeft" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
     <div style="font-size: 28px; margin-bottom: 8px; text-align: center;">📊</div>
     <div style="font-weight: bold; font-size: 15px; color: #2d3748; text-align: center; margin-bottom: 6px;">Qualitative Inhaltsanalyse</div>
     <div style="color: #0284c7; font-size: 12px; font-style: italic; text-align: center; margin-bottom: 10px;">(Mayring / Kuckartz)</div>
@@ -1179,7 +1184,7 @@ Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt di
     </div>
   </div>
 
-  <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
+  <div class="animate__animated animate__slideInRight" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
     <div style="font-size: 28px; margin-bottom: 8px; text-align: center;">⚙️</div>
     <div style="font-weight: bold; font-size: 15px; color: #2d3748; text-align: center; margin-bottom: 6px;">Grounded Theory Methodology</div>
     <div style="color: #0284c7; font-size: 12px; font-style: italic; text-align: center; margin-bottom: 10px;">(Strauss & Corbin)</div>
@@ -1192,11 +1197,14 @@ Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt di
 
 ---
 
+<!-- class="animate__animated animate__fadeIn" -->
 > 🎯 **Ausblick auf die nächsten Kurse:**
 > 
 > In den kommenden Einheiten vertiefen wir diese Ansätze praxisnah:
 > * **Kurs 02:** *Qualitative Inhaltsanalyse* – Kategorienbildung und strukturierte Textarbeit an konkreten Interviewbeispielen.
 > * **Kurs 03:** *Grounded Theory* – Wie aus Felddaten und Codes eigenständige Theorien entstehen.
+
+</section>
 
 --------------------------------------------------
 
