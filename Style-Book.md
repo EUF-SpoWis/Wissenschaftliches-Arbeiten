@@ -1,5 +1,4 @@
-# Style-Book 🎨  
-<!--
+ <!--
 author: Melina Burmeister
 version: 0.0.1
 language: de
@@ -13,7 +12,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 -->
 
-# Style-Book
+# Style-Book 🎨 
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/Style-Book.md)
 
@@ -517,145 +516,6 @@ Hier eine kurze Beschreibung.
 </div>
 ```
 
-## Präsentationsübergänge
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
-Um den Elementen in deinen Folien etwas Bewegung zu geben, gibt es verschiedene Animationen zum Ein- und Ausblenden. 
-</div>
-
-### Per Klick einblenden
-<section>
-
-#### Wie auch im gängigen Powerpointformat, hast du die Möglichkeit, jedes Element per Klick einblenden zu lassen. 
-
-Mit Pfeil rechts bzw. „Weiter" erscheint jeweils der nächste Kasten.
-
-{{1}}
-- Schritt 1
-
-{{2}}
-- Schritt 2
-
-{{3}}
-- Schritt 3
-
-**Code zum Kopieren**: 
-```html
-{{1}}
-- Schritt 1
-
-{{2}}
-- Schritt 2
-
-{{3}}
-- Schritt 3
-```
-</section>
-
-### Animation beim Erscheinen der Folie
-
-<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
-```html
- link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
- ```
-</div>
-
-#### Einfaches Einblenden
-
-<!-- class="animate__animated animate__fadeIn" -->
-- So lässt du einfach Markdown Elemente erscheinen
-
-<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-Aber auch html Elemente können eingeblendet werden. 
-</div>
-
-**Code zum Kopieren**:
-```html
-<!-- class="animate__animated animate__fadeIn" -->
-- So lässt du einfach Markdown Elemente erscheinen
-
-<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-Aber auch html Elemente können eingeblendet werden. 
-</div>
-```
-
-<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Hinweis</span> **Der kleine, aber feine Unterschied für die Animation der Markdown-Elemente und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block).** 
-</div>
-
-#### Einblenden von Oben/Unten
-
-<!-- class="animate__animated animate__fadeInUp" -->
-> Das hier kommt von oben!
-
-<!-- class="animate__animated animate__fadeInDown" -->
-> Das hier kommt von unten!
-
-**Code zum Kopieren**:
-
-```html
-<!-- class="animate__animated animate__fadeInUp" -->
-> Das hier kommt von oben!
-
-<!-- class="animate__animated animate__fadeInDown" -->
-> Das hier kommt von unten!
-```
-
-#### Einblenden von Links/Rechts
-
-<!-- class="animate__animated animate__slideInLeft" -->
-<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #278f25;">Das hier kommt von Links</b> 
-</div>
-
-<!-- class="animate__animated animate__slideInRight" -->
-<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
-</div>
-
-**Code zum Kopieren**:
-
-```html
-<!-- class="animate__animated animate__slideInLeft" -->
-<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #278f25;">Das hier kommt von Links</b> 
-</div>
-
-<!-- class="animate__animated animate__slideInRight" -->
-<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
-</div>
-```
-
-#### Nacheinander einblenden 
-
-<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Das erscheint sofort.
-</div>
-
-<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Das nach 1 Sekunde
-</div>
-
-<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Und das dann nach 2 Sekunden
-</div>
-
-**Code zum Kopieren**:
-
-```html
-<div class="animate__animated animate__fadeIn" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Das erscheint sofort.
-</div>
-
-<div class="animate__animated animate__fadeIn animate__delay-1s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Das nach 1 Sekunde
-</div>
-
-<div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
-Und das dann nach 2 Sekunden
-</div>
-```
 ## Präsentationsübergänge
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 Um den Elementen in deinen Folien etwas Bewegung zu geben, gibt es verschiedene Animationen zum Ein- und Ausblenden. 
