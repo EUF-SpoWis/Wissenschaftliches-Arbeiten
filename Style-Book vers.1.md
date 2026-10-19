@@ -541,14 +541,13 @@ Mit Pfeil rechts bzw. „Weiter" erscheint jeweils der nächste Kasten.
 ### Animation beim Erscheinen der Folie
 
 <div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
 ```html
  link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
  ```
 </div>
 
 #### Einfaches Einblenden
---{{0}}-- **Hinweis:** Der kleine, aber feine Unterschied in der Animation der 'einfachen' Lia-Script Elementen und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block)
 
 <!-- class="animate__animated animate__fadeIn" -->
 - So lässt du einfach Markdown Elemente erscheinen
@@ -566,6 +565,10 @@ Aber auch html Elemente können eingeblendet werden.
 Aber auch html Elemente können eingeblendet werden. 
 </div>
 ```
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Hinweis</span> **Der kleine, aber feine Unterschied für die Animation der Markdown-Elemente und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block).** 
+</div>
 
 #### Einblenden von Oben/Unten
 
@@ -677,14 +680,13 @@ Mit Pfeil rechts bzw. „Weiter" erscheint jeweils der nächste Kasten.
 ### Animation beim Erscheinen der Folie
 
 <div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
-<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">🎙️ Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Wichtig</span> Bei den folgenden Animationen handelt es sich um CSS-Datein (animate.css), welche für die Gestaltung von HTML-Seiten gentutz werden. Damit diese in LiaScript reibungslos funktionieren, müssen sie über einen Link im Header verknüft werden. Füge dafür folgende Zeile in deinem Header ein: 
 ```html
  link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
  ```
 </div>
 
 #### Einfaches Einblenden
---{{0}}-- **Hinweis:** Der kleine, aber feine Unterschied in der Animation der 'einfachen' Lia-Script Elementen und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block)
 
 <!-- class="animate__animated animate__fadeIn" -->
 - So lässt du einfach Markdown Elemente erscheinen
@@ -702,6 +704,10 @@ Aber auch html Elemente können eingeblendet werden.
 Aber auch html Elemente können eingeblendet werden. 
 </div>
 ```
+
+<div style="background-color:#f0f4f8; border-left: 4px solid #b94655; padding: 12px 16px; border-radius: 4px; margin: 16px 0;">
+<span style="background: #bd4e4e; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Hinweis</span> **Der kleine, aber feine Unterschied für die Animation der Markdown-Elemente und den HTML-Elementen liegt in der Einbindung im Code. Bei Ersterem muss der Animationscode lediglich vor das gewünschte Element gesetzt werden. Für HTML-Elemente wird die Zeile direkt mit in den Code eingebunden (meistens direkt vor den Style-Block).** 
+</div>
 
 #### Einblenden von Oben/Unten
 
@@ -728,9 +734,19 @@ Aber auch html Elemente können eingeblendet werden.
   <b style="color: #278f25;">Das hier kommt von Links</b> 
 </div>
 
+<!-- class="animate__animated animate__lightSpeedInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links, aber etwas schneller</b> 
+</div>
+
 <!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+  <b style="color: #1a9f8d;">Das hier kommt von Rechts</b> 
+</div>
+
+<!-- class="animate__animated animate__lightSpeedInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">Das hier kommt von Rechts, aber etwas schneller</b> 
 </div>
 
 **Code zum Kopieren**:
@@ -741,9 +757,19 @@ Aber auch html Elemente können eingeblendet werden.
   <b style="color: #278f25;">Das hier kommt von Links</b> 
 </div>
 
+<!-- class="animate__animated animate__lightSpeedInLeft" -->
+<div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #278f25;">Das hier kommt von Links, aber etwas schneller</b> 
+</div>
+
 <!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
-  <b style="color: #1a9f8d;">DAs hier kommt von Rechts</b> 
+  <b style="color: #1a9f8d;">Das hier kommt von Rechts</b> 
+</div>
+
+<!-- class="animate__animated animate__lightSpeedInRight" -->
+<div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
+  <b style="color: #1a9f8d;">Das hier kommt von Rechts, aber etwas schneller</b> 
 </div>
 ```
 
@@ -775,6 +801,177 @@ Das nach 1 Sekunde
 <div class="animate__animated animate__fadeIn animate__delay-2s" style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.7rem 1.2rem; margin: 0.5rem 0;">
 Und das dann nach 2 Sekunden
 </div>
+```
+
+#### Bouncing 
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__bounceIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte erscheint mit einem Bounce</strong>
+  </div>
+
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__bounceIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte erscheint mit einem Bounce</strong>
+  </div>
+
+</div>
+```
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__bounceInLeft" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte kommt von links mit Schwung</strong>
+  </div>
+
+  <div class="animate__animated animate__bounceInRight" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte kommt von rechts mit Schwung</strong>
+  </div>
+
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__bounceInLeft" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte kommt von links mit Schwung</strong>
+  </div>
+
+  <div class="animate__animated animate__bounceInRight" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte kommt von rechts mit Schwung</strong>
+  </div>
+
+</div>
+```
+
+>**Weitere Varianten**: animate__bounceInUp; animate__bounceInDown
+
+#### Zoom
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__zoomIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte erscheint mit einem Bounce</strong>
+  </div>
+
+</div>
+
+**Code zum Kopieren**:
+
+```html
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
+
+  <div class="animate__animated animate__zoomIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <strong style="display: block; margin-bottom: 5px;">Diese Karte erscheint mit einem Bounce</strong>
+  </div>
+
+</div>
+```
+
+#### Flipping
+
+<!-- class="animate__animated animate__flipInX" -->
+>Dieses Element erscheint durch ein Aufklappen
+
+<!-- class="animate__animated animate__flipInY" -->
+>Dieses Element erscheint mit viel Schwung
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__flipInX" -->
+>Dieses Element erscheint durch ein Aufklappen
+
+<!-- class="animate__animated animate__flipInY" -->
+>Dieses Element erscheint mit viel Schwung
+```
+
+#### Reinrotieren
+
+<!-- class="animate__animated animate__rollIn" -->
+>Wir rotieren aus zwei verschiedenen Richtungen rein
+
+<!-- class="animate__animated animate__rotateIn" -->
+>Wir rotieren aus zwei verschiedenen Richtungen rein
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__rollIn" -->
+>Wir rotieren aus zwei verschiedenen Richtungen rein
+
+<!-- class="animate__animated animate__rotateIn" -->
+>Wir rotieren aus zwei verschiedenen Richtungen rein
+```
+
+<!-- class="animate__animated animate__jackInTheBox"-->
+>Hier eine weitere Variante
+
+**Code zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__jackInTheBox"-->
+>Hier eine weitere Variante
+```
+
+### Zur Betonung von Elementen 
+
+#### Wackeln
+<!-- class="animate__animated animate__wobble"-->
+>Einfaches Wackeln
+
+<!-- class="animate__animated animate__jello"-->
+>Starkes Wackeln
+
+<!-- class="animate__animated animate__swing"-->
+>Mittleres Wackeln
+
+<!-- class="animate__animated animate__headShake"-->
+>Kleines Wackeln
+
+**Codes zum Kopieren**:
+```html
+<!-- class="animate__animated animate__wobble"-->
+>Einfaches Wackeln
+```
+```html
+<!-- class="animate__animated animate__jello"-->
+>Starkes Wackeln
+```
+```html
+<!-- class="animate__animated animate__swing"-->
+>Mittleres Wackeln
+```
+```html
+<!-- class="animate__animated animate__headShake"-->
+>Kleines Wackeln
+```
+
+#### Pulsieren
+<!-- class="animate__animated animate__heartBeat"-->
+>Einfaches Pulsieren
+
+<!-- class="animate__animated animate__flash"-->
+>Aufleuchten
+
+**Codes zum Kopieren**:
+
+```html
+<!-- class="animate__animated animate__heartBeat"-->
+>Einfaches Pulsieren
+```
+```html
+<!-- class="animate__animated animate__flash"-->
+>Aufleuchten
 ```
 
 ## Besondere Abbildungen
@@ -1007,6 +1204,153 @@ Und das dann nach 2 Sekunden
     <span style="position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); background: #ffffff; padding: 0 8px; font-size: 0.75em; color: #2b6cb0; font-weight: bold; border-radius: 4px;">
       evtl. zirkulärer Re-Analyseprozess
     </span>
+  </div>
+
+</div>
+```
+
+### Mind-Map Style 
+
+(Hier am Beispiel einer Übersicht über verschiedene Interviewarten)
+
+**Variante 1: Ohne Animation**
+
+<div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 120px; border-radius: 50%; background-color: #ffffff; border: 3px solid #cbd5e1; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); z-index: 10;">
+    <span style="font-size: 34px;">🎙️</span>
+    <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
+  </div>
+
+  <div style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Leitfadengestütztes Interview
+  </div>
+
+  <div style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Narratives Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+    Fokussiertes / Problemzentriertes Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Episodisches Interview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Expert:inneninterview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Gruppendiskussion / Fokusgruppe
+  </div>
+
+</div>
+
+**Code zum Kopieren**
+```html
+<div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 120px; border-radius: 50%; background-color: #ffffff; border: 3px solid #cbd5e1; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); z-index: 10;">
+    <span style="font-size: 34px;">🎙️</span>
+    <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
+  </div>
+
+  <div style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Leitfadengestütztes Interview
+  </div>
+
+  <div style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Narratives Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+    Fokussiertes / Problemzentriertes Interview
+  </div>
+
+  <div style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Episodisches Interview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Expert:inneninterview
+  </div>
+
+  <div style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Gruppendiskussion / Fokusgruppe
+  </div>
+
+</div>
+```
+
+**Varainte 2: Mit Animationen**
+
+<div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 120px; border-radius: 50%; background-color: #ffffff; border: 3px solid #cbd5e1; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); z-index: 10;">
+    <span style="font-size: 34px;">🎙️</span>
+    <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Leitfadengestütztes Interview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Narratives Interview
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+    Fokussiertes / Problemzentriertes Interview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Episodisches Interview
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Expert:inneninterview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Gruppendiskussion / Fokusgruppe
+  </div>
+
+</div>
+
+**Code zum Kopieren**
+
+```html
+<div style="position: relative; width: 100%; max-width: 680px; height: 360px; margin: 20px auto; font-family: sans-serif;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 120px; border-radius: 50%; background-color: #ffffff; border: 3px solid #cbd5e1; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); z-index: 10;">
+    <span style="font-size: 34px;">🎙️</span>
+    <strong style="font-size: 13px; color: #334155; margin-top: 2px;">Interviews</strong>
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 8%; left: 14%; width: 210px; height: 55px; background-color: #fef08a; color: #854d0e; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fde047; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Leitfadengestütztes Interview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 8%; right: 14%; width: 210px; height: 55px; background-color: #e9d5ff; color: #6b21a8; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #d8b4fe; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Narratives Interview
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; top: 50%; left: 2%; transform: translateY(-50%); width: 240px; height: 65px; background-color: #bbf7d0; color: #166534; font-weight: 600; border-radius: 30px; font-size: 12px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px; line-height: 1.2;">
+    Fokussiertes / Problemzentriertes Interview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; top: 50%; right: 2%; transform: translateY(-50%); width: 210px; height: 55px; background-color: #fed7aa; color: #9a3412; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #fdba74; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Episodisches Interview
+  </div>
+
+  <div class="animate__animated animate__slideInLeft" style="position: absolute; bottom: 8%; left: 14%; width: 210px; height: 55px; background-color: #bfdbfe; color: #1e40af; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #93c5fd; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Expert:inneninterview
+  </div>
+
+  <div class="animate__animated animate__slideInRight" style="position: absolute; bottom: 8%; right: 14%; width: 210px; height: 55px; background-color: #fbcfe8; color: #9d174d; font-weight: 600; border-radius: 28px; font-size: 12px; border: 1px solid #f9a8d4; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 12px;">
+    Gruppendiskussion / Fokusgruppe
   </div>
 
 </div>
