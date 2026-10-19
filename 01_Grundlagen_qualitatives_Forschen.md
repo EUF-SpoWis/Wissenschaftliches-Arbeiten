@@ -1046,7 +1046,7 @@ input == 1;
 
 #### Wie du durch den Interview-Simulator erfahren hast, führen verschiedene Fragen und Verhaltensweisen des Interviewenden zu unterschiedlichen Antworten und Verhaltensweisen des Interviewten. Folgende 10 Lektionen zur Interviewführung sollten dir nach dem Interview-Simualtor im Gedächtnis bleiben:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;"></div> 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 20px;">
 
 <div class="animate__animated animate__fadeInUp" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🤝</div>
@@ -1090,32 +1090,34 @@ input == 1;
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Rhetorische Fragen erzeugen erzwungene Zustimmung. Qualitative Interviews erfordern echte, offene Fragen für eigenständiges Material.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-6s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp" style="animation-delay: 6s; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">📖</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">7. Generierung von Narration</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Erzähl mir davon« schlägt »Hast du...?«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Geschlossene Ja/Nein-Fragen bergen das Risiko, dass lediglich Ein-Wort-Antworten entstehen und kein ertragreiches Datenmaterial erzeugt wird.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-7s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp" style="animation-delay: 7s; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">⚖️</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">8. Soziale Erwünschtheit</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Nicht bewerten, sondern neutral nachfragen.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Wertungen erzeugen beim Kind Druck, Erwartungen zu entsprechen. Neutrales, vertiefendes Nachfragen öffnet den Gesprächsraum ohne Drängeln.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-8s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp" style="animation-delay: 8s; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🧭</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">9. Leitfadenflexibilität</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Der Leitfaden ist ein Kompass, keine Checkliste.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Gute Führung hält die Balance zwischen empathischem Folgen des Erzählflusses und strukturierter Rückbesinnung auf die Forschungsfrage.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-9s" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
+<div class="animate__animated animate__fadeInUp" style="animation-delay: 9s; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; text-align: center;">
   <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
   <div style="font-weight: bold; font-size: 16px; color: #2d3748;">10. Signalverhalten</div>
   <div style="color: #0284c7; font-size: 13px; font-style: italic; margin: 4px 0 10px 0;">»Plötzlicher Rückzug signalisiert Grenzüberschreitung.«</div>
   <div style="font-size: 13px; color: #4a5568; text-align: left;">Ein abrupter Sprachwechsel oder Rückzug deutet auf eine vorherige Bloßstellung hin. Das Erkennen ist essenziell zum Schutz des Vertrauens.</div>
+</div>
+
 </div>
 
 </section>
