@@ -9,7 +9,8 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeite
 import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
 link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
-https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css 
+
+link: https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css 
 
 -->
 

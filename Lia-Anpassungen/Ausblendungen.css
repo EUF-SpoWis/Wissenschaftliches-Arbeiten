@@ -3,11 +3,6 @@
   display: none !important;
 }
 
-/* Platzhalter: den echten Klassennamen aus dem Inspektor einsetzen */
-.KLASSE-DER-EBENE {
-  display: none !important;
-}
-
 .lia-toc__content a.lia-toc__link--is-lvl-5 {
   display: none !important;
 }
