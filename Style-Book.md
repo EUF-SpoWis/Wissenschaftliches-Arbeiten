@@ -1229,4 +1229,1124 @@ Und das dann nach 2 Sekunden
 </div>
 ```
 
+### SVG-Grafik 
+
+(hier anhand der sportwissenschaftlichen Disziplinen)
+
+<svg xmlns="http://www.w3.org/2000/svg"
+
+     width="1200" height="690" viewBox="0 0 1200 690"
+
+     role="img" aria-labelledby="title description">
+
+
+
+  <title id="title">Acht sportwissenschaftliche Teildisziplinen</title>
+
+  <desc id="description">
+
+    Acht Kacheln mit Icons für Sportsoziologie, Sportpädagogik,
+
+    Sportmedizin, Bewegungswissenschaft, Sportgeschichte,
+
+    Sportökonomie, Sportpsychologie und Trainingswissenschaft.
+
+    Blau kennzeichnet eher sozial-, verhaltens- und
+
+    erziehungswissenschaftliche Zugänge, Grün eher
+
+    naturwissenschaftlich-medizinische Zugänge.
+
+    Die Sportpsychologie erhält einen Farbverlauf von links Blau
+
+    nach rechts Grün.
+
+  </desc>
+
+
+
+  <defs>
+
+    <linearGradient id="psychologyBackground"
+
+                    x1="0%" y1="0%" x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#e8eef7"/>
+
+      <stop offset="100%" stop-color="#e6f2ea"/>
+
+    </linearGradient>
+
+
+
+    <linearGradient id="psychologyBorder"
+
+                    x1="0%" y1="0%" x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#1f3a5f"/>
+
+      <stop offset="100%" stop-color="#2f6b4f"/>
+
+    </linearGradient>
+
+  </defs>
+
+
+
+  <style>
+
+    text {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .label {
+
+      font-size: 23px;
+
+      font-weight: 700;
+
+      text-anchor: middle;
+
+    }
+
+    .subtitle {
+
+      font-size: 17px;
+
+      text-anchor: middle;
+
+    }
+
+    .icon {
+
+      fill: none;
+
+      stroke: currentColor;
+
+      stroke-width: 3;
+
+      stroke-linecap: round;
+
+      stroke-linejoin: round;
+
+    }
+
+    .social {
+
+      color: #1f3a5f;
+
+    }
+
+    .natural {
+
+      color: #2f6b4f;
+
+    }
+
+    .social-card {
+
+      fill: #e8eef7;
+
+      stroke: #1f3a5f;
+
+      stroke-width: 2;
+
+    }
+
+    .natural-card {
+
+      fill: #e6f2ea;
+
+      stroke: #2f6b4f;
+
+      stroke-width: 2;
+
+    }
+
+  </style>
+
+
+
+  <rect width="1200" height="690" rx="18" fill="#ffffff"/>
+
+
+
+  <!-- Legende -->
+
+  <g transform="translate(24 28)">
+
+    <rect width="24" height="24" rx="6" fill="#1f3a5f"/>
+
+    <text x="36" y="18" font-size="18" fill="#1f3a5f">
+
+      Eher sozial-, verhaltens- und erziehungswissenschaftlich
+
+    </text>
+
+  </g>
+
+
+
+  <g transform="translate(692 28)">
+
+    <rect width="24" height="24" rx="6" fill="#2f6b4f"/>
+
+    <text x="36" y="18" font-size="18" fill="#2f6b4f">
+
+      Eher naturwissenschaftlich-medizinisch
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 1: Sportsoziologie -->
+
+  <g class="social" transform="translate(24 86)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle cy="-22" r="12"/>
+
+      <circle cx="-35" cy="-8" r="10"/>
+
+      <circle cx="35" cy="-8" r="10"/>
+
+      <path d="M-22 29V17Q-22 0 0 0Q22 0 22 17V29"/>
+
+      <path d="M-50 30V21Q-50 7-35 7H-29
+
+               M50 30V21Q50 7 35 7H29"/>
+
+      <path d="M-50 40H50"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportsoziologie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Gesellschaft, Teilhabe</tspan>
+
+      <tspan x="138" dy="25">und soziale Strukturen</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 2: Sportpädagogik -->
+
+  <g class="social" transform="translate(316 86)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M0-22Q-20-35-45-25V28Q-20 18 0 32
+
+               Q20 18 45 28V-25Q20-35 0-22Z"/>
+
+      <path d="M0-22V32"/>
+
+      <path d="M-34-12Q-23-16-12-11
+
+               M-34 1Q-23-3-12 2
+
+               M12-11Q23-16 34-12
+
+               M12 2Q23-3 34 1"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportpädagogik
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Bildung, Erziehung</tspan>
+
+      <tspan x="138" dy="25">und Vermittlung</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 3: Sportmedizin -->
+
+  <g class="natural" transform="translate(608 86)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M0 37-34 4
+
+               C-61-23-21-49 0-22
+
+               C21-49 61-23 34 4Z"/>
+
+      <path d="M-28 1H-15L-6-13 5 15 15 1H29"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#2f6b4f">
+
+      Sportmedizin
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Gesundheit, Prävention</tspan>
+
+      <tspan x="138" dy="25">und Rehabilitation</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 4: Bewegungswissenschaft -->
+
+  <g class="natural" transform="translate(900 86)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle cx="12" cy="-29" r="9"/>
+
+      <path d="M6-13-9 9 10 19 25 38
+
+               M-9 9-23 30-43 36
+
+               M6-13 24 1 40-9
+
+               M2-7-18-17-33-1"/>
+
+      <path d="M-48-21H-31M-53-9H-42" stroke-width="2"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="153" fill="#2f6b4f">
+
+      <tspan x="138">Bewegungs-</tspan>
+
+      <tspan x="138" dy="27">wissenschaft</tspan>
+
+    </text>
+
+    <text class="subtitle" x="138" y="213" fill="#526173">
+
+      <tspan x="138">Bewegungssteuerung</tspan>
+
+      <tspan x="138" dy="25">und motorisches Lernen</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 5: Sportgeschichte -->
+
+  <g class="social" transform="translate(24 364)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle r="36"/>
+
+      <path d="M0-23V0L18 12"/>
+
+      <path d="M0-36V-29M36 0H29M0 36V29M-36 0H-29"/>
+
+      <path d="M-49 40H49"/>
+
+      <circle cx="-32" cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+      <circle cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+      <circle cx="32" cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportgeschichte
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Entstehung, Wandel</tspan>
+
+      <tspan x="138" dy="25">und historische Kontexte</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 6: Sportökonomie -->
+
+  <g class="social" transform="translate(316 364)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-44 36H45"/>
+
+      <rect x="-36" y="8" width="17" height="28" rx="2"/>
+
+      <rect x="-8" y="-8" width="17" height="44" rx="2"/>
+
+      <rect x="20" y="-27" width="17" height="63" rx="2"/>
+
+      <path d="M-37-12-10-29 9-23 38-43
+
+               M25-42 38-43 37-30"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportökonomie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Ressourcen, Anreize</tspan>
+
+      <tspan x="138" dy="25">und Märkte</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 7: Sportpsychologie mit Blau-Grün-Verlauf -->
+
+  <g transform="translate(608 364)" color="#254f58">
+
+    <rect width="276" height="258" rx="16"
+
+          fill="url(#psychologyBackground)"
+
+          stroke="url(#psychologyBorder)"
+
+          stroke-width="2"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-20 38V18
+
+               Q-38 7-34-17
+
+               Q-29-43 0-41
+
+               Q27-39 31-17
+
+               L42 2H29V18H11V38"/>
+
+      <circle cx="-5" cy="-16" r="14"/>
+
+      <path d="M-5-25V-7M-14-16H4"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#254f58">
+
+      Sportpsychologie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Erleben, Verhalten</tspan>
+
+      <tspan x="138" dy="25">und Motivation</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 8: Trainingswissenschaft -->
+
+  <g class="natural" transform="translate(900 364)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-28 0H28"/>
+
+      <rect x="-42" y="-25" width="14" height="50" rx="3"/>
+
+      <rect x="28" y="-25" width="14" height="50" rx="3"/>
+
+      <path d="M-51-13V13M51-13V13"/>
+
+      <path d="M-28 43H26M16 34 26 43 16 52"
+
+            stroke-width="2.5"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="153" fill="#2f6b4f">
+
+      <tspan x="138">Trainings-</tspan>
+
+      <tspan x="138" dy="27">wissenschaft</tspan>
+
+    </text>
+
+    <text class="subtitle" x="138" y="213" fill="#526173">
+
+      <tspan x="138">Belastung, Anpassung</tspan>
+
+      <tspan x="138" dy="25">und Leistungsentwicklung</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- Bildunterschrift -->
+
+  <text x="600" y="665" text-anchor="middle"
+
+        font-size="16" fill="#526173">
+
+    Erstellt mir Perplexity.
+
+  </text>
+
+
+
+</svg>
+
+**Code zum Kopieren**:
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg"
+
+     width="1200" height="690" viewBox="0 0 1200 690"
+
+     role="img" aria-labelledby="title description">
+
+
+
+  <title id="title">Acht sportwissenschaftliche Teildisziplinen</title>
+
+  <desc id="description">
+
+    Acht Kacheln mit Icons für Sportsoziologie, Sportpädagogik,
+
+    Sportmedizin, Bewegungswissenschaft, Sportgeschichte,
+
+    Sportökonomie, Sportpsychologie und Trainingswissenschaft.
+
+    Blau kennzeichnet eher sozial-, verhaltens- und
+
+    erziehungswissenschaftliche Zugänge, Grün eher
+
+    naturwissenschaftlich-medizinische Zugänge.
+
+    Die Sportpsychologie erhält einen Farbverlauf von links Blau
+
+    nach rechts Grün.
+
+  </desc>
+
+
+
+  <defs>
+
+    <linearGradient id="psychologyBackground"
+
+                    x1="0%" y1="0%" x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#e8eef7"/>
+
+      <stop offset="100%" stop-color="#e6f2ea"/>
+
+    </linearGradient>
+
+
+
+    <linearGradient id="psychologyBorder"
+
+                    x1="0%" y1="0%" x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#1f3a5f"/>
+
+      <stop offset="100%" stop-color="#2f6b4f"/>
+
+    </linearGradient>
+
+  </defs>
+
+
+
+  <style>
+
+    text {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .label {
+
+      font-size: 23px;
+
+      font-weight: 700;
+
+      text-anchor: middle;
+
+    }
+
+    .subtitle {
+
+      font-size: 17px;
+
+      text-anchor: middle;
+
+    }
+
+    .icon {
+
+      fill: none;
+
+      stroke: currentColor;
+
+      stroke-width: 3;
+
+      stroke-linecap: round;
+
+      stroke-linejoin: round;
+
+    }
+
+    .social {
+
+      color: #1f3a5f;
+
+    }
+
+    .natural {
+
+      color: #2f6b4f;
+
+    }
+
+    .social-card {
+
+      fill: #e8eef7;
+
+      stroke: #1f3a5f;
+
+      stroke-width: 2;
+
+    }
+
+    .natural-card {
+
+      fill: #e6f2ea;
+
+      stroke: #2f6b4f;
+
+      stroke-width: 2;
+
+    }
+
+  </style>
+
+
+
+  <rect width="1200" height="690" rx="18" fill="#ffffff"/>
+
+
+
+  <!-- Legende -->
+
+  <g transform="translate(24 28)">
+
+    <rect width="24" height="24" rx="6" fill="#1f3a5f"/>
+
+    <text x="36" y="18" font-size="18" fill="#1f3a5f">
+
+      Eher sozial-, verhaltens- und erziehungswissenschaftlich
+
+    </text>
+
+  </g>
+
+
+
+  <g transform="translate(692 28)">
+
+    <rect width="24" height="24" rx="6" fill="#2f6b4f"/>
+
+    <text x="36" y="18" font-size="18" fill="#2f6b4f">
+
+      Eher naturwissenschaftlich-medizinisch
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 1: Sportsoziologie -->
+
+  <g class="social" transform="translate(24 86)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle cy="-22" r="12"/>
+
+      <circle cx="-35" cy="-8" r="10"/>
+
+      <circle cx="35" cy="-8" r="10"/>
+
+      <path d="M-22 29V17Q-22 0 0 0Q22 0 22 17V29"/>
+
+      <path d="M-50 30V21Q-50 7-35 7H-29
+
+               M50 30V21Q50 7 35 7H29"/>
+
+      <path d="M-50 40H50"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportsoziologie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Gesellschaft, Teilhabe</tspan>
+
+      <tspan x="138" dy="25">und soziale Strukturen</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 2: Sportpädagogik -->
+
+  <g class="social" transform="translate(316 86)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M0-22Q-20-35-45-25V28Q-20 18 0 32
+
+               Q20 18 45 28V-25Q20-35 0-22Z"/>
+
+      <path d="M0-22V32"/>
+
+      <path d="M-34-12Q-23-16-12-11
+
+               M-34 1Q-23-3-12 2
+
+               M12-11Q23-16 34-12
+
+               M12 2Q23-3 34 1"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportpädagogik
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Bildung, Erziehung</tspan>
+
+      <tspan x="138" dy="25">und Vermittlung</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 3: Sportmedizin -->
+
+  <g class="natural" transform="translate(608 86)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M0 37-34 4
+
+               C-61-23-21-49 0-22
+
+               C21-49 61-23 34 4Z"/>
+
+      <path d="M-28 1H-15L-6-13 5 15 15 1H29"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#2f6b4f">
+
+      Sportmedizin
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Gesundheit, Prävention</tspan>
+
+      <tspan x="138" dy="25">und Rehabilitation</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 4: Bewegungswissenschaft -->
+
+  <g class="natural" transform="translate(900 86)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle cx="12" cy="-29" r="9"/>
+
+      <path d="M6-13-9 9 10 19 25 38
+
+               M-9 9-23 30-43 36
+
+               M6-13 24 1 40-9
+
+               M2-7-18-17-33-1"/>
+
+      <path d="M-48-21H-31M-53-9H-42" stroke-width="2"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="153" fill="#2f6b4f">
+
+      <tspan x="138">Bewegungs-</tspan>
+
+      <tspan x="138" dy="27">wissenschaft</tspan>
+
+    </text>
+
+    <text class="subtitle" x="138" y="213" fill="#526173">
+
+      <tspan x="138">Bewegungssteuerung</tspan>
+
+      <tspan x="138" dy="25">und motorisches Lernen</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 5: Sportgeschichte -->
+
+  <g class="social" transform="translate(24 364)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <circle r="36"/>
+
+      <path d="M0-23V0L18 12"/>
+
+      <path d="M0-36V-29M36 0H29M0 36V29M-36 0H-29"/>
+
+      <path d="M-49 40H49"/>
+
+      <circle cx="-32" cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+      <circle cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+      <circle cx="32" cy="40" r="3"
+
+              fill="currentColor" stroke="none"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportgeschichte
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Entstehung, Wandel</tspan>
+
+      <tspan x="138" dy="25">und historische Kontexte</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 6: Sportökonomie -->
+
+  <g class="social" transform="translate(316 364)">
+
+    <rect class="social-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-44 36H45"/>
+
+      <rect x="-36" y="8" width="17" height="28" rx="2"/>
+
+      <rect x="-8" y="-8" width="17" height="44" rx="2"/>
+
+      <rect x="20" y="-27" width="17" height="63" rx="2"/>
+
+      <path d="M-37-12-10-29 9-23 38-43
+
+               M25-42 38-43 37-30"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#1f3a5f">
+
+      Sportökonomie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Ressourcen, Anreize</tspan>
+
+      <tspan x="138" dy="25">und Märkte</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 7: Sportpsychologie mit Blau-Grün-Verlauf -->
+
+  <g transform="translate(608 364)" color="#254f58">
+
+    <rect width="276" height="258" rx="16"
+
+          fill="url(#psychologyBackground)"
+
+          stroke="url(#psychologyBorder)"
+
+          stroke-width="2"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-20 38V18
+
+               Q-38 7-34-17
+
+               Q-29-43 0-41
+
+               Q27-39 31-17
+
+               L42 2H29V18H11V38"/>
+
+      <circle cx="-5" cy="-16" r="14"/>
+
+      <path d="M-5-25V-7M-14-16H4"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="164" fill="#254f58">
+
+      Sportpsychologie
+
+    </text>
+
+    <text class="subtitle" x="138" y="202" fill="#526173">
+
+      <tspan x="138">Erleben, Verhalten</tspan>
+
+      <tspan x="138" dy="25">und Motivation</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- 8: Trainingswissenschaft -->
+
+  <g class="natural" transform="translate(900 364)">
+
+    <rect class="natural-card" width="276" height="258" rx="16"/>
+
+
+
+    <g class="icon" transform="translate(138 75)" aria-hidden="true">
+
+      <path d="M-28 0H28"/>
+
+      <rect x="-42" y="-25" width="14" height="50" rx="3"/>
+
+      <rect x="28" y="-25" width="14" height="50" rx="3"/>
+
+      <path d="M-51-13V13M51-13V13"/>
+
+      <path d="M-28 43H26M16 34 26 43 16 52"
+
+            stroke-width="2.5"/>
+
+    </g>
+
+
+
+    <text class="label" x="138" y="153" fill="#2f6b4f">
+
+      <tspan x="138">Trainings-</tspan>
+
+      <tspan x="138" dy="27">wissenschaft</tspan>
+
+    </text>
+
+    <text class="subtitle" x="138" y="213" fill="#526173">
+
+      <tspan x="138">Belastung, Anpassung</tspan>
+
+      <tspan x="138" dy="25">und Leistungsentwicklung</tspan>
+
+    </text>
+
+  </g>
+
+
+
+  <!-- Bildunterschrift -->
+
+  <text x="600" y="665" text-anchor="middle"
+
+        font-size="16" fill="#526173">
+
+    Erstellt mir Perplexity.
+
+  </text>
+
+
+
+</svg>
+```
+
 ## Für Details 

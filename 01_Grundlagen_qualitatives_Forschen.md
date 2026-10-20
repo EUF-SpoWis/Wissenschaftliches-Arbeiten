@@ -9,6 +9,7 @@ import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeite
 import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
 link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css 
 
 -->
 
@@ -591,7 +592,7 @@ Für Beispieldokumente zur Durchführung studentischer Untersuchungen an Schulen
 
 </details>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
 
 **Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten?**
 
@@ -635,7 +636,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-1" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
 
 **Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?**
 
@@ -679,7 +680,7 @@ input == 0;
 
 <p id="Kommentar-Platzhalter-2" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 3</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 3</span>
 
 **Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…** 
 
@@ -723,7 +724,7 @@ input == 1;
 
 <p id="Kommentar-Platzhalter-3" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 4</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 4</span>
 
 **Du möchtest folgende Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?**
 
@@ -757,7 +758,7 @@ input == 3;
 
 <p id="Kommentar-Platzhalter-4" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 5</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 5</span>
 
 **Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?**
 
@@ -804,7 +805,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-5" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 6</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 6</span>
 
 **Welche der folgenden Interviewer-Aussagen ist eine rhetorische Frage (und damit eher ungeeignet)?**
 
@@ -851,7 +852,7 @@ input == 0;
 
 <p id="Kommentar-Platzhalter-6" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 7</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 7</span>
 
 **Du möchtest nun herausfinden, was spezielle Erfolgserlebnisse des Kindes im Training waren. Welche Frage liefert wohl das ergiebigste Material?**
 
@@ -898,7 +899,7 @@ input == 1;
 
 <p id="Kommentar-Platzhalter-7" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 8</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 8</span>
 
 **Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist gut". Wie antwortest du am besten darauf, um im folgenden Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?**
 
@@ -945,7 +946,7 @@ input == 3;
 
 <p id="Kommentar-Platzhalter-8" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 9</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 9</span>
 
 **Das Kind erzählt gerade begeistert und sehr ausführlich von einem Erlebnis beim Üben des Aufschlags. Laut Leitfaden käme jetzt eigentlich der Themenblock 'Soziale Situation in der Gruppe' dran. Wie gehst du weiter vor?**
 
@@ -992,7 +993,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-9" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 10</span>
+##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 10</span>
 
 **Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: „Weiß nicht, ähm... Glaub' schon, keine Ahnung“. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?**
 
