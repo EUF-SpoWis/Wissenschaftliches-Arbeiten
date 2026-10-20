@@ -4,13 +4,11 @@ version: 0.0.1
 language: de
 narrator: Deutsch Female
 
-import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
+import: https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
+        https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
 
-import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
-
-link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
-
-link: https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css 
+link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+        https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css
 
 -->
 
