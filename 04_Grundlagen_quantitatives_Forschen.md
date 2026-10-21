@@ -115,42 +115,9 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 <img src="img\podcast_gespraech_einstieg.png" style="max-width: 100%; border-radius: 8px;">
 </div>
 
-<div style="height: 25px;"></div>
-
---{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 In diesen Boxen findest du immer wieder Hinweise die sich auf dieses Einstiegsbeispiel beziehen.
-</div>
-
-<div style="height: 25px;"></div>
-
-Auf das Musikbeispiel aus der Einleitung bedeutet das:
-
-<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-In den <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);">blauen Boxen</span> findest du immer wieder Anwendungsbeispiele und Hinweise darauf wie eine Studie aussehen kann die sich mit dem Einfluss von Musik auf die **Ausdauerleistung** beschäftigt. 
-</div>
-</div>
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem;">
-In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);">grünen Boxen</span> findest du immer wieder Anwendungsbeispiele und Hinweise darauf wie eine Studie aussehen kann die sich mit dem Einfluss von Musik auf das **Anstregungsempfinden** beschäftigt. 
-</div>
-</div>
-</div>
-
-<div style="height: 25px;"></div>
-
-
 ---
+
 ## Grundlagen
-
-
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-In den  Grundlagen beschäftigen wir uns nun mit dem **Einsatz von quantitativen Methoden** und den **Grundsätzen**.
-</div>
-
---- 
 
 ### Einsatz von quantitativen Methoden       
 <section>
@@ -160,25 +127,30 @@ In den  Grundlagen beschäftigen wir uns nun mit dem **Einsatz von quantitativen
 <span style="font-size: 1.3em;">***Was ist quantitatives Forschen?***</span>
 </div>
 
+#### Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
 
-Der Einsatz quantitativer Zugänge ist besonders in folgenden Situationen indiziert:
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
 
-<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-**Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
-z.B. **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?
+  <div class="animate__animated animate__fadeInUp" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">✅</div>
+    <strong style="display: block; margin-bottom: 5px;">Prüfen bestehender Theorien</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
+z.B. **Wie stark** hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?</span>
+  </div>
 
-</div>
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">✴️</div>
+    <strong style="display: block; margin-bottom: 5px;">Wirksamkeitsnachweise</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
+z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die Laufdistanz mit der BPM Anzahl der Musik) statistisch nachweisen?</span>
+  </div>
 
-<div style="border-left: 6px solid #e08a1e; background: rgba(224,138,30,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-**Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
-z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die Laufdistanz mit der BPM Anzahl der Musik) statistisch nachweisen?
-</div>
-
-<div style="border-left: 6px solid #4e66bd; background: rgba(78,102,189,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-**Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).
-z.B. Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?
-</div>
-
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+    <div style="font-size: 1.5em; margin-bottom: 5px;">🌀</div>
+    <strong style="display: block; margin-bottom: 5px;">Generalisierung</strong>
+    <span style="font-size: 0.85em; color: #4a5568;">Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).z.B. Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?</span>
+  </div>
+  </div>
 
 --{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass Musik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
 
@@ -195,6 +167,7 @@ z.B. Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. L
 
 * <span style="background: linear-gradient(transparent 55%, #e47aff 120%);">**Kausale Aussagen:**</span>. Wenn ein Wirksamkeitsnachweis für eine Trainingsmaßnahme angestrebt wird.<br>Hier kann zum **Beispiel** überprüft werden ob Musik einen positiven Einfluss auf die Ausdauerleistung hat oder ob es andere Faktoren sind. 
 </details>
+</section>
 
 ---
 
@@ -203,24 +176,32 @@ z.B. Wie **generalisierbar** sind Befunde auf eine größere Population (z. B. L
 
 <!-- class="animate__animated animate__bounceInRight" -->
 <div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-*Welche Grundsätze gibt es in der quantitativen Forschung?*
-</div>                                                     
+<span style="font-size: 1.3em;">***Welche Grundsätze gibt es in der quantitativen Forschung?***</span>
+</div>                                                    
 
 --{{0}}-- **Lehrbuch Hinweis:** Nachdem nun geklärt ist welchen Fragen du dich widmen könntest, kannst du nun anfangen deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken. 
 
-Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
+#### Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
+<!-- class="animate__animated animate__fadeInUp" -->
+<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">1. Standardisierung:</span> <span style="font-size: 1.1em;">Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.</span>
 
-1. **Standardisierung:** Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.
+<!-- class="animate__animated animate__fadeInDown" -->
+<span style="background: #9507a8; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">2. Operationalisierung:</span> <span style="font-size: 1.1em;">Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt.</span>
 
-2. **Operationalisierung:** Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt.
+<!-- class="animate__animated animate__fadeInUp" -->
+<span style="background: #5923b1; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">3. Hypothesenprüfun:</span> <span style="font-size: 1.1em;">Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).</span>
 
-3. **Hypothesenprüfung:** Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).
+<!-- class="animate__animated animate__fadeInDown" -->
+<span style="background: #420cc0; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">4. Distanz zum Gegenstand:</span> <span style="font-size: 1.1em;">Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.</span>
 
-4. **Distanz zum Gegenstand:** Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
+<!-- class="animate__animated animate__fadeInUp" -->
+<span style="background: #071958; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">5. Generalisierung durch Repräsentativität:</span> <span style="font-size: 1.1em;">Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.</span>
 
-5. **Generalisierung durch Repräsentativität:** Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.
-
-In der quantitiven Forschung wird viel von **Variablen** gesprochen, damit ist ein Merkmal gemeint, das verschiedene Werte (Ausprägungen) annehmen kann, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Alter.
+<!-- class="animate__animated animate__fadeIn" -->
+<div style="border: 2px solid #a74ebd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="font-size: 1.1em;">In der quantitiven Forschung wird viel von **Variablen** gesprochen, damit ist ein Merkmal gemeint, das verschiedene Werte (Ausprägungen) annehmen kann, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Alter.</span>
+</div>
+</section>
 
 ---
 
