@@ -8,7 +8,8 @@ narrator: Deutsch Female
 import:  https://raw.githubusercontent.com/EUF-SpoWis/M1_Einfuehrung_Sportwissenschaft/refs/heads/main/config.md
 import: https://raw.githubusercontent.com/liaTemplates/PyScript/main/README.md
 
-link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+        https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css
 
 -->
 
@@ -207,14 +208,16 @@ z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die La
 
 ## Untersuchungsplannung 
 
+<!-- class="animate__animated animate__fadeIn" -->
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-In der Untersuchungsplanung beschäftigen wir uns nun mit dem **Design**, der **Forschungsfrage** und den **Hypothesen** unserer Untersuchung. 
+<span style="font-size: 1.3em;">In der Untersuchungsplanung beschäftigen wir uns nun mit dem **Design**, der **Forschungsfrage** und den **Hypothesen** unserer Untersuchung.</span>
 </div>
 
 ### Design    
 
+<!-- class="animate__animated animate__bounceInRight" -->
 <div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-*Welche Designmöglichkeiten habe ich bei der Forschung?*
+<span style="font-size: 1.3em;">**Welche Designmöglichkeiten habe ich bei der Forschung?**</span>
 </div> 
 
 <div style="height: 25px;"></div>
@@ -224,6 +227,7 @@ In der Untersuchungsplanung beschäftigen wir uns nun mit dem **Design**, der **
 💡 Neben den Kernprinzipien, solltest du dir nun überlegen welches Design du verwenden möchtest. Hier gibt es verschieden Faktoren über die du entscheiden musst.
 </div>
 
+<!-- class="animate__animated animate__fadeInUp" -->
 <iframe
   src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/forschungsdesign-teil1-oben.html"
   width="100%"
@@ -231,7 +235,7 @@ In der Untersuchungsplanung beschäftigen wir uns nun mit dem **Design**, der **
   style="border: none;">
 </iframe>
 
-Für das Musikbeispiel aus der Einleitung bedeutet das:
+<span style="font-size: 1.1em;">**Für das Musikbeispiel aus der Einleitung bedeutet das:**</span>
 
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
@@ -257,6 +261,7 @@ Für das Musikbeispiel aus der Einleitung bedeutet das:
 Mache dir Notizen.
 </div>
 
+{{1}} <section>
 
 <div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
 💡 Hier kannst du nun deine Ideen testen und gucken wie gut das von dir gewählte Design ist. 
@@ -274,19 +279,22 @@ Mache dir Notizen.
 
 <summary><b>👉 Klicke hier für eine Zusammenfassung</b></summary>
 
-Untersuchungen können zu unterschiedlichen Zeitpunkten erhoben werden:
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können zu unterschiedlichen Zeitpunkten erhoben werden:</span>
 
 * Einmalige Messung zu einem Zeitpunkt bei mehreren Personen -> **Querschnittstudie**
 
 * Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
 
-Untersuchungen können in unterschiedlichen Umgebungen stattfinden: 
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können in unterschiedlichen Umgebungen stattfinden:</span>
 
 * Natürliche, reale Umgebung (z. B. Trainingsplatz, Wettkampf) -> **Feldstudie**
 
 * Kontrollierte, künstliche Umgebung (z. B. Diagnostiklabor) -> **Laborstudie**
 
-Untersuchungen können experimentell oder nicht-expertimentell sein:
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können experimentell oder nicht-expertimentell sein:</span>
 
 * Forschende manipulieren aktiv einen Faktor (z. B. Trainingsart) -> **Experiment**
 
@@ -295,14 +303,16 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 * Der Faktor wird manipuliert oder Gruppen werden verglichen, aber ohne Randomisierung (z. B. Vergleich zweier bereits bestehender Schulklassen) -> **Quasi-Experiment**
 
 </details>
-
+</section>
 
 ---
 
 ### Forschungsfrage
+
+<!-- class="animate__animated animate__bounceInRight" -->
 <div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-*Wie formuliert man eine Forschungsfrage?*
-</div> 
+<span style="font-size: 1.3em;">**Wie formuliert man eine Forschungsfrage?**</span>
+</div>
 
 <div style="height: 25px;"></div>
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
@@ -311,19 +321,19 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0; text-align: center;">
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">📝</div>
     <strong style="display: block; margin-bottom: 5px;">**Ausgangspunkt**</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Quantitative Forschung startet bei einer **Theorie oder einem Modell**, aus dem sich prüfbare Hypothesen ableiten lassen – **nicht** bei einem offenen Phänomen.</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🔍</div>
     <strong style="display: block; margin-bottom: 5px;">**Präzision**</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.</span>
   </div>
 
-  <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+  <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">🏡</div>
     <strong style="display: block; margin-bottom: 5px;">**Reduktion**</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Die Reduktion von Komplexität erfolgt bereits **vor** der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.</span>
@@ -331,18 +341,20 @@ Untersuchungen können experimentell oder nicht-expertimentell sein:
 
 </div>
 
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<div class="animate__animated animate__fadeInDown animate__delay-3s" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 📋 Überlege dir zwei Forschungsfragen. 
 
 Eine wie Musik die Ausdauerleistung beeinflusst und eine wie sie das Anstregungsempfinden beeinflusst. 
 </div>
 
-
+<!-- class="animate__animated animate__fadeInDown animate__delay-3s" -->
 | 🏃🏾‍♀️ Forschungsfrage zu Ausdauerleistung | 📋 Forschungsfrage zu Anstregungsempfinden | 
 | :--- | :-- | 
 | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
 
+{{1}} <section>
 <details>
 <summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
 
@@ -352,8 +364,9 @@ Eine wie Musik die Ausdauerleistung beeinflusst und eine wie sie das Anstregungs
 
 </details>
 
-Für uns im Weiteren sind besonders wichtig:
+**Für uns im Weiteren sind besonders wichtig:**
 
+<!-- class="animate__animated animate__fadeInUp" --> 
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
@@ -372,7 +385,7 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 </div>
 </div>
 </div>
-
+</section>
 
 ---
 
