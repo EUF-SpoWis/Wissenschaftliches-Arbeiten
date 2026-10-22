@@ -285,6 +285,7 @@ Mache dir Notizen.
 * Einmalige Messung zu einem Zeitpunkt bei mehreren Personen -> **Querschnittstudie**
 
 * Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
+</div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können in unterschiedlichen Umgebungen stattfinden:</span>
@@ -292,6 +293,7 @@ Mache dir Notizen.
 * Natürliche, reale Umgebung (z. B. Trainingsplatz, Wettkampf) -> **Feldstudie**
 
 * Kontrollierte, künstliche Umgebung (z. B. Diagnostiklabor) -> **Laborstudie**
+</div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können experimentell oder nicht-expertimentell sein:</span>
@@ -301,6 +303,7 @@ Mache dir Notizen.
 * Keine Manipulation des Faktors – nur Messung bestehender Unterschiede -> **Nicht-Experiment/Korrelative Studie**
 
 * Der Faktor wird manipuliert oder Gruppen werden verglichen, aber ohne Randomisierung (z. B. Vergleich zweier bereits bestehender Schulklassen) -> **Quasi-Experiment**
+</div>
 
 </details>
 </section>
@@ -373,7 +376,7 @@ Eine wie Musik die Ausdauerleistung beeinflusst und eine wie sie das Anstregungs
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 🏃🏾‍♀️<span style="background: linear-gradient(transparent 90%, rgba(71, 69, 173, 0.55) 60%);">**Wirkung von Musik auf die Ausdauerleistung**</span>🏃🏾‍♀️  
 
-Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Rockmusik mit 140 BPM</span> auf die <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Ausdauerleistung</span> von <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Sportstudierenden?</span>
+Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(transparent 30%, rgba(71, 69, 173, 0.55) 100%);">Rockmusik mit 140 BPM</span> auf die <span style="background: linear-gradient(transparent 30%, rgba(71, 69, 173, 0.55) 100%);">Ausdauerleistung</span> von <span style="background: linear-gradient(transparent 30%, rgba(71, 69, 173, 0.55) 100%);">Sportstudierenden?</span>
 
 </div>
 </div>
