@@ -116,9 +116,39 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 <img src="img\podcast_gespraech_einstieg.png" style="max-width: 100%; border-radius: 8px;">
 </div>
 
+
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 In diesen Boxen findest du immer wieder Hinweise die sich auf dieses Einstiegsbeispiel beziehen.
+</div>
+
+<div style="height: 25px;"></div>
+
+Auf das Musikbeispiel aus der Einleitung bedeutet das:
+
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 220px;">
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+In den <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);">blauen Boxen</span> findest du immer wieder Anwendungsbeispiele und Hinweise darauf wie eine Studie aussehen kann die sich mit dem Einfluss von Musik auf die **Ausdauerleistung** beschäftigt. 
+</div>
+</div>
+<div style="flex: 1; min-width: 220px;">
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem;">
+In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);">grünen Boxen</span> findest du immer wieder Anwendungsbeispiele und Hinweise darauf wie eine Studie aussehen kann die sich mit dem Einfluss von Musik auf das **Anstregungsempfinden** beschäftigt. 
+</div>
+</div>
+</div>
+
+
 ---
 
 ## Grundlagen
+
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+In den  Grundlagen beschäftigen wir uns nun mit dem **Einsatz von quantitativen Methoden** und den **Grundsätzen**.
+</div>
+
+
 
 ### Einsatz von quantitativen Methoden       
 <section>
@@ -153,7 +183,26 @@ z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die La
   </div>
   </div>
 
---{{0}}-- ** Lehrbuch Hinweis: **  Auf unser Beispiel angewandt bedeutet das: **Prüfen bestehender Theorien:** Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird --> Hier müssen wir schauen of es Literatur zu einer Theorie gibt die darauf hindeutet, dass Musik einen Einfluss auf die Ausdauerleistung hat. **Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe. --> Hängen Ausdauerleistung und und der Einsatz von Musik zusammen? **Generalisierung:** Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).--> Nur weil zwei Personen sagen, dass Musik einen positiven Einfluss auf ihre Ausdauerleistung hat lässt sich das nicht für eine gesamte Grupper generalisieren und muss überprüft werden.
+
+
+  Auf das Musikbeispiel aus der Einleitung bedeutet das:
+  
+  <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+  
+  <div style="flex: 1; min-width: 220px;">
+  <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+  **Prüfen einer bestehenden Theorie**: Laut Terry et al. (2020) steigert Musik die Ausdauerleistung. Wie man das überprüfen kann gucken wir uns auf den Folgenden Folien an.  
+  </div>
+  </div>
+  <div style="flex: 1; min-width: 220px;">
+  <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem;">
+  **Wirksamkeitsnachweis**: Hier wollen wir herausfinden ob die geisterte Ausdauerleitung mit Musik, oder mit etwas anderem zusammenhängt.
+  </div>
+  </div>
+  </div>
+  
+  <div style="height: 25px;"></div>
+  
 
 <details>
 <summary><b>👉 Hier findest du Beispiele</b></summary>
@@ -198,11 +247,56 @@ z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die La
 <!-- class="animate__animated animate__fadeInUp" -->
 <span style="background: #071958; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">5. Generalisierung durch Repräsentativität:</span> <span style="font-size: 1.1em;">Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.</span>
 
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #a74ebd; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.1em;">In der quantitiven Forschung wird viel von **Variablen** gesprochen, damit ist ein Merkmal gemeint, das verschiedene Werte (Ausprägungen) annehmen kann, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Alter.</span>
-</div>
 </section>
+
+Für das Musikbeispiel aus der Einleitung bedeutet das:
+
+<div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 220px;">
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+🏃🏾‍♀️<span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);">**Wirkung auf die Ausdauerleistung**</span>🏃🏾‍♀️  
+
+**Standardisierung:**  Alle laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung.
+
+**Operationalisierung:** gelaufene Strecke in 12 Minuten (in Metern)
+
+**Hypothesenprüfung:** Mit Musik wird eine größere Strecke gelaufen.
+
+**Distanz zum Gegenstand:** Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach festem Verfahren.
+
+**Generalisierung durch Repräsentativität:** Verglichen werden die Mittelwerte der Gruppen, nicht einzelne Läufer:innen.
+
+</div>
+</div>
+<div style="flex: 1; min-width: 220px;">
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem;">
+📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);">** Wirkung auf das Anstregungsempfinden**</span>  📋
+
+**Standardisierung:** Alle füllen direkt nach dem Lauf denselben Fragebogen aus.
+
+**Operationalisierung:** Wert auf der Borg-Skala oder Skalenwert aus mehreren Likert-Items
+
+**Hypothesenprüfung:** Mit Musik wird die Anstrengung geringer eingeschätzt.
+
+**Distanz zum Gegenstand:** Die Teilnehmenden füllen den Fragebogen selbst aus, die Testleitung kommentiert die Antworten nicht.
+
+**Generalisierung durch Repräsentativität:** Verglichen werden die Skalenwerte der Gruppen. Die Ergebnisse gelten nur für Personen, die der Stichprobe ähneln.
+
+</div>
+</div>
+</div>
+
+
+<div style="height: 25px;"></div>
+
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Im folgenden werden wir uns den Grundsätzen annehmen und die einzelnen Punkte erklären dabei werden wir immer wieder von **Variablen** sprechen, damit sind Merkmale gemeint, welche verschiedene Werte (Ausprägungen) annehmen können, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Anstregungsempfinden.
+</div>
+
+
+
+
 
 ---
 
@@ -236,6 +330,7 @@ z.B. Lässt sich ein **kausaler Effekt** einer Intervention (z. B. steigt die La
 </iframe>
 
 <span style="font-size: 1.1em;">**Für das Musikbeispiel aus der Einleitung bedeutet das:**</span>
+<div style="height: 10px;"></div>
 
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
@@ -274,7 +369,6 @@ Mache dir Notizen.
   style="border: none;">
 </iframe>
 
-
 <details>
 
 <summary><b>👉 Klicke hier für eine Zusammenfassung</b></summary>
@@ -287,6 +381,8 @@ Mache dir Notizen.
 * Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) -> **Längsschnittstudie**
 </div>
 
+<div style="height: 10px;"></div>
+
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können in unterschiedlichen Umgebungen stattfinden:</span>
 
@@ -294,6 +390,8 @@ Mache dir Notizen.
 
 * Kontrollierte, künstliche Umgebung (z. B. Diagnostiklabor) -> **Laborstudie**
 </div>
+
+<div style="height: 10px;"></div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 110%);">Untersuchungen können experimentell oder nicht-expertimentell sein:</span>
@@ -451,31 +549,313 @@ Hypothesen gehen immer von einer Null-Hypothesen aus, genannt H0. Die H0 geht da
 
 ---
 
-### Check-Up 
+### Check-Up: Grundsätze und Untersuchungsplanung
 
->Jetzt bist du dran, überlege dir was das für deine Studie zum Thema "Einfluss von Musik auf Ausdauerleistung" du durchführen könntest. Unten sind nochmal die Kernprinzipien für quantitatives Forschen aufgeführt. Überlege dir zu jeden Punkt, was das genau für deine eigene Studie bedeuten kann. 
 
-| Kernprinzip | Erklärung | Deine Gedanken |
-| :--- | :-- | :--- |
-| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | <textarea rows="3" style="width:100%;"></textarea> |
-| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | <textarea rows="4" style="width:100%;"></textarea> |
-| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | <textarea rows="4" style="width:100%;"></textarea> |
-| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | <textarea rows="4" style="width:100%;"></textarea> |
-| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | <textarea rows="4" style="width:100%;"></textarea> |
+<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+*Was habe ich zu quantitativem Forschen, Grundsätzen, Design, Forschungsfrage und Hypothesen verstanden? Teste dein Wissen.*
+</div>
+
+Beantworte die Fragen. Bei einigen Fragen hilft dir ein Hinweis, und nach dem Beantworten bekommst du eine kurze Erklärung.
+
+**Wann setze ich quantitative Zugänge ein?**
+
+**Frage 1:** Du möchtest überprüfen, ob die Annahme aus einer Theorie, dass Musik die Ausdauerleistung steigert, durch Daten gestützt wird. Welcher Einsatzbereich quantitativer Zugänge liegt vor?
+
+- [(X)] Prüfen bestehender Theorien
+- [( )] Wirksamkeitsnachweis
+- [( )] Generalisierung
+- [( )] Offenes Erkunden eines unbekannten Phänomens
 
 
 <details>
-<summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
+<summary><b>👉 Erklärung</b></summary>
 
-| Kernprinzip | Erklärung | Deine Gedanken |
-| :--- | :--- | :--- |
-| **Standardisierung:** | Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch. | Alle Personen laufen mit der gleichen Musik, auf dem gleichen Untergrund |
-| **Operationalisierung:** | Theoretische Konstrukte (z. B. "Ausdauer") werden vorab in konkret messbare Variablen überführt. | Ausdauer wird anhand von zurückgelegter Strecke und Herzfrequenz gemessen |
-| **Hypothesenprüfung:** | Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen). | Zuvor wurde in der bestehenden Literatur recherciert welchen bekannten Einfluss Musik hat. |
-| **Distanz zum Gegenstand:** | Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren. | Die forschende Person feuert nicht zusätzlich an und erklärt die Aufgabe jeden Mal gleich. |
-| **Generalisierung durch Repräsentativität**| Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung. | Die Stichprobe wird möglichst divers gestaltet, heißt nichts ausschließlich ProfisportlerInnen oder eine bestimmte Altergruppe, außer das ist gewünscht. |
+Beim Prüfen bestehender Theorien wird getestet, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.
 
 </details>
+
+
+
+**Frage 2:** Du willst nachweisen, dass ein Trainingsprogramm im Vergleich zu einer Kontrollgruppe die Laufleistung verbessert. Was liegt vor?
+
+- [( )] Prüfen bestehender Theorien
+- [(X)] Wirksamkeitsnachweis
+- [( )] Generalisierung
+- [( )] Normierung
+
+[[?]] Es geht um den Nachweis kausaler Effekte einer Intervention.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Bei einem Wirksamkeitsnachweis geht es um kausale Effekte einer Intervention im Vergleich zu einer Kontrollgruppe.
+
+</details>
+
+
+
+**Frage 3:** Du fragst dich, ob Befunde aus deiner Stichprobe auch für eine größere Population gelten (z. B. "Laufen alle mit Musik weiter?"). Was beschreibt das?
+
+- [( )] Prüfen bestehender Theorien
+- [( )] Wirksamkeitsnachweis
+- [(X)] Generalisierung
+- [( )] Operationalisierung
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Bei der Generalisierung sollen Aussagen über den Einzelfall hinaus für eine größere Population gelten.
+
+</details>
+
+
+**Die fünf Grundsätze**
+
+**Frage 4:** Alle Teilnehmenden laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung. Welcher Grundsatz wird hier umgesetzt?
+
+- [(X)] Standardisierung
+- [( )] Operationalisierung
+- [( )] Hypothesenprüfung
+- [( )] Distanz zum Gegenstand
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Standardisierung bedeutet, dass Erhebungsbedingungen, Instrumente und Ablauf für alle Untersuchten identisch sind.
+
+</details>
+
+
+**Frage 5:** Das Konstrukt "Ausdauer" wird als "in 12 Minuten gelaufene Strecke in Metern" festgelegt. Welcher Grundsatz ist das?
+
+- [( )] Standardisierung
+- [(X)] Operationalisierung
+- [( )] Generalisierung durch Repräsentativität
+- [( )] Distanz zum Gegenstand
+
+[[?]] Ein theoretisches Konstrukt wird in eine konkret messbare Variable überführt.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Bei der Operationalisierung werden theoretische Konstrukte vorab in messbare Variablen überführt.
+
+</details>
+
+
+**Frage 6:** Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach festem Verfahren. Welcher Grundsatz steht im Vordergrund?
+
+- [( )] Standardisierung
+- [( )] Operationalisierung
+- [( )] Hypothesenprüfung
+- [(X)] Distanz zum Gegenstand
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.
+
+</details>
+
+
+
+**Frage 7:** Welche Aussagen zu den Grundsätzen quantitativer Forschung sind richtig? (Mehrfachauswahl)
+
+- [[X]] Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).
+- [[X]] Verallgemeinert wird über statistische Kennwerte und möglichst repräsentative Stichproben.
+- [[ ]] Verallgemeinert wird über die Typisierung einzelner Fälle.
+- [[ ]] Die forschende Person soll das Messgeschehen möglichst stark beeinflussen.
+
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Quantitative Forschung arbeitet deduktiv und verallgemeinert über Kennwerte und Stichproben, nicht über Einzelfalltypisierung. Die forschende Person greift möglichst nicht ein.
+
+</details>
+
+
+**Frage 8:** Ergänze: Das Vorgehen, aus einer Theorie Annahmen abzuleiten und diese anhand von Daten zu prüfen, nennt man [[deduktiv]].
+
+[[?]] Gegenteil von induktiv: vom Allgemeinen (Theorie) zum Besonderen (Daten).
+
+**Design**
+
+**Frage 9:** Dieselben Personen laufen den Cooper-Test vor und nach acht Wochen Ausdauertraining. Welches Design liegt in Bezug auf die Messzeitpunkte vor?
+
+- [( )] Querschnittstudie
+- [(X)] Längsschnittstudie
+- [( )] Feldstudie
+- [( )] Laborstudie
+
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Wiederholte Messung derselben Personen über mehrere Zeitpunkte (z. B. Prä-Post-Design) ist eine Längsschnittstudie.
+
+</details>
+
+
+**Frage 10:** Du vergleichst zwei bereits bestehende Schulklassen, eine läuft mit Musik, die andere ohne. Die Kinder wurden nicht zufällig zugeteilt. Welches Design ist das?
+
+- [( )] Experiment
+- [(X)] Quasi-Experiment
+- [( )] Nicht-Experiment / Korrelative Studie
+
+[[?]] Wird ein Faktor manipuliert? Gibt es eine zufällige Zuteilung?
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Ein Faktor wird manipuliert bzw. Gruppen werden verglichen, aber ohne Randomisierung. Das ist ein Quasi-Experiment.
+
+</details>
+
+
+**Frage 11:** Welche Aussagen zu Feld- und Laborstudien sind richtig? (Mehrfachauswahl)
+
+- [[X]] Feldstudien haben eine hohe Alltagsnähe.
+- [[X]] In Laborstudien lassen sich Bedingungen gut kontrollieren.
+- [[ ]] In Feldstudien sind Störfaktoren wie das Wetter leicht zu kontrollieren.
+- [[ ]] Laborergebnisse lassen sich ohne Einschränkung auf den Alltag übertragen.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Feld: realitätsnah, aber Störfaktoren schwer kontrollierbar. Labor: gut kontrollierbar, aber die Übertragbarkeit auf den Alltag ist eingeschränkt.
+
+</details>
+
+
+**Forschungsfrage**
+
+**Frage 12:** Wo beginnt quantitative Forschung typischerweise?
+
+- [( )] Bei einem offenen Phänomen ohne Vorannahmen
+- [(X)] Bei einer Theorie oder einem Modell, aus dem sich prüfbare Hypothesen ableiten lassen
+- [( )] Bei der statistischen Analyse
+- [( )] Bei der Auswahl des Auswertungsprogramms
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Quantitative Forschung startet bei einer Theorie oder einem Modell, nicht bei einem offenen Phänomen.
+
+</details>
+
+
+**Frage 13:** Wann erfolgt die Reduktion von Komplexität in der quantitativen Forschung?
+
+- [( )] Erst im Analyseprozess
+- [(X)] Bereits vor der Erhebung im Rahmen der Operationalisierung
+- [( )] Erst bei der Interpretation der Ergebnisse
+- [( )] Gar nicht
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die Komplexität wird schon vor der Erhebung reduziert, nicht erst bei der Analyse.
+
+</details>
+
+
+**Frage 14:** Welche Forschungsfrage ist am präzisesten formuliert?
+
+- [( )] Ist Musik gut für den Sport?
+- [( )] Wie wirkt sich Musik irgendwie auf Menschen aus?
+- [(X)] Welchen Einfluss hat Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden?
+- [( )] Warum hören manche Menschen gerne Musik?
+
+[[?]] Aus der Frage sollten sich direkt messbare Variablen und Hypothesen ableiten lassen.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die dritte Frage benennt Einflussfaktor (Rockmusik, 140 BPM), Variable (Ausdauerleistung) und Zielgruppe (Sportstudierende).
+
+</details>
+
+
+**Hypothesen**
+
+**Frage 15:** Welche Aussage ist eine passende Nullhypothese (H0) zur Forschungsfrage nach dem Einfluss von Musik auf die gelaufene Distanz?
+
+- [(X)] Musik hat keinen Einfluss auf die gelaufene Distanz.
+- [( )] Mit Musik laufen Sportstudierende weiter als ohne.
+- [( )] Musik verbessert die Ausdauerleistung deutlich.
+- [( )] Ohne Musik laufen Sportstudierende weiter als mit.
+
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. Alle anderen Aussagen sind Alternativhypothesen.
+
+</details>
+
+
+
+**Frage 16:** "Mit Musik laufen Sportstudierende weiter als ohne." Was für eine Hypothese ist das?
+
+- [( )] Ungerichtete Unterschiedshypothese
+- [(X)] Gerichtete Unterschiedshypothese
+- [( )] Gerichtete Zusammenhangshypothese
+- [( )] Nullhypothese
+
+[[?]] Die Aussage sagt voraus, in welche Richtung der Unterschied geht.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Es wird ein Unterschied zwischen zwei Bedingungen vorhergesagt, und zwar mit Richtung ("weiter als"). Das ist eine gerichtete Unterschiedshypothese.
+
+</details>
+
+
+**Frage 17:** "Es gibt einen Unterschied zwischen der Laufdistanz mit und ohne Musik." Was für eine Hypothese ist das?
+
+- [(X)] Ungerichtet
+- [( )] Gerichtet
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die Aussage nennt keine Richtung des Unterschieds. Sie ist deshalb ungerichtet.
+
+</details>
+
+
+
+**Frage 18:** Welche Merkmale hat eine Hypothese? (Mehrfachauswahl)
+
+- [[X]] Sie ist vorläufig, also noch nicht bewiesen.
+- [[X]] Sie ist überprüfbar und lässt sich durch Daten bestätigen oder widerlegen.
+- [[X]] Sie beschreibt, wie zwei oder mehr Variablen zusammenhängen.
+- [[ ]] Sie ist von Anfang an bewiesen.
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Eine Hypothese ist vorläufig, überprüfbar und bezieht sich auf den Zusammenhang von Variablen.
+
+</details>
+
+**Frage 19:** Ordne zu: "Gelaufene Distanz in Metern in 12 Minuten" ist ...
+
+- [( )] das globale Forschungsthema
+- [( )] die Forschungshypothese
+- [(X)] die Messvariable
+- [( )] die Nullhypothese
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungshypothese ("Musik erhöht die Ausdauerfähigkeit") und das globale Forschungsthema ("Einfluss von Musik auf die Ausdauerfähigkeit") sind davon zu unterscheiden.
+
+</details>
+
 
 ## Datenerhebung
 
@@ -503,6 +883,198 @@ Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungspla
     <span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
   </div>
 
+</div>
+
+### Standardisierte Tests & Art und Weisen der Datenerhebung
+ 
+<!-- class="animate__animated animate__bounceInRight" -->
+<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+<span style="font-size: 1.3em;"><i>Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?</i></span>
+</div>
+<div style="height: 15px;"></div>
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 <b>Lehrbuch Hinweis:</b> Wenn nun Daten erhoben werden sollen, gibt es verschiedene Verfahren, die du anwenden kannst. Behalte deine Forschungsfrage und die Hypothese im Hinterkopf und überlege dir, welches Verfahren für dich hilfreich sein könnte.
+</div>
+<div style="height: 15px;"></div>
+<span style="font-size: 1.1em;"><b>Vier Wege, an Daten zu kommen:</b></span>
+ 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📋</div>
+<div style="text-align: center; font-size: 1.1em; margin-bottom: 6px;"><b>Befragungsverfahren</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin-bottom: 8px;">„Was sagen die Teilnehmenden?"</div>
+<div style="font-size: 0.9em;">Standardisierte Fragebögen mit geschlossenen Antwortformaten, z. B. Likert-Skalen (etwa 1 bis 4 oder 1 bis 7).</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>In deiner Studie:</b> „Ich habe die Anstrengung kaum gespürt." – trifft nicht zu / eher nicht zu / eher zu / zu
+</div>
+</div>
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #fdf3e7; border: 2px solid #e08a1e; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">👀</div>
+<div style="text-align: center; font-size: 1.1em; margin-bottom: 6px;"><b>Beobachtungsverfahren</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin-bottom: 8px;">„Was tun die Teilnehmenden?"</div>
+<div style="font-size: 0.9em;">Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle) oder Video-/Sensor-gestützte Bewegungsanalyse.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>In deiner Studie:</b> Beobachtung bei einem 5-km-Wettkampf und Vergleich zwischen Läufer:innen mit und ohne Musik.
+</div>
+</div>
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #eaf6ee; border: 2px solid #2a9a50; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">⏱️</div>
+<div style="text-align: center; font-size: 1.1em; margin-bottom: 6px;"><b>Test- und Messverfahren</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin-bottom: 8px;">„Was leisten oder zeigen sie?"</div>
+<div style="font-size: 0.9em;">Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Laktat-Test) und psychometrische Tests (standardisierte Skalen, z. B. zur Anstrengung).</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>In deiner Studie:</b> Cooper-Test einmal mit und einmal ohne Musik.
+</div>
+</div>
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f5ecfa; border: 2px solid #9507a8; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧪</div>
+<div style="text-align: center; font-size: 1.1em; margin-bottom: 6px;"><b>Experimentelle Verfahren</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin-bottom: 8px;">„Was passiert, wenn ich etwas verändere?"</div>
+<div style="font-size: 0.9em;">Feld- und Laborexperimente mit Kontrollgruppendesign sowie Quasi-Experimente ohne vollständige Randomisierung.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>In deiner Studie:</b> Eine Klasse läuft mit Musik, eine andere ohne Musik.
+</div>
+</div>
+</div>
+<div style="text-align: right; font-size: 0.85em; color: #64748b;">(nach Bortz & Döring, 2016; Wagner & Fischer, 2019)</div>
+<div style="height: 15px;"></div>
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
+📋 Welches Verfahren passt am besten zu deiner Forschungsfrage? Überlege dir, ob du Selbstauskünfte (<b>Fragebogen</b>), Verhalten (<b>Beobachtung</b>) oder eine Leistung (<b>Test</b>) erfassen willst. Mache dir Notizen.
+</div>
+---
+ 
+### Gütekriterien
+ 
+<!-- class="animate__animated animate__bounceInRight" -->
+<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+<span style="font-size: 1.3em;"><i>Was sind Gütekriterien?</i></span>
+</div>
+<div style="height: 15px;"></div>
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 <b>Lehrbuch Hinweis:</b> Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten. Voraussetzung dafür ist die Einhaltung der Gütekriterien.
+</div>
+<div style="height: 15px;"></div>
+<span style="font-size: 1.1em;"><b>Drei Fragen, die jedes Messverfahren bestehen sollte:</b></span>
+ 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">⚖️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Objektivität</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Kommt jede Person zum selben Ergebnis?"</div>
+<div style="font-size: 0.9em;">Die Ergebnisse sind unabhängig von der durchführenden Person.</div>
+<ul style="font-size: 0.85em; margin: 8px 0 0 0; padding-left: 18px;">
+<li><b>Durchführung:</b> gleiche Anweisung für alle</li>
+<li><b>Auswertung:</b> festes Verfahren zum Messen</li>
+<li><b>Interpretation:</b> gleiche Einordnung der Werte</li>
+</ul>
+</div>
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #eaf6ee; border: 2px solid #2a9a50; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔁</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Reliabilität</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Kommt bei Wiederholung dasselbe heraus?"</div>
+<div style="font-size: 0.9em;">Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 Eine Person läuft an zwei Tagen 2400 m und 2420 m: <b>zuverlässig</b>. Bei 2400 m und 2900 m ohne erkennbaren Grund: <b>unzuverlässig</b>.
+</div>
+</div>
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f5ecfa; border: 2px solid #9507a8; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🎯</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Validität</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Misst es wirklich, was es messen soll?"</div>
+<div style="font-size: 0.9em;">Gültigkeit: Das Verfahren erfasst tatsächlich den gewollten Gegenstand.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 Der Cooper-Test misst <b>Ausdauer</b>. Die Anzahl der Liegestütze sagt dagegen wenig über Laufausdauer aus.
+</div>
+</div>
+</div>
+<details>
+<summary><b>👉 Klicke hier, um den Unterschied an einer Zielscheibe zu sehen.</b></summary>
+Stell dir vor, die Messung ist ein Wurf auf eine Zielscheibe. Die Mitte steht für den „wahren Wert", den du messen willst.
+ 
+| Treffer | Bedeutung |
+| :------ | :-------- |
+| 🎯 Alle Pfeile dicht in der Mitte | **Reliabel und valide:** zuverlässig und gültig |
+| 📍 Alle Pfeile dicht beieinander, aber neben der Mitte | **Reliabel, aber nicht valide:** zuverlässig, misst aber das Falsche |
+| 💥 Pfeile verstreut um die Mitte | **Nicht reliabel:** unzuverlässig, ungenau |
+ 
+</details>
+<div style="height: 15px;"></div>
+<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 <b>Zum Merken:</b> <b>O</b>bjektiv = unabhängig von der Person · <b>R</b>eliabel = wiederholbar · <b>V</b>alide = misst das Richtige.
+</div>
+
+
+### Herausforderung
+
+<!-- class="animate__animated animate__bounceInRight" -->
+<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+<span style="font-size: 1.3em;"><i>Welche Herausforderungen habe ich bei der Datenerhebung?</i></span>
+</div>
+
+<div style="height: 15px;"></div>
+
+Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen. Drei davon begegnen dir besonders oft:
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧑‍🏫</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Testleiter-Effekte</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Beeinflusst die testende Person das Ergebnis?"</div>
+<div style="font-size: 0.9em;">Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>Beispiel:</b> Die Testleitung kennt die Hypothese „Musik hilft" und ruft der Musikgruppe unbewusst häufiger Ermutigungen zu.
+</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #fdf3e7; border: 2px solid #e08a1e; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">↕️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Decken- und Bodeneffekte</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Ist der Test zu leicht oder zu schwer?"</div>
+<div style="font-size: 0.9em;">Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+⬆️ <b>Decke:</b> Der Test ist so leicht, dass fast alle die Höchstpunktzahl erreichen.<br>
+⬇️ <b>Boden:</b> Der Test ist so schwer, dass fast alle 0 Punkte erreichen.
+</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #eaf6ee; border: 2px solid #2a9a50; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🌦️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Störvariablen</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Wirkt etwas mit, das nicht zur Forschung gehört?"</div>
+<div style="font-size: 0.9em;">Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil der Forschung sind.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-radius: 8px; font-size: 0.85em;">
+🏃 <b>Beispiel:</b> Hitze oder Gegenwind, wenig Schlaf in der Nacht davor oder ein anstrengendes Training am Vortag.
+</div>
+</div>
+
+</div>
+
+<details>
+<summary><b>👉 Klicke hier, um zu sehen, was du dagegen tun kannst.</b></summary>
+
+| Herausforderung | Mögliche Gegenmaßnahme |
+| :-------------- | :--------------------- |
+| 🧑‍🏫 **Testleiter-Effekte** | Anweisungen nach festem Skript, keine Zurufe, mehrere Testleitungen abwechselnd einsetzen |
+| ↕️ **Decken- und Bodeneffekte** | Schwierigkeit des Tests an die Zielgruppe anpassen und vorher in einem kleinen Probelauf prüfen |
+| 🌦️ **Störvariablen** | Gleiche Bedingungen für alle (Tageszeit, Strecke), Zufallszuteilung auf die Gruppen, Störvariablen miterfassen |
+
+</details>
+
+<div style="height: 15px;"></div>
+
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
+📋 Überlege dir für deine Studie: Welche <b>Störvariablen</b> könnten beim 12-Minuten-Lauf auftreten, und wie könntest du sie kontrollieren? Mache dir Notizen.
 </div>
 
 ### Standardisierte Tests & Art und Weisen der Datenerhebung     
