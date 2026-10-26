@@ -2161,7 +2161,7 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 <div class="animate__animated animate__slideInRight" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 1.1em;"><b>Grundlagen</b></div>
 <ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Einsatz von quantitativen Methoden</b> – <i>Was ist quantitatives Forschen und welche Fragen lassen sich hier beantworten?</i></li>
+<li><b>Einsatz von quantitativen Methoden</b> – <i>Was ist quantitatives Forschen und welche Fragen lassen sich damit beantworten?</i></li>
 <li><b>Grundsätze</b> – <i>Welche Grundsätze gibt es in der quantitativen Forschung?</i></li>
 </ul>
 </div>
@@ -2178,7 +2178,7 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 <div class="animate__animated animate__slideInRight" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 1.1em;"><b>Datenerhebung</b></div>
 <ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Standardisierte Tests &amp; Art und Weisen der Datenerhebung</b> – <i>Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?</i></li>
+<li><b>Standardisierte Tests & Art und Weisen der Datenerhebung</b> – <i>Welche Verfahren gibt es in der Datenerhebung und was muss dabei beachtet werden?</i></li>
 <li><b>Gütekriterien</b> – <i>Was sind Gütekriterien?</i></li>
 <li><b>Herausforderung</b> – <i>Welche Herausforderungen gibt es bei der Datenerhebung?</i></li>
 <li><b>Fragebogen</b> – <i>Was ist ein Fragebogen?</i></li>
@@ -2229,6 +2229,7 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 
 ## Einstiegsbeispiel
 
+
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
 <!-- class="animate__animated animate__fadeInUp" -->
@@ -2241,6 +2242,8 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 <div style="flex: 1; min-width: 220px;">
 <img src="img/podcast_gespraech_einstieg.png" style="max-width: 100%; border-radius: 8px;">
 </div>
+
+**Für den weiteren Kurs sind hier ein paar Hinweise**
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
 💡 In diesen Boxen findest du immer wieder Hinweise, die sich auf dieses Einstiegsbeispiel beziehen.
@@ -2272,6 +2275,7 @@ In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 6
 
 <div style="height: 15px;"></div>
 
+
 ---
 
 ## Grundlagen
@@ -2299,21 +2303,21 @@ In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 6
 <div style="font-size: 2em; text-align: center;">✅</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Prüfen bestehender Theorien</b></div>
 <div style="font-size: 0.9em;">Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ z. B. <b>Wie stark</b> hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> z. B. <b>Wie stark</b> hängen zwei oder mehr Merkmale zusammen (z. B. Laufdistanz mit Musik und die Laufdistanz ohne Musik)?</div>
 </div>
 
 <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">✴️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Wirksamkeitsnachweise</b></div>
 <div style="font-size: 0.9em;">Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ z. B. Lässt sich ein <b>kausaler Effekt</b> einer Intervention (z. B. steigt die Laufdistanz mit der BPM-Anzahl der Musik) statistisch nachweisen?</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> z. B. Lässt sich ein <b>kausaler Effekt</b> einer Intervention (z. B. steigt die Laufdistanz mit der BPM-Anzahl der Musik) statistisch nachweisen?</div>
 </div>
 
 <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🌀</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Generalisierung</b></div>
 <div style="font-size: 0.9em;">Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ z. B. Wie <b>generalisierbar</b> sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> z. B. Wie <b>generalisierbar</b> sind Befunde auf eine größere Population (z. B. Laufen ALLE mehr Distanz mit Musik)?</div>
 </div>
 
 </div>
@@ -2322,19 +2326,21 @@ In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 6
 
 <div style="height: 10px;"></div>
 
+Die Befundlage legt nahe, dass Musik die Ausdauerleistung steigert und das Anstrengungsempfinden senkt (Terry et al., 2020). Doch stimmt das wirklich? Genau das lässt sich mit quantitativen Methoden prüfen.
+
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Prüfen einer bestehenden Theorie</b></span> 🏃🏾‍♀️<br>
+🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Effekt auf die Distanz</b></span> 🏃🏾‍♀️<br>
 Laut Terry et al. (2020) steigert Musik die Ausdauerleistung. Wie man das überprüfen kann, schauen wir uns auf den folgenden Folien an.
 </div>
 </div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirksamkeitsnachweis</b></span> 📋<br>
-Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder mit etwas anderem zusammenhängt.
+📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Effekt auf das Anstregungsempfinden</b></span> 📋<br>
+Hier wollen wir herausfinden ob Laufen mit Musik dazu führt, dass es sich weniger anstregend anfühlt.
 </div>
 </div>
 
@@ -2343,7 +2349,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Terry, P. C., Karageorghis, C. I., Curran, M. L., Martin, O. V. &amp; Parsons-Smith, R. L. (2020). Effects of music in exercise and sport: A meta-analytic review. <i>Psychological Bulletin, 146</i>(2), 91–117. <a href="https://doi.org/10.1037/bul0000216" target="_blank">https://doi.org/10.1037/bul0000216</a>
+📚 Terry, P. C., Karageorghis, C. I., Curran, M. L., Martin, O. V. &amp; Parsons-Smith, R. L. (2020). Effects of music in exercise and sport: A meta-analytic review. <i>Psychological Bulletin, 146</i>(2), 91–117. doi.org/10.1037/bul0000216
 </div>
 
 <details>
@@ -2360,30 +2366,30 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 </section>
 
 ---
 
-### Grundsätze
+### Merkmale
 <section>
 
 <!-- class="animate__animated animate__bounceInRight" -->
 <div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-<span style="font-size: 1.3em;"><i>Welche Grundsätze gibt es in der quantitativen Forschung?</i></span>
+<span style="font-size: 1.3em;"><i>Welche Merkmale gibt es in der quantitativen Forschung?</i></span>
 </div>
 
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Nachdem nun geklärt ist, welchen Fragen du dich widmen könntest, kannst du nun anfangen, deine Untersuchung zu planen. Dabei solltest du folgende fünf Kernprinzipien bedenken.
+💡 <b>Lehrbuch Hinweis:</b> Nachdem nun geklärt ist, welchen Fragen du dich widmen könntest, kannst du nun anfangen, deine Untersuchung zu planen. Dabei solltest du folgende fünf Merkmale bedenken.
 </div>
 
 <div style="height: 15px;"></div>
 
-#### Quantitatives Denken zeichnet sich durch fünf Kernprinzipien aus:
+#### Quantitatives Denken zeichnet sich durch fünf Merkmale aus:
 
 <!-- class="animate__animated animate__fadeInUp" -->
 <span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">1. Standardisierung:</span> <span style="font-size: 1.1em;">Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.</span>
@@ -2427,13 +2433,13 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 Im Folgenden werden wir uns den Grundsätzen annehmen und die einzelnen Punkte erklären. Dabei werden wir immer wieder von <b>Variablen</b> sprechen. Damit sind Merkmale gemeint, welche verschiedene Werte (Ausprägungen) annehmen können, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Anstrengungsempfinden.
+💡 Im Folgenden werden wir uns diesen Merkmalen annehmen und die einzelnen Punkte erklären. Dabei werden wir immer wieder von <b>Variablen</b> sprechen. Damit sind Merkmale gemeint, welche verschiedene Werte (Ausprägungen) annehmen können, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Anstrengungsempfinden.
 </div>
 
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 ---
@@ -2479,7 +2485,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 Neben den Kernprinzipien solltest du dir nun überlegen, welches Design du verwenden möchtest. Hier gibt es verschiedene Faktoren, über die du entscheiden musst.
+💡 Nach den Merkmalen, solltest du dir nun überlegen, welches Design du verwenden möchtest. Hier gibt es verschiedene Faktoren, über die du entscheiden musst.
 </div>
 
 <div style="height: 15px;"></div>
@@ -2492,7 +2498,13 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
   style="border: none;">
 </iframe>
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
+<span style="font-size: 1.1em;"><b>FDas wollen wir auf das Musikbeispiel aus der Einletung anwenden:</b></span>
+
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
+📋 Überlege dir, wie du den Einfluss von Musik auf die Ausdauerleistung / das Anstrengungsempfinden testen möchtest, heißt: „<b>Wann?</b>“, „<b>Wo?</b>“ und „<b>Wie stark möchtest du eingreifen?</b>“.<br><br>Fülle die Boxen aus. 
+</div>
+
+
 
 <div style="height: 10px;"></div>
 
@@ -2516,9 +2528,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 
 <div style="height: 15px;"></div>
 
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 Überlege dir, wie du den Einfluss von Musik auf die Ausdauerleistung / das Anstrengungsempfinden testen möchtest, heißt: „<b>Wann?</b>“, „<b>Wo?</b>“ und „<b>Wie stark möchtest du eingreifen?</b>“.<br><br>Mache dir Notizen.
-</div>
+
 
 {{1}} <section>
 
@@ -2573,7 +2583,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Shadish, Cook &amp; Campbell (2002) und Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 </section>
@@ -2590,7 +2600,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 Du hast dir Gedanken zu den Kernprinzipien und dem Design gemacht. Jetzt ist es Zeit, deine Forschungsfrage zu formulieren. Dabei kommt jetzt alles zusammen: die Prinzipien und das Design.
+💡 Du hast dir Gedanken zu den Kernprinzipien und dem Design gemacht. Jetzt ist es Zeit, deine Forschungsfrage zu formulieren. Dabei kommt jetzt alles zusammen: die Merkmale und das Design.
 </div>
 
 <div style="height: 15px;"></div>
@@ -2642,7 +2652,7 @@ Hier wollen wir herausfinden, ob die gesteigerte Ausdauerleistung mit Musik oder
 
 </details>
 
-<span style="font-size: 1.1em;"><b>Für uns im Weiteren sind besonders wichtig:</b></span>
+<span style="font-size: 1.1em;"><b>Im folgenden nutzen wir diese Forschungsfragen:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -2667,7 +2677,7 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 </section>
@@ -2700,6 +2710,7 @@ Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
 <div style="text-align: center; font-size: 1.1em;"><b>Vorläufig</b></div>
 <div style="font-size: 0.9em;">Bedeutet: Sie ist noch nicht bewiesen.</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ „Musik steigert die Ausdauerleistung“ ist zu Beginn nur eine Annahme.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #2a9a50; border-radius: 0 8px 8px 0; font-size: 0.85em;">📋 "Musik senkt das Anstregungsempfinden" ist zu Beginn nur eine Annahme.</div>
 </div>
 
 <div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
@@ -2707,6 +2718,7 @@ Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
 <div style="text-align: center; font-size: 1.1em;"><b>Überprüfbar</b></div>
 <div style="font-size: 0.9em;">Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen.</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Der Cooper-Test liefert Strecken, die mit und ohne Musik verglichen werden können.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #2a9a50; border-radius: 0 8px 8px 0; font-size: 0.85em;">📋 Die Borg-Skala liefert Auskunft über das Anstregungsempfinden, die mit und ohne Musik verglichen werden können.</div>
 </div>
 
 <div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
@@ -2718,6 +2730,19 @@ Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
 </div>
 
 </div>
+
+<details>
+<summary><b> 🧐 Was ist die Borg-Skala?</b></summary>
+
+Die Borg-Skala ist ein Messinstrument um Anstregung auf einer Skala von 6 (Überhaupt keine Anstrengung (Ruhe)) bis 20 (Maximale Anstrengung (völlige Erschöpfung)) zu messen. 
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Zum Nachlesen: Löllgen, H. (2004): Borg-Skala. Standards der Sportmedizin. Das Anstrengungsempfinden (RPE, Borg-Skala). German Journal of Sports Medicine (11).
+</div>
+
+
+
+</details>
 
 Hypothesen können entweder **gerichtet** oder **ungerichtet** sein, und sie können sich auf **Unterschiede** oder auf **Zusammenhänge** beziehen:
 
@@ -2765,7 +2790,7 @@ Hypothesen gehen immer von einer Null-Hypothese aus, genannt H0. Die H0 geht dav
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring &amp; Bortz (2016) und Eid, Gollwitzer &amp; Schmitt (2017), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017), siehe Literatur am Ende.
 </div>
 
 ---
@@ -2781,7 +2806,7 @@ Hypothesen gehen immer von einer Null-Hypothese aus, genannt H0. Die H0 geht dav
 
 Beantworte die Fragen. Bei einigen Fragen hilft dir ein Hinweis, und nach dem Beantworten bekommst du eine kurze Erklärung.
 
-#### Wann setze ich quantitative Zugänge ein?
+**Wann setze ich quantitative Zugänge ein?**
 
 **Frage 1:** Du möchtest überprüfen, ob die Annahme aus einer Theorie, dass Musik die Ausdauerleistung steigert, durch Daten gestützt wird. Welcher Einsatzbereich quantitativer Zugänge liegt vor?
 
@@ -2827,7 +2852,7 @@ Bei der Generalisierung sollen Aussagen über den Einzelfall hinaus für eine gr
 
 </details>
 
-#### Die fünf Grundsätze
+**Die fünf Merkmale**
 
 **Frage 4:** Alle Teilnehmenden laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung. Welcher Grundsatz wird hier umgesetzt?
 
@@ -2891,7 +2916,7 @@ Quantitative Forschung arbeitet deduktiv und verallgemeinert über Kennwerte und
 
 [[?]] Gegenteil von induktiv: vom Allgemeinen (Theorie) zum Besonderen (Daten).
 
-#### Design
+**Design**
 
 **Frage 9:** Dieselben Personen laufen den Cooper-Test vor und nach acht Wochen Ausdauertraining. Welches Design liegt in Bezug auf die Messzeitpunkte vor?
 
@@ -2936,7 +2961,7 @@ Feld: realitätsnah, aber Störfaktoren schwer kontrollierbar. Labor: gut kontro
 
 </details>
 
-#### Forschungsfrage
+**Forschungsfrage**
 
 **Frage 12:** Wo beginnt quantitative Forschung typischerweise?
 
@@ -2982,7 +3007,7 @@ Die dritte Frage benennt Einflussfaktor (Rockmusik, 140 BPM), Variable (Ausdauer
 
 </details>
 
-#### Hypothesen
+**Hypothesen**
 
 **Frage 15:** Welche Aussage ist eine passende Nullhypothese (H0) zur Forschungsfrage nach dem Einfluss von Musik auf die gelaufene Distanz?
 
@@ -3141,7 +3166,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 </div>
 
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">(nach Döring &amp; Bortz, 2016; Wagner &amp; Fischer, 2019)</div>
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">(nach Döring & Bortz, 2016)</div>
 
 <div style="height: 15px;"></div>
 
@@ -3237,7 +3262,7 @@ Stell dir vor, die Messung ist ein Wurf auf eine Zielscheibe. Die Mitte steht f�
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Moosbrugger &amp; Kelava (2020) und Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Moosbrugger & Kelava (2020) und Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 ---
@@ -3340,6 +3365,15 @@ Standardisierte Fragebögen erfassen z. B.
 
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
+<details>
+<summary><b> 🧐 Waum gibt es hier kein Beispiel für die Ausdauerleistung?</b></summary>
+
+Die Ausdauerleistung wird mit einem physischen Test gemessen, dafür braucht es keinen Fragebogen.
+
+
+
+</details>
+
 <div style="height: 10px;"></div>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
@@ -3400,7 +3434,7 @@ md += "\n**Skalenwert (Mittelwert):** " + mean.toFixed(2).replace(".", ",") + "\
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Likert (1932) und Moosbrugger &amp; Kelava (2020), siehe Literatur am Ende.
+📚 Zum Nachlesen: Likert (1932) und Moosbrugger & Kelava (2020), siehe Literatur am Ende.
 </div>
 
 ---
@@ -3719,22 +3753,10 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 <div style="height: 15px;"></div>
 
-<details>
-<summary><b>👉 Check-Up</b></summary>
 
-In unserem Beispiel soll geprüft werden, ob Musik die gelaufene Strecke verändert. Welche Variable ist die **abhängige Variable**?
-
-- [( )] Musik (mit / ohne)
-- [(X)] gelaufene Strecke in Metern
-- [( )] Alter der Proband:innen
-- [( )] Lieblings-Musikgenre
-
-[[?]] Die abhängige Variable ist die, die gemessen wird und sich „in Abhängigkeit“ vom Einfluss verändern soll.
-
-</details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring &amp; Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
 </div>
 
 ---
@@ -3850,52 +3872,6 @@ Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
 📚 Zum Nachlesen: Stevens (1946), siehe Literatur am Ende.
 </div>
 
-### Check-Up: Skalenniveaus
-
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-<span style="font-size: 1.3em;"><i>Welches Skalenniveau hat welche Variable? Teste dein Wissen.</i></span>
-</div>
-
-<div style="height: 15px;"></div>
-
-**Frage 1:** Auf welchem Skalenniveau liegt die Variable *Lieblings-Musikgenre* (Pop, Rock, Hip-Hop, ...)?
-
-- [(X)] nominal
-- [( )] ordinal
-- [( )] intervallskaliert
-- [( )] verhältnisskaliert
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Die Genres haben keine natürliche Reihenfolge. Es handelt sich um reine Kategorien.
-
-</details>
-
-**Frage 2:** Auf welchem Skalenniveau liegt die *gelaufene Strecke in Metern*?
-
-- [( )] nominal
-- [( )] ordinal
-- [( )] intervallskaliert
-- [(X)] verhältnisskaliert
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Es gibt einen echten Nullpunkt (0 m), und gleiche Abstände bedeuten gleiche Streckenunterschiede.
-
-</details>
-
-**Frage 3:** Welche Aussagen sind korrekt? (Mehrfachauswahl)
-
-- [[X]] Die Platzierung im Lauf ist ordinalskaliert.
-- [[ ]] Die Lufttemperatur in °C ist verhältnisskaliert.
-- [[X]] Die Lufttemperatur in °C ist intervallskaliert.
-- [[ ]] Der Mittelwert ist für nominale Daten sinnvoll.
-
-[[?]] Überlege bei der Temperatur, ob 0 °C "keine Temperatur" bedeutet.
-
 ### Relevanz des Skalenniveaus
 
 <!-- class="animate__animated animate__bounceInRight" -->
@@ -3914,6 +3890,10 @@ Diese Berechnung setzt allerdings metrische Daten voraus. Für nominale Merkmale
 | **Modus** | ✅ | ✅ | ✅ |
 | **Median** | ❌ | ✅ | ✅ |
 | **Mittelwert, Standardabweichung** | ❌ | ❌ | ✅ |
+
+<div style="border-left: 6px solid #ff0000; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+<span style="font-size: 1.3em;"><i>WOLLEN WIR SO KLEINLICH SEIN?</i></span>
+</div>
 
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
@@ -3952,7 +3932,14 @@ Für einzelne Likert-Items (ordinal) passen Median und Quartile.
 
 Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennwerten zusammen. Zwei Fragen sind dabei relevant:
 
-#### 📍 Wo liegt die Mitte?
+
+<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+
+<div style="font-size: 2em; text-align: center;">📍</div>
+
+<div style="text-align: center; font-size: 1.1em;"><b>Wo liegt die Mitte?</b></div>
+
+<div style="height: 15px;"></div>
 
 | Kennwert | Bedeutung | Skalenniveau |
 | -------- | --------- | ------------ |
@@ -3960,13 +3947,27 @@ Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennw
 | **Median** | mittlerer Wert der sortierten Reihe | mindestens ordinal |
 | **Modus** | häufigster Wert | ab nominal |
 
-#### ↔️ Wie unterschiedlich sind die Werte?
+</div>
+
+<div style="height: 15px;"></div>
+
+<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+
+<div style="font-size: 2em; text-align: center;">↔️</div>
+
+<div style="text-align: center; font-size: 1.1em;"><b>Wie unterschiedlich sind die Werte?</b></div>
+
+<div style="height: 15px;"></div>
 
 | Kennwert | Bedeutung |
 | -------- | --------- |
 | **Spannweite** | Maximum minus Minimum |
 | **Varianz** $s^2$ | mittlere quadrierte Abweichung vom Mittelwert |
 | **Standardabweichung** $s$ | Wurzel der Varianz, in der Einheit der Daten |
+
+</div>
+
+<div style="height: 15px;"></div>
 
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
 📌 <b>Merke:</b> Bei metrischen, annähernd symmetrisch verteilten Daten berichtest du <b>Mittelwert und Standardabweichung</b>. Bei ordinalen Daten oder Ausreißern nutzt du <b>Median und Quartile bzw. IQR</b>.
@@ -4471,19 +4472,65 @@ Die Anstrengung (Likert-Items, ordinal) beschreibst du mit Median und Quartilen.
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Eid, Gollwitzer &amp; Schmitt (2017), siehe Literatur am Ende.
+📚 Zum Nachlesen: Eid, Gollwitzer & Schmitt (2017), siehe Literatur am Ende.
 </div>
 
-### Check-Up: Deskriptive Statistik
+### Check-Up: Skalenniveaus & deskriptive Statistik
+
 
 <!-- class="animate__animated animate__fadeIn" -->
 <div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-<span style="font-size: 1.3em;"><i>Wie gut kannst du Kennwerte einordnen? Teste dein Wissen.</i></span>
+<span style="font-size: 1.3em;"><i>Was habe ich zu Skalenniveaus und deskriptiver Statistik verstanden? Teste dein Wissen.</i></span>
 </div>
 
 <div style="height: 15px;"></div>
 
-**Frage 1:** Welcher Kennwert ist bei einem Ausreißer am **robustesten**?
+Beantworte die Fragen. Bei einigen Fragen hilft dir ein Hinweis, und nach dem Beantworten bekommst du eine kurze Erklärung.
+
+<div style="height: 15px;"></div>
+
+**Skalenniveaus**
+
+**Frage 1:** Auf welchem Skalenniveau liegt die Variable *Lieblings-Musikgenre* (Pop, Rock, Hip-Hop, ...)?
+
+- [(X)] nominal
+- [( )] ordinal
+- [( )] intervallskaliert
+- [( )] verhältnisskaliert
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Die Genres haben keine natürliche Reihenfolge. Es handelt sich um reine Kategorien.
+
+</details>
+
+**Frage 2:** Auf welchem Skalenniveau liegt die *gelaufene Strecke in Metern*?
+
+- [( )] nominal
+- [( )] ordinal
+- [( )] intervallskaliert
+- [(X)] verhältnisskaliert
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Es gibt einen echten Nullpunkt (0 m), und gleiche Abstände bedeuten gleiche Streckenunterschiede.
+
+</details>
+
+**Frage 3:** Welche Aussagen sind korrekt? (Mehrfachauswahl)
+
+- [[X]] Die Platzierung im Lauf ist ordinalskaliert.
+- [[ ]] Die Lufttemperatur in °C ist verhältnisskaliert.
+- [[X]] Die Lufttemperatur in °C ist intervallskaliert.
+- [[ ]] Der Mittelwert ist für nominale Daten sinnvoll.
+
+[[?]] Überlege bei der Temperatur, ob 0 °C "keine Temperatur" bedeutet.
+
+**Deskriptive Statistik**
+
+**Frage 4:** Welcher Kennwert ist bei einem Ausreißer am **robustesten**?
 
 - [( )] Mittelwert
 - [(X)] Median
@@ -4497,7 +4544,7 @@ Der Median hängt nur von der Rangfolge der Werte ab. Mittelwert, Spannweite und
 
 </details>
 
-**Frage 2:** Für welche Variable ist der **Mittelwert nicht** sinnvoll?
+**Frage 5:** Für welche Variable ist der **Mittelwert nicht** sinnvoll?
 
 - [(X)] Lieblings-Musikgenre (nominal)
 - [( )] Gelaufene Strecke in Metern
@@ -4511,7 +4558,7 @@ Der Mittelwert setzt metrische Daten voraus.
 
 </details>
 
-**Frage 3:** Im Datensatz oben beträgt die Standardabweichung der Laufstrecken mit Musik ca. 195 m. Was bedeutet das?
+**Frage 6:** Im Datensatz oben beträgt die Standardabweichung der Laufstrecken mit Musik ca. 195 m. Was bedeutet das?
 
 - [( )] Alle Personen liefen genau 195 m.
 - [(X)] Die Strecken weichen im Durchschnitt etwa 195 m vom Mittelwert ab.
@@ -4534,16 +4581,14 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 
 ## Literatur
 
-<!-- TODO: Wagner & Fischer (2019) ist im Text zitiert (Datenerhebung), die vollständige Referenz fehlt noch. -->
-* Borg, G. A. V. (1982). Psychophysical bases of perceived exertion. <i>Medicine &amp; Science in Sports &amp; Exercise, 14</i>(5), 377–381.
-* Cooper, K. H. (1968). A means of assessing maximal oxygen intake: Correlation between field and treadmill testing. <i>JAMA, 203</i>(3), 201–204.
-* Döring, N. &amp; Bortz, J. (2016). <i>Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</i> (5. Aufl.). Springer.
-* Eid, M., Gollwitzer, M. &amp; Schmitt, M. (2017). <i>Statistik und Forschungsmethoden</i> (5. Aufl.). Beltz.
+
+* Borg, G. A. V. (1982). Psychophysical bases of perceived exertion. <i>Medicine & Science in Sports & Exercise, 14</i>(5), 377–381.
+* Döring, N. & Bortz, J. (2016). <i>Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</i> (5. Aufl.). Springer.
+* Eid, M., Gollwitzer, M. & Schmitt, M. (2017). <i>Statistik und Forschungsmethoden</i> (5. Aufl.). Beltz.
 * Likert, R. (1932). A technique for the measurement of attitudes. <i>Archives of Psychology, 22</i>(140), 1–55.
-* Moosbrugger, H. &amp; Kelava, A. (Hrsg.). (2020). <i>Testtheorie und Fragebogenkonstruktion</i> (3. Aufl.). Springer. <a href="https://doi.org/10.1007/978-3-662-61532-4" target="_blank">https://doi.org/10.1007/978-3-662-61532-4</a>
-* Rosenthal, R. (1966). <i>Experimenter effects in behavioral research</i>. Appleton-Century-Crofts.
-* Shadish, W. R., Cook, T. D. &amp; Campbell, D. T. (2002). <i>Experimental and quasi-experimental designs for generalized causal inference</i>. Houghton Mifflin.
-* Stevens, S. S. (1946). On the theory of scales of measurement. <i>Science, 103</i>(2684), 677–680. <a href="https://doi.org/10.1126/science.103.2684.677" target="_blank">https://doi.org/10.1126/science.103.2684.677</a>
-* Terry, P. C., Karageorghis, C. I., Curran, M. L., Martin, O. V. &amp; Parsons-Smith, R. L. (2020). Effects of music in exercise and sport: A meta-analytic review. <i>Psychological Bulletin, 146</i>(2), 91–117. <a href="https://doi.org/10.1037/bul0000216" target="_blank">https://doi.org/10.1037/bul0000216</a>
+* Moosbrugger, H. & Kelava, A. (Hrsg.). (2020). <i>Testtheorie und Fragebogenkonstruktion</i> (3. Aufl.). Springer. DOI: 10.1007/978-3-662-61532-4
+* Shadish, W. R., Cook, T. D. & Campbell, D. T. (2002). <i>Experimental and quasi-experimental designs for generalized causal inference</i>. Houghton Mifflin.
+* Stevens, S. S. (1946). On the theory of scales of measurement. <i>Science, 103</i>(2684), 677–680. DOI: 10.1126/science.103.2684.677
+* Terry, P. C., Karageorghis, C. I., Curran, M. L., Martin, O. V. & Parsons-Smith, R. L. (2020). Effects of music in exercise and sport: A meta-analytic review. <i>Psychological Bulletin, 146</i>(2), 91–117. DOI:/10.1037/bul0000216
 
 
