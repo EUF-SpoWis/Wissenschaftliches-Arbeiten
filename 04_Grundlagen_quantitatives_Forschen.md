@@ -2169,8 +2169,8 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 <div class="animate__animated animate__slideInLeft" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 1.1em;"><b>Untersuchungsplanung</b></div>
 <ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Design</b> – <i>Welche Designmöglichkeiten gibt es bei der Forschung?</i></li>
 <li><b>Forschungsfrage</b> – <i>Wie wird eine Forschungsfrage formuliert?</i></li>
+<li><b>Design</b> – <i>Welche Designmöglichkeiten gibt es bei der Forschung?</i></li>
 <li><b>Hypothesen</b> – <i>Was ist eine Hypothese und wie wird sie formuliert?</i></li>
 </ul>
 </div>
@@ -2187,7 +2187,7 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (b
 </div>
 
 <div class="animate__animated animate__slideInLeft" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 1.1em;"><b>Statistische Analyse</b></div>
+<div style="font-size: 1.1em;"><b>Statistische Analyse - Erste Grundlagen</b></div>
 <ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
 <li><b>Variablenarten</b> – <i>Welche Variablenarten gibt es?</i></li>
 <li><b>Skalenniveaus</b> – <i>Was ist ein Skalenniveau und was bedeutet es?</i></li>
@@ -2281,7 +2281,7 @@ In den <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 6
 ## Grundlagen
 
 <!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<div style="border: 2px solid #9a4ebd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="font-size: 1.2em;">In den Grundlagen beschäftigen wir uns nun mit dem <b>Einsatz von quantitativen Methoden</b> und den <b>Grundsätzen</b>.</span>
 </div>
 
@@ -2373,7 +2373,7 @@ Hier wollen wir herausfinden ob Laufen mit Musik dazu führt, dass es sich wenig
 
 ---
 
-### Merkmale
+### Merkmale von Quantitativen Forschens
 <section>
 
 <!-- class="animate__animated animate__bounceInRight" -->
@@ -2389,7 +2389,7 @@ Hier wollen wir herausfinden ob Laufen mit Musik dazu führt, dass es sich wenig
 
 <div style="height: 15px;"></div>
 
-#### Quantitatives Denken zeichnet sich durch fünf Merkmale aus:
+#### Quantitatives Forschen zeichnet sich durch fünf Merkmale aus:
 
 <!-- class="animate__animated animate__fadeInUp" -->
 <span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">1. Standardisierung:</span> <span style="font-size: 1.1em;">Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.</span>
@@ -2458,7 +2458,7 @@ Hier wollen wir herausfinden ob Laufen mit Musik dazu führt, dass es sich wenig
 
 <div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
 <strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich hilfreiche Daten?</span>
+<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
 </div>
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
@@ -2498,7 +2498,7 @@ Hier wollen wir herausfinden ob Laufen mit Musik dazu führt, dass es sich wenig
   style="border: none;">
 </iframe>
 
-<span style="font-size: 1.1em;"><b>FDas wollen wir auf das Musikbeispiel aus der Einletung anwenden:</b></span>
+<span style="font-size: 1.1em;"><b>Das wollen wir auf das Musikbeispiel aus der Einleitung anwenden:</b></span>
 
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
 📋 Überlege dir, wie du den Einfluss von Musik auf die Ausdauerleistung / das Anstrengungsempfinden testen möchtest, heißt: „<b>Wann?</b>“, „<b>Wo?</b>“ und „<b>Wie stark möchtest du eingreifen?</b>“.<br><br>Fülle die Boxen aus. 
@@ -2756,7 +2756,7 @@ Hypothesen gehen immer von einer Null-Hypothese aus, genannt H0. Die H0 geht dav
 | ⚖️ Vor Gericht | 🔬 In der Wissenschaft |
 | :-- | :-- |
 | Der Angeklagte gilt als unschuldig. | Die H0 gilt: kein Effekt, kein Unterschied, kein Zusammenhang. |
-| Seine Schuld muss bewiesen werden. | Die H0 muss durch Daten eindeutig widerlegt werden. |
+| Seine Schuld muss bewiesen werden. | Die H0 muss durch Daten widerlegt werden. |
 
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
 📌 <b>Merke:</b> Eine <i>Forschungshypothese</i> (z. B. „Musik erhöht die Ausdauerfähigkeit“) ist klar zu unterscheiden von der konkreten <i>Messvariable</i> (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem <i>globalen Forschungsthema</i> (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
@@ -3095,7 +3095,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 <div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
 <strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich hilfreiche Daten?</span>
+<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
 </div>
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
@@ -3108,7 +3108,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 </div>
 
 <!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<div style="border: 2px solid #8f4ebd; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="font-size: 1.2em;">Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplanung angelangt und gehen nun weiter zur Datenerhebung.</span>
 </div>
 
