@@ -358,6 +358,7 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man das �
 
 </div>
 
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
@@ -426,7 +427,7 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016)
 </div>
 
 </section>
@@ -469,6 +470,7 @@ Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
 
 </div>
 
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
@@ -553,7 +555,7 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017)
 </div>
 
 ---
@@ -1126,6 +1128,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 </div>
 
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
@@ -1168,7 +1171,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Moosbrugger & Kelava (2020) und Döring & Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Moosbrugger & Kelava (2020) und Döring & Bortz (2016)
 </div>
 
 ---
@@ -1479,6 +1482,9 @@ Damit die Beobachtung <b>objektiv</b> ist, sollten mindestens zwei Personen unab
 
 <div style="height: 15px;"></div>
 
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
+<div style="height: 15px;"></div>
+
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
@@ -1570,6 +1576,10 @@ Das Empfinden selbst ist nicht beobachtbar, dafür aber Verhalten, das damit zus
 </div>
 
 <div style="height: 10px;"></div>
+
+
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
+<div style="height: 15px;"></div>
 
 
 <div style="flex: 1; min-width: 220px;">
@@ -1899,7 +1909,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016), siehe Literatur am Ende.
+📚 Zum Nachlesen: Döring & Bortz (2016)
 </div>
 
 ---
@@ -2927,7 +2937,7 @@ Die Anstrengung (Likert-Items, ordinal) beschreibst du mit Median und Quartilen.
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Eid, Gollwitzer & Schmitt (2017), siehe Literatur am Ende.
+📚 Zum Nachlesen: Eid, Gollwitzer & Schmitt (2017)
 </div>
 
 ### Check-Up: Skalenniveaus & deskriptive Statistik
