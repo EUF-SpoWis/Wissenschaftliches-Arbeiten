@@ -112,15 +112,19 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
-<!-- class="animate__animated animate__fadeInUp" -->
->[!Note]Arbeitsauftrag 
->Der folgende Podcast-Ausschnitt wirft eine Fragestellung auf, die wir im Folgenden immer wieder aufgreifen werden – höre dir den Ausschnitt der folgenden Unterhaltung an: <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio>
+<div style="flex: 1 1 320px;">
 
-<i>(erstellt mit der KI ElevenLabs)</i>
+<!-- class="animate__animated animate__fadeInUp" -->
+>[!Note]**Arbeitsauftrag**
+>Der folgende Podcast-Ausschnitt wirft eine Fragestellung auf, die wir im Folgenden immer wieder aufgreifen werden – höre dir den Ausschnitt der folgenden Unterhaltung an: <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio><div style="font-size: 0.8em; font-style: italic; color: #4a5568; margin-top: 0.4rem;">*(erstellt mit der KI ElevenLabs)*
+</div> 
 </div>
 
-<div style="flex: 1; min-width: 220px;">
-<img src="img/podcast_gespraech_einstieg.png" style="max-width: 100%; border-radius: 8px;">
+<div style="flex: 0 1 300px; text-align: center;">
+  <img src="img\podcast_gespraech_einstieg.png" alt="Podcast-Gespräch als Einstieg" style="width: 100%; border-radius: 8px;">
+  <div style="font-size: 0.8em; font-style: italic; color: #4a5568; margin-top: 0.4rem;">(erstellt mit Claude)</div>
+</div>
+
 </div>
 
 **Für den weiteren Kurs sind hier ein paar Hinweise**
@@ -205,14 +209,14 @@ Die Befundlage legt nahe, dass Musik die Ausdauerleistung steigert und das Anstr
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Effekt auf die Distanz </b> 🏃🏾‍♀️<br>
-Laut Terry et al. (2020) steigert Musik die Ausdauerleistung. Wie man das überprüfen kann ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
+Laut Terry et al. (2020) steigert Musik die Ausdauerleistung. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
 </div>
 </div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 📋 <b>Effekt auf das Anstregungsempfinden</b> 📋<br>
-Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man das überprüfen kann ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
+Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
 </div>
 </div>
 
@@ -266,14 +270,14 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man das �
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> gelaufene Strecke in 12 Minuten (in Metern)</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird eine größere Strecke gelaufen.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach festem Verfahren.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Mittelwerte der Gruppen, nicht einzelne Läufer:innen.</p>
+<p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> Gelaufene Strecke in 12 Minuten (in Metern).</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird eine größere Strecke gelaufen.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach festem Verfahren.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Mittelwerte der Gruppen, nicht einzelne Läufer:innen.</p>
 </div>
 </div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle füllen direkt nach dem Lauf denselben Fragebogen aus.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> Wert auf der Borg-Skala oder Skalenwert aus mehreren Likert-Items</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird die Anstrengung geringer eingeschätzt.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Teilnehmenden füllen den Fragebogen selbst aus, die Testleitung kommentiert die Antworten nicht.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Skalenwerte der Gruppen. Die Ergebnisse gelten nur für Personen, die der Stichprobe ähneln.</p>
+<p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle füllen direkt nach dem Lauf denselben Fragebogen aus.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> Wert auf der Borg-Skala oder Skalenwert aus mehreren Likert-Items.</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird die Anstrengung geringer eingeschätzt.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Teilnehmenden füllen den Fragebogen selbst aus, die Testleitung kommentiert die Antworten nicht.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Skalenwerte der Gruppen. Die Ergebnisse gelten nur für Personen, die der Stichprobe ähneln.</p>
 </div>
 </div>
 
@@ -365,7 +369,7 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man das �
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung von Musik auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Ausgangspunkt:</b> Theorie: Musik steigert die Ausdauerleistung (Terry et al., 2020)</p><p style="margin: 0.5rem 0 0 0;"><b>Präzision:</b> „Rockmusik mit 140 BPM“ und „Ausdauerleistung“ lassen sich direkt festlegen bzw. messen.</p><p style="margin: 0.5rem 0 0 0;"><b>Reduktion:</b> „Ausdauer“ wird auf die in 12 Minuten gelaufene Strecke reduziert. Zielgruppe wird mit "Sportstudierende" klar definiert.</p>
+<p style="margin: 0.5rem 0 0 0;"><b>Ausgangspunkt:</b> Musik steigert die Ausdauerleistung (Terry et al., 2020)</p><p style="margin: 0.5rem 0 0 0;"><b>Präzision:</b> „Rockmusik mit 140 BPM“ und „Ausdauerleistung“ lassen sich direkt festlegen bzw. messen.</p><p style="margin: 0.5rem 0 0 0;"><b>Reduktion:</b> „Ausdauer“ wird auf die in 12 Minuten gelaufene Strecke reduziert. Zielgruppe wird mit "Sportstudierende" klar definiert.</p>
  
 </div>
 </div>
@@ -444,9 +448,13 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 
 <div style="height: 15px;"></div>
 
-Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist.
+<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Was ist eine Hypothese?</span> 
 
-Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist.</span>
+</div>
+
+**Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:**
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
@@ -470,6 +478,8 @@ Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:
 
 </div>
 
+<!-- class="animate__animated animate__fadeIn animate__delay-3s" -->
+<section>
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
@@ -504,9 +514,17 @@ Die Borg-Skala ist ein Messinstrument um Anstregung auf einer Skala von 6 (Über
 
 <div style="height: 15px;"></div>
 
-In der quantitativen Forschung werden immmer Hypothesenpaare aufgestellt. Dabei gibt es eine **Null-Hypothese (H0)** und eine **Alternativhypothese (H1)**. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. 
+</section>
 
-Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+
+<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Hypothesenpaare</span> 
+
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">In der quantitativen Forschung werden immmer Hypothesenpaare aufgestellt. Dabei gibt es eine **Null-Hypothese (H0)** und eine **Alternativhypothese (H1)**. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. 
+
+Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.</span>
+</div>
 
 | ⚖️ Vor Gericht | 🔬 In der Wissenschaft |
 | :-- | :-- |
@@ -535,6 +553,7 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 | Forschungshypothese | Musik erhöht die Ausdauerfähigkeit |
 | Messvariable | gelaufene Distanz in m in 12 min |
 
+{{1}} <section>
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
 📋 Formuliere hier je eine Null-Hypothese und eine Alternativhypothese für die Forschungsfragen.
 </div>
@@ -557,6 +576,8 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Zum Nachlesen: Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017)
 </div>
+
+</section>
 
 ---
 
