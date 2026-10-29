@@ -518,7 +518,7 @@ Die Borg-Skala ist ein Messinstrument um Anstregung auf einer Skala von 6 (Über
 
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
-<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Hypothesenpaare</span> 
+<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Hypothesenpaare</span> 
 
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 <span style="font-size: 1.0em;">In der quantitativen Forschung werden immmer Hypothesenpaare aufgestellt. Dabei gibt es eine **Null-Hypothese (H0)** und eine **Alternativhypothese (H1)**. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. 
@@ -1350,7 +1350,8 @@ Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile 
 
 </details>
 
-<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala:</span><span style="font-size: 1.1em;">**Ein einzelnes Item zur Anstrengung**</span>
+<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala</span><span style="font-size: 1.1em;"> :**Ein einzelnes Item zur Anstrengung**</span>
+
 Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer einzigen Zahl**, wie anstrengend die Belastung empfunden wurde. Die Werte 6 bis 20 sind so gewählt, dass die Zahl mal 10 ungefähr dem Puls eines gesunden Erwachsenen entspricht (13 ➜ ca. 130 Schläge pro Minute).
 
 
@@ -1984,7 +1985,7 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 
 <span style="font-size: 1.1em;">Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.</span>
 
-<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Nominalskala</span>
+<div style="margin-top: 1rem;"><span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Nominalskala</span></div>
 
 Die Werte sind **Namen oder Kategorien**. Man kann sie nur unterscheiden und zählen.
 
