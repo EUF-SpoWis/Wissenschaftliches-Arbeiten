@@ -1200,7 +1200,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 ### Herausforderung
 
 
-Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen. Drei davon begegnen dir besonders oft:
+**Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen. Drei davon begegnen dir besonders oft:**
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
@@ -1255,6 +1255,7 @@ Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen
 
 ### Befragungen
 
+<div style="font-size: 1.1em;">
 
 Daten können mithilfe von Fragebögen, online oder im Papierformat, erhoben werden. Bei den Daten wird in **soziodemografische** und **psychometrische** unterschieden. 
 
@@ -1270,10 +1271,14 @@ Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfa
 <div style="height: 15px;"></div>
 über vorformulierte, geschlossene Items.
 
+</div>
+
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
-<span style="font-size: 1.1em;"><b>Fragebogen für Soziodemografische Daten</b></span>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #a74ebd; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für soziodemografische Daten</span>
 <div style="height: 15px;"></div>
+
 **Beispiel:**
 
 <!-- style="width: 100%; text-align: center" -->
@@ -1289,7 +1294,7 @@ Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfa
 
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
-<span style="font-size: 1.1em;"><b>Fragebogen für Psychometrische Daten</b></span>
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #2a9a50; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für psychometrische Daten</span>
 <div style="height: 15px;"></div>
 **Beispiel:**
 
@@ -1310,7 +1315,7 @@ Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfa
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>Likert-Skala</b></span>
+<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Likert-Skala</span>
 
 Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile wird **eine** Stufe von 1 (trifft gar nicht zu) bis 5 (trifft völlig zu) angekreuzt. Hier siehst du ein ausgefülltes Beispiel:
 
@@ -1345,8 +1350,7 @@ Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile 
 
 </details>
 
-<span style="font-size: 1.1em;"><b>Borg-Skala: ein einzelnes Item zur Anstrengung</b></span>
-
+<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala:</span><span style="font-size: 1.1em;">**Ein einzelnes Item zur Anstrengung**</span>
 Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer einzigen Zahl**, wie anstrengend die Belastung empfunden wurde. Die Werte 6 bis 20 sind so gewählt, dass die Zahl mal 10 ungefähr dem Puls eines gesunden Erwachsenen entspricht (13 ➜ ca. 130 Schläge pro Minute).
 
 
@@ -1428,6 +1432,8 @@ Die Ausdauerleistung wird mit einem physischen Test gemessen, dafür braucht es 
 
 <div style="height: 15px;"></div>
 
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+
 <span style="font-size: 1.1em;"><b>Drei Wege, Beobachtungen zu erfassen:</b></span>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
@@ -1485,6 +1491,8 @@ Die Daten dieser Beispielläuferin sind frei erfunden. In einer echten Studie w�
 
 <div style="height: 15px;"></div>
 
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+
 <span style="font-size: 1.1em;"><b>Gütekriterien: Wie gut stimmen die Beobachtenden überein?</b></span>
 
 Damit die Beobachtung <b>objektiv</b> ist, sollten mindestens zwei Personen unabhängig voneinander dieselben Läufe beobachten. 
@@ -1511,14 +1519,14 @@ Damit die Beobachtung <b>objektiv</b> ist, sollten mindestens zwei Personen unab
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
-Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Zeit im Laufen. Die gelaufene Strecke selbst misst der Cooper-Test, die Beobachtung ergänzt, <i>wie</i> sie zustande kam.
+Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gelaufene Strecke selbst misst der Cooper-Test, die Beobachtung ergänzt, <i>wie</i> sie zustande kam.
 </div>
 </div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
-Das Empfinden selbst ist nicht beobachtbar, dafür aber Verhalten, das damit zusammenhängen kann (z. B. Gehpausen). Für das Empfinden selbst eignen sich eher Borg-Skala oder Fragebogen.
+Das Empfinden selbst ist nicht beobachtbar, dafür aber Verhalten, das damit zusammenhängen kann (z. B. Gehpausen). Für das Empfinden selbst eignen sich eher die Borg-Skala oder ein Fragebogen.
 </div>
 </div>
 
@@ -1613,7 +1621,7 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 <details>
 <summary><b> 🧐 Warum gibt es hier kein Beispiel für Anstregungsempfinden?</b></summary>
 
-Das Anstregungsempfinden wird mit Hilfe einer Befragung gemessen und kann nicht mit eine physischen Test gemessen werden, da es sich um eine subjektiven Wert handelt.
+Das Anstregungsempfinden wird mit Hilfe einer **Befragung** gemessen und kann nicht mit eine physischen Test gemessen werden, da es sich um eine subjektiven Wert handelt.
 
 </details>
 
@@ -1937,8 +1945,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 ### Skalenniveaus
 
-
-Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.
+<span style="font-size: 1.1em;">Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.</span>
 
 | Skalenniveau | Eigenschaft | Nullpunkt | Beispiel aus dem Lauf-Experiment | sinnvolle Kennwerte |
 | ------------ | ----------- | ------ | -------------------------- | ------------------- |
@@ -1975,28 +1982,30 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 <details>
 <summary><b>👉 Vertiefung</b></summary>
 
-**Nominalskala**
+<span style="font-size: 1.1em;">Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.</span>
+
+<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Nominalskala</span>
 
 Die Werte sind **Namen oder Kategorien**. Man kann sie nur unterscheiden und zählen.
 
 - Beispiel: Die Variable *Bedingung* hat die Ausprägungen „mit Musik“ und „ohne Musik“.
 - Ein Zahlencode (1 = ohne, 2 = mit) ändert nichts daran: Die Zahlen sind nur Etiketten.
 
-**Ordinalskala**
+<span style="background: #9507a8; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Ordinalskala</span>
 
 Die Werte lassen sich **ordnen**, aber die Abstände zwischen ihnen sind nicht gleich groß.
 
 - Beispiel: Platz 1, 2 und 3 im Lauf. Der Abstand von Platz 1 zu 2 kann 5 m betragen, der von Platz 2 zu 3 aber 80 m.
 - Auch Antworten auf Ratingskalen (1 = trifft gar nicht zu, 5 = trifft völlig zu) sind streng genommen ordinal. In der Praxis werden sie bei vielen Items oft wie intervallskalierte Daten behandelt. Das solltest du aber begründen.
 
-**Intervallskala**
+<span style="background: #5923b1; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;"> Intervallskala</span>
 
 Die Abstände zwischen den Werten sind **gleich groß**, der Nullpunkt ist aber willkürlich festgelegt.
 
 - Beispiel: 20 °C zu 10 °C ist ein Unterschied von 10 Grad, genauso wie 30 °C zu 20 °C.
 - Aber: 20 °C ist **nicht** „doppelt so warm“ wie 10 °C, denn 0 °C bedeutet nicht „keine Temperatur“.
 
-**Verhältnisskala**
+<span style="background: #420cc0; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Verhältnisskala</span>
 
 Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
 
@@ -2013,7 +2022,7 @@ Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
 ### Deskriptive Statistik
 
 
-Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennwerten zusammen. Zwei Fragen sind dabei relevant:
+<span style="font-size: 1.1em;">Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennwerten zusammen. Zwei Fragen sind dabei relevant:</span>
 
 
 <div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
@@ -2053,7 +2062,7 @@ Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennw
 <div style="height: 15px;"></div>
 
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> Streng genommen darf für ordinale Daten kein Mittelwert und Standardabweichung berechnet werden, in der praxis sieht es anders aus. Hier werden auch bei ordinalen Daten <b>Mittelwert und Standardabweichung</b> angegeben.
+📌 <b>Merke:</b> Streng genommen darf für ordinale Daten kein Mittelwert und Standardabweichung berechnet werden, in der Praxis sieht es anders aus. Hier werden auch bei ordinalen Daten <b>Mittelwert und Standardabweichung</b> angegeben.
 </div>
 
 <div style="height: 15px;"></div>
@@ -2068,7 +2077,7 @@ Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennw
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
-Die Bedingung (mit/ohne Musik) ist <b>nominal</b> hier können wir **Häufigkeit und Modus** berechnen. Die gelaufene Strecke in Metern ist <b>verhältnisskaliert</b>, hier sind **Mittelwert und Standardabweichung** relevant.
+Die Bedingung (mit/ohne Musik) ist <b>nominal</b>. Hier können wir **Häufigkeit und Modus** berechnen. Die gelaufene Strecke in Metern ist <b>verhältnisskaliert</b>, hier sind **Mittelwert und Standardabweichung** relevant.
 </div>
 </div>
 
@@ -2083,7 +2092,7 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 
 ### Anwendungsbeispiel deskriptive Daten 
 
-Hier siehst du ein Beispiel von einem Datensatz:
+<span style="font-size: 1.1em;">Hier siehst du ein Beispiel von einem Datensatz:</span>
 
 <div id="lauf-musik-widget"></div>
 
@@ -2938,17 +2947,16 @@ Hier siehst du ein Beispiel von einem Datensatz:
 <div style="height: 10px;"></div>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
 <div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Wirkung auf die Ausdauerleistung</b></span> 🏃🏾‍♀️<br>
+<div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
+🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 Die gelaufene Strecke wird je Gruppe mit Mittelwert und Standardabweichung beschrieben. Die Mittelwertdifferenz (mit Musik − ohne Musik) beschreibt, wie groß der Unterschied in diesem Datensatz ist.
 </div>
 </div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirkung auf das Anstrengungsempfinden</b></span> 📋<br>
+📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
 Die Anstrengung (Likert-Items, ordinal) beschreibst du mit Median und Quartilen.
 </div>
 </div>
@@ -3061,7 +3069,33 @@ Die Standardabweichung beschreibt die typische Abweichung der Werte vom Mittelwe
 
 ## Ausblick
 
-Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur deskriptiv (beschreibend) analysieren können, sondern auch Berechnungen durchführen und ausschlaggebende Aussagen darüber treffen können, ob Musik einen Einfluss auf die Ausdauerleistung hat.
+<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; font-size: 1.05em;">
+Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur <b>deskriptiv</b> (beschreibend) analysieren können, sondern auch <b>Berechnungen durchführen</b> und <b>ausschlaggebende Aussagen</b> darüber treffen können, ob Musik einen Einfluss auf die Ausdauerleistung hat.
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.4rem 0;">
+  <div style="flex: 1 1 200px; border: 2px solid #4e66bd; border-radius: 12px; padding: 0.9rem 1.1rem; text-align: center;">
+    <div style="font-size: 2rem;">📊</div>
+    <b style="color: #4e66bd;">Beschreiben</b><br>
+    <span style="font-size: 0.9em;">Daten deskriptiv darstellen</span>
+  </div>
+
+  <div style="flex: 1 1 200px; border: 2px solid #4e66bd; border-radius: 12px; padding: 0.9rem 1.1rem; text-align: center;">
+    <div style="font-size: 2rem;">🧮</div>
+    <b style="color: #4e66bd;">Berechnen</b><br>
+    <span style="font-size: 0.9em;">Berechnungen durchführen</span>
+  </div>
+
+  <div style="flex: 1 1 200px; border: 2px solid #4e66bd; border-radius: 12px; padding: 0.9rem 1.1rem; text-align: center;">
+    <div style="font-size: 2rem;">🎯</div>
+    <b style="color: #4e66bd;">Schlussfolgern</b><br>
+    <span style="font-size: 0.9em;">Aussagen über Zusammenhänge treffen</span>
+  </div>
+</div>
+
+<div class="animate__animated animate__bounceIn" style="animation-delay: 1s; animation-fill-mode: backwards; text-align: center; font-size: 1.2em; font-weight: bold; color: #4e66bd; margin-top: 1.2rem;">
+🎵 Hat Musik einen Einfluss auf die Ausdauerleistung? 🏃
+</div>
 
 ---
 
