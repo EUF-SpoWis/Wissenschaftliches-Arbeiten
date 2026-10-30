@@ -1595,15 +1595,41 @@ Das Empfinden selbst ist nicht beobachtbar, dafür aber Verhalten, das damit zus
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Schritte, Sprünge in einer Zeit</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<!-- class="animate__animated animate__fadeInUp animate__delay-5s" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🧠</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kognition</b></div>
-<div style="font-size: 0.85em; margin-top: 6px;">Kognitive Leistungsfähigkeit</div>
-<div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Erinnerungsvermögen, Kombinationsfähigkeit</div>
+<div style="font-size: 0.85em; margin-top: 6px;">Stroop-Test, Trail Making Test, d2-Test (Aufmerksamkeit und Konzentration)</div>
+<div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Sekunden, Fehler, Anzahl bearbeiteter Items</div>
 </div>
 
 </div>
+
+<details>
+<summary><b>👉 Klicke hier, um die Tests genauer zu sehen.</b></summary>
+
+| Fähigkeit | Test | So läuft er ab | Ergebnis |
+| :-------- | :--- | :------------- | :------- |
+| 🫁 **Ausdauer** | Cooper-Test | 12 Minuten lang so weit wie möglich laufen | Strecke in Metern |
+| | 6-Minuten-Lauf | wie der Cooper-Test, aber nur 6 Minuten | Strecke in Metern |
+| | Shuttle-Run (Pieptest) | 20 m hin und her laufen im Takt von Signaltönen, das Tempo steigt stufenweise | erreichte Stufe bzw. Bahnen |
+| | Laktat-Stufentest | Belastung in Stufen mit steigender Intensität, am Ende jeder Stufe wird Blut abgenommen | Laktatwert je Stufe |
+| 💪 **Kraft** | Handkraftmessung | Dynamometer so fest wie möglich zusammendrücken | Kraft in kg |
+| | Standweitsprung | beidbeiniger Sprung aus dem Stand so weit wie möglich | Weite in cm |
+| | Liegestütz, Sit-ups | möglichst viele saubere Wiederholungen in einer festgelegten Zeit | Anzahl |
+| ⚡ **Schnelligkeit** | 20-m-Sprint | so schnell wie möglich 20 m sprinten, Zeitmessung per Lichtschranke | Zeit in Sekunden |
+| | Reaktionstest | auf einen Reiz (Licht oder Ton) so schnell wie möglich reagieren | Zeit in Millisekunden |
+| 🤸 **Beweglichkeit** | Rumpfbeuge im Sitzen | im Sitzen mit gestreckten Beinen so weit wie möglich nach vorn greifen | Weite in cm |
+| ⚖️ **Koordination** | Balancieren rückwärts | rückwärts über einen schmalen Balken gehen | Anzahl der Schritte |
+| | Seitliches Hin- und Herspringen | in einer festgelegten Zeit beidbeinig über eine Linie hin und her springen | Anzahl der Sprünge |
+| 🧠 **Kognition** | Stroop-Test | die Schriftfarbe eines Farbworts nennen, obwohl das Wort eine andere Farbe bezeichnet | Zeit und Fehler |
+| | Trail Making Test | Zahlen (und Buchstaben) so schnell wie möglich in der richtigen Reihenfolge verbinden | Zeit in Sekunden |
+| | d2-Test | aus vielen ähnlichen Zeichen bestimmte durchstreichen | bearbeitete Zeichen und Fehler |
+
+<div style="height: 10px;"></div>
+
+
+</details>
 
 <div style="height: 10px;"></div>
 
@@ -2093,6 +2119,9 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 
 ### Anwendungsbeispiel deskriptive Daten 
 
+Im folgenden hast du zwei Beispiele für einen Ergebnissdatensatz einer durchgeführten Studie. 
+Im ersten Teil zum Thema Ausaduerleistung, im zweiten Teil zum Thema Anstregungsempfinden. 
+
 <span style="font-size: 1.1em;">Hier siehst du ein Beispiel von einem Datensatz:</span>
 
 <div id="lauf-musik-widget"></div>
@@ -2264,7 +2293,7 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 
     <h3>12-Minuten-Lauf: mit und ohne Musik</h3>
     <p>
-      Laufleistungen in Metern. Ergänze je Gruppe bis zu zwei Werte.
+      Hier ist die Laufleistungen in Metern innerhalb von 12min angegeben. Ergänze je Gruppe bis zu zwei Werte, die überhaupt nicht in den Datensatz passen z.B. 8000m oder 9000m bei "mit Musik" und 400m und 250m bei "ohne Musik" und beobachte wie sich die deskriptive Statistik verändert.
       Die Auswertung wird automatisch aktualisiert.
     </p>
 
@@ -2553,20 +2582,7 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 })();
 </script>
 
-<details>
-<summary><b>👉 Anschauliche Darstellung von Ausreißern</b></summary>
-
-<iframe
-  src="https://EUF-SpoWis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/ausreisser-musik-12min.html"
-  width="100%"
-  height="600px"
-  style="border: none;">
-</iframe>
-
-</details>
-
-
-<span style="font-size: 1.1em;"><b>Beispiel Anstregungsempfinden</b></span>
+<span style="font-size: 1.1em;"><b>Hier findest du ein Beispiel für die Werte auf der BORG Skala nach einem Lauf, einmal mit, einmal ohne Musik.</b></span>
 
 <div id="borg-musik-widget"></div>
 
@@ -2681,8 +2697,8 @@ Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordin
 
     <h3>Borg-Skala: Anstrengungsempfinden mit und ohne Musik</h3>
     <p>
-      Borg-Werte (6 bis 20), die direkt nach dem 12-Minuten-Lauf angegeben wurden.
-      Ergänze je Gruppe bis zu zwei Werte. Die Auswertung wird automatisch aktualisiert.
+      Hier wird das Anstregungsempfinden auf der Borg-Skala (6 bis 20) die direkt nach dem 12-Minuten-Lauf angegeben wurden. Ergänze je Gruppe bis zu zwei Werte, die überhaupt nicht in den Datensatz passen z.B. 19 oder 18 bei "mit Musik" und 6 und 6 bei "ohne Musik" und beobachte wie sich die deskriptive Statistik verändert.
+      Die Auswertung wird automatisch aktualisiert.
     </p>
 
     <div class="bm-layout">
@@ -2958,7 +2974,7 @@ Die gelaufene Strecke wird je Gruppe mit Mittelwert und Standardabweichung besch
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
-Die Anstrengung (Likert-Items, ordinal) beschreibst du mit Median und Quartilen.
+Die Anstrengung (BORG Skala, ordinal) beschreibst du mit Median und Quartilen und in der Praxis auch mit Mittelwert und Standardabweichung.
 </div>
 </div>
 
