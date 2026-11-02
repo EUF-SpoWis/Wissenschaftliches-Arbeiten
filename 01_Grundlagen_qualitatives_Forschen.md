@@ -4,11 +4,11 @@ version: 0.0.1
 language: de
 narrator: Deutsch Female
 
-import: https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
-        https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
+import:  https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/config.md
 
-link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
-        https://cdn.jsdelivr.net/gh/EUF-SpoWis/Wissenschaftliches-Arbeiten@main/Lia-Anpassungen/Ausblendungen.css
+import: https://raw.githubusercontent.com/LiaTemplates/citations/refs/heads/main/README.md
+
+link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 -->
 
@@ -60,6 +60,7 @@ John Keating (die Lehrkraft) widerspricht dem Lehrbuch, das sagt, dass die Quali
 </details>
 
 
+
 ## Qualitatives Forschen als Paradigma
 <style>
 .lia-effect__circle {
@@ -73,16 +74,19 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 <!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #278f25; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #278f25;">Quantitatives Paradigma:</b> Standardisiert, messend, prüft vorab formulierte Hypothesen (theorieprüfend).
+  <div style="font-size: 0.9em; margin-top: 0.4rem; color: #4a5568;"><i>Beispiel:</i> „Inwieweit ist ein High-Intensity-Training (HIT) effektiver für die VO2max-Steigerung als ein Grundlagentraining nach der norwegischen Methode?“</div>
 </div>
 
 <!-- class="animate__animated animate__slideInRight" -->
 <div style="border: 2px solid #1a9f8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #1a9f8d;">Qualitatives Paradigma:</b> Sinnverstehend, rekonstruktiv, offen für das Generieren neuer Hypothesen und Theorien (theoriegenerierend).
+  <div style="font-size: 0.9em; margin-top: 0.4rem; color: #4a5568;"><i>Beispiel:</i> „Wie erleben und verarbeiten Nachwuchsleistungssportler:innen den Übergang vom Breitensport in das Internat eines Nachwuchsleistungszentrums?“</div>
 </div>
 
 <!-- class="animate__animated animate__slideInLeft" -->
 <div style="border: 2px solid #643d8d; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 0.8rem 0;">
   <b style="color: #643d8d;">Mixed-Methods:</b> Die systematische Kombination qualitativer und quantitativer Ansätze.
+  <div style="font-size: 0.9em; margin-top: 0.4rem; color: #4a5568;"><i>Beispiel:</i> „In welchem Zusammenhang stehen physiologische Stressmarker, Trainingspensum und das subjektive Beanspruchungserleben bei Athlet:innen in intensiven Trainingsphasen?“</div>
 </div>
 
 <!-- class="animate__animated animate__fadeInUp" -->
@@ -90,14 +94,6 @@ In den empirischen Sozialwissenschaften unterscheiden wir im Wesentlichen zwisch
 > Qualitatives und quantitatives Forschen sind Paradigmen der **empirischen Forschung** (d. h. sie basieren auf der systematischen Erhebung und Analyse empirischer Daten). 
 > 
 > *Nicht-empirische Paradigmen* (wie die reine Hermeneutik oder geisteswissenschaftliche Textanalyse) arbeiten hingegen interpretatorisch oder begriffsanalytisch, ohne eigene empirische Daten im Feld zu erheben.
-
-{{1}}
->[!Note] **Welche Forschungsfrage gehört zu welchem Paradigma? Ordne die Forschungsfrage korrekt zu:**
->
->* In welchem Zusammenhang stehen physiologische Stressmarker, Trainingspensum und das subjektive Beanspruchungserleben bei Athlet:innen in intensiven Trainingsphasen? [[ Quantitatives Paradigma | Qualitatives Paradigma | (Mixed-Methods) ]]
->* Inwieweit ist ein High-Intensity-Training (HIT) effektiver für die VO2max-Steigerung als ein Grundlagentraining nach der norwegischen Methode? [[ (Quantitatives Paradigma) | Qualitatives Paradigma | Mixed-Methods ]]
->* Wie erleben und verarbeiten Nachwuchsleistungssportler:innen den Übergang vom Breitensport in das Internat eines Nachwuchsleistungszentrums? [[ Quantitatives Paradigma | (Qualitatives Paradigma) | Mixed-Methods ]]
-
 
 ---
 
@@ -345,6 +341,38 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 **Überblick:** Die wissenschaftliche Beobachtung unterscheidet sich von der alltäglichen Wahrnehmung durch ihre gezielte Systematik und Reflexion. Sie erlaubt den direkten, forschenden Blick auf reales Handeln im Feld.
 </div>
 
+<!-- class="animate__animated animate__fadeIn" -->
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+**Einstiegs-Experiment: Worauf richtet sich dein Blick?**  
+Bevor wir uns der systematischen Theorie widmen, machen wir ein kurzes Wahrnehmungsexperiment. Schau dir das Video an und **zähle ganz genau mit, wie oft sich die Personen in den weißen T-Trikots den Ball zupassen**.
+</div>
+
+<div class="lh-grid" style="display: flex; gap: 20px; align-items: flex-start; margin: 20px 0;">
+
+<div style="flex: 1.2;">
+!?[Selective Attention Test](https://www.youtube.com/watch?v=vJG698U2Mvo)
+</div>
+
+<div style="flex: 1;">
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
+<h4 style="margin-top: 0; color: #1e293b;">Reflexion nach dem Zählen:</h4>
+<p style="font-size: 0.95em; color: #475569;">Hast du während des Zählens etwas Ungewöhnliches bemerkt?</p>
+
+<details><summary><b>👉 Klicke hier zur Auflösung</b></summary>
+<p style="margin-top: 10px; font-size: 0.9em; color: #334155;">
+Mitten im Video läuft eine Person im <b>Gorillakostüm</b> durch die Gruppe, schlägt sich an die Brust und geht wieder weiter. Wer sich starr auf die Zählaufgabe konzentriert, übersieht dieses unerwartete Ereignis oft völlig (sogenannte <i>Inattentional Blindness</i>).
+</p>
+</details>
+
+</div>
+</div>
+
+</div>
+
+{{1}}
+> **Pädagogische Brücke zur Forschung:**  
+> Dieses Experiment verdeutlicht, wie stark unser Fokus (und damit auch standardisierte Beobachtungskategorien) unsere Wahrnehmung steuert. Während quantitative Zugänge exakt zählen und messen, was vorab definiert wurde, hilft die qualitative Beobachtung dabei, den Blick für den unvorhergesehenen Kontext, Dynamiken und das unerwartete Geschehen im Feld offen zu halten.
+
 ---
 
 ### Wann ist der Einsatz von Beobachtungen sinnvoll?
@@ -357,7 +385,7 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 
   <div class="animate__animated animate__fadeIn" style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px;">
     <div style="font-size: 1.5em; margin-bottom: 5px;">👁️</div>
-    <strong style="display: block; margin-bottom: 5px;">Verfälschtes Verhalten</strong>
+    <strong style="display: block; margin-bottom: 5px;">Verfälschte Beschreibungen von Verhalten</strong>
     <span style="font-size: 0.85em; color: #4a5568;">Unbewusst verzerrt oder sozial erwünscht dargestellt</span>
   </div>
 
@@ -406,7 +434,7 @@ Der zentrale Forschungsauftrag der qualitativen Forschung ist die <b>Rekonstrukt
 | Dimension | Leitfrage | Ausprägungen |
 |:--|:--|:--|
 | **Distanz zur Situation** | Ist die forschende Person Teil des Geschehens? | Teilnehmend ↔ nicht teilnehmend |
-| **Strukturierungsgrad** | Was steht vor der Beobachtung bereits fest? | Offen ↔ halb- oder vollstandardisiert |
+| **Strukturierungsgrad** | Inwieweit steht das zu beobachtende bereits fest? | Offen ↔ halb- oder vollstandardisiert |
 
 <!-- class="animate__animated animate__slideInRight" -->
 > #### Methodische Herausforderungen & Dilemmata
@@ -591,7 +619,7 @@ Für Beispieldokumente zur Durchführung studentischer Untersuchungen an Schulen
 
 </details>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 1</span>
 
 **Du triffst das Kind (14 Jahre) das erste Mal nach dem Training zum Interview. Welche Einstiegsfrage ist am geeignetsten?**
 
@@ -635,7 +663,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-1" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 2</span>
 
 **Du willst nun spezifische Situationen erfahren, in denen sich das Kind im Training kompetent fühlt. Welche Frage ist dafür am geeignetsten?**
 
@@ -679,7 +707,7 @@ input == 0;
 
 <p id="Kommentar-Platzhalter-2" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 3</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 3</span>
 
 **Auf deine Frage *"Kannst du dich an eine Situation im Training erinnern, in der du richtig stolz auf dich warst? Was ist da genau passiert?"*  überlegt das Kind etwas länger und schweigt für ein paar Sekunden. Deine Reaktion ist…** 
 
@@ -723,7 +751,7 @@ input == 1;
 
 <p id="Kommentar-Platzhalter-3" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 4</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 4</span>
 
 **Du möchtest folgende Aussage des Kindes zusammenfassend widerspiegeln. Welche Formulierung wählst du dafür?**
 
@@ -757,7 +785,7 @@ input == 3;
 
 <p id="Kommentar-Platzhalter-4" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 5</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 5</span>
 
 **Das Kind erzählt dir, dass es manchmal nicht so viel Lust auf Technikübungen hat. Wie reagierst du darauf?**
 
@@ -804,7 +832,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-5" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 6</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 6</span>
 
 **Welche der folgenden Interviewer-Aussagen ist eine rhetorische Frage (und damit eher ungeeignet)?**
 
@@ -851,7 +879,7 @@ input == 0;
 
 <p id="Kommentar-Platzhalter-6" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 7</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 7</span>
 
 **Du möchtest nun herausfinden, was spezielle Erfolgserlebnisse des Kindes im Training waren. Welche Frage liefert wohl das ergiebigste Material?**
 
@@ -898,7 +926,7 @@ input == 1;
 
 <p id="Kommentar-Platzhalter-7" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 8</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 8</span>
 
 **Du fragst das Kind, wie es den Trainer findet und bekommst eine sehr positive, aber vage Antwort: "Er ist gut". Wie antwortest du am besten darauf, um im folgenden Gesprächsverlauf sozial erwünschte Antworten zu vermeiden?**
 
@@ -945,7 +973,7 @@ input == 3;
 
 <p id="Kommentar-Platzhalter-8" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 9</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 9</span>
 
 **Das Kind erzählt gerade begeistert und sehr ausführlich von einem Erlebnis beim Üben des Aufschlags. Laut Leitfaden käme jetzt eigentlich der Themenblock 'Soziale Situation in der Gruppe' dran. Wie gehst du weiter vor?**
 
@@ -992,7 +1020,7 @@ input == 2;
 
 <p id="Kommentar-Platzhalter-9" style="display:none; margin-top:14px; padding:14px 18px; border-radius:6px; border-left:5px solid #4a90a4; background-color:#f0f4f6; font-size:1.1em; line-height:1.5;"></p>
 
-##### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 10</span>
+#### <span style="font-size:0.55em; letter-spacing:1.5px; text-transform:uppercase; color:#8a9aa5; font-weight:600;">Frage 10</span>
 
 **Das Kind antwortet plötzlich einsilbig und wirkt zurückhaltend, obwohl es vorher offen erzählt hat: „Weiß nicht, ähm... Glaub' schon, keine Ahnung“. Welche Frage könnte am ehesten zu dieser Reaktion geführt haben?**
 
@@ -1168,12 +1196,70 @@ input == 1;
 
 </section>
 
---------------------------------------------------
+---
+## Check-Up
 
-### Ausblick: Datenanalyse in der qualitativen Forschung
+{{1}} <section>
+### 1. Welche der folgenden Situationen spricht *am ehesten* für den Einsatz einer Beobachtung statt eines Interviews?
+
+[[ ]] Wenn die Befragten ihre Motive detailliert und reflektiert in Worte fassen können.
+[[X]] Wenn reale Handlungsabläufe, nonverbale Signale oder unbewusste Interaktionsmuster im Zentrum stehen.
+[[ ]] Wenn es darum geht, die subjektive Meinung von Expert:innen zu historischen Ereignissen zu erfassen.
+[[?]] **Erklärung:** Beobachtungen kommen dann zum Einsatz, wenn sprachliche Auskünfte an ihre Grenzen stoßen oder nonverbale Abläufe, Reaktivität und echtes Handeln im Feld direkt erfasst werden sollen.
+</section>
+
+{{2}} <section>
+### 2. Anhand welcher zwei voneinander unabhängigen Dimensionen lassen sich Beobachtungsverfahren grundlegend einordnen?
+
+[[X]] Distanz zur Situation (teilnehmend vs. nicht teilnehmend) & Strukturierungsgrad (offen vs. standardisiert)
+[[ ]] Ort der Datenerhebung (Labor vs. Feld) & Dauer der Beobachtung (kurz vs. lang)
+[[ ]] Alter der beobachteten Personen (Kinder vs. Erwachsene) & Art der Auswertung (quantitativ vs. qualitativ)
+[[?]] **Erklärung:** Wissenschaftliche Beobachtungen werden primär durch den Grad der Beteiligung (Distanz) sowie den Grad ihrer Vorab-Festlegung (Strukturierungsgrad) klassifiziert.
+</section>
+
+{{3}} <section>
+### 3. Was versteht man in der Beobachtungsforschung unter dem Phänomen der ***Reaktivität***?
+
+[[ ]] Dass die Forschenden den Anschluss an das Feld verlieren und das Vertrauen der Gruppe verpassen.
+[[X]] Dass die bloße Anwesenheit der beobachtenden Person das natürliche Verhalten der Akteur:innen verändern kann.
+[[ ]] Dass die technischen Geräte (wie Kameras oder Diktiergeräte) während der Aufzeichnung versagen.
+[[?]] **Erklärung:** Reaktivität bezeichnet die Verzerrung des Verhaltens, die dadurch entsteht, dass sich Akteur:innen beobachtet oder untersucht fühlen.
+</section>
+
+{{4}} <section>
+### 4. Warum sollte der Einstieg in ein qualitatives Interview mit Kindern und Jugendlichen besonders sorgfältig gestaltet werden?
+
+[[ ]] Weil die Auswertung der ersten Minuten am wichtigsten für die spätere Kategorienbildung ist.
+[[X]] Weil der Einstieg das gesamte Gesprächsklima festlegt; er sollte leicht zu beantworten sein und Vertrauen schaffen („erst Vertrauen, dann Tiefe“).
+[[ ]] Weil in den ersten Minuten bereits alle hypothetischen Forschungsfragen abgehakt sein müssen.
+[[?]] **Erklärung:** Nach Krieger (2008) legt der Einstieg das gesamte Gesprächsklima fest. Einstiegsfragen müssen leicht zu beantworten sein, um ein sicheres Arbeitsbündnis aufzubauen.
+</section>
+
+{{5}} <section>
+### 5. Du stellst einem Kind eine Frage, woraufhin es kurz überlegt und für einige Sekunden schweigt. Wie solltest du als interviewende Person reagieren?
+
+[[ ]] Die Frage sofort umformulieren, da das Kind sie offenkundig nicht verstanden hat.
+[[ ]] Das Gespräch abbrechen, um dem Kind die unangenehme Situation zu ersparen.
+[[X]] Die Stille aushalten und dem Kind genügend Nachdenkzeit geben; Stille ist oft kein leerer Raum, sondern Nachdenkzeit.
+[[?]] **Erklärung:** Fehlende Geduld und das Unterbrechen von Pausen gehören zu den häufigsten Fehlern. Nachdenkzeiten müssen bewusst ausgehalten werden, statt den Denkprozess zu stören (Krieger, 2008).
+</section>
+
+{{6}} <section>
+### 6. Welches Problem birgt die Formulierung von Suggestivfragen (wie z. B. *„Das Training hat dir doch sicher großen Spaß gemacht, oder?“*) im Interview?
+
+[[ ]] Sie führt grundsätzlich dazu, dass das Kind das Interview sofort abbricht.
+[[X]] Sie schränkt den Antwortraum ein und legt dem Kind eine Bewertung in den Mund, der meist nur noch zugestimmt wird (Gefahr der sozialen Erwünschtheit).
+[[ ]] Sie sorgt dafür, dass das Interview absolut standardisiert und vergleichbar wird.
+[[?]] **Erklärung:** Suggestivfragen drängen das Gegenüber in eine bestimmte Antwortrichtung und verhindern, dass das Kind seine eigene, authentische Perspektive unbeeinflusst schildern kann.
+</section>
+
+---
+
+## Ausblick
+
 <section>
 
-#### Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt die Datenauswertung. Je nach Forschungsfrage und Datenmaterial kommen unterschiedliche Verfahren zum Einsatz. Die in studentischen Abschlussarbeiten am häufigsten verwendeten Verfahren sind:
+### Nach der Datenerhebung (in unseren Fällen: Beobachtungen & Interviews) folgt die Datenauswertung. Je nach Forschungsfrage und Datenmaterial kommen unterschiedliche Verfahren zum Einsatz. Die in studentischen Abschlussarbeiten am häufigsten verwendeten Verfahren sind:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 20px 0;">
 
