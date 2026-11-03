@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
 author: Swantje Brandt
 email: swantje.brandt@uni-flensburg.de
@@ -30,3 +31,6 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 > (c) Alle Rechte vorbehalten.
 
 ---
+=======
+
+>>>>>>> b0f8ba79d22bdb9cbca3a0cc9709855ad58e029f
