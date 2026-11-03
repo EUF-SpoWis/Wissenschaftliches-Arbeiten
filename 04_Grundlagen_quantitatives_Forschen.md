@@ -24,7 +24,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 | **Veranstaltung:**       | Wissenschaftliches Arbeiten                                                                                 |
 | **Semester:**            |                                                                                 |
 | **Hochschule:**          | `Europa-Universität Flensburg`                                                                  |
-| **Inhalte:**             | `Sportwissenschaftliche Methoden mit Fokus auf qualitative Forschungsmethoden`                  |
+| **Inhalte:**             | `Sportwissenschaftliche Methoden mit Fokus auf quantitative Forschungsmethoden`                  |
 | **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/04_Grundlagen_quantitatives_Forschen.md      |
 | **Autoren:**             | Tim Heemsoth & Swantje Brandt                                                                                       |
 
