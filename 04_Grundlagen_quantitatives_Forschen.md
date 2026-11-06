@@ -116,7 +116,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 <!-- class="animate__animated animate__fadeInUp" -->
 >[!Note]**Arbeitsauftrag**
->Der folgende Podcast-Ausschnitt wirft eine Fragestellung auf, die wir im Folgenden immer wieder aufgreifen werden – höre dir den Ausschnitt der folgenden Unterhaltung an: <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitaives_Forschen.mp3"></audio><div style="font-size: 0.8em; font-style: italic; color: #4a5568; margin-top: 0.4rem;">*(erstellt mit der KI ElevenLabs)*
+>Der folgende Podcast-Ausschnitt wirft eine Fragestellung auf, die wir im Folgenden immer wieder aufgreifen werden – höre dir den Ausschnitt der folgenden Unterhaltung an: <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitatives_Forschen.mp3"></audio><div style="font-size: 0.8em; font-style: italic; color: #4a5568; margin-top: 0.4rem;">*(erstellt mit der KI ElevenLabs)*
 </div> 
 </div>
 
@@ -126,6 +126,11 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 </div>
 
 </div>
+
+<hr style="border: none; border-top: 2px solid #4e66bd; margin: 1.5rem 0;">
+
+<div style="height: 60px;"></div>
+
 
 **Für den weiteren Kurs sind hier ein paar Hinweise**
 
