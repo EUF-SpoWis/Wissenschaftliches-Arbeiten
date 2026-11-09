@@ -35,6 +35,17 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 ## Statistische Tests: Welcher Test passt?
 
+
+<iframe
+  src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/HTML%20Tools/entscheidungsbaum-tests.html"
+  width="100%"
+  height="700px"
+  style="border: none;">
+</iframe>
+
+
+---
+
 ### Welchen Test brauche ich?
 <section>
 
