@@ -723,6 +723,642 @@ Zwei nominale Variablen ➜ Chi-Quadrat-Test.
 * JASP Team (2024). <i>JASP</i> (Version 0.19) [Computer software]. https://jasp-stats.org/
 
 
+## Deskriptive Statistik, Reliabilität und Skalenmittelwerte in JASP
 
 
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 <b>Lehrbuch Hinweis:</b> Bevor du Tests rechnest, lernst du deine Daten kennen: Du berechnest <b>Kennwerte</b>, prüfst bei Fragebögen, ob die Items <b>zuverlässig</b> messen, und bildest <b>Skalenmittelwerte</b>. Alle drei Schritte machst du in JASP.
+</div>
 
+<div style="height: 15px;"></div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📊</div>
+<div style="text-align: center; font-size: 1.1em;"><b>1. Deskriptive Statistik</b></div>
+<div style="font-size: 0.9em;">Kennwerte und Grafiken je Gruppe.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔍</div>
+<div style="text-align: center; font-size: 1.1em;"><b>2. Reliabilitätsanalyse</b></div>
+<div style="font-size: 0.9em;">Messen die Items einer Skala dasselbe? (Cronbachs α)</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧮</div>
+<div style="text-align: center; font-size: 1.1em;"><b>3. Skalenmittelwerte</b></div>
+<div style="font-size: 0.9em;">Ein Wert pro Person aus mehreren Items.</div>
+</div>
+
+</div>
+
+---
+
+### Deskriptive Statistik in JASP
+
+
+<span style="font-size: 1.1em;"><b>Wann brauche ich das?</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔎</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Daten kennenlernen</b></div>
+<div style="font-size: 0.9em;">Wie groß sind Mittelwert und Streuung? Wie sehen die Verteilungen aus?</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🚨</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Fehler finden</b></div>
+<div style="font-size: 0.9em;">Tippfehler, Ausreißer und unplausible Werte fallen sofort auf.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">✅</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Voraussetzungen prüfen</b></div>
+<div style="font-size: 0.9em;">Histogramm und Q-Q-Plot zeigen, ob eine Normalverteilung plausibel ist.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">✍️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Berichten</b></div>
+<div style="font-size: 0.9em;"><i>M</i>, <i>SD</i> und <i>Mdn</i> je Gruppe gehören in jeden Ergebnisteil.</div>
+</div>
+
+</div>
+
+<div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
+Du beschreibst die <b>Strecke</b> (metrisch) je Gruppe mit Mittelwert und Standardabweichung.
+</div>
+
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
+Du beschreibst den <b>Borg-Wert</b> (ordinal) je Gruppe vor allem mit Median, Minimum und Maximum.
+</div>
+
+{{1}} <section>
+
+<span style="font-size: 1.1em;"><b>Durchführung in JASP</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🏷️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>1. Skalenniveau prüfen</b></div>
+<div style="font-size: 0.9em;">Strecke als scale, Borg-Wert als ordinal, Bedingung als nominal.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧪</div>
+<div style="text-align: center; font-size: 1.1em;"><b>2. Analyse öffnen</b></div>
+<div style="font-size: 0.9em;">Descriptives ➜ Descriptive Statistics.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔗</div>
+<div style="text-align: center; font-size: 1.1em;"><b>3. Variablen zuweisen</b></div>
+<div style="font-size: 0.9em;">Strecke und Borg-Wert in „Variables“, Bedingung in „Split“.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">☑️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>4. Kennwerte wählen</b></div>
+<div style="font-size: 0.9em;">Unter „Statistics“ Mean, Median, Mode, Std. deviation, Minimum, Maximum und Range anhaken.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📈</div>
+<div style="text-align: center; font-size: 1.1em;"><b>5. Grafiken</b></div>
+<div style="font-size: 0.9em;">Unter „Plots“ Distribution plots, Boxplots und Q-Q plots anhaken.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📋</div>
+<div style="text-align: center; font-size: 1.1em;"><b>6. Tabelle übernehmen</b></div>
+<div style="font-size: 0.9em;">Rechtsklick auf die Tabelle ➜ „Copy“ und in dein Dokument einfügen.</div>
+</div>
+
+</div>
+
+<div style="margin-top: 10px; padding: 8px 10px; background: #1f2933; color: #ffffff; border-radius: 8px; font-size: 0.8em;">🖥️ <b>JASP:</b> Descriptives ➜ Descriptive Statistics</div>
+<div style="height: 10px;"></div>
+
+
+</section>
+
+{{2}} <section>
+
+<span style="font-size: 1.1em;"><b>Ergebnis lesen</b></span>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Descriptive Statistics – Strecke (m)</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;"></th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">mit Musik</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">ohne Musik</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Valid</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">20</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">20</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Mode</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2260<sup>a</sup></td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2130<sup>a</sup></td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Median</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2580,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2440,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Mean</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2585,50</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2449,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Std. Deviation</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">195,33</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">185,87</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Variance</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">38152,37</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">34546,32</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Range</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">690,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">680,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Minimum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2260,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2130,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Maximum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2950,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2810,00</td></tr>
+</table>
+</div>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Descriptive Statistics – Borg-Wert</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;"></th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">mit Musik</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">ohne Musik</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Valid</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">20</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">20</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Mode</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">12</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">14</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Median</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">12,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">14,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Mean</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">12,40</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">14,40</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Std. Deviation</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1,43</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1,43</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Range</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">5,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">5,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Minimum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">10,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">12,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Maximum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">15,00</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">17,00</td></tr>
+</table>
+</div>
+
+<div style="font-size: 0.8em; opacity: 0.7;"><sup>a</sup> Es gibt mehrere Modi, angezeigt wird der kleinste.</div>
+
+<div style="font-size: 0.8em; opacity: 0.7; margin-bottom: 10px;">Fiktive Daten, nachgebaut im Stil der JASP-Ausgabe.</div>
+
+<ul style="font-size: 0.95em;">
+<li><b>Valid:</b> Anzahl gültiger Werte je Gruppe (hier 20). „Missing“ zeigt fehlende Werte.</li>
+<li><b>Mean und Median:</b> Liegen sie nah beieinander (Strecke: 2585,5 und 2580,0 m), ist die Verteilung ungefähr symmetrisch.</li>
+<li><b>Std. Deviation:</b> Die Strecken streuen mit Musik um etwa 195 m um den Mittelwert.</li>
+<li><b>Range, Minimum, Maximum:</b> Prüfe auf Plausibilität. Der Borg-Wert muss zwischen 6 und 20 liegen, die Strecke darf nicht negativ sein.</li>
+<li><b>Boxplot:</b> Punkte außerhalb der „Whiskers“ sind mögliche Ausreißer. Prüfe sie, entferne sie aber nie ohne Begründung.</li>
+</ul>
+
+</section>
+
+{{3}} <section>
+
+<span style="font-size: 1.1em;"><b>So berichtest du das Ergebnis</b></span>
+
+<div style="border-left: 6px solid #a74ebd; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+✍️ <b>Musterbericht (APA):</b><br>
+<i>Mit Musik wurde im Mittel weiter gelaufen (M = 2585,50 m, SD = 195,33, Mdn = 2580) als ohne Musik (M = 2449,00 m, SD = 185,87, Mdn = 2440). Der Borg-Wert lag mit Musik bei Mdn = 12 (Spannweite 10–15) und ohne Musik bei Mdn = 14 (Spannweite 12–17).</i>
+</div>
+
+<details>
+<summary><b>👉 Was kann bei den Daten schiefgehen?</b></summary>
+
+| Problem | Woran du es erkennst | Lösung |
+| :-- | :-- | :-- |
+| Falsches Skalenniveau | „Mean“ fehlt oder wird nicht angezeigt | Spaltensymbol anklicken, auf „scale“ umstellen |
+| Tippfehler | Maximum oder Minimum unplausibel (z. B. Borg-Wert 22) | Rohdaten prüfen und korrigieren |
+| Fehlende Werte | „Missing“ größer als 0 | Ursache klären, Codes wie 999 als fehlend definieren |
+| Ausreißer | Punkte im Boxplot | Prüfen, ob echt oder Fehler; Analyse mit und ohne berichten |
+
+</details>
+
+!?[Allgemeine Einführung in JASP](https://youtu.be/2lGMEnK6f2A)
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Döring & Bortz (2016); Eid, Gollwitzer & Schmitt (2017); JASP Team (2024)
+</div>
+
+</section>
+
+---
+
+### Reliabilitätsanalyse in JASP
+
+<span style="font-size: 1.1em;"><b>Wann brauche ich das?</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧩</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Mehrere Items</b></div>
+<div style="font-size: 0.9em;">Du misst ein Merkmal mit mehreren Aussagen (Items) und willst wissen, ob sie zusammenpassen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📏</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Interne Konsistenz</b></div>
+<div style="font-size: 0.9em;">Cronbachs α und McDonalds ω zeigen, wie stark die Items zusammenhängen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">↩️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Umpolen nötig</b></div>
+<div style="font-size: 0.9em;">Negativ gepolte Items müssen vorher umgepolt werden, sonst ist α falsch.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🚫</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Nicht für Einzelitems</b></div>
+<div style="font-size: 0.9em;">Bei einem einzelnen Wert (z. B. Borg-Skala) gibt es kein α.</div>
+</div>
+
+</div>
+
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
+Die Skala <b>Anstrengungsempfinden</b> besteht aus 4 Items (1 = trifft gar nicht zu bis 5 = trifft völlig zu):<br>1 „Der 12-Minuten-Lauf war körperlich anstrengend.“<br>2 „Ich musste mich beim Laufen überwinden.“<br>3 „Nach dem Lauf fühlte ich mich erschöpft.“<br>4 „Der Lauf ist mir leicht gefallen.“ <b>(negativ gepolt)</b>
+</div>
+
+<div style="font-size: 0.8em; opacity: 0.7;">Fiktive Daten von 30 Personen (15 mit, 15 ohne Musik).</div>
+
+{{1}} <section>
+
+<span style="font-size: 1.1em;"><b>Durchführung in JASP</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🏷️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>1. Skalenniveau</b></div>
+<div style="font-size: 0.9em;">Alle Items als ordinal oder scale einstellen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧪</div>
+<div style="text-align: center; font-size: 1.1em;"><b>2. Analyse öffnen</b></div>
+<div style="font-size: 0.9em;">Reliability ➜ Single-Test Reliability Analysis (in älteren Versionen: Factor ➜ Reliability Analysis).</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔗</div>
+<div style="text-align: center; font-size: 1.1em;"><b>3. Items zuweisen</b></div>
+<div style="font-size: 0.9em;">Alle vier Items in „Variables“ ziehen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">↩️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>4. Umpolen</b></div>
+<div style="font-size: 0.9em;">Item 4 in das Feld „Reverse-scaled items“ ziehen (das Umpolen übernimmt JASP).</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">☑️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>5. Kennwerte</b></div>
+<div style="font-size: 0.9em;">Cronbach’s α und McDonald’s ω anhaken.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔍</div>
+<div style="text-align: center; font-size: 1.1em;"><b>6. Itemstatistik</b></div>
+<div style="font-size: 0.9em;">Unter „Individual item statistics“ „α if item dropped“ und „Item-rest correlation“ anhaken.</div>
+</div>
+
+</div>
+
+<div style="margin-top: 10px; padding: 8px 10px; background: #1f2933; color: #ffffff; border-radius: 8px; font-size: 0.8em;">🖥️ <b>JASP:</b> Reliability ➜ Single-Test Reliability Analysis</div>
+<div style="height: 10px;"></div>
+
+
+</section>
+
+{{2}} <section>
+
+<span style="font-size: 1.1em;"><b>Ergebnis lesen</b></span>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Scale Reliability Statistics</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;"></th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Estimate</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Cronbach’s α</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,86</td></tr>
+</table>
+</div>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Individual Item Reliability Statistics</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Cronbach’s α (if item dropped)</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item-rest correlation</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Item 1</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,82</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,73</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Item 2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,79</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,80</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Item 3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,82</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,72</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Item 4 (umgepolt)</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,87</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">,60</td></tr>
+</table>
+</div>
+
+<div style="font-size: 0.8em; opacity: 0.7; margin-bottom: 10px;">Fiktive Daten, nachgebaut im Stil der JASP-Ausgabe.</div>
+
+<ul style="font-size: 0.95em;">
+<li><b>Cronbachs α:</b> ,86 ➜ gute interne Konsistenz. Als Faustregel gelten ab ,70 akzeptable, ab ,80 gute und ab ,90 sehr gute Werte.</li>
+<li><b>Item-rest correlation (Trennschärfe):</b> Sie zeigt, wie gut ein Item zur restlichen Skala passt. Alle vier Items liegen zwischen ,60 und ,80, also über ,30.</li>
+<li><b>α if item dropped:</b> Würde α deutlich steigen, wenn du ein Item weglässt, passt dieses Item schlecht. Hier sinkt α beim Weglassen von Item 1 bis 3 (auf ,82, ,79 und ,82), bei Item 4 steigt es nur minimal auf ,87. Weil die Trennschärfe von Item 4 mit ,60 noch gut ist, bleibt es in der Skala.</li>
+<li><b>McDonald’s ω:</b> JASP zeigt es zusätzlich an. Es ist eine Alternative zu α, die weniger strenge Annahmen braucht, und wird oft ähnlich interpretiert.</li>
+<li><b>Vergleich ohne Umpolen:</b> Ließest du Item 4 unverändert, wäre α nur ,32 und die Trennschärfe von Item 4 negativ (−,60).</li>
+</ul>
+
+</section>
+
+{{3}} <section>
+
+<span style="font-size: 1.1em;"><b>So berichtest du das Ergebnis</b></span>
+
+<div style="border-left: 6px solid #a74ebd; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+✍️ <b>Musterbericht (APA):</b><br>
+<i>Die Skala Anstrengungsempfinden (4 Items, Antwortskala 1–5, ein Item umgepolt) wies eine gute interne Konsistenz auf (Cronbachs α = ,86).</i>
+</div>
+
+<details>
+<summary><b>👉 Wie berichte ich es und was tue ich bei niedrigem α?</b></summary>
+
+| Situation | Was tun? |
+| :-- | :-- |
+| α unter ,70 | Trennschärfen prüfen, negativ gepolte Items kontrollieren, ggf. Items streichen oder die Skala nicht verwenden |
+| Item-rest correlation negativ | Item vermutlich nicht umgepolt oder inhaltlich falsch gepolt |
+| α über ,95 | Items sind vermutlich inhaltlich sehr ähnlich (Redundanz) |
+| Skala mit wenigen Items | α fällt bei wenigen Items niedriger aus, mit zwei Items besser die Korrelation angeben |
+| Mehrere Dimensionen | α pro Dimension berechnen, nicht über alle Items zusammen |
+
+</details>
+
+!?[Allgemeine Einführung in JASP](https://youtu.be/golKIhL8eDk)
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Cronbach (1951); Hayes & Coutts (2020); Moosbrugger & Kelava (2020); Nunnally (1978); JASP Team (2024)
+</div>
+
+</section>
+
+---
+
+### Skalenmittelwerte in JASP
+
+<span style="font-size: 1.1em;"><b>Wann brauche ich das?</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">1️⃣</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Ein Wert pro Person</b></div>
+<div style="font-size: 0.9em;">Aus vier Items wird ein einziger Wert für das Anstrengungsempfinden.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">↩️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Erst umpolen</b></div>
+<div style="font-size: 0.9em;">Negativ gepolte Items werden vor der Berechnung umgepolt (6 minus Antwort bei 5 Stufen).</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">➗</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Mittelwert oder Summe</b></div>
+<div style="font-size: 0.9em;">Der Mittelwert bleibt auf der Antwortskala (1 bis 5) und ist leichter zu deuten.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📊</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Weiterrechnen</b></div>
+<div style="font-size: 0.9em;">Der Skalenmittelwert wird wie eine metrische Variable weiterverwendet (z. B. t-Test).</div>
+</div>
+
+</div>
+
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
+Aus den vier Items der Skala <b>Anstrengungsempfinden</b> wird pro Person ein Skalenmittelwert gebildet (1 = geringe, 5 = starke Anstrengung). Danach kannst du ihn zwischen Musik und keiner Musik vergleichen.
+</div>
+
+{{1}} <section>
+
+<span style="font-size: 1.1em;"><b>Durchführung in JASP</b></span>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">📂</div>
+<div style="text-align: center; font-size: 1.1em;"><b>1. Daten ansehen</b></div>
+<div style="font-size: 0.9em;">Datenansicht in JASP öffnen, jede Zeile ist eine Person.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">➕</div>
+<div style="text-align: center; font-size: 1.1em;"><b>2. Neue Spalte</b></div>
+<div style="font-size: 0.9em;">Auf das „+“ rechts neben der letzten Spalte klicken, Namen vergeben (z. B. Item4_umgepolt), „Computed Column“ wählen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">↩️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>3. Umpolen</b></div>
+<div style="font-size: 0.9em;">Formel: <code>6 - Item4</code> (bei einer Skala von 1 bis 5).</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧮</div>
+<div style="text-align: center; font-size: 1.1em;"><b>4. Mittelwert bilden</b></div>
+<div style="font-size: 0.9em;">Weitere neue Spalte „Anstrengung_Skala“ mit der Formel <code>(Item1 + Item2 + Item3 + Item4_umgepolt) / 4</code>.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🏷️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>5. Skalenniveau</b></div>
+<div style="font-size: 0.9em;">Die neue Spalte als „scale“ einstellen.</div>
+</div>
+
+<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🔍</div>
+<div style="text-align: center; font-size: 1.1em;"><b>6. Prüfen</b></div>
+<div style="font-size: 0.9em;">Mit Descriptives kontrollieren: Minimum und Maximum müssen zwischen 1 und 5 liegen.</div>
+</div>
+
+</div>
+
+<div style="margin-top: 10px; padding: 8px 10px; background: #1f2933; color: #ffffff; border-radius: 8px; font-size: 0.8em;">🖥️ <b>JASP:</b> Datenansicht ➜ „+“ ➜ Computed Column (Formel eingeben)</div>
+<div style="height: 10px;"></div>
+
+<!-- TODO: Screenshot JASP: Skalenmittelwerte in JASP -->
+
+</section>
+
+{{2}} <section>
+
+<span style="font-size: 1.1em;"><b>Ergebnis lesen</b></span>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Datenansicht (die ersten 4 Personen)</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Person</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item 1</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item 2</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item 3</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item 4</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Item 4 umgepolt</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">Skalenmittelwert</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">4</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2,25</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2,50</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">4</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2,00</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">4</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1,75</td></tr>
+</table>
+</div>
+
+<div style="overflow-x: auto; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; margin: 10px 0; color: #1f2933; font-size: 0.85em;">
+<div style="font-weight: bold; margin-bottom: 6px;">Descriptive Statistics – Skalenmittelwert Anstrengung</div>
+<table style="border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums;">
+<tr><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;"></th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">mit Musik</th><th style="padding: 6px 10px; text-align: right; border-bottom: 2px solid #94a3b8;">ohne Musik</th></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Valid</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">15</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">15</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Mean</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">2,37</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3,12</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Std. Deviation</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">0,57</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">0,69</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Minimum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1,75</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">1,75</td></tr>
+<tr><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">Maximum</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">3,75</td><td style="padding: 6px 10px; text-align: right; border-bottom: 1px solid #e2e8f0;">4,00</td></tr>
+</table>
+</div>
+
+<div style="font-size: 0.8em; opacity: 0.7; margin-bottom: 10px;">Fiktive Daten, nachgebaut im Stil der JASP-Ausgabe.</div>
+
+<ul style="font-size: 0.95em;">
+<li><b>Kontrollrechnung für Person 1:</b> (2 + 3 + 2 + 2) : 4 = 2,25. Das Ergebnis muss mit der JASP-Spalte übereinstimmen.</li>
+<li><b>Gruppenvergleich:</b> Mit Musik liegt der Skalenmittelwert bei 2,37, ohne Musik bei 3,12. Das Anstrengungsempfinden ist mit Musik also niedriger.</li>
+<li><b>Wertebereich prüfen:</b> Minimum und Maximum müssen im Bereich der Antwortskala (1 bis 5) liegen. Andernfalls wurde falsch umgepolt oder falsch berechnet.</li>
+<li><b>Fehlende Werte:</b> Fehlt bei einer Person ein Item, ergibt die Formel keinen Wert. Lege vorher fest, wie du damit umgehst (z. B. nur Personen mit allen Items oder Mittelwert der vorhandenen Items).</li>
+</ul>
+
+</section>
+
+{{3}} <section>
+
+<span style="font-size: 1.1em;"><b>So berichtest du das Ergebnis</b></span>
+
+<div style="border-left: 6px solid #a74ebd; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
+✍️ <b>Musterbericht (APA):</b><br>
+<i>Das Anstrengungsempfinden wurde über vier Items (Antwortskala 1–5, ein Item umgepolt; Cronbachs α = ,86) erfasst. Höhere Werte bedeuten stärkeres Anstrengungsempfinden. Mit Musik lag der Skalenmittelwert bei M = 2,37 (SD = 0,57), ohne Musik bei M = 3,12 (SD = 0,69).</i>
+</div>
+
+<details>
+<summary><b>👉 Wie berichte ich es und worauf muss ich achten?</b></summary>
+
+| Frage | Antwort |
+| :-- | :-- |
+| Mittelwert oder Summe? | Mittelwert, wenn alle Items dieselbe Skala haben. Der Wert bleibt auf der Antwortskala und ist leichter zu deuten. |
+| Darf ich Mittelwerte aus Likert-Items bilden? | Bei mehreren Items und einer geprüften Reliabilität ist das üblich. Einzelne Likert-Items sind streng genommen ordinal. |
+| Muss ich α vorher prüfen? | Ja. Erst wenn die Items zuverlässig zusammenpassen, ist ein Skalenmittelwert sinnvoll. |
+| Wie polt man bei anderen Skalen um? | (Skalenmaximum + 1) minus Antwort, z. B. bei 1 bis 7: 8 minus Antwort. |
+
+</details>
+
+!?[Allgemeine Einführung in JASP](https://youtu.be/Xa5Hdfb9NBc)
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Moosbrugger & Kelava (2020); Döring & Bortz (2016); JASP Team (2024)
+</div>
+
+</section>
+
+---
+
+### Check-Up: Deskriptive Statistik, Reliabilität und Skalenmittelwerte
+
+
+<div style="height: 15px;"></div>
+
+**Frage 1:** Wo findest du in JASP die Mittelwerte und Standardabweichungen je Gruppe?
+
+- [(X)] Descriptives ➜ Descriptive Statistics (Variable „Split“)
+- [( )] T-Tests ➜ Paired Samples T-Test
+- [( )] Frequencies ➜ Contingency Tables
+- [( )] Regression ➜ Correlation
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Mit „Split“ trennst du die Kennwerte nach der Gruppenvariable.
+
+</details>
+
+**Frage 2:** Welcher Kennwert passt am besten zur Beschreibung des ordinalen Borg-Werts?
+
+- [( )] Mittelwert
+- [(X)] Median
+- [( )] Varianz
+- [( )] Summe
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Bei ordinalen Daten passt der Median immer.
+
+</details>
+
+**Frage 3:** Was zeigt Cronbachs α?
+
+- [( )] Ob zwei Gruppen sich unterscheiden
+- [(X)] Wie stark die Items einer Skala zusammenhängen (interne Konsistenz)
+- [( )] Wie groß ein Effekt ist
+- [( )] Ob die Daten normalverteilt sind
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+α ist ein Maß für die interne Konsistenz einer Skala.
+
+</details>
+
+
+**Frage 4:** Bei einer Skala von 1 bis 7 hat Item 3 (negativ gepolt) den Wert 2. Welcher umgepolte Wert geht in den Mittelwert ein?
+
+- [( )] 2
+- [( )] 5
+- [(X)] 6
+- [( )] 7
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Umpolen: 8 minus Antwort, also 8 − 2 = 6.
+
+</details>
+
+**Frage 5:** Welche Werte muss der Skalenmittelwert bei einer Skala von 1 bis 5 annehmen können?
+
+- [( )] Nur ganze Zahlen
+- [(X)] Werte zwischen 1 und 5
+- [( )] Werte zwischen 0 und 1
+- [( )] Beliebige Werte
+
+<details>
+<summary><b>👉 Erklärung</b></summary>
+
+Der Mittelwert bleibt im Bereich der Antwortskala, Zwischenwerte sind möglich.
+
+</details>
+
+---
+
+### Literatur
+
+* Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. <i>Psychometrika, 16</i>(3), 297–334.
+* Döring, N. &amp; Bortz, J. (2016). <i>Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</i> (5. Aufl.). Springer.
+* Eid, M., Gollwitzer, M. &amp; Schmitt, M. (2017). <i>Statistik und Forschungsmethoden</i> (5. Aufl.). Beltz.
+* Hayes, A. F. &amp; Coutts, J. J. (2020). Use omega rather than Cronbach’s alpha for estimating reliability. But… <i>Communication Methods and Measures, 14</i>(1), 1–24.
+* JASP Team (2024). <i>JASP</i> (Version 0.19) [Computer software]. https://jasp-stats.org/
+* Moosbrugger, H. &amp; Kelava, A. (Hrsg.). (2020). <i>Testtheorie und Fragebogenkonstruktion</i> (3. Aufl.). Springer.
+* Nunnally, J. C. (1978). <i>Psychometric theory</i> (2nd ed.). McGraw-Hill.
