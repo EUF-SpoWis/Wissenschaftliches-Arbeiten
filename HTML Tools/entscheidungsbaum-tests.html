@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entscheidungsbaum: Welcher Test passt?</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2933; --muted: #64748b; --card: #f3f6fa; --line: #cbd5e1;
+    --root: #2f6f57; --root-fg: #ffffff;
+    --zus: #4e66bd; --zus-bg: #eef2fb;
+    --unt: #2a9a50; --unt-bg: #eaf6ee;
+    --par: #2f6f57; --par-bg: #e3efe9;
+    --non: #e08a1e; --non-bg: #fdf3e7;
+    --mus: #4e66bd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111827; --fg: #e5e7eb; --muted: #94a3b8; --card: #1f2937; --line: #475569;
+      --root: #3f8f72; --zus: #8da2f0; --zus-bg: #1e2740; --unt: #4ade80; --unt-bg: #14301f;
+      --par: #5fc3a0; --par-bg: #173028; --non: #fb923c; --non-bg: #3a2511; --mus: #8da2f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg);
+         margin: 0; padding: 16px; line-height: 1.45; }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 12px; font-size: .95rem; }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .tools button { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 8px;
+                  padding: 6px 12px; font: inherit; font-size: .9rem; cursor: pointer; }
+  .tools button:hover { border-color: var(--root); }
+  .legend { display: flex; gap: 10px; flex-wrap: wrap; font-size: .85rem; margin-bottom: 14px; }
+  .chip { display: inline-block; padding: 1px 10px; border-radius: 99px; font-size: .78rem; font-weight: 600; border: 2px solid; }
+  .chip.par { color: var(--par); background: var(--par-bg); border-color: var(--par); }
+  .chip.non { color: var(--non); background: var(--non-bg); border-color: var(--non); }
+
+  .root { display: inline-block; background: var(--root); color: var(--root-fg); padding: 10px 16px;
+          border-radius: 12px; font-weight: 700; margin-bottom: 10px; }
+
+  /* Baum */
+  details { margin: 6px 0; }
+  details > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px;
+                      padding: 9px 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--card);
+                      font-weight: 600; user-select: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary::before { content: "▶"; font-size: .7rem; transition: transform .15s; flex: none; }
+  details[open] > summary::before { transform: rotate(90deg); }
+  details > summary:hover { filter: brightness(0.97); }
+  details > summary small { font-weight: 400; color: var(--muted); font-size: .8rem; margin-left: auto; text-align: right; }
+  .kids { margin: 4px 0 4px 18px; padding-left: 16px; border-left: 3px solid var(--line); }
+
+  .zus > summary { background: var(--zus-bg); border-color: var(--zus); }
+  .unt > summary { background: var(--unt-bg); border-color: var(--unt); }
+  .lvl > summary { background: var(--bg); }
+
+  /* Blätter */
+  .leaf { margin: 6px 0; padding: 10px 14px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }
+  .leaf .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .leaf .q { font-weight: 600; margin-right: 4px; }
+  .tests { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; margin-top: 8px; }
+  .test { border: 2px solid; border-radius: 10px; padding: 8px 10px; }
+  .test.par { background: var(--par-bg); border-color: var(--par); }
+  .test.non { background: var(--non-bg); border-color: var(--non); }
+  .test b { display: block; margin-top: 3px; }
+  .ex { margin-top: 6px; font-size: .85rem; color: var(--fg); border-left: 4px solid var(--mus); padding-left: 8px; }
+  .single { margin-top: 8px; }
+  .single .test { background: var(--zus-bg); border-color: var(--zus); }
+  .note { margin-top: 14px; font-size: .8rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Welcher Test passt?</h1>
+  <p class="sub">Klicke auf die Äste, um den Entscheidungsbaum Schritt für Schritt aufzuklappen.</p>
+
+  <div class="tools">
+    <button type="button" id="open">Alle aufklappen</button>
+    <button type="button" id="close">Alle zuklappen</button>
+  </div>
+  <div class="legend">
+    <span><span class="chip par">parametrisch</span> Voraussetzungen erfüllt</span>
+    <span><span class="chip non">nichtparametrisch</span> ordinal oder Voraussetzungen verletzt</span>
+  </div>
+
+  <div class="root">Was soll getestet werden?</div>
+
+  <div class="kids" style="margin-left: 14px;">
+
+    <!-- ZUSAMMENHÄNGE -->
+    <details class="zus">
+      <summary>🔗 Zusammenhänge <small>Hängen zwei Merkmale zusammen?</small></summary>
+      <div class="kids">
+        <details class="lvl">
+          <summary>🏷️ Nominal</summary>
+          <div class="kids">
+            <div class="single"><div class="test"><span class="chip par">Test</span><b>Chi-Quadrat-Test</b>
+              <div class="ex">🏃🏾‍♀️ Hängt die Musikbedingung damit zusammen, ob jemand den Lauf ohne Gehpause schafft (ja/nein)?</div></div></div>
+          </div>
+        </details>
+        <details class="lvl">
+          <summary>📶 Ordinal</summary>
+          <div class="kids">
+            <div class="single"><div class="test"><span class="chip par">Test</span><b>Kendall-Tau oder Spearman-Korrelation</b>
+              <div class="ex">📋 Hängt die Trainingshäufigkeit (Stufen 1 bis 5) mit dem Borg-Wert zusammen?</div></div></div>
+          </div>
+        </details>
+        <details class="lvl">
+          <summary>📏 Metrisch</summary>
+          <div class="kids">
+            <div class="single"><div class="test"><span class="chip par">Test</span><b>Pearson-Korrelation</b>
+              <div class="ex">🏃🏾‍♀️ Hängt das Tempo der Musik (BPM) mit der gelaufenen Strecke zusammen?</div></div></div>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- UNTERSCHIEDE -->
+    <details class="unt">
+      <summary>⚖️ Unterschiede <small>Unterscheiden sich Gruppen oder Messungen?</small></summary>
+      <div class="kids">
+
+        <details class="lvl">
+          <summary>👥 Unabhängige Stichproben <small>verschiedene Personen</small></summary>
+          <div class="kids">
+            <details class="lvl">
+              <summary>2 Gruppen</summary>
+              <div class="kids">
+                <div class="tests">
+                  <div class="test par"><span class="chip par">parametrisch</span><b>t-Test für unabhängige Stichproben</b></div>
+                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Mann-Whitney-U-Test</b></div>
+                </div>
+                <div class="ex">🏃🏾‍♀️ Strecke mit gegen ohne Musik (verschiedene Personen)<br>📋 Borg-Wert mit gegen ohne Musik (verschiedene Personen)</div>
+              </div>
+            </details>
+            <details class="lvl">
+              <summary>mehr als 2 Gruppen</summary>
+              <div class="kids">
+                <div class="tests">
+                  <div class="test par"><span class="chip par">parametrisch</span><b>ANOVA</b></div>
+                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Kruskal-Wallis-Test</b></div>
+                </div>
+                <div class="ex">🏃🏾‍♀️ Strecke bei ohne, langsamer und schneller Musik (verschiedene Personen)</div>
+              </div>
+            </details>
+          </div>
+        </details>
+
+        <details class="lvl">
+          <summary>🔁 Abhängige Stichproben <small>dieselben Personen</small></summary>
+          <div class="kids">
+            <details class="lvl">
+              <summary>2 Messungen</summary>
+              <div class="kids">
+                <div class="tests">
+                  <div class="test par"><span class="chip par">parametrisch</span><b>t-Test für verbundene Stichproben</b></div>
+                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Wilcoxon-Test</b></div>
+                </div>
+                <div class="ex">🏃🏾‍♀️ Strecke derselben Personen mit und ohne Musik<br>📋 Borg-Wert derselben Personen mit und ohne Musik</div>
+              </div>
+            </details>
+            <details class="lvl">
+              <summary>mehr als 2 Messungen</summary>
+              <div class="kids">
+                <div class="tests">
+                  <div class="test par"><span class="chip par">parametrisch</span><b>ANOVA mit Messwiederholung</b></div>
+                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Friedman-Test</b></div>
+                </div>
+                <div class="ex">🏃🏾‍♀️ Strecke derselben Personen bei ohne, langsamer und schneller Musik</div>
+              </div>
+            </details>
+          </div>
+        </details>
+
+      </div>
+    </details>
+  </div>
+
+  <p class="note">Faustregel: Metrische, annähernd normalverteilte Daten ➜ parametrischer Test. Ordinale Daten oder verletzte Voraussetzungen ➜ nichtparametrischer Test.</p>
+</div>
+
+<script>
+  const all = () => document.querySelectorAll('details');
+  document.getElementById('open').onclick = () => all().forEach(d => d.open = true);
+  document.getElementById('close').onclick = () => all().forEach(d => d.open = false);
+</script>
+</body>
+</html>
