@@ -16,7 +16,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 ## Unterschiede analysieren
 
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/05_Unterschiede_analysieren.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/06_Unterschiede_analysieren.md)
 
 
 | Parameter                | Kursinformationen                                                                               |
@@ -25,7 +25,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 | **Semester:**            |                                                                                 |
 | **Hochschule:**          | `Europa-Universität Flensburg`                                                                  |
 | **Inhalte:**             | `Sportwissenschaftliche Methoden mit Fokus auf der Analyse von Unterschieden `                  |
-| **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/05_Unterschiede_analysieren.md      |
+| **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/06_Unterschiede_analysieren.md      |
 | **Autoren:**             | @author                                                                                      |
 
 > (c) Alle Rechte vorbehalten. 
@@ -33,7 +33,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 ---
 
-## Überblick: Unterschiede testen
+## Überblick
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
 💡 <b>Lehrbuch Hinweis:</b> In diesem Kurs lernst du, <b>welchen Test</b> du für Unterschiede brauchst, <b>wie du ihn in JASP durchführst</b> und <b>wie du das Ergebnis liest und berichtest</b>. Als Beispiel dient wie im Grundlagenkurs der 12-Minuten-Lauf mit und ohne Musik.
@@ -103,69 +103,13 @@ Anstrengungsempfinden, streng genommen <b>ordinal</b>. Dafür passen eher nichtp
 
 </section>
 
-{{2}} <section>
-
-#### So gehst du in JASP grundsätzlich vor
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
-
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">📂</div>
-<div style="text-align: center; font-size: 1.1em;"><b>1. Daten laden</b></div>
-<div style="font-size: 0.9em;">Datei (.csv oder .xlsx) über „Open“ öffnen. Jede Zeile ist eine Person bzw. Messung.</div>
-</div>
-
-<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🏷️</div>
-<div style="text-align: center; font-size: 1.1em;"><b>2. Skalenniveau prüfen</b></div>
-<div style="font-size: 0.9em;">In der Spaltenüberschrift das Symbol anklicken und nominal, ordinal oder scale einstellen.</div>
-</div>
-
-<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🔍</div>
-<div style="text-align: center; font-size: 1.1em;"><b>3. Daten ansehen</b></div>
-<div style="font-size: 0.9em;">Unter „Descriptives“ Kennwerte, Histogramme und Boxplots anfordern.</div>
-</div>
-
-<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🧪</div>
-<div style="text-align: center; font-size: 1.1em;"><b>4. Test wählen</b></div>
-<div style="font-size: 0.9em;">Passende Analyse im Menü wählen und Variablen in die Felder ziehen.</div>
-</div>
-
-<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">✅</div>
-<div style="text-align: center; font-size: 1.1em;"><b>5. Voraussetzungen prüfen</b></div>
-<div style="font-size: 0.9em;">Unter „Assumption Checks“ Normalverteilung und Varianzhomogenität anhaken.</div>
-</div>
-
-<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">📖</div>
-<div style="text-align: center; font-size: 1.1em;"><b>6. Ergebnis lesen</b></div>
-<div style="font-size: 0.9em;">Teststatistik, <i>p</i>-Wert und Effektstärke ablesen und berichten.</div>
-</div>
-
-</div>
-
-<!-- TODO: Screenshot JASP-Oberfläche (Datenansicht und Analysefenster) -->
-
-<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> Ein Ergebnis gilt üblicherweise als <b>statistisch signifikant</b>, wenn <i>p</i> &lt; ,05. Der <i>p</i>-Wert sagt <b>nicht</b>, wie groß ein Effekt ist. Dafür brauchst du immer auch eine <b>Effektstärke</b>.
-</div>
-
-<div style="height: 15px;"></div>
-
-</section>
 
 ---
+## Unabhängige Stichprobe (2 Gruppen)
 
-## t-Test für unabhängige Stichproben
+Erklärung einfügen
+
+### t-Test für unabhängige Stichproben
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -202,7 +146,7 @@ Anstrengungsempfinden, streng genommen <b>ordinal</b>. Dafür passen eher nichtp
 </div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Wirkung auf die Ausdauerleistung</b></span> 🏃🏾‍♀️<br>
+🏃🏾‍♀️<b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 Laufen Personen <b>mit Musik</b> im 12-Minuten-Lauf weiter als <b>andere</b> Personen <b>ohne Musik</b>? Verglichen werden die mittleren Strecken in Metern.
 </div>
 
@@ -267,7 +211,7 @@ Laufen Personen <b>mit Musik</b> im 12-Minuten-Lauf weiter als <b>andere</b> Per
 <div style="margin-top: 10px; padding: 8px 10px; background: #1f2933; color: #ffffff; border-radius: 8px; font-size: 0.8em;">🖥️ <b>JASP:</b> T-Tests ➜ Classical ➜ Independent Samples T-Test</div>
 <div style="height: 10px;"></div>
 
-<!-- TODO: Screenshot JASP: t-Test für unabhängige Stichproben -->
+!?[Allgemeine Einführung in JASP](https://youtu.be/Fg-V_zSgGv0)
 
 </section>
 
@@ -349,7 +293,7 @@ Ein signifikanter Levene-Test zeigt ungleiche Streuungen. Der Welch-Test ist daf
 
 ---
 
-## Mann-Whitney-U-Test
+### Mann-Whitney-U-Test
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -386,7 +330,7 @@ Ein signifikanter Levene-Test zeigt ungleiche Streuungen. Der Welch-Test ist daf
 </div>
 
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirkung auf das Anstrengungsempfinden</b></span> 📋<br>
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
 Geben Personen <b>mit Musik</b> niedrigere Borg-Werte an als <b>andere</b> Personen <b>ohne Musik</b>?
 </div>
 
@@ -500,32 +444,6 @@ Die rank-biserial Korrelation wird wie <i>r</i> eingeordnet: ab ,1 klein, ab ,3 
 <i>Personen mit Musik gaben niedrigere Borg-Werte an (Mdn = 12) als Personen ohne Musik (Mdn = 14), U = 66,5, p < ,001, r<sub>rb</sub> = −,67.</i>
 </div>
 
-<details>
-<summary><b>👉 Voraussetzungen prüfen und was du bei Verletzung tust</b></summary>
-
-| Voraussetzung | Hinweis |
-| :-- | :-- |
-| Skalenniveau | mindestens ordinal, der Borg-Wert erfüllt das |
-| Unabhängigkeit | verschiedene Personen in den Gruppen |
-| Form der Verteilungen | für die Deutung als Mediandifferenz sollten die Verteilungen ähnlich geformt sein |
-| Gebundene Ränge (Ties) | viele gleiche Werte (z. B. mehrere Personen mit 13) sind bei Borg normal; JASP rechnet mit einer Korrektur |
-
-</details>
-
-**Frage 1:** Warum eignet sich der Mann-Whitney-U-Test für Borg-Werte?
-
-- [( )] Weil Borg-Werte nominal sind
-- [(X)] Weil er keine metrischen Daten und keine Normalverteilung voraussetzt
-- [( )] Weil er für mehr als zwei Gruppen gilt
-- [( )] Weil er Zusammenhänge prüft
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Der Test arbeitet mit Rangplätzen und braucht nur ordinale Daten.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Döring & Bortz (2016); Eid, Gollwitzer & Schmitt (2017); JASP Team (2024)
 </div>
@@ -533,8 +451,8 @@ Der Test arbeitet mit Rangplätzen und braucht nur ordinale Daten.
 </section>
 
 ---
-
-## t-Test für verbundene Stichproben
+## Verbundene Stichprobe (2 Gruppen) 
+### t-Test für verbundene Stichproben
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -571,7 +489,7 @@ Der Test arbeitet mit Rangplätzen und braucht nur ordinale Daten.
 </div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Wirkung auf die Ausdauerleistung</b></span> 🏃🏾‍♀️<br>
+🏃🏾‍♀️<b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 Dieselben 20 Personen laufen einmal <b>mit</b> und einmal <b>ohne</b> Musik (Reihenfolge ausgeglichen). Verglichen werden die Strecken pro Person.
 </div>
 
@@ -638,7 +556,7 @@ Dieselben 20 Personen laufen einmal <b>mit</b> und einmal <b>ohne</b> Musik (Rei
 <div style="margin-top: 10px; padding: 8px 10px; background: #1f2933; color: #ffffff; border-radius: 8px; font-size: 0.8em;">🖥️ <b>JASP:</b> T-Tests ➜ Classical ➜ Paired Samples T-Test</div>
 <div style="height: 10px;"></div>
 
-<!-- TODO: Screenshot JASP: t-Test für verbundene Stichproben -->
+!?[Allgemeine Einführung in JASP](https://youtu.be/Fg-V_zSgGv0) 
 
 </section>
 
@@ -697,20 +615,6 @@ Cohen’s <i>d</i> wird wie beim t-Test für unabhängige Stichproben eingeordne
 
 </details>
 
-**Frage 1:** Worauf bezieht sich die Normalverteilungsannahme beim t-Test für verbundene Stichproben?
-
-- [( )] Auf beide Messungen einzeln
-- [(X)] Auf die Differenzen der Messpaare
-- [( )] Auf die Gruppenvariable
-- [( )] Auf die Anzahl der Personen
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Beim verbundenen t-Test werden die Differenzen pro Person analysiert.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Cohen (1988); Döring &a Bortz (2016); JASP Team (2024)
 </div>
@@ -719,7 +623,7 @@ Beim verbundenen t-Test werden die Differenzen pro Person analysiert.
 
 ---
 
-## Wilcoxon-Test
+### Wilcoxon-Test
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -756,7 +660,7 @@ Beim verbundenen t-Test werden die Differenzen pro Person analysiert.
 </div>
 
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirkung auf das Anstrengungsempfinden</b></span> 📋<br>
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
 Dieselben 20 Personen geben nach dem Lauf <b>mit</b> und <b>ohne</b> Musik ihren Borg-Wert an. Verglichen werden die Werte pro Person.
 </div>
 
@@ -883,19 +787,6 @@ Wie beim Mann-Whitney-Test: rank-biserial Korrelation ab ,1 klein, ab ,3 mittel,
 
 </details>
 
-**Frage 1:** Welcher parametrische Test ist die Entsprechung zum Wilcoxon-Test?
-
-- [( )] t-Test für unabhängige Stichproben
-- [(X)] t-Test für verbundene Stichproben
-- [( )] ANOVA
-- [( )] Pearson-Korrelation
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Beide Tests vergleichen zwei Messungen derselben Personen.
-
-</details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Döring & Bortz (2016); Eid, Gollwitzer &a Schmitt (2017); JASP Team (2024)
@@ -905,7 +796,8 @@ Beide Tests vergleichen zwei Messungen derselben Personen.
 
 ---
 
-## ANOVA (einfaktoriell)
+## Unabhängige Stichprobe (mehr als 2 Gruppen)
+### ANOVA (einfaktoriell)
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -942,7 +834,7 @@ Beide Tests vergleichen zwei Messungen derselben Personen.
 </div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Wirkung auf die Ausdauerleistung</b></span> 🏃🏾‍♀️<br>
+🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 Drei Gruppen mit je 15 verschiedenen Personen laufen <b>ohne Musik</b>, mit <b>langsamer Musik</b> oder mit <b>schneller Musik</b>. Verglichen werden die mittleren Strecken.
 </div>
 
@@ -1078,20 +970,6 @@ Drei Gruppen mit je 15 verschiedenen Personen laufen <b>ohne Musik</b>, mit <b>l
 
 </details>
 
-**Frage 1:** Die ANOVA ist signifikant (p < ,001). Was sagt dir das?
-
-- [( )] Alle Gruppen unterscheiden sich voneinander
-- [(X)] Mindestens zwei Gruppen unterscheiden sich
-- [( )] Es gibt keinen Unterschied
-- [( )] Die Daten sind normalverteilt
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Die ANOVA zeigt nur, dass es irgendeinen Unterschied gibt. Welche Gruppen sich unterscheiden, zeigen die Post-hoc-Tests.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Cohen (1988); Döring & Bortz (2016); Eid, Gollwitzer & Schmitt (2017); JASP Team (2024)
 </div>
@@ -1100,7 +978,7 @@ Die ANOVA zeigt nur, dass es irgendeinen Unterschied gibt. Welche Gruppen sich u
 
 ---
 
-## Kruskal-Wallis-Test
+### Kruskal-Wallis-Test
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -1137,7 +1015,7 @@ Die ANOVA zeigt nur, dass es irgendeinen Unterschied gibt. Welche Gruppen sich u
 </div>
 
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirkung auf das Anstrengungsempfinden</b></span> 📋<br>
+📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
 Drei Gruppen mit je 15 verschiedenen Personen laufen <b>ohne Musik</b>, mit <b>langsamer</b> oder mit <b>schneller Musik</b>. Verglichen werden die Borg-Werte.
 </div>
 
@@ -1273,20 +1151,6 @@ Drei Gruppen mit je 15 verschiedenen Personen laufen <b>ohne Musik</b>, mit <b>l
 
 </details>
 
-**Frage 1:** Wofür brauchst du nach einem signifikanten Kruskal-Wallis-Test Post-hoc-Tests?
-
-- [( )] Um die Normalverteilung zu prüfen
-- [(X)] Um herauszufinden, welche Gruppen sich unterscheiden
-- [( )] Um die Effektstärke zu berechnen
-- [( )] Um Ausreißer zu entfernen
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Der Omnibustest zeigt nur, dass sich irgendeine Gruppe unterscheidet. Die Paarvergleiche zeigen, welche.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Döring & Bortz (2016); Eid, Gollwitzer & Schmitt (2017); Tomczak & Tomczak (2014); JASP Team (2024)
 </div>
@@ -1294,8 +1158,8 @@ Der Omnibustest zeigt nur, dass sich irgendeine Gruppe unterscheidet. Die Paarve
 </section>
 
 ---
-
-## ANOVA mit Messwiederholung
+## Verbundene Stichprobe (mehr als 2 Gruppen)
+### ANOVA mit Messwiederholung
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -1332,7 +1196,7 @@ Der Omnibustest zeigt nur, dass sich irgendeine Gruppe unterscheidet. Die Paarve
 </div>
 
 <div style="border: 2px solid #4e66bd; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-🏃🏾‍♀️ <span style="background: linear-gradient(transparent 55%, rgba(71, 69, 173, 0.55) 60%);"><b>Wirkung auf die Ausdauerleistung</b></span> 🏃🏾‍♀️<br>
+🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 Dieselben 15 Personen laufen <b>ohne Musik</b>, mit <b>langsamer</b> und mit <b>schneller Musik</b> (Reihenfolge ausgeglichen). Verglichen werden die Strecken.
 </div>
 
@@ -1465,20 +1329,6 @@ Dieselben 15 Personen laufen <b>ohne Musik</b>, mit <b>langsamer</b> und mit <b>
 
 </details>
 
-**Frage 1:** Der Mauchly-Test ist signifikant (p = ,01). Was tust du?
-
-- [( )] Nichts, die Annahme gilt
-- [(X)] Die Greenhouse-Geisser-Korrektur verwenden
-- [( )] Einen t-Test für unabhängige Stichproben rechnen
-- [( )] Die Messwiederholung ignorieren
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Ein signifikanter Mauchly-Test bedeutet, dass die Sphärizität verletzt ist. Die Korrektur passt die Freiheitsgrade an.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Cohen (1988); Döring & Bortz (2016); Eid, Gollwitzer & Schmitt (2017); JASP Team (2024)
 </div>
@@ -1487,7 +1337,7 @@ Ein signifikanter Mauchly-Test bedeutet, dass die Sphärizität verletzt ist. Di
 
 ---
 
-## Friedman-Test
+### Friedman-Test
 
 <span style="font-size: 1.1em;"><b>Wann passt der Test?</b></span>
 
@@ -1524,7 +1374,7 @@ Ein signifikanter Mauchly-Test bedeutet, dass die Sphärizität verletzt ist. Di
 </div>
 
 <div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; margin: 10px 0; color: #1f2933;">
-📋 <span style="background: linear-gradient(transparent 55%, rgba(66, 162, 61, 0.55) 60%);"><b>Wirkung auf das Anstrengungsempfinden</b></span> 📋<br>
+📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
 Dieselben 15 Personen geben nach dem Lauf <b>ohne Musik</b>, mit <b>langsamer</b> und mit <b>schneller Musik</b> ihren Borg-Wert an.
 </div>
 
@@ -1650,20 +1500,6 @@ Kendall’s W: ab ,1 klein, ab ,3 mittel, ab ,5 groß (Cohen, 1988). W = ,46 lie
 
 </details>
 
-**Frage 1:** Welcher Test ist die nichtparametrische Alternative zur ANOVA mit Messwiederholung?
-
-- [( )] Kruskal-Wallis-Test
-- [(X)] Friedman-Test
-- [( )] Mann-Whitney-U-Test
-- [( )] Chi-Quadrat-Test
-
-<details>
-<summary><b>👉 Erklärung</b></summary>
-
-Der Friedman-Test arbeitet mit Rängen innerhalb jeder Person und eignet sich für mehr als zwei Messungen.
-
-</details>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Cohen (1988); Döring & Bortz (2016); JASP Team (2024)
 </div>
@@ -1674,12 +1510,6 @@ Der Friedman-Test arbeitet mit Rängen innerhalb jeder Person und eignet sich f�
 
 ## Check-Up: Unterschiede testen
 
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-<span style="font-size: 1.3em;"><i>Welcher Test passt zu welcher Situation? Teste dein Wissen.</i></span>
-</div>
-
-<div style="height: 15px;"></div>
 
 Beantworte die Fragen. Nach dem Beantworten bekommst du eine kurze Erklärung.
 
