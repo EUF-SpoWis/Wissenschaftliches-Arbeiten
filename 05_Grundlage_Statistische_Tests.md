@@ -1356,9 +1356,9 @@ Der Mittelwert bleibt im Bereich der Antwortskala, Zwischenwerte sind möglich.
 ### Literatur
 
 * Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. <i>Psychometrika, 16</i>(3), 297–334.
-* Döring, N. &amp; Bortz, J. (2016). <i>Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</i> (5. Aufl.). Springer.
-* Eid, M., Gollwitzer, M. &amp; Schmitt, M. (2017). <i>Statistik und Forschungsmethoden</i> (5. Aufl.). Beltz.
-* Hayes, A. F. &amp; Coutts, J. J. (2020). Use omega rather than Cronbach’s alpha for estimating reliability. But… <i>Communication Methods and Measures, 14</i>(1), 1–24.
+* Döring, N. & Bortz, J. (2016). <i>Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften</i> (5. Aufl.). Springer.
+* Eid, M., Gollwitzer, M. & Schmitt, M. (2017). <i>Statistik und Forschungsmethoden</i> (5. Aufl.). Beltz.
+* Hayes, A. F. & Coutts, J. J. (2020). Use omega rather than Cronbach’s alpha for estimating reliability. But… <i>Communication Methods and Measures, 14</i>(1), 1–24.
 * JASP Team (2024). <i>JASP</i> (Version 0.19) [Computer software]. https://jasp-stats.org/
-* Moosbrugger, H. &amp; Kelava, A. (Hrsg.). (2020). <i>Testtheorie und Fragebogenkonstruktion</i> (3. Aufl.). Springer.
+* Moosbrugger, H. & Kelava, A. (Hrsg.). (2020). <i>Testtheorie und Fragebogenkonstruktion</i> (3. Aufl.). Springer.
 * Nunnally, J. C. (1978). <i>Psychometric theory</i> (2nd ed.). McGraw-Hill.
