@@ -141,13 +141,11 @@ Die **Qualitative Inhaltsanalyse** gehört zu den am häufigsten eingesetzten Au
 
 ## Der Forschungszyklus nach Kuckartz (2016)
 
-<section>
-
-#### Der 7-stufige Ablauf der inhaltlich strukturierenden Inhaltsanalyse:
+Der 7-stufige Ablauf der inhaltlich strukturierenden Inhaltsanalyse:
 
 ---
 
-## Schritt 1: Initiierende Textarbeit
+### Schritt 1: Initiierende Textarbeit
 
 - **Aktivität:** Ein intensives, sequenzielles Lesen des Transkripts unter gelegentlichem Reinhören in die Original-Audioaufnahme.
 - **Handeln im Text:**
@@ -155,7 +153,7 @@ Die **Qualitative Inhaltsanalyse** gehört zu den am häufigsten eingesetzten Au
   - Erste Auffälligkeiten als **Memos** festhalten.
   - Fallzusammenfassungen (Postscripts) schreiben.
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 Dieses Interview begleitet dich durch den gesamten Kurs. Schau dich zuerst in Ruhe um, bevor wir anfangen zu codieren.
 
@@ -522,7 +520,7 @@ init(40);
 
 ---
 
-## Schritt 2: Entwickeln von thematischen Hauptkategorien
+### Schritt 2: Entwickeln von thematischen Hauptkategorien
 
 - **Herkunft der Hauptkategorien:** Werden in der Regel **deduktiv** (theoriegeleitet) direkt aus den Forschungsfragen abgeleitet.
 - **Probelauf (Pilotierung):** Testen des vorläufigen Kategoriensystems an ca. 10–25 % des Datenmaterials.
@@ -538,7 +536,7 @@ init(40);
 
 ---
 
-## Schritt 3: Codieren des gesamten Materials mit Hauptkategorien
+### Schritt 3: Codieren des gesamten Materials mit Hauptkategorien
 
 - **Durchgang:** Der gesamte Text wird Zeile für Zeile durchgearbeitet.
 - **Zuordnung:** Relevante Stellen (Kodiereinheiten) werden den passenden Hauptkategorien zugewiesen.
@@ -547,7 +545,7 @@ init(40);
 <b>Pro-Tipp für MAXQDA:</b> Textstelle im Dokument-Browser markieren und direkt per Drag & Drop auf die gewünschte Hauptkategorie im Code-System ziehen!
 </div>
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 **Hinweis für uns**: In diesem Beispiel müsste noch das Einfügen der Subkategorien entfernt werden, damit dies in "rochtigen Schritt" als Übung integriert werden kann. Sowie die Auswahl der deduktiven Hauptkategorien könnten beispielsweise auf die drei Grundbedürfnisse der Selbstbestimmung verändert werden (Deci & Ryan, 1994), sodass der theoretische Rahmen sowie die Herleitung der deduktiven Hauptkategorien aus der Theorie verdeutlicht werden (ggf. müssten dann die Ausschnitte des Interviews verändert werden). ***Überlegung***: Die jetzigen deduktiven Hauptkategorien könnten sich evt. sinnvoll als induktive Subkategorien dann äußern.
 
@@ -932,18 +930,18 @@ init(40);
 
 ---
 
-## Schritt 4: Bündelung der codierten Textstellen
+### Schritt 4: Bündelung der codierten Textstellen
 
 - **Systematisierung:** Alle Textstellen verschiedener Interviews, die mit derselben Hauptkategorie versehen wurden, werden zusammengestellt.
 - **Ziel:** Man erhält eine sortierte Übersicht aller Aussagen zu einem spezifischen Themenkomplex.
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 wird noch entwickelt
 
 ---
 
-## Schritt 5: Induktives Bestimmen von Subkategorien am Material
+### Schritt 5: Induktives Bestimmen von Subkategorien am Material
 
 - **Blick ins Material:** Aus den gebündelten Textstellen einer Hauptkategorie werden nun **induktiv** (materialnah) Unterkategorien herausgearbeitet.
 - **Ausdifferenzierung:** 
@@ -951,33 +949,32 @@ wird noch entwickelt
   2. Subkategorien benennen und definieren.
   3. Ankerbeispiele (prägnante Zitate) zur Illustration festlegen.
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 wird noch entwickelt
 
 ---
 
-## Schritt 6: Zweites Codieren des kompletten Materials
+### Schritt 6: Zweites Codieren des kompletten Materials
 
 - **Feincodierung:** Das gesamte Datenmaterial wird nun nochmals mit dem vollständig ausdifferenzierten Kategoriensystem (Haupt- + Subkategorien) codiert.
 - **Ergebnis:** Eine präzise Zuordnung aller relevanten Abschnitte im Datenmaterial.
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 wird noch entwickelt
 ---
 
-## Schritt 7: Kategorienbasierte Auswertung & Interpretation
+### Schritt 7: Kategorienbasierte Auswertung & Interpretation
 
 - **Ergebnisanalyse:** 
   - Hauptkategorien in eine logische Darstellungsreihenfolge bringen.
   - Zitate als Belege einbinden und wissenschaftlich interpretieren.
   - Rückbindung der Befunde an den aktuellen Forschungsstand und die ursprüngliche Forschungsfrage.
 
-### Das Beispielinterview
+#### Das Beispielinterview
 
 wird noch entwickelt
-</section>
 
 ---
 
