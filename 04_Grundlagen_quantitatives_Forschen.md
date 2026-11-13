@@ -131,16 +131,13 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 <div style="height: 60px;"></div>
 
-
-**Für den weiteren Kurs sind hier ein paar Hinweise**
-
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 In diesen Boxen findest du immer wieder Hinweise, die sich auf dieses Einstiegsbeispiel beziehen.
+💡 In dieser Box findest du immer wieder Hinweise, die sich auf dieses Einstiegsbeispiel beziehen.
 </div>
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>So liest du die farbigen Boxen:</b></span>
+<span style="font-size: 1.1em;"><b>Für den weiteren Kurs sind hier ein Hinweis:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -150,13 +147,6 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ Gelbe Boxen 🏃🏾‍♀️<br>
 In den gelben Boxen findest du immer wieder Anwendungsbeispiele und Hinweise darauf, wie eine Studie aussehen kann, die sich mit dem Einfluss von Musik auf die <b>Ausdauerleistung</b> beschäftigt.
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 Grüne Boxen 📋<br>
-In den grünen Boxen findest du immer wieder Anwendungsbeispiele und Hinweise darauf, wie eine Studie aussehen kann, die sich mit dem Einfluss von Musik auf das <b>Anstrengungsempfinden</b> beschäftigt.
 </div>
 </div>
 
@@ -203,25 +193,15 @@ In den grünen Boxen findest du immer wieder Anwendungsbeispiele und Hinweise da
 
 </div>
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-
 <div style="height: 10px;"></div>
-
-Die Befundlage legt nahe, dass Musik die Ausdauerleistung steigert und das Anstrengungsempfinden senkt (Terry et al., 2020). Doch lässt sich diese Aussage auch auf Sportstudierende überstragen? Das schauen wir uns nun an:
+<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Effekt auf die Distanz </b> 🏃🏾‍♀️<br>
-Laut Terry et al. (2020) steigert Musik die Ausdauerleistung. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Effekt auf das Anstregungsempfinden</b> 📋<br>
-Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
+Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
 </div>
 </div>
 
@@ -239,8 +219,6 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 
 ### Merkmale von Quantitativen Forschens
 <section>
-
-
 
 <div style="height: 15px;"></div>
 
@@ -276,13 +254,6 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 <p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle laufen den Cooper-Test auf derselben Bahn, zur gleichen Tageszeit und mit derselben Anweisung.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> Gelaufene Strecke in 12 Minuten (in Metern).</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird eine größere Strecke gelaufen.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach festem Verfahren.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Mittelwerte der Gruppen, nicht einzelne Läufer:innen.</p>
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Standardisierung:</b> Alle füllen direkt nach dem Lauf denselben Fragebogen aus.</p><p style="margin: 0.5rem 0 0 0;"><b>Operationalisierung:</b> Wert auf der Borg-Skala oder Skalenwert aus mehreren Likert-Items.</p><p style="margin: 0.5rem 0 0 0;"><b>Hypothesenprüfung:</b> Mit Musik wird die Anstrengung geringer eingeschätzt.</p><p style="margin: 0.5rem 0 0 0;"><b>Distanz zum Gegenstand:</b> Die Teilnehmenden füllen den Fragebogen selbst aus, die Testleitung kommentiert die Antworten nicht.</p><p style="margin: 0.5rem 0 0 0;"><b>Generalisierung durch Repräsentativität:</b> Verglichen werden die Skalenwerte der Gruppen. Die Ergebnisse gelten nur für Personen, die der Stichprobe ähneln.</p>
 </div>
 </div>
 
@@ -369,7 +340,6 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
@@ -379,25 +349,15 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 </div>
 </div>
 
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-
-<p style="margin: 0.5rem 0 0 0;"><b>Ausgangspunkt:</b> Musik senkt das Anstregungsempfinden (Terry et al., 2020)</p><p style="margin: 0.5rem 0 0 0;"><b>Präzision:</b> „Rockmusik mit 140 BPM“ und „Anstregungsempfinden“ lassen sich direkt festlegen bzw. messen.</p><p style="margin: 0.5rem 0 0 0;"><b>Reduktion:</b> „Anstregungsempfinden“ wird auf die in BORG-Skala reduziert. Zielgruppe wird mit "Sportstudierende" klar definiert.</p>
-</div>
-</div>
-
-</div>
-
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
 <div class="animate__animated animate__fadeInDown animate__delay-3s" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 Formuliere hier zwei Forschungsfragen.<br><br>Eine, wie Musik die Ausdauerleistung beeinflusst, und eine, wie sie das Anstrengungsempfinden beeinflusst.
+📋 **Formuliere hier eine Forschungsfrage, mit der untersucht werden soll, wie Musik die Ausdauerleistung beeinflusst**
 </div>
 
 <!-- class="animate__animated animate__fadeInDown animate__delay-3s" -->
-| 🏃🏾‍♀️ Forschungsfrage zu Ausdauerleistung | 📋 Forschungsfrage zu Anstrengungsempfinden |
-| :--- | :-- |
+| 🏃🏾‍♀️ Forschungsfrage zur Ausdauerleistung | 
+| :--- |
 | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
 
 {{1}} <section>
@@ -405,13 +365,13 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 <details>
 <summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
 
-| 🏃🏾‍♀️ Forschungsfrage zu Ausdauerleistung | 📋 Forschungsfrage zu Anstrengungsempfinden |
-| :--- | :-- |
-| Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden? | Welchen Einfluss hat selbstgewählte Musik auf das Anstrengungsempfinden von Sportstudierenden? |
+| 🏃🏾‍♀️ Forschungsfrage zur Ausdauerleistung |
+| :--- |
+| Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf die Ausdauerleistung von Sportstudierenden? |
 
 </details>
 
-<span style="font-size: 1.1em;"><b>Im folgenden nutzen wir diese Forschungsfragen:</b></span>
+<span style="font-size: 1.1em;"><b>Im folgenden nutzen wir diese Forschungsfrage:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -421,13 +381,6 @@ Laut Terry et al. (2020) sinkt mit Musik das Anstregungsempfinden. Wie man über
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️<b>Wirkung von Musik auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(transparent 30%, rgba(228, 240, 113, 0.55) 100%);">Rockmusik mit 140 BPM</span> auf die <span style="background: linear-gradient(transparent 30%, rgba(228, 240, 113, 0.55) 100%);">Ausdauerleistung</span> von <span style="background: linear-gradient(transparent 30%, rgba(228, 240, 113, 0.55) 100%);">Sportstudierenden</span>?
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Rockmusik mit 140 BPM</span> auf das <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Anstrengungsempfinden</span> von <span style="background: linear-gradient(transparent 30%, rgba(196, 213, 85, 0.55) 60%);">Sportstudierenden</span>?
 </div>
 </div>
 
@@ -453,7 +406,7 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 
 <div style="height: 15px;"></div>
 
-<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 0.8em; font-weight: bold;">Was ist eine Hypothese?</span> 
+<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Was ist eine Hypothese?</span> 
 
 <div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
 <span style="font-size: 1.0em;">Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist.</span>
@@ -487,8 +440,6 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
 <section>
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung von Musik auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
@@ -496,28 +447,6 @@ Welchen Einfluss hat <span style="background: linear-gradient(transparent 30%, r
  
 </div>
 </div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Vorläufig:</b> „Musik senkt das Anstregungsempfinden bei Sportstudierenden“ ist zu Beginn nur eine Annahme.</p><p style="margin: 0.5rem 0 0 0;"><b>Überprüfbar:</b> Die Borg-Skala liefert Auskunft über das Anstregungsempfinden, die mit und ohne Musik verglichen werden können.</p><p style="margin: 0.5rem 0 0 0;"><b>Bezug:</b> Variablen: Musik (mit/ohne) und Anstrengungsempfinden.</p>
-</div>
-</div>
-</div>
-
-<div style="height: 15px;"></div>
-
-<details>
-<summary><b> 🧐 Was ist die Borg-Skala?</b></summary>
-
-Die Borg-Skala ist ein Messinstrument um Anstregung auf einer Skala von 6 (Überhaupt keine Anstrengung (Ruhe)) bis 20 (Maximale Anstrengung (völlige Erschöpfung)) zu messen. 
-
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Löllgen, H. (2004): Borg-Skala. Standards der Sportmedizin. Das Anstrengungsempfinden (RPE, Borg-Skala). German Journal of Sports Medicine (11).
-</div>
-</details>
-
-<div style="height: 15px;"></div>
 
 </section>
 
@@ -542,7 +471,7 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 
 | | Gerichtet | Ungerichtet |
 | :-- | :-- | :-- |
-| **Unterschiedshypothese** | Wenn X passiert, dann gibt es mehr Y.<br>🏃🏾‍♀️ *Mit Musik laufen Sportstudierende weiter als ohne.*<br>📋 *Mit Musik wird die Anstrengung geringer eingeschätzt.* | Es gibt einen Unterschied zwischen X und Y.<br>🏃🏾‍♀️ *Es gibt einen Unterschied zwischen der Laufstrecke mit und ohne Musik.* |
+| **Unterschiedshypothese** | Wenn X passiert, dann gibt es mehr Y.<br>🏃🏾‍♀️ *Mit Musik laufen Sportstudierende weiter als ohne.*| Es gibt einen Unterschied zwischen X und Y.<br>🏃🏾‍♀️ *Es gibt einen Unterschied zwischen der Laufstrecke mit und ohne Musik.* |
 | **Zusammenhangshypothese** | Je mehr X, desto mehr Y.<br>🏃🏾‍♀️ *Je höher die BPM-Zahl der Musik, desto weiter die Laufstrecke.* | X und Y stehen in einem Zusammenhang.<br>🏃🏾‍♀️ *BPM-Zahl der Musik und Laufstrecke stehen in einem Zusammenhang.* |
 
 
@@ -563,18 +492,18 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 📋 Formuliere hier je eine Null-Hypothese und eine Alternativhypothese für die Forschungsfragen.
 </div>
 
-| Hypothese | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden? | Welchen Einfluss hat  Rockmusik mit 140 BPM auf das Anstrengungsempfinden von Sportstudierenden? |
-| :--- | :-- | :-- |
-| **H0** | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
-| **H1** | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
+| Hypothese | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden? | 
+| :--- | :-- |
+| **H0** | <textarea rows="2" style="width:100%;"></textarea> |
+| **H1** | <textarea rows="2" style="width:100%;"></textarea> |
 
 <details>
 <summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
 
-| Hypothese | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden? | Welchen Einfluss hat selbstgewählte Musik auf das Anstrengungsempfinden von Sportstudierenden? |
-| :--- | :-- | :-- |
-| **H0** | Musik hat keinen Einfluss auf die gelaufene Distanz. | Musik hat keinen Einfluss auf das Anstrengungsempfinden. |
-| **H1** | Mit Musik laufen Sportstudierende weiter als ohne. | Mit Musik empfinden Sportstudierende das Laufen als weniger anstrengend. |
+| Hypothese | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden? | 
+| :--- | :-- | 
+| **H0** | Musik hat keinen Einfluss auf die gelaufene Distanz. | 
+| **H1** | Mit Musik laufen Sportstudierende weiter als ohne. | 
 
 </details>
 
@@ -725,22 +654,11 @@ Bei der Wahl des Designs stellen sich drei Fragen: **Wann?**, **Wo?** und **Wie 
 <span style="font-size: 1.1em;"><b>Das wollen wir auf das Musikbeispiel aus der Einleitung anwenden:</b></span>
 <div style="height: 15px;"></div>
 
-
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung von Musik auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 <p style="margin: 0.5rem 0 0 0;"><b>Wann?</b> Zu einem Zeitpunkt (Querschnitt) </p><p style="margin: 0.5rem 0 0 0;"><b>Wo?</b> Auf der Tartanbahn (Feld) </p><p style="margin: 0.5rem 0 0 0;"><b>Wie stark wird eingegriffen?</b> Ich verteile zufällig, wer mir Musik und wer ohne Musik laufen soll. (Experiment)</p>
  
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Wann?:</b> Zu einem Zeitpunkt (Querschnitt) </p><p style="margin: 0.5rem 0 0 0;"><b>Wo?:</b> Auf der Tartanbahn (Feld) </p><p style="margin: 0.5rem 0 0 0;"><b>Wie stark wird eingegriffen?</b> Ich verteile zufällig, wer mir Musik und wer ohne Musik laufen soll. (Experiment)</p>
-</div>
 </div>
 </div>
 
@@ -1166,13 +1084,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 </div>
 </div>
 
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Objektivität:</b> Alle füllen denselben Fragebogen mit festen Antwortstufen aus.</p><p style="margin: 0.5rem 0 0 0;"><b>Reliabilität:</b> Dieselbe Person beschreibt ihre Anstrengung bei gleicher Belastung an zwei Tagen ähnlich. </p><p style="margin: 0.5rem 0 0 0;"><b>Validität:</b> Die Borg-Skala erfasst das Anstrengungsempfinden – und genau das soll untersucht werden. </p>
- 
-</div>
-</div>
+
 </div>
 
 <div style="height: 15px;"></div>
@@ -1260,10 +1172,18 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 ### Befragungen
 
-<div style="font-size: 1.1em;">
+<div style="border-left: 6px solid #a74ebd; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.1em;">Daten können ebenfalls mithilfe von **Fragebögen**, online oder im Papierformat, erhoben werden. Unser bisheriges Beispiel der Ausdauerleistung wird mit einem physischem Test gemessen, dafür braucht es keinen Fragebogen. Daher werden wir uns im Folgenden mit einem anderen Beispiel beschäftigen:</span>
+</div>
 
-Daten können mithilfe von Fragebögen, online oder im Papierformat, erhoben werden. Bei den Daten wird in **soziodemografische** und **psychometrische** unterschieden. 
+<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
+📋 <b>Effekt auf das Anstregungsempfinden</b> 📋<br>
+Laut Terry et al. (2020) sinkt beim Laufen mit Musik das **Anstregungsempfinden**. Dazu wollten wir nun folgende Forschungsfrage beantworten: Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf das **Anstrengungsempfinden** von Sportstudierenden? Dafür eignet sich eine Befragung sehr gut.</div> 
 
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+
+<div style="border-left: 6px solid #a74ebd; background: #ffffff; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<div style="font-size: 1.1em;"> Bei Fragebogendaten wird in **soziodemografische** und **psychometrische** Daten unterschieden.<br> 
 Soziodemografische Daten sind Daten wie z.B. 
 
 <div><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Alter</span><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Geschlecht</span><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Wohnort</span></div>
@@ -1277,8 +1197,7 @@ Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfa
 über vorformulierte, geschlossene Items.
 
 </div>
-
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+</div>
 
 
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #a74ebd; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für soziodemografische Daten</span>
@@ -1297,7 +1216,6 @@ Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfa
 | :------ | :-: | :-: | :-: | :-: |
 | Welchem Geschlecht fühlst du dich zugehörig? | ○  | ○  | ○  | ○  |
 
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
 
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #2a9a50; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für psychometrische Daten</span>
 <div style="height: 15px;"></div>
@@ -1355,7 +1273,7 @@ Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile 
 
 </details>
 
-<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala</span><span style="font-size: 1.1em;"> :**Ein einzelnes Item zur Anstrengung**</span>
+<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala</span><span style="font-size: 1.1em;">  **Ein einzelnes Item zur Anstrengung**</span>
 
 Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer einzigen Zahl**, wie anstrengend die Belastung empfunden wurde. Die Werte 6 bis 20 sind so gewählt, dass die Zahl mal 10 ungefähr dem Puls eines gesunden Erwachsenen entspricht (13 ➜ ca. 130 Schläge pro Minute).
 
@@ -1382,13 +1300,6 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 <div style="height: 10px;"></div>
-
-<details>
-<summary><b> 🧐 Warum gibt es hier kein Beispiel für die Ausdauerleistung?</b></summary>
-
-Die Ausdauerleistung wird mit einem physischen Test gemessen, dafür braucht es keinen Fragebogen.
-
-</details>
 
 <div style="height: 10px;"></div>
 
@@ -1520,26 +1431,12 @@ Damit die Beobachtung <b>objektiv</b> ist, sollten mindestens zwei Personen unab
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 <div style="height: 15px;"></div>
 
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gelaufene Strecke selbst misst der Cooper-Test, die Beobachtung ergänzt, <i>wie</i> sie zustande kam.
 </div>
 </div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
-Das Empfinden selbst ist nicht beobachtbar, dafür aber Verhalten, das damit zusammenhängen kann (z. B. Gehpausen). Für das Empfinden selbst eignen sich eher die Borg-Skala oder ein Fragebogen.
-</div>
-</div>
-
-</div>
-
-<div style="height: 15px;"></div>
-
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Zum Nachlesen: Döring & Bortz (2016)
@@ -1650,14 +1547,6 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 </div>
 </div>
 <div style="height: 10px;"></div>
-<details>
-<summary><b> 🧐 Warum gibt es hier kein Beispiel für Anstregungsempfinden?</b></summary>
-
-Das Anstregungsempfinden wird mit Hilfe einer **Befragung** gemessen und kann nicht mit eine physischen Test gemessen werden, da es sich um eine subjektiven Wert handelt.
-
-</details>
-
-
 
 <div style="height: 15px;"></div>
 
@@ -1956,13 +1845,6 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 </div>
 </div>
 
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<b>UV:</b> Musik (mit / ohne) ➜ <b>AV:</b> Anstrengungsempfinden (z. B. Borg-Skala oder Skalenwert aus Likert-Items)
-</div>
-</div>
-
 </div>
 
 <div style="height: 15px;"></div>
@@ -1997,13 +1879,6 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 Die Bedingung (mit/ohne Musik) ist <b>nominal</b>, die gelaufene Strecke in Metern ist <b>verhältnisskaliert</b>.
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordinal</b>.
 </div>
 </div>
 
@@ -2110,13 +1985,6 @@ Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
 Die Bedingung (mit/ohne Musik) ist <b>nominal</b>. Hier können wir **Häufigkeit und Modus** berechnen. Die gelaufene Strecke in Metern ist <b>verhältnisskaliert</b>, hier sind **Mittelwert und Standardabweichung** relevant.
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-Ein Likert-Item zur Anstrengung (Skala von 1 bis 5) ist streng genommen <b>ordinal</b>, allerdings wird in der Praxis auch hier trotzdem **Mittelwert und Standardabweichung** berechnet.
 </div>
 </div>
 
@@ -2973,13 +2841,6 @@ Im ersten Teil zum Thema Ausaduerleistung, im zweiten Teil zum Thema Anstregungs
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
 Die gelaufene Strecke wird je Gruppe mit Mittelwert und Standardabweichung beschrieben. Die Mittelwertdifferenz (mit Musik − ohne Musik) beschreibt, wie groß der Unterschied in diesem Datensatz ist.
-</div>
-</div>
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b>📋<br>
-Die Anstrengung (BORG Skala, ordinal) beschreibst du mit Median und Quartilen und in der Praxis auch mit Mittelwert und Standardabweichung.
 </div>
 </div>
 
