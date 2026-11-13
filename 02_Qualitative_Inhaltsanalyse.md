@@ -13,6 +13,7 @@ link: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 -->
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/refs/heads/main/02_Qualitative_Inhaltsanalyse.md)
 
+# Qualitative Inhaltsanalyse
 
 ## Datenerhebung & Transkription
 <style>
