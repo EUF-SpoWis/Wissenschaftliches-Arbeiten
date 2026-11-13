@@ -33,148 +33,573 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 ---
 
 
-## Welcher Test passt?
+# Grundlagen statistischer Tests
+ 
+**Teil 1: Deskriptive Statistik mit JASP und Übersicht über statistische Tests**
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #ebf4ff;">
+**Was erwartet dich in diesem Kurs?**
+ 
+Du lernst, wie man Daten mithilfe von Kennwerten und Grafiken beschreibt und diese Kennwerte in JASP berechnet.
+ 
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #f0fff4;">
+**Durchgängiges Beispiel**
+ 
+Wir arbeiten weiterhin mit der Fragestellung aus dem Grundlagenkurs: *Hat Musik einen Effekt auf die Ausdauerleistung?*
+ 
+</div>
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #fffaf0;">
+**Wohin geht es danach?**
+ 
+Am Ende erhälst du eine Übersicht darüber, welcher statistische Test für welche Fragestellung geeignet ist.
+ 
+</div>
+ 
+## Lernziele
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Nach diesem Kurs kannst du …**
+ 
+1. den Unterschied zwischen deskriptiver und inferenzieller Statistik erklären,
+2. Lage- und Streuungsmaße für Gruppenvergleiche auswählen und interpretieren,
+3. deskriptive Statistiken in JASP berechnen und grafisch darstellen,
+4. die Reliabilität einer Fragebogenskala prüfen und Skalenmittelwerte bilden,
+5. für eine Fragestellung einen passenden statistischen Test auswählen.
+</div>
+ 
+## Das Beispiel: Musik und Ausdauerleistung
+ 
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Fragestellung**
+ 
+Laufen Sportstudierende mit Musik weiter als ohne Musik?
+ 
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Studiendesign**
+ 
+* 20 Sportstudierende werden zufällig zwei Gruppen zugeteilt.
+* Gruppe 1 läuft **ohne Musik**, Gruppe 2 läuft **mit Musik**.
+* Alle absolvieren einen **Cooper-Test** (12 Minuten Laufen).
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Variablen**
+ 
+* **Unabhängige Variable (UV):** Musik (ohne Musik / mit Musik) – nominalskaliert
+* **Abhängige Variable (AV):** Ausdauerleistung = gelaufene Strecke in Metern – verhältnisskaliert
+</div>
+ 
+<details>
+<summary><b>👉 Rohdaten</b></summary>
+
+Die gelaufene Strecke in Metern im Cooper-Test:
+ 
+<!-- data-type="none" -->
+| Person | Gruppe      | Strecke (m) |
+| :----: | :---------- | ----------: |
+|   1    | ohne Musik  |        2350 |
+|   2    | ohne Musik  |        2480 |
+|   3    | ohne Musik  |        2410 |
+|   4    | ohne Musik  |        2600 |
+|   5    | ohne Musik  |        2290 |
+|   6    | ohne Musik  |        2520 |
+|   7    | ohne Musik  |        2450 |
+|   8    | ohne Musik  |        2380 |
+|   9    | ohne Musik  |        2550 |
+|   10   | ohne Musik  |        2470 |
+|   11   | mit Musik   |        2500 |
+|   12   | mit Musik   |        2620 |
+|   13   | mit Musik   |        2480 |
+|   14   | mit Musik   |        2710 |
+|   15   | mit Musik   |        2440 |
+|   16   | mit Musik   |        2590 |
+|   17   | mit Musik   |        2650 |
+|   18   | mit Musik   |        2530 |
+|   19   | mit Musik   |        2760 |
+|   20   | mit Musik   |        2560 |
+
+</details>
+ 
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #fffaf0;">
+**Problem:** Aus 20 einzelnen Zahlen lässt sich kaum ablesen, ob Musik einen Unterschied macht. Wir brauchen Kennwerte, die die Daten **zusammenfassen**.
+ 
+</div>
+ 
+## Deskriptive vs. inferenzielle Statistik
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Deskriptive Statistik (beschreibend)**
+ 
+* fasst die Daten der **Stichprobe** zusammen
+* nutzt Kennwerte (z. B. Mittelwert) und Grafiken (z. B. Boxplot)
+* Beispiel: *„Die Gruppe mit Musik lief im Mittel 2584 m, die Gruppe ohne Musik 2450 m.“*
+</div>
+<div style="border: 2px solid #805ad5; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Inferenzielle Statistik (schließend)**
+ 
+* überprüft, ob sich Ergebnisse auf die **Population** übertragen lassen
+* nutzt statistische Tests (z. B. t-Test) und liefert p-Werte und Effektstärken
+* Beispiel: *„Ist der Unterschied von 134 m groß genug, um nicht nur zufällig zu sein?“*
+</div>
+**Merke:** Die deskriptive Statistik ist immer der erste Schritt – bevor getestet wird, müssen die Daten beschrieben werden.
+ 
+ 
+## Kennwerte und Grafiken
+ 
+Die einzelnen Maße kennst du bereits aus dem Grundlagenkurs. Hier noch einmal das Wichtigste im Überblick:
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Lagemaße** – wo liegt die „Mitte“ der Daten?
+ 
+* **Mittelwert ($M$):** Summe aller Werte geteilt durch ihre Anzahl – anfällig für Ausreißer
+* **Median ($Md$):** teilt die geordneten Werte in zwei Hälften – robust gegenüber Ausreißern
+* **Modus ($Mo$):** häufigster Wert – bei metrischen Daten selten sinnvoll
+</div>
+<div style="border: 2px solid #805ad5; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Streuungsmaße** – wie unterschiedlich sind die Werte?
+ 
+* **Spannweite:** Maximum − Minimum
+* **Varianz ($s^2$):** mittlere quadrierte Abweichung vom Mittelwert
+* **Standardabweichung ($SD$):** Wurzel aus der Varianz – in der Einheit der Originaldaten
+* **Interquartilsabstand (IQR):** $Q_3 - Q_1$, Bereich der mittleren 50 % – robust gegenüber Ausreißern
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Grafiken**
+ 
+* **Histogramm:** zeigt die Form der Verteilung
+* **Boxplot:** zeigt Median, Quartile und Ausreißer – ideal für Gruppenvergleiche
+</div>
+<!-- data-type="none" -->
+| Datenlage                                | Lagemaß    | Streuungsmaß                  |
+| :--------------------------------------- | :--------- | :---------------------------- |
+| metrisch, annähernd normalverteilt       | Mittelwert | Standardabweichung            |
+| metrisch, schief verteilt / Ausreißer    | Median     | Interquartilsabstand          |
+| ordinal (z. B. Rangplätze)               | Median     | Interquartilsabstand          |
+| nominal (z. B. Gruppe)                   | Modus      | – (Häufigkeiten berichten)    |
+ 
+ 
+### Boxplot der Ausdauerleistung
+ 
+<!-- data-type="boxplot" data-title="Gelaufene Strecke im Cooper-Test (m)" -->
+| ohne Musik | mit Musik |
+| ---------: | --------: |
+|       2350 |      2500 |
+|       2480 |      2620 |
+|       2410 |      2480 |
+|       2600 |      2710 |
+|       2290 |      2440 |
+|       2520 |      2590 |
+|       2450 |      2650 |
+|       2380 |      2530 |
+|       2550 |      2760 |
+|       2470 |      2560 |
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**So lesen Sie einen Boxplot**
+ 
+* **Linie in der Box:** Median
+* **Box:** mittlere 50 % der Werte (von $Q_1$ bis $Q_3$)
+* **Whisker (Antennen):** reichen bis zum kleinsten bzw. größten Wert, der nicht weiter als 1,5 × IQR von der Box entfernt ist
+* **Einzelne Punkte außerhalb:** Ausreißer
+</div>
+ 
+## Deskriptive Statistik in JASP
+ 
+[JASP](https://jasp-stats.org/) ist eine kostenlose Open-Source-Statistiksoftware. Sie ist für Windows, macOS und Linux verfügbar.
+ 
+ 
+### Die Daten
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Datenformat**
+ 
+Jede Zeile ist eine Person, jede Spalte eine Variable. Speichern Sie die Daten als CSV-Datei (z. B. `ausdauer_musik.csv`):
+ 
+``` text
+Person,Gruppe,Strecke
+1,ohne Musik,2350
+2,ohne Musik,2480
+3,ohne Musik,2410
+4,ohne Musik,2600
+5,ohne Musik,2290
+6,ohne Musik,2520
+7,ohne Musik,2450
+8,ohne Musik,2380
+9,ohne Musik,2550
+10,ohne Musik,2470
+11,mit Musik,2500
+12,mit Musik,2620
+13,mit Musik,2480
+14,mit Musik,2710
+15,mit Musik,2440
+16,mit Musik,2590
+17,mit Musik,2650
+18,mit Musik,2530
+19,mit Musik,2760
+20,mit Musik,2560
+```
+ 
+</div>
+ 
+### Video: Deskriptive Statistik in JASP berechnen
+ 
+<!-- TODO: Platzhalter durch den Link zum JASP-Video ersetzen -->
+!?[Deskriptive Statistik in JASP](https://www.youtube.com/watch?v=VIDEO-ID)
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Im Video sehen Sie, wie Sie …**
+ 
+1. die Datei `ausdauer_musik.csv` in JASP öffnen und das Skalenniveau prüfen,
+2. unter *Descriptives → Descriptive Statistics* die Kennwerte getrennt nach Gruppe (*Split*) anfordern,
+3. Histogramme und Boxplots erstellen.
+</div>
+ 
+### Ergebnisse lesen
+ 
+So sieht die Ausgabe in JASP aus:
+ 
+<!-- data-type="none" -->
+| Descriptive Statistics |  Strecke (ohne Musik) | Strecke (mit Musik) |
+| :--------------------- | --------------------: | ------------------: |
+| Valid                  |                    10 |                  10 |
+| Median                 |              2460.000 |            2575.000 |
+| Mean                   |              2450.000 |            2584.000 |
+| Std. Deviation         |                94.751 |             102.546 |
+| Variance               |              8977.778 |           10515.556 |
+| Range                  |               310.000 |             320.000 |
+| Minimum                |              2290.000 |            2440.000 |
+| Maximum                |              2600.000 |            2760.000 |
+| 25th percentile        |              2387.500 |            2507.500 |
+| 50th percentile        |              2460.000 |            2575.000 |
+| 75th percentile        |              2510.000 |            2642.500 |
+ 
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #f0fff4;">
+**Interpretation**
+ 
+* Die Gruppe **mit Musik** lief im Mittel **134 m weiter** ($M = 2584$ m) als die Gruppe **ohne Musik** ($M = 2450$ m).
+* Mittelwert und Median liegen in beiden Gruppen nah beieinander → kein Hinweis auf eine stark schiefe Verteilung.
+* Die Streuung ist in beiden Gruppen ähnlich ($SD = 94{,}75$ m vs. $SD = 102{,}55$ m).
+</div>
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #fffaf0;">
+**Aber:** Ob dieser Unterschied von 134 m nur zufällig zustande gekommen ist, kann die deskriptive Statistik **nicht** beantworten. Dafür benötigen wir einen **statistischen Test**.
+ 
+</div>
+ 
+### Ergebnisse berichten (APA-Stil)
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Formulierungsbeispiel**
+ 
+*Die Teilnehmenden, die mit Musik liefen, legten im Cooper-Test im Mittel eine größere Strecke zurück (M = 2584 m, SD = 102.55) als die Teilnehmenden ohne Musik (M = 2450 m, SD = 94.75).*
+ 
+</div>
+ 
+## Zusatzbeispiel: Fragebogen, Reliabilität und Skalenmittelwerte
+ 
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Zusätzlich erhobener Fragebogen**
+ 
+Nach dem Cooper-Test füllen alle 20 Personen einen kurzen Fragebogen zur **Laufmotivation** aus. Die Skala besteht aus vier Items, die auf einer Likert-Skala von 1 (*trifft gar nicht zu*) bis 5 (*trifft voll zu*) beantwortet werden:
+ 
+| Item | Aussage                                          |
+| :--: | :----------------------------------------------- |
+| M1   | Ich hatte Lust, weiterzulaufen.                  |
+| M2   | Das Laufen hat mir Spaß gemacht.                 |
+| M3   | Ich wollte möglichst schnell aufhören. *(invertiert)* |
+| M4   | Ich habe mich beim Laufen angestrengt, weil ich es wollte. |
+ 
+</div>
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Reliabilität: Messen die Items dasselbe?**
+ 
+Bevor wir die Items zu einem Wert zusammenfassen, prüfen wir die **interne Konsistenz** der Skala – also, ob die Items dasselbe Merkmal erfassen.
+ 
+* **Cronbachs Alpha ($\alpha$)** liegt zwischen 0 und 1.
+* Faustregel: ab **.70 akzeptabel**, ab **.80 gut**, ab **.90 sehr gut**.
+* Die Kennwerte *„if item dropped“* zeigen, ob ein einzelnes Item die Reliabilität verschlechtert.
+</div>
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #fffaf0;">
+**Achtung: invertierte Items!**
+ 
+Item M3 ist negativ formuliert. Es muss **vor** der Reliabilitätsanalyse umgepolt werden (1 → 5, 2 → 4, …), sonst sinkt die Reliabilität deutlich. Formel: $M3_{neu} = 6 - M3$
+ 
+</div>
+<div style="border: 2px solid #805ad5; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Skalenmittelwert bilden**
+ 
+Ist die Reliabilität ausreichend, wird pro Person der Mittelwert über alle Items berechnet:
+ 
+$$
+\text{Motivation} = \frac{M1 + M2 + M3_{neu} + M4}{4}
+$$
+ 
+*Beispiel:* Eine Person antwortet M1 = 4, M2 = 5, M3 = 2 (umgepolt: 4) und M4 = 3 → Motivation = $\frac{4 + 5 + 4 + 3}{4} = 4$
+ 
+Der Skalenmittelwert kann anschließend wie die Strecke deskriptiv beschrieben werden (z. B. getrennt nach Gruppe).
+ 
+</div>
+ 
+### Video: Reliabilitätsanalyse und Skalenmittelwerte in JASP
+ 
+<!-- TODO: Platzhalter durch den Link zum JASP-Tutorial ersetzen -->
+!?[Reliabilitätsanalyse und Skalenmittelwerte in JASP](https://www.youtube.com/watch?v=VIDEO-ID)
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Im Tutorial sehen Sie, wie Sie …**
+ 
+1. das invertierte Item M3 umpolen,
+2. unter *Reliability → Unidimensional Reliability* Cronbachs Alpha berechnen und die Werte *if item dropped* ablesen,
+3. über eine neue berechnete Spalte (*Compute column*) den Skalenmittelwert bilden.
+</div>
+ 
+## Übersicht: Welcher statistische Test?
+ 
+Die Wahl des Tests hängt von drei Fragen ab:
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**1. Was ist die Fragestellung?**
+ 
+* **Unterschied:** Unterscheiden sich Gruppen oder Messzeitpunkte? (z. B. Laufen Personen mit Musik weiter als ohne?)
+* **Zusammenhang:** Hängen zwei Variablen zusammen? (z. B. Hängt das Musiktempo mit der gelaufenen Strecke zusammen?)
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**2. Wie sind die Daten erhoben worden?**
+ 
+* **Unabhängige Stichproben:** verschiedene Personen in den Gruppen (z. B. Gruppe A ohne Musik, Gruppe B mit Musik)
+* **Abhängige Stichproben:** dieselben Personen werden mehrfach gemessen (z. B. alle laufen einmal ohne und einmal mit Musik)
+* **Anzahl der Gruppen bzw. Messzeitpunkte:** zwei oder mehr als zwei?
+</div>
+<div style="border: 2px solid #805ad5; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**3. Welches Skalenniveau und welche Verteilung hat die AV?**
+ 
+* **Metrisch und annähernd normalverteilt** → **parametrische** Tests
+* **Ordinal oder nicht normalverteilt** (bei kleinen Stichproben) → **nicht-parametrische** Tests
+</div>
+ 
+### Entscheidungsbaum
+ 
+``` ascii
+                          Fragestellung?
+                                |
+             +------------------+------------------+
+             |                                     |
+        Unterschied                           Zusammenhang
+             |                                     |
+     Wie viele Gruppen /               +-----------+-----------+
+     Messzeitpunkte?                   |                       |
+             |                  metrisch, normal-       ordinal / nicht
+     +-------+-------+          verteilt                normalverteilt
+     |               |                 |                       |
+   zwei        mehr als zwei      Pearson-r              Spearman-rho
+     |               |
+ unabhängig?     unabhängig?
+  |       |       |       |
+ ja      nein    ja      nein
+  |       |       |       |
+ t-Test  t-Test  ANOVA   ANOVA mit
+ (unab-  (ab-    (ein-   Messwieder-
+ hängig) hängig) fakt.)  holung
+```
+ 
+*Nicht-parametrische Alternativen finden Sie in der folgenden Tabelle.*
+ 
+ 
+### Unterschiedshypothesen
+ 
+<!-- data-type="none" -->
+| Situation                                  | Parametrischer Test             | Nicht-parametrische Alternative | Beispiel Ausdauerleistung                                                                 |
+| :----------------------------------------- | :------------------------------ | :------------------------------ | :---------------------------------------------------------------------------------------- |
+| 2 unabhängige Gruppen                      | t-Test für unabhängige Stichproben | Mann-Whitney-U-Test           | Gruppe ohne Musik vs. Gruppe mit Musik                                                    |
+| 2 abhängige Messungen                      | t-Test für abhängige Stichproben   | Wilcoxon-Vorzeichen-Rang-Test | Dieselben Personen laufen einmal ohne und einmal mit Musik                                |
+| > 2 unabhängige Gruppen                    | einfaktorielle ANOVA            | Kruskal-Wallis-Test             | Gruppen ohne Musik vs. langsame Musik vs. schnelle Musik                                  |
+| > 2 abhängige Messungen                    | ANOVA mit Messwiederholung      | Friedman-Test                   | Dieselben Personen laufen ohne, mit langsamer und mit schneller Musik                     |
+| 2 oder mehr unabhängige Variablen          | mehrfaktorielle ANOVA           | –                               | Musik (ohne / mit) × Geschlecht                                                           |
+ 
+ 
+### Zusammenhangshypothesen
+ 
+<!-- data-type="none" -->
+| Situation                                   | Test                                | Beispiel Ausdauerleistung                                                   |
+| :------------------------------------------ | :---------------------------------- | :-------------------------------------------------------------------------- |
+| 2 metrische, normalverteilte Variablen      | Pearson-Korrelation ($r$)           | Musiktempo (BPM) und gelaufene Strecke                                      |
+| ordinale oder nicht normalverteilte Daten   | Spearman-Rangkorrelation ($\rho$)   | Rangplatz im Lauf und Musiktempo                                            |
+| Vorhersage einer AV durch eine/mehrere UV   | (multiple) lineare Regression       | Vorhersage der Strecke durch Musiktempo und wöchentlichen Trainingsumfang   |
+| 2 nominale Variablen                        | Chi²-Test                           | Musik (ohne / mit) und Cooper-Test bestanden (ja / nein)                    |
+ 
+ 
+### Und für unser Beispiel?
+ 
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #f0fff4;">
+**Unsere Studie im Überblick**
+ 
+* **Fragestellung:** Unterschied (Laufen Personen mit Musik weiter?)
+* **Stichproben:** zwei unabhängige Gruppen (verschiedene Personen)
+* **AV:** Strecke in Metern → metrisch
+→ Geeigneter Test: **t-Test für unabhängige Stichproben** (bzw. Mann-Whitney-U-Test, falls die Voraussetzungen nicht erfüllt sind)
+ 
+</div>
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem; background-color: #fffaf0;">
+**Ausblick**
+ 
+Im nächsten Kapitel führen wir den t-Test für unabhängige Stichproben in JASP durch und prüfen vorher seine Voraussetzungen (Normalverteilung, Varianzhomogenität).
+ 
+</div>
+ 
+## Zusammenfassung
+ 
+<div style="border: 2px solid #2b6cb0; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Deskriptive Statistik**
+ 
+Beschreibt die Stichprobe mit Lagemaßen (Mittelwert, Median), Streuungsmaßen (Standardabweichung, IQR) und Grafiken (Histogramm, Boxplot).
+ 
+</div>
+<div style="border: 2px solid #2f855a; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**JASP**
+ 
+*Descriptives → Descriptive Statistics*: AV in *Variables*, Gruppenvariable in *Split*, Kennwerte unter *Statistics*, Grafiken unter *Plots*.
+ 
+</div>
+<div style="border: 2px solid #c05621; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Reliabilität und Skalenmittelwerte**
+ 
+Invertierte Items umpolen, interne Konsistenz mit Cronbachs Alpha prüfen (ab .70 akzeptabel), dann den Mittelwert über die Items bilden.
+ 
+</div>
+<div style="border: 2px solid #805ad5; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1rem;">
+**Testauswahl**
+ 
+Abhängig von Fragestellung (Unterschied / Zusammenhang), Stichprobenart (unabhängig / abhängig), Anzahl der Gruppen und Skalenniveau bzw. Verteilung der AV.
+ 
+</div>
+ 
+## Quiz
+ 
+Testen Sie Ihr Wissen zu allen Themen dieses Kurses.
+ 
+ 
+**Deskriptiv oder inferenziell?**
+ 
+Welche Aussage gehört zur **deskriptiven** Statistik?
+ 
+- [( )] Musik verbessert die Ausdauerleistung von Sportstudierenden signifikant (p < .05).
+- [(X)] Die Standardabweichung der Gruppe ohne Musik beträgt 94,75 m.
+- [( )] Der Unterschied zwischen den Gruppen lässt sich auf alle Sportstudierenden übertragen.
+***********************************************************************
+Die Standardabweichung beschreibt nur die Streuung **in der vorliegenden Stichprobe**. Aussagen über Signifikanz oder die Übertragbarkeit auf alle Sportstudierenden gehören zur inferenziellen Statistik.
+***********************************************************************
+
+**JASP-Ausgabe**
+ 
+In welches Feld ziehen Sie in JASP die Variable **Gruppe**, um die Kennwerte getrennt nach Gruppen zu erhalten?
+ 
+- [( )] Variables
+- [(X)] Split
+- [( )] Frequency tables
+***********************************************************************
+Über das Feld **Split** werden alle Kennwerte und Grafiken getrennt für jede Ausprägung der Gruppenvariable ausgegeben.
+***********************************************************************
+ 
+ 
+**Reliabilität und Skalenmittelwerte**
+ 
+Die Reliabilitätsanalyse der Motivationsskala ergibt $\alpha = .82$. Wie ist dieser Wert einzuschätzen?
+ 
+- [( )] nicht akzeptabel
+- [( )] gerade noch akzeptabel
+- [(X)] gut
+***********************************************************************
+Werte ab .80 gelten als gut. Die Items erfassen also weitgehend dasselbe Merkmal, und ein Skalenmittelwert kann gebildet werden.
+***********************************************************************
+
+ 
+Was passiert, wenn das invertierte Item **nicht** umgepolt wird?
+ 
+- [(X)] Die Reliabilität sinkt, weil das Item den anderen Items entgegenläuft.
+- [( )] Die Reliabilität steigt, weil die Items unterschiedlicher werden.
+- [( )] Nichts, JASP polt invertierte Items automatisch um.
+***********************************************************************
+Ein nicht umgepoltes Item korreliert negativ mit den übrigen Items und senkt dadurch die interne Konsistenz. JASP erkennt invertierte Items nicht automatisch – sie müssen vorher umgepolt bzw. in der Analyse als *reverse-scaled items* angegeben werden.
+***********************************************************************
+ 
+ 
+**Testauswahl**
+ 
+Alle 20 Personen laufen den Cooper-Test **einmal ohne und einmal mit Musik**. Welcher Test ist geeignet, wenn die Daten normalverteilt sind?
+ 
+- [( )] t-Test für unabhängige Stichproben
+- [(X)] t-Test für abhängige Stichproben
+- [( )] einfaktorielle ANOVA
+- [( )] Pearson-Korrelation
+***********************************************************************
+Da **dieselben Personen** zweimal gemessen werden, liegen abhängige Stichproben vor. Bei zwei Messzeitpunkten und normalverteilten Daten ist der t-Test für abhängige Stichproben geeignet.
+***********************************************************************
+ 
+Drei Gruppen laufen **ohne Musik, mit langsamer Musik und mit schneller Musik**. Die Daten sind **nicht** normalverteilt. Welcher Test ist geeignet?
+ 
+- [( )] einfaktorielle ANOVA
+- [( )] Friedman-Test
+- [(X)] Kruskal-Wallis-Test
+- [( )] Wilcoxon-Vorzeichen-Rang-Test
+***********************************************************************
+Es handelt sich um **mehr als zwei unabhängige Gruppen** mit nicht normalverteilten Daten. Die nicht-parametrische Alternative zur einfaktoriellen ANOVA ist der Kruskal-Wallis-Test.
+***********************************************************************
+ 
+Es soll untersucht werden, ob das **Musiktempo (BPM)** mit der **gelaufenen Strecke** zusammenhängt. Beide Variablen sind metrisch und normalverteilt. Welcher Test ist geeignet?
+ 
+- [(X)] Pearson-Korrelation
+- [( )] Chi²-Test
+- [( )] t-Test für unabhängige Stichproben
+***********************************************************************
+Bei einem **Zusammenhang** zwischen zwei metrischen, normalverteilten Variablen ist die Pearson-Korrelation geeignet.
+***********************************************************************
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Deskriptive Statistik
+
+<section>
+
+<div style="height: 15px;"></div>
+
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Wir haben den vergangenen Kurs mit dem Einstieg in deskriptive Statistik bekonnen. Damit machen wir hier nun weiter:
+</div>
+
+</section>
+
+
+## Wahl des Tests
 
 
 <iframe
-  src="https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/HTML%20Tools/entscheidungsbaum-tests.html"
+  src="https://euf-spowis.github.io/Wissenschaftliches-Arbeiten/HTML%20Tools/entscheidungsbaum-tests.html"
   width="100%"
-  height="700px"
-  style="border: none;">
+  height="600"
+  style="border: none;"
+  allowfullscreen>
 </iframe>
-
-
-<div id="tests-baum">
-<style>
-#tests-baum {
-    background: #ffffff; color: #1f2933; border: 1px solid #dbe2eb; border-radius: 16px; padding: 16px; max-width: 900px; margin: 20px auto; font-family: system-ui, sans-serif;
-    --bg: #ffffff; --fg: #1f2933; --muted: #64748b; --card: #f3f6fa; --line: #cbd5e1;
-    --root: #2f6f57; --root-fg: #ffffff;
-    --zus: #4e66bd; --zus-bg: #eef2fb;
-    --unt: #2a9a50; --unt-bg: #eaf6ee;
-    --par: #2f6f57; --par-bg: #e3efe9;
-    --non: #e08a1e; --non-bg: #fdf3e7;
-    --mus: #4e66bd;
-  }#tests-baum, #tests-baum * { box-sizing: border-box; }#tests-baum { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg);
-         margin: 0; padding: 16px; line-height: 1.45; }#tests-baum .wrap { max-width: 880px; margin: 0 auto; }#tests-baum .tools { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }#tests-baum .tools button { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 8px;
-                  padding: 6px 12px; font: inherit; font-size: .9rem; cursor: pointer; }#tests-baum .tools button:hover { border-color: var(--root); }#tests-baum .legend { display: flex; gap: 10px; flex-wrap: wrap; font-size: .85rem; margin-bottom: 14px; }#tests-baum .chip { display: inline-block; padding: 1px 10px; border-radius: 99px; font-size: .78rem; font-weight: 600; border: 2px solid; }#tests-baum .chip.par { color: var(--par); background: var(--par-bg); border-color: var(--par); }#tests-baum .chip.non { color: var(--non); background: var(--non-bg); border-color: var(--non); }#tests-baum .root { display: inline-block; background: var(--root); color: var(--root-fg); padding: 10px 16px;
-          border-radius: 12px; font-weight: 700; margin-bottom: 10px; }#tests-baum /* Baum */
-  details { margin: 6px 0; }#tests-baum details > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px;
-                      padding: 9px 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--card);
-                      font-weight: 600; user-select: none; }#tests-baum details > summary::-webkit-details-marker { display: none; }#tests-baum details > summary::before { content: "▶"; font-size: .7rem; transition: transform .15s; flex: none; }#tests-baum details[open] > summary::before { transform: rotate(90deg); }#tests-baum details > summary:hover { filter: brightness(0.97); }#tests-baum details > summary small { font-weight: 400; color: var(--muted); font-size: .8rem; margin-left: auto; text-align: right; }#tests-baum .kids { margin: 4px 0 4px 18px; padding-left: 16px; border-left: 3px solid var(--line); }#tests-baum .zus > summary { background: var(--zus-bg); border-color: var(--zus); }#tests-baum .unt > summary { background: var(--unt-bg); border-color: var(--unt); }#tests-baum .lvl > summary { background: var(--bg); }#tests-baum /* Blätter */
-  .leaf { margin: 6px 0; padding: 10px 14px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }#tests-baum .leaf .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }#tests-baum .leaf .q { font-weight: 600; margin-right: 4px; }#tests-baum .tests { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; margin-top: 8px; }#tests-baum .test { border: 2px solid; border-radius: 10px; padding: 8px 10px; }#tests-baum .test.par { background: var(--par-bg); border-color: var(--par); }#tests-baum .test.non { background: var(--non-bg); border-color: var(--non); }#tests-baum .test b { display: block; margin-top: 3px; }#tests-baum .ex { margin-top: 6px; font-size: .85rem; color: var(--fg); border-left: 4px solid var(--mus); padding-left: 8px; }#tests-baum .single { margin-top: 8px; }#tests-baum .single .test { background: var(--zus-bg); border-color: var(--zus); }#tests-baum .note { margin-top: 14px; font-size: .8rem; color: var(--muted); }
-</style>
-<div class="intro" style="color:#64748b; margin-bottom: 10px;">Klicke auf die Äste, um den Entscheidungsbaum Schritt für Schritt aufzuklappen.</div>
-  <div class="tools">
-    <button type="button" class="tb-open">Alle aufklappen</button>
-    <button type="button" class="tb-close">Alle zuklappen</button>
-  </div>
-  <div class="legend">
-    <span><span class="chip par">parametrisch</span> Voraussetzungen erfüllt</span>
-    <span><span class="chip non">nichtparametrisch</span> ordinal oder Voraussetzungen verletzt</span>
-  </div>
-  <div class="root">Was soll getestet werden?</div>
-  <div class="kids" style="margin-left: 14px;">
-        <details class="zus">
-      <summary>🔗 Zusammenhänge <small>Hängen zwei Merkmale zusammen?</small></summary>
-      <div class="kids">
-        <details class="lvl">
-          <summary>🏷️ Nominal</summary>
-          <div class="kids">
-            <div class="single"><div class="test"><span class="chip par">Test</span><b>Chi-Quadrat-Test</b>
-              <div class="ex">🏃🏾‍♀️ Hängt die Musikbedingung damit zusammen, ob jemand den Lauf ohne Gehpause schafft (ja/nein)?</div></div></div>
-          </div>
-        </details>
-        <details class="lvl">
-          <summary>📶 Ordinal</summary>
-          <div class="kids">
-            <div class="single"><div class="test"><span class="chip par">Test</span><b>Kendall-Tau oder Spearman-Korrelation</b>
-              <div class="ex">📋 Hängt die Trainingshäufigkeit (Stufen 1 bis 5) mit dem Borg-Wert zusammen?</div></div></div>
-          </div>
-        </details>
-        <details class="lvl">
-          <summary>📏 Metrisch</summary>
-          <div class="kids">
-            <div class="single"><div class="test"><span class="chip par">Test</span><b>Pearson-Korrelation</b>
-              <div class="ex">🏃🏾‍♀️ Hängt das Tempo der Musik (BPM) mit der gelaufenen Strecke zusammen?</div></div></div>
-          </div>
-        </details>
-      </div>
-    </details>
-        <details class="unt">
-      <summary>⚖️ Unterschiede <small>Unterscheiden sich Gruppen oder Messungen?</small></summary>
-      <div class="kids">
-        <details class="lvl">
-          <summary>👥 Unabhängige Stichproben <small>verschiedene Personen</small></summary>
-          <div class="kids">
-            <details class="lvl">
-              <summary>2 Gruppen</summary>
-              <div class="kids">
-                <div class="tests">
-                  <div class="test par"><span class="chip par">parametrisch</span><b>t-Test für unabhängige Stichproben</b></div>
-                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Mann-Whitney-U-Test</b></div>
-                </div>
-                <div class="ex">🏃🏾‍♀️ Strecke mit gegen ohne Musik (verschiedene Personen)<br>📋 Borg-Wert mit gegen ohne Musik (verschiedene Personen)</div>
-              </div>
-            </details>
-            <details class="lvl">
-              <summary>mehr als 2 Gruppen</summary>
-              <div class="kids">
-                <div class="tests">
-                  <div class="test par"><span class="chip par">parametrisch</span><b>ANOVA</b></div>
-                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Kruskal-Wallis-Test</b></div>
-                </div>
-                <div class="ex">🏃🏾‍♀️ Strecke bei ohne, langsamer und schneller Musik (verschiedene Personen)</div>
-              </div>
-            </details>
-          </div>
-        </details>
-        <details class="lvl">
-          <summary>🔁 Abhängige Stichproben <small>dieselben Personen</small></summary>
-          <div class="kids">
-            <details class="lvl">
-              <summary>2 Messungen</summary>
-              <div class="kids">
-                <div class="tests">
-                  <div class="test par"><span class="chip par">parametrisch</span><b>t-Test für verbundene Stichproben</b></div>
-                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Wilcoxon-Test</b></div>
-                </div>
-                <div class="ex">🏃🏾‍♀️ Strecke derselben Personen mit und ohne Musik<br>📋 Borg-Wert derselben Personen mit und ohne Musik</div>
-              </div>
-            </details>
-            <details class="lvl">
-              <summary>mehr als 2 Messungen</summary>
-              <div class="kids">
-                <div class="tests">
-                  <div class="test par"><span class="chip par">parametrisch</span><b>ANOVA mit Messwiederholung</b></div>
-                  <div class="test non"><span class="chip non">nichtparametrisch</span><b>Friedman-Test</b></div>
-                </div>
-                <div class="ex">🏃🏾‍♀️ Strecke derselben Personen bei ohne, langsamer und schneller Musik</div>
-              </div>
-            </details>
-          </div>
-        </details>
-      </div>
-    </details>
-  </div>
-  <p class="note">Faustregel: Metrische, annähernd normalverteilte Daten ➜ parametrischer Test. Ordinale Daten oder verletzte Voraussetzungen ➜ nichtparametrischer Test.</p>
-</div>
-<script>
-(() => {
-  const root = document.getElementById("tests-baum");
-  if (!root || root.dataset.initialized === "true") return;
-  root.dataset.initialized = "true";
-  root.querySelector(".tb-open").addEventListener("click", () => root.querySelectorAll("details").forEach(d => d.open = true));
-  root.querySelector(".tb-close").addEventListener("click", () => root.querySelectorAll("details").forEach(d => d.open = false));
-})();
-</script>
-
-
-
-
-
-
-
 
 ---
 
