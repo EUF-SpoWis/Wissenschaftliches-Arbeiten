@@ -170,21 +170,21 @@ In den gelben Boxen findest du immer wieder Anwendungsbeispiele und Hinweise dar
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">✅</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Prüfen bestehender Theorien</b></div>
 <div style="font-size: 0.9em;">Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> Es gibt schon Studien, die sich mit dem Einfluss von Musik beschäftigen, und hier soll es jetzt zum Beispiel auf eine andere Zielgruppe angewandt werden.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">✴️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Wirksamkeitsnachweise</b></div>
 <div style="font-size: 0.9em;">Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> Hier könnte man sich zum Beispiel angucken, wie sich die Ausdauerleistung verändert, abhängig von der Anwesenheit von Musik.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🌀</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Generalisierung</b></div>
 <div style="font-size: 0.9em;">Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).</div>
@@ -318,19 +318,19 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📝</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Ausgangspunkt</b></div>
 <div style="font-size: 0.9em;">Quantitative Forschung startet bei einer <b>Theorie oder einem Modell</b>, aus dem sich prüfbare Hypothesen ableiten lassen – <b>nicht</b> bei einem offenen Phänomen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔍</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Präzision</b></div>
 <div style="font-size: 0.9em;">Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🏡</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Reduktion</b></div>
 <div style="font-size: 0.9em;">Die Reduktion von Komplexität erfolgt bereits <b>vor</b> der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.</div>
@@ -416,19 +416,19 @@ Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(tr
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🕒</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Vorläufig</b></div>
 <div style="font-size: 0.9em;">Bedeutet: Sie ist noch nicht bewiesen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔬</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Überprüfbar</b></div>
 <div style="font-size: 0.9em;">Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔗</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Bezug</b></div>
 <div style="font-size: 0.9em;">Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen.</div>
@@ -436,7 +436,7 @@ Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(tr
 
 </div>
 
-<!-- class="animate__animated animate__fadeIn animate__delay-3s" -->
+<!-- class="animate__animated animate__fadeIn animate__delay-1s" -->
 <section>
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
@@ -994,7 +994,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📋</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Befragung</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was sagen die Teilnehmenden?“</div>
@@ -1002,7 +1002,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #2a9a50; border-radius: 0 8px 8px 0; font-size: 0.85em;">📋 „Ich habe die Anstrengung kaum gespürt.“ – trifft nicht zu / trifft eher nicht zu / trifft eher zu / trifft zu</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">👀</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Beobachtung</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was tun die Teilnehmenden?“</div>
@@ -1010,7 +1010,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Beobachtung während eines 5-km-Wettkampfs und Vergleich zwischen den Athleten mit Musik und denen ohne.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⏱️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Testen und Messen</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was leisten oder zeigen sie?“</div>
@@ -1044,7 +1044,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⚖️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Objektivität</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Kommt jede Person zum selben Ergebnis?“</div>
@@ -1056,14 +1056,14 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 </ul>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔁</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Reliabilität</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Kommt bei Wiederholung dasselbe heraus?“</div>
 <div style="font-size: 0.9em;">Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🎯</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Validität</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Misst es wirklich, was es messen soll?“</div>
@@ -1121,7 +1121,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🧑‍🏫</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Testleiter-Effekte</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Beeinflusst die testende Person das Ergebnis?“</div>
@@ -1129,7 +1129,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Die Testleitung kennt die Hypothese „Musik verbessert die Leistung“ und ruft der Musikgruppe unbewusst öfter Ermutigungen zu.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">↕️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Decken- und Bodeneffekte</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Ist der Test zu leicht oder zu schwer?“</div>
@@ -1138,7 +1138,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Bodeneffekt: Ein Test ist so schwer, dass fast alle sehr niedrige Werte erreichen.</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-2s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🌦️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Störvariablen</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Wirkt etwas mit, das nicht zur Forschung gehört?“</div>
@@ -1336,12 +1336,12 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 <span style="font-size: 1.4em;">📑</span> <b>Kategorien:</b> Vorab ist eindeutig festgelegt, welches Verhalten erfasst wird.<br>
 <span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. „Gehpause“ = mindestens 3 Sekunden Gehen statt Laufen</span>
 </div>
-<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 10px 15px; margin: 8px 0; color: #1f2933;">
 <span style="font-size: 1.4em;">⏲️</span> <b>Zeitplan:</b> Es ist festgelegt, wann und wie lange beobachtet wird.<br>
 <span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. alle 30 Sekunden notieren, ob gelaufen oder gegangen wird</span>
 </div>
-<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 10px 15px; margin: 8px 0; color: #1f2933;">
 <span style="font-size: 1.4em;">🔢</span> <b>Zahlen:</b> Das Verhalten wird gezählt oder gemessen und statistisch verglichen.<br>
 <span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. Anzahl der Gehpausen pro Läufer:in</span>
@@ -1355,7 +1355,7 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<!-- class="animate__animated animate__fadeInUp" -->
+
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">✍️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Ereignisstichprobe</b></div>
@@ -1363,7 +1363,7 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Wie oft geht die Person in 12 Minuten statt zu laufen?</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⏱️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Zeitstichprobe</b></div>
@@ -1371,7 +1371,7 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Alle 30 Sekunden: läuft / geht? Aus den Notizen ergibt sich der Anteil der Zeit im Laufen.</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⏳</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Dauererfassung</b></div>
@@ -1465,7 +1465,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Strecke, Stufe, Laktat, Herzfrequenz</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">💪</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kraft</b></div>
@@ -1473,7 +1473,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Kilogramm, Zentimeter, Wiederholungen</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⚡</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Schnelligkeit</b></div>
@@ -1481,7 +1481,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Sekunden</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-3s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🤸</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Beweglichkeit</b></div>
@@ -1489,7 +1489,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Zentimeter</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-4s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⚖️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Koordination</b></div>
@@ -1497,7 +1497,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Schritte, Sprünge in einer Zeit</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-5s" -->
+<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🧠</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kognition</b></div>
@@ -1554,7 +1554,7 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<!-- class="animate__animated animate__fadeInUp" -->
+
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📏</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Standardisierung</b></div>
@@ -1563,7 +1563,7 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Alle laufen auf derselben 400-m-Bahn, nach 10 Minuten Einlaufen und mit der Ansage „So weit wie möglich in 12 Minuten“.</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-1s" -->
+
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔥</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Maximale Leistung</b></div>
@@ -1572,7 +1572,7 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Wer wenig motiviert ist, läuft kürzer. Das hat dann nichts mit der Musik zu tun.</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp animate__delay-2s" -->
+
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📊</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Vergleichswerte</b></div>
@@ -1803,21 +1803,21 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🎛️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Unabhängige Variable (UV)</b></div>
 <div style="font-size: 0.9em;">wird variiert bzw. als Einflussfaktor betrachtet</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Musik (mit / ohne)</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-1s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📏</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Abhängige Variable (AV)</b></div>
 <div style="font-size: 0.9em;">wird gemessen, soll vom Einfluss abhängen</div>
 <div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 gelaufene Strecke in m</div>
 </div>
 
-<div class="animate__animated animate__fadeInUp animate__delay-3s" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔒</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kontrollvariable</b></div>
 <div style="font-size: 0.9em;">wird bewusst konstant gehalten, um Einfluss auf die AV auszuschließen</div>
