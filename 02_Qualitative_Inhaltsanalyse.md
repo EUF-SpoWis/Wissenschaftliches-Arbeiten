@@ -540,8 +540,8 @@ init(40);
 
 #### Das Beispielinterview
 
-<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.2em;">**Aufgabe: Du bekommst nun vier kurze Ausschnitte aus dem Interview vorgelegt. Die Ausschnitte sind in **Sinneinheiten** gegliedert (gestrichelt umrandet). Aufgabe: **Markiere die Sinneinheiten farbig** und ordne sie damit einer deduktiven Kategorie zu.</span>
+<div style="border: 2px solid #1c615c49; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="font-size: 1.0em;">Du bekommst nun vier kurze Ausschnitte aus dem Interview vorgelegt. Die Ausschnitte sind in **Sinneinheiten** gegliedert (gestrichelt umrandet). Aufgabe: **Markiere die Sinneinheiten farbig** und ordne sie damit einer deduktiven Kategorie zu.</span>
 </div>
 
 > **Hinweis:** Die Zuordnung ist nicht immer eindeutig. Nutze die Musterlösung als Orientierung und Anregung für den Vergleich im Plenum, nicht als "die einzig richtige" Antwort.
