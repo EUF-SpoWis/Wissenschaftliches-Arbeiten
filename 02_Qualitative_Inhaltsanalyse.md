@@ -343,10 +343,10 @@ function parse(){
     var m = l.match(/^\[(Einstiegsphase|Themenblock|Ausklang)[^\]]*\]$/);
     if(m){ newBlock(l.slice(1, -1)); continue; }
     if(!cur) newBlock('Beginn');
-    var n = l.match(/^S([12])\s*:\s*(.*)$/);
+    var n = l.match(/^(S1|S2|I|K)\s*:\s*(.*)$/); // GEÄNDERT: erkennt S1/S2 und I/K
     if(n){
       nr++;
-      cur.items.push({typ: 'turn', s: n[1], text: n[2], nr: nr});
+      cur.items.push({typ: 'turn', s: (n[1] === 'S2' || n[1] === 'K') ? 'K' : 'I', text: n[2], nr: nr}); // GEÄNDERT
     } else if(l.charAt(0) === '[' && l.charAt(l.length - 1) === ']'){
       cur.items.push({typ: 'note', text: l.slice(1, -1)});
     } else if(cur.items.length){
@@ -460,13 +460,13 @@ function list(){
         if(!q){ rows += '<div class="tv-note">' + esc(it.text) + '</div>'; }
         continue;
       }
-      if(onlyKid && it.s === '1') continue;
+      if(onlyKid && it.s === 'I') continue; // GEÄNDERT
       if(q && it.text.toLowerCase().indexOf(ql) < 0) continue;
-      var kid = (it.s === '2');
+      var kid = (it.s === 'K'); // GEÄNDERT
       rows += '<div class="tv-row ' + (kid ? 'kid' : 'int') + '">' +
               (showNr ? '<span class="tv-nr">' + it.nr + '</span>' : '') +
               '<div class="tv-wrap"><div class="tv-bub"><div class="tv-who">' +
-              (kid ? 'S2 · Kind' : 'S1 · Interviewerin') + '</div>' + hl(it.text, q) + '</div></div></div>';
+              (kid ? 'K · Kind' : 'I · Interviewerin') + '</div>' + hl(it.text, q) + '</div></div></div>'; // GEÄNDERT
     }
     if(rows){ out += '<div class="tv-bh">' + esc(BLOCKS[b].title) + '</div>' + rows; }
   }
