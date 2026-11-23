@@ -544,7 +544,7 @@ init(40);
 
 >Du bekommst nun vier kurze Ausschnitte aus dem Interview vorgelegt. Die Ausschnitte sind in **Sinneinheiten** gegliedert (gestrichelt umrandet).
 >
->**Aufgabe: >Markiere die Sinneinheiten farbig** und ordne sie damit einer deduktiven Kategorie zu.
+>**Aufgabe:** Markiere die Sinneinheiten farbig und ordne sie damit einer deduktiven Kategorie zu.
 >
 >**Hinweis:** Die Zuordnung ist nicht immer eindeutig. Nutze die Musterlösung als Orientierung und Anregung für den Vergleich im Plenum, nicht als "die einzig richtige" Antwort.
 
@@ -1202,3 +1202,95 @@ function init(tries){
 }
 init(40);
 </script>
+
+### Schritt 5: Induktives Bestimmen von Subkategorien am Material
+
+- **Blick ins Material:** Aus den gebündelten Textstellen einer Hauptkategorie werden nun **induktiv** (materialnah) Unterkategorien herausgearbeitet.
+- **Ausdifferenzierung:** 
+  1. Ähnliche Aussagen zusammenfassen.
+  2. Subkategorien benennen und definieren.
+  3. Ankerbeispiele (prägnante Zitate) zur Illustration festlegen.
+
+#### Das Beispielinterview
+
+wird noch entwickelt
+
+---
+
+### Schritt 6: Zweites Codieren des kompletten Materials
+
+- **Feincodierung:** Das gesamte Datenmaterial wird nun nochmals mit dem vollständig ausdifferenzierten Kategoriensystem (Haupt- + Subkategorien) codiert.
+- **Ergebnis:** Eine präzise Zuordnung aller relevanten Abschnitte im Datenmaterial.
+
+#### Das Beispielinterview
+
+wird noch entwickelt
+---
+
+### Schritt 7: Kategorienbasierte Auswertung & Interpretation
+
+- **Ergebnisanalyse:** 
+  - Hauptkategorien in eine logische Darstellungsreihenfolge bringen.
+  - Zitate als Belege einbinden und wissenschaftlich interpretieren.
+  - Rückbindung der Befunde an den aktuellen Forschungsstand und die ursprüngliche Forschungsfrage.
+
+#### Das Beispielinterview
+
+wird noch entwickelt
+
+---
+
+## Weiterführende Auswertungsschritte
+
+- **Über die reine Kategorienbildung hinaus:** Die inhaltlich strukturierende Inhaltsanalyse ist kein absoluter Endpunkt einer qualitativen Studie. Es können weitergehende Analyseschritte wie z.B. eine Typenbildung erfolgen.
+- **Ziel der Typenbildung:** 
+  - Zusammenführung mehrerer Kategorien zur Identifikation von homogenen Gruppen oder Handlungs-Typen der Fälle (in unserem Fall: interviewte Personen).
+  - *Beispiel aus der Sportwissenschaft:* Identifikation von Typen von Sportlehrkräften im Umgang mit Störungen (z. B. „Der/die gelassene Organisator:in“ vs. „Der/die autoritäre Regulierer:in“).
+
+---
+
+## Check-Up: Wissenstest zur Qualitativen Inhaltsanalyse
+
+{{1}} <section>
+### 1. Ziel der Inhaltsanalyse
+
+Was ist der primäre pragmatische Sinn einer qualitativen Inhaltsanalyse nach Früh (2004)?
+
+[[ ]] Die statistische Überprüfung von Vorab-Hypothesen an repräsentativen Stichproben.
+[[X]] Die Reduktion von Komplexität durch kriteriengeleitete Klassifizierung von Textmaterial.
+[[ ]] Das bloße Abzählen von Wörtern in Transkripten.
+[[?]] **Erklärung:** Das Hauptziel besteht darin, vielschichtiges Datenmaterial systematisch zu reduzieren und in aussagekräftige Kategorien einzuordnen.
+</section>
+
+{{2}} <section>
+### 2. Induktive vs. Deduktive Kategorienbildung
+
+Was unterscheidet die *deduktive* von der *induktiven* Kategorienbildung?
+
+[[X]] Deduktive Kategorien werden vorab aus der Theorie abgeleitet, induktive direkt am empirischen Material entwickelt.
+[[ ]] Induktive Kategorien entstehen vor der Datenerhebung, deduktive erst ganz am Ende.
+[[ ]] Es gibt keinen Unterschied; beide Begriffe bezeichnen exakt denselben Prozess.
+[[?]] **Erklärung:** Deduktiv = von der Theorie ins Material (a priori); Induktiv = aus dem empirischen Material heraus konstruiert.
+</section>
+
+{{3}} <section>
+### 3. Qualitätskriterien von Hauptkategorien
+
+Welche Eigenschaft beschreibt das Qualitätskriterium der **Trennschärfe** von Kategorien?
+
+[[ ]] Für absolut jede Aussage im Text gibt es mindestens drei Kategorien.
+[[X]] Es ist stets möglichst eindeutig, welche Kategorie einem Textabschnitt zugeordnet wird und welche nicht.
+[[ ]] Die Kategorien sind besonders lang und kompliziert benannt.
+[[?]] **Erklärung:** Trennschärfe sorgt dafür, dass Kategorien überschneidungsfrei gegeneinander abgegrenzt sind.
+</section>
+
+{{4}} <section>
+### 4. Der Forschungszyklus nach Kuckartz
+
+In welchem Schritt des Forschungszyklus nach Kuckartz werden die **Subkategorien** gebildet?
+
+[[ ]] Direkt in Schritt 1 während der initiierenden Textarbeit.
+[[X]] In Schritt 5, induktiv an den zuvor gebündelten Textstellen der Hauptkategorien.
+[[ ]] Erst ganz am Ende nach der Verfassung des Forschungsberichts.
+[[?]] **Erklärung:** Subkategorien werden in Schritt 5 induktiv aus den gesammelten Materialien der jeweiligen Hauptkategorie herausdifferenziert.
+</section>
