@@ -311,43 +311,7 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 
 </div>
 
-
-
 ---
-
-## Untersuchungsplanung
-
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
-</div>
-
-</div>
-
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.2em;">In der Untersuchungsplanung beschäftigen wir uns nun mit dem <b>Design</b>, der <b>Forschungsfrage</b> und den <b>Hypothesen</b> unserer Untersuchung.</span>
-</div>
-
----
-
 ### Forschungsfrage
 
 <div style="height: 15px;"></div>
@@ -554,6 +518,49 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 </div>
 
 </section>
+
+
+---
+
+## Untersuchungsplanung
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Fragestellung & Hypothesen</strong><br>
+<span style="font-size:0.9em;">Was will ich herausfinden?</span>
+</div>
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
+<strong>Untersuchungsplanung</strong><br>
+<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
+</div>
+
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Datenerhebung</strong><br>
+<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+</div>
+
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Statistische Analyse</strong><br>
+<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+</div>
+
+</div>
+
+<!-- class="animate__animated animate__fadeIn" -->
+<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
+<span style="font-size: 1.2em;">In der Untersuchungsplanung beschäftigen wir uns nun mit dem <b>Design</b>, der <b>Forschungsfrage</b> und den <b>Hypothesen</b> unserer Untersuchung.</span>
+</div>
+
+---
+
 
 ---
 
@@ -999,8 +1006,14 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
 
 <div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
+<strong>Fragestellung & Hypothesen</strong><br>
 <span style="font-size:0.9em;">Was will ich herausfinden?</span>
+</div>
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Untersuchungsplanung</strong><br>
+<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
 </div>
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
@@ -1018,6 +1031,7 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 </div>
 
 </div>
+
 
 <!-- class="animate__animated animate__fadeIn" -->
 <div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
@@ -1810,14 +1824,18 @@ Standardisierte Skalen zur Anstrengung gehören zu den psychometrischen Testverf
 
 <div style="height: 15px;"></div>
 
-Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende Phasen:
-
 <!-- class="animate__animated animate__fadeInUp" -->
 <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
 
 <div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
+<strong>Fragestellung & Hypothesen</strong><br>
 <span style="font-size:0.9em;">Was will ich herausfinden?</span>
+</div>
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Untersuchungsplanung</strong><br>
+<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
 </div>
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
@@ -1829,7 +1847,7 @@ Der quantitative Forschungsprozess gliedert sich in drei aufeinander aufbauende 
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff;text-align:center;">
 <strong>Statistische Analyse</strong><br>
 <span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
 </div>
