@@ -401,7 +401,7 @@ Nach dem Cooper-Test füllen alle 20 Personen einen kurzen Fragebogen zur <b>Lau
 <div style="font-size: 1.6em; line-height: 1;">🔢</div>
 <div style="flex: 1;">
 <div style="font-size: 1em; margin-bottom: 2px;"><b>Was sind nichtparametrische Tests?</b></div>
-<div style="font-size: 0.9em;">Sie setzen <b>keine Normalverteilung</b> voraus. Statt mit den Messwerten selbst rechnen sie mit deren <b>Rangplätzen</div>
+<div style="font-size: 0.9em;">Sie setzen <b>keine Normalverteilung</b> voraus. Statt mit den Messwerten selbst rechnen sie mit deren **Rangplätzen**</div>
 <div style="margin-top: 6px; padding: 5px 10px; background: #ffffff; border-radius: 6px; font-size: 0.85em;">🏃🏾‍♀️ Die größte Strecke (2760 m) erhält Rang 20, die kleinste (2290 m) Rang 1.</div>
 </div> 
 </div>
@@ -450,6 +450,9 @@ Nach dem Cooper-Test füllen alle 20 Personen einen kurzen Fragebogen zur <b>Lau
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
 📌 <b>Merke:</b> Die Normalverteilung wird <b>getrennt für jede Gruppe</b> geprüft (bei abhängigen Stichproben für die Differenzen). Bei <b>kleinen</b> Stichproben erkennt der Shapiro-Wilk-Test Abweichungen kaum, bei <b>großen</b> wird er schon bei kleinen Abweichungen signifikant. Betrachte deshalb immer zusätzlich die Grafiken. Ab etwa 30 Personen pro Gruppe sind t-Test und ANOVA relativ robust.
 </div>
+
+
+** VIDEO JASP EINFÜGEN**
  
 ---
 ### Unterschiedshypothesen

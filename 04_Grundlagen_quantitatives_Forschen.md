@@ -79,12 +79,19 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 ### Hierfür gehen wir Schritt für Schritt den Ablauf für quantitative Forschung durch:
 
+
 <!-- class="animate__animated animate__fadeInUp" -->
 <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
 
 <div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
+<strong>Fragestellung & Hypothesen</strong><br>
 <span style="font-size:0.9em;">Was will ich herausfinden?</span>
+</div>
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Untersuchungsplanung</strong><br>
+<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
 </div>
 
 <div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
@@ -270,6 +277,41 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Zum Nachlesen: Döring & Bortz (2016)
 </div>
+
+---
+## Forschungsfrage & Hypothesen
+
+<!-- class="animate__animated animate__fadeInUp" -->
+<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
+<strong>Fragestellung & Hypothesen</strong><br>
+<span style="font-size:0.9em;">Was will ich herausfinden?</span>
+</div>
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Untersuchungsplanung</strong><br>
+<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
+</div>
+
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Datenerhebung</strong><br>
+<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+</div>
+
+<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+
+<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
+<strong>Statistische Analyse</strong><br>
+<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+</div>
+
+</div>
+
+
 
 ---
 
