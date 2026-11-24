@@ -13,7 +13,7 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 -->
 
-## Quantitatives Forschen
+## Grundlagen Quantitatives Forschen
 
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/04_Grundlagen_quantitatives_Forschen.md)
@@ -24,91 +24,121 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 | **Veranstaltung:**       | Wissenschaftliches Arbeiten                                                                                 |
 | **Semester:**            |                                                                                 |
 | **Hochschule:**          | `Europa-Universität Flensburg`                                                                  |
-| **Inhalte:**             | `Sportwissenschaftliche Methoden mit Fokus auf quantitative Forschungsmethoden`                  |
+| **Inhalte:**             | `Grundlagen der quantitativen Forschung in der Sportwissenschaft`                  |
 | **Link auf GitHub:**     | https://github.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/blob/main/04_Grundlagen_quantitatives_Forschen.md      |
 | **Autoren:**             | Tim Heemsoth & Swantje Brandt                                                                                       |
 
 > (c) Alle Rechte vorbehalten. 
 
-## Inhalt der Sitzung
+## Inhalt des Kurses
 <section>
 
-### Im Folgenden sollt ihr einen Einblick in die quantitative Forschung bekommen. Der Kurs soll folgende Fragen beantworten:
+1. Grundlagen: Ziele und Merkmale quantitativer Forschung
+2. Forschungskreislauf quantitativer Forschung
+    3. **Forschungsfrage und Hypothese**: Ausgangspunkt quantitativer Forschung 
+    4. **Untersuchung planen**: von der Hypothese zum Design
+    5. **Daten erheben**: vom Design zur Datenerfassung
+    6. **Statistische Analyse**: von den Daten zur Analyse
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin: 20px 0;">
+</section>
 
-<div class="animate__animated animate__slideInRight" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 1.1em;"><b>Grundlagen</b></div>
-<ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Einsatz von quantitativen Methoden</b> </li>
-<li><b>Grundsätze</b> </li>
+## Lesehinweise für den Kurs
+
+<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 In diesen Boxen stehen Hinweise um den Ablauf des Kurses besser zu verstehen. Diese tauchen auf wenn du den Kurs in den Lehrbuchmodus stellst, klicke dafür oben rechts auf das Sprechblasensymbol.
+</div>
+
+<div style="height: 15px;"></div>
+
+<div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
+🏃🏾‍♀️ Gelbe Boxen 🏃🏾‍♀️<br>
+In den gelben Boxen findest du immer wieder Anwendungsbeispiele und Hinweise darauf, wie eine Studie aussehen kann, die sich mit dem Einfluss von Musik auf die <b>Ausdauerleistung</b> beschäftigt. Dies dient als unser Anwendungsbeispiel.
+</div>
+
+
+## Ablaufdiagramm
+
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Hier siehst du den Forschungszyklus. Diesen gehen wir nun Stück für Stück durch. 
+</div>
+
+<section>
+
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
+
+<div style="display:flex; align-items:stretch;">
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Fragestellung & Hypothesen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Theorie und Forschungsstand identifizieren</li>
+<li style="margin-top:5px;">Forschungsfrage präzisieren</li>
+<li style="margin-top:5px;">Hypothesen ableiten</li>
 </ul>
 </div>
 
-<div class="animate__animated animate__slideInLeft" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 1.1em;"><b>Untersuchungsplanung</b></div>
-<ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Forschungsfrage</b></li>
-<li><b>Hypothesen</b></li>
-<li><b>Design</b></li>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Untersuchung planen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Design und Stichprobe festlegen</li>
+<li style="margin-top:5px;">Variablen operationalisieren</li>
+<li style="margin-top:5px;">Messinstrumente und Analyseplan festlegen</li>
 </ul>
 </div>
 
-<div class="animate__animated animate__slideInRight" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 1.1em;"><b>Datenerhebung</b></div>
-<ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Standardisierte Tests & Art und Weisen der Datenerhebung</b></li>
-<li><b>Gütekriterien</b></li>
-<li><b>Herausforderung</b> </li>
-<li><b>Befragung</b> </li>
-<li><b>Beobachtung</b> </li>
-<li><b>Test- und Messverfahren</b> </li>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Daten erheben</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Standardisiert messen oder befragen</li>
+<li style="margin-top:5px;">Daten dokumentieren und prüfen</li>
+<li style="margin-top:5px;">Datenschutz sicherstellen</li>
 </ul>
 </div>
 
-<div class="animate__animated animate__slideInLeft" style="background: #e3efe9; border: 2px solid #2f6f57; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 1.1em;"><b>Statistische Analyse - Erste Grundlagen</b></div>
-<ul style="font-size: 0.9em; margin: 8px 0 0 0; padding-left: 18px;">
-<li><b>Variablenarten</b></li>
-<li><b>Skalenniveaus</b></li>
-<li><b>Deskriptive Statistik</b></li>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #d77b24; border-radius:12px; padding:12px 9px 14px; background:#fcf6f0; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#d77b24; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#d77b24; margin:10px 0; min-height:38px;">Auswerten & Interpretieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Daten aufbereiten und beschreiben</li>
+<li style="margin-top:5px;">Hypothesen prüfen</li>
+<li style="margin-top:5px;">Befunde und Grenzen einordnen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fbf1f4; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Berichten & Präsentieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Methoden und Ergebnisse offenlegen</li>
+<li style="margin-top:5px;">Befunde veröffentlichen</li>
+<li style="margin-top:5px;">Neue Forschungsfragen ableiten</li>
 </ul>
 </div>
 
 </div>
 
-### Hierfür gehen wir Schritt für Schritt den Ablauf für quantitative Forschung durch:
-
-
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Fragestellung & Hypothesen</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+<div style="position:relative; height:28px; margin:0 calc((100% - 72px) / 10);" aria-hidden="true">
+<div style="position:absolute; top:0; left:0; right:0; bottom:0; border:2.5px solid #c43d65; border-top:none; border-radius:0 0 10px 10px;"></div>
+<div style="position:absolute; top:0; left:-5px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:9px solid #c43d65;"></div>
+<div style="position:absolute; left:0; right:0; bottom:-24px; text-align:center; color:#c43d65; font-size:13px;">Neue Forschungsfragen → nächster Forschungszyklus</div>
 </div>
 
 </div>
+</div>
+
+<p style="text-align:center; color:#617080; font-size:13px;">Quantitative Forschung · systematisch · transparent · überprüfbar</p>
 
 </section>
 
@@ -116,12 +146,17 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 ## Einstiegsbeispiel
 
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Hier findest du ein Einstiegsbeispiel, diesem widmen wir uns im Laufe des gesamten Forschungszykluses.
+</div>
+
+<div style="height: 15px;"></div>
+
 
 <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
 
 <div style="flex: 1 1 320px;">
 
-<!-- class="animate__animated animate__fadeInUp" -->
 >[!Note]**Arbeitsauftrag**
 >Der folgende Podcast-Ausschnitt wirft eine Fragestellung auf, die wir im Folgenden immer wieder aufgreifen werden – höre dir den Ausschnitt der folgenden Unterhaltung an: <audio controls src="https://raw.githubusercontent.com/EUF-SpoWis/Wissenschaftliches-Arbeiten/main/Audios/Einsteig_quantitatives_Forschen.mp3"></audio><div style="font-size: 0.8em; font-style: italic; color: #4a5568; margin-top: 0.4rem;">*(erstellt mit der KI ElevenLabs)*
 </div> 
@@ -134,81 +169,48 @@ link:   https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 </div>
 
-<hr style="border: none; border-top: 2px solid #4e66bd; margin: 1.5rem 0;">
-
-<div style="height: 60px;"></div>
-
---{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 In dieser Box findest du immer wieder Hinweise, die sich auf dieses Einstiegsbeispiel beziehen.
-</div>
-
-<div style="height: 15px;"></div>
-
-<span style="font-size: 1.1em;"><b>Für den weiteren Kurs sind hier ein Hinweis:</b></span>
-
-<div style="height: 10px;"></div>
-
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-🏃🏾‍♀️ Gelbe Boxen 🏃🏾‍♀️<br>
-In den gelben Boxen findest du immer wieder Anwendungsbeispiele und Hinweise darauf, wie eine Studie aussehen kann, die sich mit dem Einfluss von Musik auf die <b>Ausdauerleistung</b> beschäftigt.
-</div>
-</div>
-
-</div>
-
-<div style="height: 15px;"></div>
-
-
 ---
 
 ## Grundlagen
 
-<!-- class="animate__animated animate__fadeIn" -->
 <div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <span style="font-size: 1.2em;">In den Grundlagen beschäftigen wir uns nun mit dem <b>Einsatz von quantitativen Methoden</b> und den <b>Grundsätzen</b>.</span>
 </div>
 
-### Ziele von quantitativer Forschung
+### Ziele
+
 <section>
 
+> [!TIP] ✅ Bestehende Theorien prüfen
+> Eine aus der Theorie abgeleitete Hypothese soll durch Daten gestützt werden. <br>
+> z. B. "Je älter die Schüler:innen sind, desto weniger erleben sie Freude im Sportunterricht."
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">✅</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Prüfen bestehender Theorien</b></div>
-<div style="font-size: 0.9em;">Überprüfung, ob eine aus der Theorie abgeleitete Hypothese durch Daten gestützt wird.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> Es gibt schon Studien, die sich mit dem Einfluss von Musik beschäftigen, und hier soll es jetzt zum Beispiel auf eine andere Zielgruppe angewandt werden.</div>
-</div>
 
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">✴️</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Wirksamkeitsnachweise</b></div>
-<div style="font-size: 0.9em;">Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> Hier könnte man sich zum Beispiel angucken, wie sich die Ausdauerleistung verändert, abhängig von der Anwesenheit von Musik.</div>
-</div>
+> [!CAUTION] ✴️ Wirksamkeit nachweisen
+> Die angenommene Wirkungen einer Intervention soll im Vergleich zu einer Kontrollgruppe überprüft werden.<br>
+> z. B. "Die neue Trainingsmethode A ist der konventionellen Traininsgmethode B überlegen."
 
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🌀</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Generalisierung</b></div>
-<div style="font-size: 0.9em;">Aussagen, die über den Einzelfall hinaus für eine größere Population gelten sollen (z. B. Normwerte, Vergleichsstudien).</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;"> Die Hypothese, dass Musik einen positiven Einfluss auf die Ausdauerleistung haben soll, soll zum Beispiel anhand einer großen Stichprobe (vielen Menschen) überprüft werden.</div>
-</div>
 
-</div>
+> [!NOTE] 🌀 Generalisierungen ermöglichen
+> Es sollen allgemeingültige Aussagen gepürft werden, die über den Einzelfall hinausgehen.<br>
+> z. B. "Sporttreiben hilft gegen Depressionen."
+
 
 <div style="height: 10px;"></div>
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
+
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Effekt auf die Distanz </b> 🏃🏾‍♀️<br>
-Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überprüfen kann, ob das auch auf Sportstudierende zutrifft schauen wir uns auf den folgenden Folien an.
+<div style="height: 15px;"></div>
+**Prüfen bestehender Theorien:** Es gibt schon Studien, die sich mit dem Einfluss von Musik beschäftigen, und hier soll es jetzt zum Beispiel auf eine andere Zielgruppe angewandt werden.
+<div style="height: 15px;"></div>
+**Wirksamkeitsnachweise:** Nachweis kausaler Effekte einer Intervention (z. B. eines Trainingsprogramms) im Vergleich zu einer Kontrollgruppe.
+<div style="height: 15px;"></div>
+**Generalisierung:** Die Hypothese, dass Musik einen positiven Einfluss auf die Ausdauerleistung haben soll, soll zum Beispiel anhand einer großen Stichprobe (vielen Menschen) überprüft werden.
 </div>
 </div>
 
@@ -217,41 +219,51 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016) & Terry et al. (2020)
+📚 Döring & Bortz (2016) & Terry et al. (2020)
 </div>
 
 </section>
 
 ---
 
-### Merkmale von Quantitativen Forschens
+### Merkmale 
 <section>
 
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Nachdem nun geklärt ist, welchen Fragen du dich widmen könntest, kannst du nun anfangen, deine Untersuchung zu planen. Dabei solltest du folgende fünf Merkmale bedenken.
+💡 Hier geht es um die Merkmale von quantitiver Forschung. 
 </div>
 <div style="height: 15px;"></div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">1. Standardisierung:</span> <span style="font-size: 1.1em;">Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten identisch.</span>
 
-<!-- class="animate__animated animate__fadeInDown" -->
-<span style="background: #9507a8; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">2. Operationalisierung:</span> <span style="font-size: 1.1em;">Theoretische Konstrukte (z. B. „Ausdauer“) werden vorab in konkret messbare Variablen überführt.</span>
+>[!TIP] 📏 1. Standardisierung
+> Erhebungsbedingungen, Instrumente und Ablauf sind für alle Untersuchten einheitlich.<br>
+> z. B. "Alle Proband:innen absolvieren den gleichen Lauftest auf derselben Bahn und zur gleichen Tageszeit".
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<span style="background: #5923b1; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">3. Hypothesenprüfung:</span> <span style="font-size: 1.1em;">Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).</span>
 
-<!-- class="animate__animated animate__fadeInDown" -->
-<span style="background: #420cc0; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">4. Distanz zum Gegenstand:</span> <span style="font-size: 1.1em;">Die forschende Person greift möglichst nicht in das Messgeschehen ein, um die Objektivität zu wahren.</span>
+>[!TIP] 🔢 2. Operationalisierung
+> Theoretische Konstrukte werden in konkret messbare Variablen überführt.<br>
+> z. B. "Die Ausdauerleistung wird durch die gelaufene Strecke in zwölf Minuten erfasst, gemessen in Metern."
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<span style="background: #071958; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">5. Generalisierung durch Repräsentativität:</span> <span style="font-size: 1.1em;">Verallgemeinerung erfolgt über statistische Kennwerte und (möglichst) repräsentative Stichproben – nicht über Einzelfalltypisierung.</span>
+
+
+>[!TIP] 🔍 3. Hypothesenprüfung
+> Aus der Theorie abgeleitete Annahmen werden gezielt anhand der Daten geprüft (deduktives Vorgehen).<br>
+> z. B. "Geprüft wird die Hypothese, dass es einen Zusammenhang zwischen Zugehörigkeitsgefühl und Motivation gibt."
+
+
+>[!TIP] ⚖️ 4. Distanz zum Gegenstand
+> Die forschende Person vermeidet eine Beeinflussung der Messung und der Antworten.<br>
+> z. B. "Die Testleitung folgt einem festen Skript, feuert niemanden an und misst die Strecke nach einem festgelegten Verfahren."
+
+
+>[!TIP] 👥 5. Generalisierung durch Repräsentativität
+> Angestrebt wird die Übertragung der Ergebnisse auf eine größere Zielgruppe. Dafür ist entscheidend, wie gut die Stichprobe diese Zielgruppe abbildet.<br>
+> z. B. "Um Aussagen für 20-30 jährige Personen treffen zu können,  wird die Stichprobe entsprechend ausgewählt."
+
 
 </section>
-
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -266,58 +278,103 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 
 </div>
 
-<div style="height: 15px;"></div>
 
---{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 Im Folgenden werden wir uns diesen Merkmalen annehmen und die einzelnen Punkte erklären. Dabei werden wir immer wieder von <b>Variablen</b> sprechen. Damit sind Merkmale gemeint, welche verschiedene Werte (Ausprägungen) annehmen können, z. B. die gelaufene Strecke, die Bedingung (mit/ohne Musik) oder das Anstrengungsempfinden.
-</div>
 
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016)
+📚 Döring & Bortz (2016)
 </div>
 
 ---
 ## Forschungsfrage & Hypothesen
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
-<strong>Fragestellung & Hypothesen</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="display:flex; align-items:stretch;">
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Fragestellung & Hypothesen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Theorie und Forschungsstand identifizieren</li>
+<li style="margin-top:5px;">Forschungsfrage präzisieren</li>
+<li style="margin-top:5px;">Hypothesen ableiten</li>
+</ul>
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Untersuchung planen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Design und Stichprobe festlegen</li>
+<li style="margin-top:5px;">Variablen operationalisieren</li>
+<li style="margin-top:5px;">Messinstrumente und Analyseplan festlegen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Daten erheben</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Standardisiert messen oder befragen</li>
+<li style="margin-top:5px;">Daten dokumentieren und prüfen</li>
+<li style="margin-top:5px;">Datenschutz sicherstellen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #d77b24; border-radius:12px; padding:12px 9px 14px; background:#fcf6f0; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#d77b24; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#d77b24; margin:10px 0; min-height:38px;">Auswerten & Interpretieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Daten aufbereiten und beschreiben</li>
+<li style="margin-top:5px;">Hypothesen prüfen</li>
+<li style="margin-top:5px;">Befunde und Grenzen einordnen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fbf1f4; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Berichten & Präsentieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Methoden und Ergebnisse offenlegen</li>
+<li style="margin-top:5px;">Befunde veröffentlichen</li>
+<li style="margin-top:5px;">Neue Forschungsfragen ableiten</li>
+</ul>
 </div>
 
 </div>
+
+<div style="position:relative; height:28px; margin:0 calc((100% - 72px) / 10);" aria-hidden="true">
+<div style="position:absolute; top:0; left:0; right:0; bottom:0; border:2.5px solid #c43d65; border-top:none; border-radius:0 0 10px 10px;"></div>
+<div style="position:absolute; top:0; left:-5px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:9px solid #c43d65;"></div>
+<div style="position:absolute; left:0; right:0; bottom:-24px; text-align:center; color:#c43d65; font-size:13px;">Neue Forschungsfragen → nächster Forschungszyklus</div>
+</div>
+
+</div>
+</div>
+
+<p style="text-align:center; color:#617080; font-size:13px;">Quantitative Forschung · systematisch · transparent · überprüfbar</p>
+
 
 ---
 ### Forschungsfrage
 
+<section>
+
 <div style="height: 15px;"></div>
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 Du hast dir Gedanken zu den Merkmalen gemacht. Jetzt ist es Zeit, deine Forschungsfrage zu formulieren. Diese schärft was genau du dir agucken möchtest und legt den Grundstein für die Hypothesen und das Forschungsdesign.
+💡 Nach dem du nun über die Grundlagen Bescheid weißt, ist es Zeit, eine Forschungsfrage zu formulieren. Diese schärft was genau du dir angucken möchtest und legt den Grundstein für die Hypothesen.
 </div>
 
 <div style="height: 15px;"></div>
@@ -327,25 +384,22 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">📝</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Ausgangspunkt</b></div>
-<div style="font-size: 0.9em;">Quantitative Forschung startet bei einer <b>Theorie oder einem Modell</b>, aus dem sich prüfbare Hypothesen ableiten lassen – <b>nicht</b> bei einem offenen Phänomen.</div>
+<div style="font-size: 0.9em;">... ist eine Theorie oder ein Modell, aus dem sich prüfbare Hypothesen ableiten lassen – <b>nicht</b> bei einem offenen Phänomen.</div>
 </div>
 
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div  style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔍</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Präzision</b></div>
-<div style="font-size: 0.9em;">Die Fragestellung ist so formuliert, dass sich daraus unmittelbar messbare Variablen und Hypothesen ableiten lassen.</div>
+<div style="font-size: 0.9em;">Fragestellung und Hypothesen sind so formuliert, dass sich daraus unmittelbar messbare Variablen ableiten lassen.</div>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🏡</div>
+<div style="font-size: 2em; text-align: center;">➖</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Reduktion</b></div>
-<div style="font-size: 0.9em;">Die Reduktion von Komplexität erfolgt bereits <b>vor</b> der Erhebung, im Rahmen der Operationalisierung – nicht erst im Analyseprozess.</div>
+<div style="font-size: 0.9em;">Die Reduktion von Komplexität erfolgt  <b>vor</b> der Erhebung im Rahmen der Operationalisierung und nicht erst im Analyseprozess.</div>
 </div>
 
 </div>
-
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
@@ -355,18 +409,24 @@ Laut Terry et al. (2020) steigert Musik die **Ausdauerleistung**. Wie man überp
 </div>
 </div>
 
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
-
-<div class="animate__animated animate__fadeInDown animate__delay-3s" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 **Formuliere hier eine Forschungsfrage, mit der untersucht werden soll, wie Musik die Ausdauerleistung beeinflusst**
+<div style="height: 15px;"></div>
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Döring & Bortz (2016)
 </div>
 
-<!-- class="animate__animated animate__fadeInDown animate__delay-3s" -->
+</section>
+
+---
+
+#### Anwendung Forschungsfrage
+
+> [!NOTE] **Aufgabe**  
+> Formuliere hier eine Forschungsfrage, mit der untersucht werden soll, wie Musik die Ausdauerleistung beeinflusst.
+
 | 🏃🏾‍♀️ Forschungsfrage zur Ausdauerleistung | 
 | :--- |
 | <textarea rows="2" style="width:100%;"></textarea> | <textarea rows="2" style="width:100%;"></textarea> |
 
-{{1}} <section>
 
 <details>
 <summary><b>👉 Klicke hier, um die Musterlösung einzublenden</b></summary>
@@ -392,13 +452,6 @@ Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(tr
 
 </div>
 
-<div style="height: 15px;"></div>
-
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016)
-</div>
-
-</section>
 
 ---
 
@@ -412,39 +465,41 @@ Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(tr
 
 <div style="height: 15px;"></div>
 
-<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Was ist eine Hypothese?</span> 
 
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
-<span style="font-size: 1.0em;">Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist.</span>
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Eine Hypothese ist eine vorläufige Vermutung oder eine unbewiesene Annahme über einen Sachverhalt oder einen Zusammenhang. Sie wird in der Wissenschaft vor einer Untersuchung aufgestellt und anschließend durch Daten, Experimente oder Beobachtungen überprüft, um zu sehen, ob sie stimmt oder falsch ist.
+</span>
 </div>
 
-**Hierbei gibt es verschiedene Merkmale, die wichtig sind. Eine Hypothese ist:**
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🕒</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Vorläufig</b></div>
-<div style="font-size: 0.9em;">Bedeutet: Sie ist noch nicht bewiesen.</div>
+<div style="font-size: 1em;">Sie ist noch nicht bewiesen.</div>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔬</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Überprüfbar</b></div>
-<div style="font-size: 0.9em;">Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen.</div>
+<div style="font-size: 1em;">Sie lässt sich durch Tests oder Messungen widerlegen oder bestätigen.</div>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🔗</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Bezug</b></div>
-<div style="font-size: 0.9em;">Sie beschreibt, wie zwei Dinge, genannt Variablen, zusammenhängen.</div>
+<div style="font-size: 1em;">Sie beschreibt, wie zwei Gegenstände, auch *Variablen* genannt, zusammenhängen.</div>
+</div>
+
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">🧑‍🤝‍🧑</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Immer im Paar</b></div>
+<div style="font-size: 1em;">Zu einer Hypothese gibt es  immer eine entgegengesetzte Nullhypothese.</div>
 </div>
 
 </div>
 
-<!-- class="animate__animated animate__fadeIn animate__delay-1s" -->
-<section>
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
@@ -454,17 +509,15 @@ Welchen Einfluss hat die Nutzung von <span style="background: linear-gradient(tr
 </div>
 </div>
 
-</section>
+#### Hypothesenpaare
 
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">EIn der quantitativen Forschung werden immmer Hypothesenpaare aufgestellt. Dabei gibt es eine **Nullhypothese (H0)** und eine **Alternativhypothese (H1)**. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. 
 
-<span style="background: #4e66bd; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Hypothesenpaare</span> 
-
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
-<span style="font-size: 1.0em;">In der quantitativen Forschung werden immmer Hypothesenpaare aufgestellt. Dabei gibt es eine **Null-Hypothese (H0)** und eine **Alternativhypothese (H1)**. Die H0 geht davon aus, dass es keinen Effekt, keinen Unterschied oder keinen Zusammenhang gibt. In der Wissenschaft gilt eine neue Idee so lange als nicht bewiesen, bis man die Nullhypothese durch Daten und Zahlen eindeutig widerlegt hat. 
-
-Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.</span>
+Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schuld bewiesen ist.
+</span>
 </div>
+
 
 | ⚖️ Vor Gericht | 🔬 In der Wissenschaft |
 | :-- | :-- |
@@ -473,13 +526,30 @@ Es ist wie vor Gericht: Ein Angeklagter ist so lange unschuldig, bis seine Schul
 
 <div style="height: 15px;"></div>
 
-Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhänge** beziehen und entweder **gerichtet** oder **ungerichtet** sein:
+#### Hypothesenarten
 
-| | Gerichtet | Ungerichtet |
-| :-- | :-- | :-- |
-| **Unterschiedshypothese** | Wenn X passiert, dann gibt es mehr Y.<br>🏃🏾‍♀️ *Mit Musik laufen Sportstudierende weiter als ohne.*| Es gibt einen Unterschied zwischen X und Y.<br>🏃🏾‍♀️ *Es gibt einen Unterschied zwischen der Laufstrecke mit und ohne Musik.* |
-| **Zusammenhangshypothese** | Je mehr X, desto mehr Y.<br>🏃🏾‍♀️ *Je höher die BPM-Zahl der Musik, desto weiter die Laufstrecke.* | X und Y stehen in einem Zusammenhang.<br>🏃🏾‍♀️ *BPM-Zahl der Musik und Laufstrecke stehen in einem Zusammenhang.* |
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Hypothesen können sich auf **Unterschiede** oder auf **Zusammenhänge** beziehen.
+</span>
+</div>
 
+
+| **Hypothesenart** | **Beispiel** |
+| :-- | :-- |
+| Unterschiedshypothese | Es gibt einen Unterschied zwischen X und Y.<br>🏃🏾‍♀️ *Es gibt einen Unterschied zwischen der Laufstrecke mit und ohne Musik.* |
+| Zusammenhangshypothese | Je mehr X, desto mehr Y.<br>🏃🏾‍♀️ *Je höher die BPM-Zahl der Musik, desto weiter die Laufstrecke.* |
+
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Zusätzlich können Hypothesen entweder **gerichtet** oder **ungerichtet** sein.
+</span>
+</div>
+
+| **Hypothesenart** | **Beispiel** |
+| :-- | :-- |
+| Gerichtet| Wenn X passiert, dann gibt es mehr Y.<br>🏃🏾‍♀️ *Mit Musik laufen Sportstudierende weiter als ohne.* |
+| Ungerichtet | X und Y stehen in einem Zusammenhang.<br>🏃🏾‍♀️ *BPM-Zahl der Musik und Laufstrecke stehen in einem Zusammenhang.* |
+
+#### Anwendung Hypothese
 
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
 📌 <b>Merke:</b> Eine <i>Forschungshypothese</i> (z. B. „Musik erhöht die Ausdauerfähigkeit“) ist klar zu unterscheiden von der konkreten <i>Messvariable</i> (Konkretisierung im Erhebungsinstrument, z. B. gelaufene Distanz in m in 12 min) sowie dem <i>globalen Forschungsthema</i> (z. B. Einfluss von Musik auf die Ausdauerfähigkeit).
@@ -493,12 +563,11 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 | Forschungshypothese | Musik erhöht die Ausdauerfähigkeit |
 | Messvariable | gelaufene Distanz in m in 12 min |
 
-{{1}} <section>
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 Formuliere hier je eine Null-Hypothese und eine Alternativhypothese für die Forschungsfragen.
-</div>
+> [!NOTE] **Aufgabe**  
+> Formuliere hier je eine Nullhypothese und eine Alternativhypothese für die Forschungsfrage: *Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden?*
 
-| Hypothese | Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf Ausdauerleistung von Sportstudierenden? | 
+
+| Hypothese |  | 
 | :--- | :-- |
 | **H0** | <textarea rows="2" style="width:100%;"></textarea> |
 | **H1** | <textarea rows="2" style="width:100%;"></textarea> |
@@ -514,55 +583,96 @@ Zusätzlich können sich Hypothesen auf **Unterschiede** oder auf **Zusammenhän
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017)
+📚 Döring & Bortz (2016) und Eid, Gollwitzer & Schmitt (2017)
 </div>
-
-</section>
-
 
 ---
 
 ## Untersuchungsplanung
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Fragestellung & Hypothesen</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Jetzt hast du eine Forschungsfrage und Hypothesen, also nächstes wollen wir planen wie wir diese überprüfen können.
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
+
+<div style="display:flex; align-items:stretch;">
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Fragestellung & Hypothesen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Theorie und Forschungsstand identifizieren</li>
+<li style="margin-top:5px;">Forschungsfrage präzisieren</li>
+<li style="margin-top:5px;">Hypothesen ableiten</li>
+</ul>
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Untersuchung planen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Design und Stichprobe festlegen</li>
+<li style="margin-top:5px;">Variablen operationalisieren</li>
+<li style="margin-top:5px;">Messinstrumente und Analyseplan festlegen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Daten erheben</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Standardisiert messen oder befragen</li>
+<li style="margin-top:5px;">Daten dokumentieren und prüfen</li>
+<li style="margin-top:5px;">Datenschutz sicherstellen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #d77b24; border-radius:12px; padding:12px 9px 14px; background:#fcf6f0; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#d77b24; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#d77b24; margin:10px 0; min-height:38px;">Auswerten & Interpretieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Daten aufbereiten und beschreiben</li>
+<li style="margin-top:5px;">Hypothesen prüfen</li>
+<li style="margin-top:5px;">Befunde und Grenzen einordnen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fbf1f4; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Berichten & Präsentieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Methoden und Ergebnisse offenlegen</li>
+<li style="margin-top:5px;">Befunde veröffentlichen</li>
+<li style="margin-top:5px;">Neue Forschungsfragen ableiten</li>
+</ul>
 </div>
 
 </div>
 
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.2em;">In der Untersuchungsplanung beschäftigen wir uns nun mit dem <b>Design</b>, der <b>Forschungsfrage</b> und den <b>Hypothesen</b> unserer Untersuchung.</span>
+<div style="position:relative; height:28px; margin:0 calc((100% - 72px) / 10);" aria-hidden="true">
+<div style="position:absolute; top:0; left:0; right:0; bottom:0; border:2.5px solid #c43d65; border-top:none; border-radius:0 0 10px 10px;"></div>
+<div style="position:absolute; top:0; left:-5px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:9px solid #c43d65;"></div>
+<div style="position:absolute; left:0; right:0; bottom:-24px; text-align:center; color:#c43d65; font-size:13px;">Neue Forschungsfragen → nächster Forschungszyklus</div>
 </div>
+
+</div>
+</div>
+
+<p style="text-align:center; color:#617080; font-size:13px;">Quantitative Forschung · systematisch · transparent · überprüfbar</p>
 
 ---
 
-
----
 
 ### Forschungsdesign
 
@@ -716,6 +826,62 @@ Bei der Wahl des Designs stellen sich drei Fragen: **Wann?**, **Wo?** und **Wie 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
 📚 Zum Nachlesen: Döring & Bortz (2016)
 </div>
+
+---
+
+### Exkurs: Experiment als Goldstandard
+
+
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;line-height: 2;">
+<span style="font-size: 1.0em;">
+
+Ein Experiment ist ein planmäßig ausgelöster und wiederholbarer Vorgang, bei dem beobachtet wird, in welcher Weise sich **unter Konstanthaltung anderer Bedingungen** mindestens eine **abhängige Variable** ändert, nachdem mindestens eine **unabhängige Variable** geändert worden ist. Wesentliche Merkmale des Experiments sind demnach: <br>
+1. **Planmäßigkeit** <br>
+2. **Wiederholbarkeit** und <br>
+3. **systematische Variation bzw. Konstanthaltung von Bedingungen**.
+<br>
+Im Experiment lassen sich immer ein Zustand vorher, eine Änderungsphase (Treatment) und ein Zustand nachher unterscheiden. </span>
+</div>
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚
+s. dazu auch Shadish et al., 2002 </div>
+
+
+<div style="height: 15px;"></div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
+
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">UV</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Unabhängige Variable</b></div>
+<div style="font-size: 0.9em;">Beschreibt das, was verändert wird. <br> z. B. Training: ja vs. nein. </div>
+</div>
+
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">Stufung</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Ausprägung der UV</b></div>
+<div style="font-size: 0.9em;">Beschreibt die Anzahl der Variationen einer UV. <br> z. B. UV "Training: ja vs. nein" hat zwei Stufen. </div>
+</div>
+
+<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
+<div style="font-size: 2em; text-align: center;">AV</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Abhängige Variable</b></div>
+<div style="font-size: 0.9em;">Beschreibt die gemessene Variable. <br> z. B. Ausdauerleistung.</div>
+</div>
+
+</div>
+
+<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
+📌 <b>Merke:</b> Die Faustregel lautet: <i>Die UV geht rein, die AV kommt raus.</i> Man <b>manipuliert</b> die UV, um zu sehen, wie sich die AV <b>verändert</b>.
+</div>
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Döring & Bortz (2016)
+</div>
+
+
+
 
 ---
 
@@ -1002,51 +1168,93 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 ## Datenerhebung
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Fragestellung & Hypothesen</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="display:flex; align-items:stretch;">
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
-</div>
-
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Fragestellung & Hypothesen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Theorie und Forschungsstand identifizieren</li>
+<li style="margin-top:5px;">Forschungsfrage präzisieren</li>
+<li style="margin-top:5px;">Hypothesen ableiten</li>
+</ul>
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Untersuchung planen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Design und Stichprobe festlegen</li>
+<li style="margin-top:5px;">Variablen operationalisieren</li>
+<li style="margin-top:5px;">Messinstrumente und Analyseplan festlegen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Daten erheben</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Standardisiert messen oder befragen</li>
+<li style="margin-top:5px;">Daten dokumentieren und prüfen</li>
+<li style="margin-top:5px;">Datenschutz sicherstellen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #d77b24; border-radius:12px; padding:12px 9px 14px; background:#fcf6f0; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#d77b24; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#d77b24; margin:10px 0; min-height:38px;">Auswerten & Interpretieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Daten aufbereiten und beschreiben</li>
+<li style="margin-top:5px;">Hypothesen prüfen</li>
+<li style="margin-top:5px;">Befunde und Grenzen einordnen</li>
+</ul>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fbf1f4; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Berichten & Präsentieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Methoden und Ergebnisse offenlegen</li>
+<li style="margin-top:5px;">Befunde veröffentlichen</li>
+<li style="margin-top:5px;">Neue Forschungsfragen ableiten</li>
+</ul>
 </div>
 
 </div>
 
-
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.2em;">Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Untersuchungsplanung angelangt und gehen nun weiter zur Datenerhebung.</span>
+<div style="position:relative; height:28px; margin:0 calc((100% - 72px) / 10);" aria-hidden="true">
+<div style="position:absolute; top:0; left:0; right:0; bottom:0; border:2.5px solid #c43d65; border-top:none; border-radius:0 0 10px 10px;"></div>
+<div style="position:absolute; top:0; left:-5px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:9px solid #c43d65;"></div>
+<div style="position:absolute; left:0; right:0; bottom:-24px; text-align:center; color:#c43d65; font-size:13px;">Neue Forschungsfragen → nächster Forschungszyklus</div>
 </div>
+
+</div>
+</div>
+
+<p style="text-align:center; color:#617080; font-size:13px;">Quantitative Forschung · systematisch · transparent · überprüfbar</p>
 
 ### Standardisierte Tests & Art und Weisen der Datenerhebung
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Wenn nun Daten erhoben werden sollen, gibt es verschiedene Verfahren, die du anwenden kannst. Behalte deine Forschungsfrage und die Hypothese im Hinterkopf und überlege dir, welches Verfahren für dich hilfreich sein könnte.
+💡 Wenn nun Daten erhoben werden sollen, gibt es verschiedene Verfahren, die du anwenden kannst. Behalte deine Forschungsfrage und die Hypothese im Hinterkopf und überlege dir, welches Verfahren für dich hilfreich sein könnte.
 </div>
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>Verschiede Wege, an Daten zu kommen:</b></span>
+<div style="height: 15px;"></div>
+
+<span style="font-size: 1.1em;"><b>Welches Verfahren passt am besten zur Forschungsfrage?</b></span>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
@@ -1054,36 +1262,42 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 <div style="font-size: 2em; text-align: center;">📋</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Befragung</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was sagen die Teilnehmenden?“</div>
-<div style="font-size: 0.9em;">Standardisierte Fragebögen mit geschlossenen Antwortformaten (z. B. Skalen von z. B. 1–4, genannt Likert-Skalen) und psychometrische Testverfahren (standardisierte Skalen zu Anstrengung etc.).</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #2a9a50; border-radius: 0 8px 8px 0; font-size: 0.85em;">📋 „Ich habe die Anstrengung kaum gespürt.“ – trifft nicht zu / trifft eher nicht zu / trifft eher zu / trifft zu</div>
+<div style="font-size: 0.9em;">Standardisierte Fragebögen mit geschlossenen Antwortformaten. </div>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">👀</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Beobachtung</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was tun die Teilnehmenden?“</div>
-<div style="font-size: 0.9em;">Systematische Verhaltensbeobachtung mit Kategoriensystem (z. B. Bewegungszeit-Protokolle) oder Video-/Sensor-gestützte Bewegungsanalyse.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Beobachtung während eines 5-km-Wettkampfs und Vergleich zwischen den Athleten mit Musik und denen ohne.</div>
+<div style="font-size: 0.9em;">Systematische Verhaltensbeobachtung mit Kategoriensystem</div>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⏱️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Testen und Messen</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Was leisten oder zeigen sie?“</div>
-<div style="font-size: 0.9em;">Motorische und physiologische Leistungstests (z. B. Sprungkrafttest, Laktat-Test)</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Leistungstest wie der Cooper-Test, einmal mit und einmal ohne Musik.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #2a9a50; border-radius: 0 8px 8px 0; font-size: 0.85em;">📋 Borg-Skala zur Einschätzung der Anstrengung.</div>
+<div style="font-size: 0.9em;">Motorische, physiologische, kognitive Leistungstests</div>
 </div>
 
 </div>
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">(nach Döring & Bortz, 2016)</div>
-
 <div style="height: 15px;"></div>
 
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 Welches Verfahren passt am besten zu deiner Forschungsfrage? Überlege dir, ob du Selbstauskünfte (<b>Fragebogen</b>), Verhalten (<b>Beobachtung</b>) oder eine Leistung (<b>Test</b>) erfassen willst. Mache dir Notizen.
+
+
+
+<div style="flex: 1; min-width: 220px;">
+<div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
+🏃🏾‍♀️<b>Wirkung von Musik auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
+<div style="height: 15px;"></div>
+**Befragung:** In diesem Experiment könnte zum Beispiel zusätzlich noch gefragt werden, wie anstregend Teilnehmende den Lauf empfunden haben. So kann hier eine Befragung stattfinden.
+<div style="height: 15px;"></div>
+**Beobachtung:** Es muss nicht zwingend ein physisches Experiment passieren, es könnte auch einfach "nur" eine Beobachtung der Leistung erfolgen. 
+<div style="height: 15px;"></div>
+**Testen und Messen:** Hier kann ein Leistungstest wie der Cooper-Test, einmal mit und einmal ohne Musik, stattfinden.
 </div>
+</div>
+
 
 ---
 
@@ -1091,12 +1305,12 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten. Voraussetzung dafür ist die Einhaltung der Gütekriterien.
+💡  Standardisierte Tests und Messverfahren erlauben den systematischen Vergleich von Leistungswerten zwischen Personen, Gruppen und Messzeitpunkten. Voraussetzung dafür ist die Einhaltung der Gütekriterien.
 </div>
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>Drei Fragen, die jedes Messverfahren bestehen sollte:</b></span>
+<span style="font-size: 1.1em;"><b>Zur Beurteilung der Güte quantitativer Erhebungsverfahren werden drei zentrale Kriterien herangezogen:</b></span>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
@@ -1113,10 +1327,14 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🔁</div>
+<div style="font-size: 2em; text-align: center;">⚖️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Reliabilität</b></div>
 <div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Kommt bei Wiederholung dasselbe heraus?“</div>
 <div style="font-size: 0.9em;">Zuverlässigkeit bzw. Wiederholbarkeit der Messung unter gleichen Bedingungen.</div>
+<ul style="font-size: 0.85em; margin: 8px 0 0 0; padding-left: 18px;">
+<li><b>Paralleltest:</b> zwei verschiedene Tests kommen zu identischen Befunden</li>
+<li><b>Wiederholung:</b> zwei Messdurchläufe kommen zu identischen Befunden</li>
+</ul>
 </div>
 
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
@@ -1128,7 +1346,11 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 </div>
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
+<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
+📌 <b>Merke:</b> <b>O</b>bjektiv = unabhängig von der Person · <b>R</b>eliabel = wiederholbar · <b>V</b>alide = misst das Richtige.
+</div>
+
+<div style="height: 15px;"></div>
 
 <div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
 
@@ -1158,181 +1380,215 @@ Die Messvariable ist die Konkretisierung im Erhebungsinstrument. Die Forschungsh
 
 </details>
 
-<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> <b>O</b>bjektiv = unabhängig von der Person · <b>R</b>eliabel = wiederholbar · <b>V</b>alide = misst das Richtige.
-</div>
-
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Moosbrugger & Kelava (2020) und Döring & Bortz (2016)
+<div style="height: 10px;"></div>
+📚 Moosbrugger & Kelava (2020) und Döring & Bortz (2016)
 </div>
 
----
-
-### Herausforderung
-
-
-**Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen. Drei davon begegnen dir besonders oft:**
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🧑‍🏫</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Testleiter-Effekte</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Beeinflusst die testende Person das Ergebnis?“</div>
-<div style="font-size: 0.9em;">Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Die Testleitung kennt die Hypothese „Musik verbessert die Leistung“ und ruft der Musikgruppe unbewusst öfter Ermutigungen zu.</div>
-</div>
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">↕️</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Decken- und Bodeneffekte</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Ist der Test zu leicht oder zu schwer?“</div>
-<div style="font-size: 0.9em;">Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Deckeneffekt: Ein Test ist für trainierte Personen so leicht, dass alle die Höchstleistung erreichen.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Bodeneffekt: Ein Test ist so schwer, dass fast alle sehr niedrige Werte erreichen.</div>
-</div>
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🌦️</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Störvariablen</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Wirkt etwas mit, das nicht zur Forschung gehört?“</div>
-<div style="font-size: 0.9em;">Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil der Forschung sind.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Wetter (Hitze oder Wind), Tageszeit, Schlaf, vorheriges Training und individueller Musikgeschmack.</div>
-</div>
-
-</div>
-
-<details>
-<summary><b>👉 Klicke hier, um zu sehen, was du dagegen tun kannst.</b></summary>
-
-| Herausforderung | Mögliche Gegenmaßnahme |
-| :-------------- | :--------------------- |
-| 🧑‍🏫 **Testleiter-Effekte** | Standardisierte Anweisungen nach Skript, Zurufe vermeiden, mehrere Testleitungen abwechselnd einsetzen |
-| ⬆️ **Deckeneffekt** | Schwierigkeit des Tests anpassen, die Skala erweitern, vorher in einem kleinen Testlauf prüfen |
-| ⬇️ **Bodeneffekt** (z. B. Klimmzüge: fast alle untrainierten Teilnehmenden schaffen 0 oder 1 Wiederholung) | Einfacheren Test wählen, z. B. Hangzeit statt Wiederholungen |
-| 🌦️ **Störvariablen** | Messung unter gleichen Bedingungen, gleiche Tageszeit, Zufallszuteilung auf die Gruppen, Störvariablen miterfassen |
-
-</details>
-
-<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; color: #1f2933;">
-📋 Überlege dir für deine Studie: Welche <b>Störvariablen</b> könnten beim 12-Minuten-Lauf auftreten, und wie könntest du sie kontrollieren? Mache dir Notizen.
-</div>
-
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Rosenthal (1966) zu Testleiter-/Versuchsleiter-Effekten und Döring & Bortz (2016)
-</div>
 
 ---
 
 ### Befragungen
 
-<div style="border-left: 6px solid #a74ebd; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
-<span style="font-size: 1.1em;">Daten können ebenfalls mithilfe von **Fragebögen**, online oder im Papierformat, erhoben werden. Unser bisheriges Beispiel der Ausdauerleistung wird mit einem physischem Test gemessen, dafür braucht es keinen Fragebogen. Daher werden wir uns im Folgenden mit einem anderen Beispiel beschäftigen:</span>
-</div>
-
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Effekt auf das Anstregungsempfinden</b> 📋<br>
-Laut Terry et al. (2020) sinkt beim Laufen mit Musik das **Anstregungsempfinden**. Dazu wollten wir nun folgende Forschungsfrage beantworten: Welchen Einfluss hat die Nutzung von Rockmusik mit 140 BPM auf das **Anstrengungsempfinden** von Sportstudierenden? Dafür eignet sich eine Befragung sehr gut.</div> 
-
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
-
-<div style="border-left: 6px solid #a74ebd; background: #ffffff; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
-<div style="font-size: 1.1em;"> Bei Fragebogendaten wird in **soziodemografische** und **psychometrische** Daten unterschieden.<br> 
-Soziodemografische Daten sind Daten wie z.B. 
-
-<div><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Alter</span><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Geschlecht</span><span style="background: #f6f1fa; border: 2px solid #a74ebd; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Wohnort</span></div>
-
-<div style="height: 15px;"></div>
-
-Psychometrische Daten werden über standardisierte Fragebögen erfassen und umfassen z. B.
-
-<div><span style="background: #f6f1fa; border: 2px solid #2a9a50; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Einstellungen</span><span style="background: #f6f1fa; border: 2px solid #2a9a50; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Motive</span><span style="background: #f6f1fa; border: 2px solid #2a9a50; color: #1f2933; border-radius: 999px; padding: 0.2rem 0.9rem; margin-right: 0.5rem; font-weight: bold;">Anstregungsempfinden</span></div>
-<div style="height: 15px;"></div>
-über vorformulierte, geschlossene Items.
-
-</div>
+<div style="border-left: 6px solid #233cc5; background: #f6f1fa; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.1em;">Daten können mithilfe von **Fragebögen**, online oder im Papierformat, erhoben werden.</span>
 </div>
 
 
-<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #a74ebd; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für soziodemografische Daten</span>
+#### Soziodemographische Daten 
+
+--{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡  Hier findest du Beispiele für einen soziodemographischen Fragebogen.
+</div>
+
 <div style="height: 15px;"></div>
 
-**Beispiel:**
+{{0-1}}
+*****
+**Welchem Geschlecht ordnest du dich zu?**
+- [ ] Weiblich
+- [ ] Männlich
+- [ ] Divers
+*****
 
-<!-- style="width: 100%; text-align: center" -->
-| Aussage | Alter in Jahren |  
-| :------ | :-: | 
-| Wie alt bist du? | _____  | 
+{{1-2}}
+*****
+**Wie alt bist du? Bitte gib dein Alter in vollen Jahren an.**
 
+[[___]]
+*****
 
-<!-- style="width: 100%; text-align: center" -->
-| Aussage | weiblich| männlich | divers | keine Angabe | 
-| :------ | :-: | :-: | :-: | :-: |
-| Welchem Geschlecht fühlst du dich zugehörig? | ○  | ○  | ○  | ○  |
+{{2-3}}
+*****
+**In welche Klasse gehst du?**
 
+- [ ]   6. Klasse
+- [ ]   7. Klasse
+- [ ]   8. Klasse
+*****
 
-<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #2a9a50; border-radius: 12px; padding: 0.4rem 1rem;">Fragebogen für psychometrische Daten</span>
+{{3-4}}
+*****
+**Aus welchem Bundesland kommst du?**
+
+- [ ] Schleswig-Holstein
+- [ ] Niedersachsen
+- [ ] Hamburg
+- [ ] anderes
+*****
+
+{{4-5}}
+*****
+**Wie viele Bücher gibt es bei dir zuhause ungefähr?**
+
+Auf einen Meter Bücherregal passen ungefähr 40 Bücher.  
+Zähle Zeitschriften, Zeitungen und deine Schulbücher nicht mit.
+
+- [ ] 0–10 Bücher
+- [ ] 11–25 Bücher
+- [ ] 26–100 Bücher
+- [ ] 101–200 Bücher
+- [ ] 201–500 Bücher
+- [ ] Mehr als 500 Bücher
+*****
+
+#### Psychometrische Daten
+
+{{0-1}}
+*****
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #2a9a50; border-radius: 12px; padding: 0.4rem 1rem;">In der Regel: Fragebögen mit Likert-Skalen</span>
 <div style="height: 15px;"></div>
-**Beispiel:**
 
-<!-- style="width: 100%; text-align: center" -->
-| Aussage | trifft gar nicht zu | trifft eher nicht zu | teils/ teils | trifft eher zu | trifft völlig zu |
-| :------ | :-: | :-: | :-: | :-: | :-: |
-| Der 12-Minuten-Lauf hat mir Spaß gemacht. | ○ 1 | ○ 2 | ○ 3 | ○ 4 | ○ 5 |
+<div style="border-left: 6px solid #11b11fff; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">
+"Eine Likert-Skala („likert scale“) ist eine psychometrische Skala, die aus mehreren (z. B. 10–20) Aussagen besteht, die alle dasselbe Merkmal messen und auf Ratingskalen hinsichtlich des Grades der Zustimmung einzuschätzen sind. [...] Der Skalenwert der Likert- Skala berechnet sich als Summen- oder Durchschnittsscore der einzelnen Ratings" ([Springer Lehrbuch Psychologie](https://www.lehrbuch-psychologie.springernature.com/glossar/likert-skala-1)); s. auch Likert, 1932). <br>
 
 **Wichtige Begriffe**
 
 | Begriff | Bedeutung |
 | ------- | --------- |
 | **Item** | einzelne Aussage, die bewertet wird |
-| **Antwortskala** | geordnete Stufen, z. B. 1 bis 5 |
-| **Negativ gepolt** | Item, bei dem hohe Zustimmung einen niedrigen Merkmalswert bedeutet (Umpolen: Stufenzahl + 1 minus Antwort) |
+| **Antwortskala** | geordnete Stufen, z. B. 4-stufig: 0 = trifft nicht zu, 1 = trifft eher nicht zu, 2 = trifft eher zu, 3 = trifft zu |
+| **Negativ gepolt** | Item, bei dem eine ohe Zustimmung einen niedrigen Merkmalswert bedeutet |
 | **Skalenwert** | Mittelwert oder Summe der Items, die dasselbe Merkmal messen |
 
+</span>
+</div>
 
-<div style="height: 15px;"></div>
+<!--- In der Regel geht es um Einstellungen, Meinungen, Zustimmungen usw. --->
+*****
 
-<span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Likert-Skala</span>
 
-Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile wird **eine** Stufe von 1 (trifft gar nicht zu) bis 5 (trifft völlig zu) angekreuzt. Hier siehst du ein ausgefülltes Beispiel:
+{{1-2}}
+*****
+**Beispiel einer Likert Skala zum Belastungsempfinden**
 
-<div style="overflow-x:auto; background:#ffffff; border:1px solid #cbd5e1; border-radius:12px; padding:10px; color:#1f2933;">
-<table style="width:100%; border-collapse:collapse; font-size:0.9em;">
-<tr><th style="border-bottom:2px solid #cbd5e1;">Nr.</th><th style="text-align:left; border-bottom:2px solid #cbd5e1;">Aussage</th><th style="padding:6px; font-size:0.8em; border-bottom:2px solid #cbd5e1;">1<br><span style="font-weight:normal;">trifft gar nicht zu</span></th><th style="padding:6px; font-size:0.8em; border-bottom:2px solid #cbd5e1;">2<br><span style="font-weight:normal;">trifft eher nicht zu</span></th><th style="padding:6px; font-size:0.8em; border-bottom:2px solid #cbd5e1;">3<br><span style="font-weight:normal;">teils/ teils</span></th><th style="padding:6px; font-size:0.8em; border-bottom:2px solid #cbd5e1;">4<br><span style="font-weight:normal;">trifft eher zu</span></th><th style="padding:6px; font-size:0.8em; border-bottom:2px solid #cbd5e1;">5<br><span style="font-weight:normal;">trifft völlig zu</span></th></tr>
-<tr style="border-bottom:1px solid #e2e8f0;"><td style="padding:6px; text-align:center;"><b>1</b></td><td style="padding:6px;">Der 12-Minuten-Lauf hat mir Spaß gemacht.</td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:#d9efe1;"><b style="color:#2a9a50; font-size:1.3em;">●</b></td></tr>
-<tr style="border-bottom:1px solid #e2e8f0;"><td style="padding:6px; text-align:center;"><b>2</b></td><td style="padding:6px;">Ich bin mit meiner Laufleistung zufrieden.</td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:#d9efe1;"><b style="color:#2a9a50; font-size:1.3em;">●</b></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td></tr>
-<tr style="border-bottom:1px solid #e2e8f0;"><td style="padding:6px; text-align:center;"><b>3</b></td><td style="padding:6px;">Ich habe mich beim Lauf angestrengt.</td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:#d9efe1;"><b style="color:#2a9a50; font-size:1.3em;">●</b></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td></tr>
-<tr style="border-bottom:1px solid #e2e8f0;"><td style="padding:6px; text-align:center;"><b>4</b></td><td style="padding:6px;">Ich habe mich beim Laufen unter Druck gefühlt. <span style="background:#fdecea; color:#b3261e; border-radius:99px; padding:0 8px; font-size:0.75em;">negativ gepolt</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:#d9efe1;"><b style="color:#2a9a50; font-size:1.3em;">●</b></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td><td style="text-align:center; padding:6px; background:transparent;"><span style="color:#94a3b8;">○</span></td></tr>
+Die Läufer:innen füllen nach dem 12-Minuten-Lauf vier Aussagen aus. Pro Zeile wird **eine** Stufe von 0 (trifft nicht zu) bis 3 (trifft zu) angekreuzt.
+
+<div
+style="width: 100%;"
+onchange="
+const namen = ['laufscore1', 'laufscore2', 'laufscore3', 'laufscore4'];
+const antworten = namen.map(name => this.querySelector('input[name=' + name + ']:checked'));
+const ausgabe = this.querySelector('[data-ergebnis]');
+if (antworten.some(antwort => antwort === null)) {
+  ausgabe.textContent = 'Bitte beantworte alle vier Aussagen.';
+} else {
+  const werte = antworten.map(antwort => Number(antwort.value));
+  const item4Umgepolt = 3 - werte[3];
+  const mittelwert = (werte[0] + werte[1] + werte[2] + item4Umgepolt) / 4;
+  ausgabe.textContent = 'Dein Skalenwert: ' + mittelwert.toLocaleString('de-DE', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' (Wertebereich: 0 bis 3).';
+}
+">
+<p>Inwieweit treffen die folgenden Aussagen auf dich zu? Bitte wähle pro Zeile eine Antwort.</p>
+<div style="overflow-x: auto;">
+<table style="display: table; width: 100%; min-width: 700px; table-layout: fixed; border-collapse: collapse; font-size: 0.9em; line-height: 1.4; text-align: center;">
+<colgroup>
+<col style="width: 52%;">
+<col style="width: 12%;">
+<col style="width: 12%;">
+<col style="width: 12%;">
+<col style="width: 12%;">
+</colgroup>
+<thead>
+<tr style="background: #f2f6fb;">
+<th scope="col" style="padding: 12px; text-align: left; white-space: normal;">Aussage</th>
+<th scope="col" style="padding: 10px 4px; white-space: normal;">trifft <br>nicht zu</th>
+<th scope="col" style="padding: 10px 4px; white-space: normal;">trifft eher<br>nicht zu</th>
+<th scope="col" style="padding: 10px 4px; white-space: normal;">trifft eher<br>zu</th>
+<th scope="col" style="padding: 10px 4px; white-space: normal;">trifft <br>zu</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #d5dbe3;">
+<th scope="row" style="padding: 14px 12px; text-align: left; font-weight: normal; white-space: normal;">1. Der 12-Minuten-Lauf hat mir Spaß gemacht.</th>
+<td><input type="radio" name="laufscore1" value="0" aria-label="Aussage 1: trifft gar nicht zu"></td>
+<td><input type="radio" name="laufscore1" value="1" aria-label="Aussage 1: trifft eher nicht zu"></td>
+<td><input type="radio" name="laufscore1" value="2" aria-label="Aussage 1: trifft eher zu"></td>
+<td><input type="radio" name="laufscore1" value="3" aria-label="Aussage 1: trifft völlig zu"></td>
+</tr>
+<tr style="border-bottom: 1px solid #d5dbe3;">
+<th scope="row" style="padding: 14px 12px; text-align: left; font-weight: normal; white-space: normal;">2. Ich bin mit meiner Laufleistung zufrieden.</th>
+<td><input type="radio" name="laufscore2" value="0" aria-label="Aussage 2: trifft gar nicht zu"></td>
+<td><input type="radio" name="laufscore2" value="1" aria-label="Aussage 2: trifft eher nicht zu"></td>
+<td><input type="radio" name="laufscore2" value="2" aria-label="Aussage 2: trifft eher zu"></td>
+<td><input type="radio" name="laufscore2" value="3" aria-label="Aussage 2: trifft völlig zu"></td>
+</tr>
+<tr style="border-bottom: 1px solid #d5dbe3;">
+<th scope="row" style="padding: 14px 12px; text-align: left; font-weight: normal; white-space: normal;">3. Ich habe mich beim Lauf angestrengt.</th>
+<td><input type="radio" name="laufscore3" value="0" aria-label="Aussage 3: trifft gar nicht zu"></td>
+<td><input type="radio" name="laufscore3" value="1" aria-label="Aussage 3: trifft eher nicht zu"></td>
+<td><input type="radio" name="laufscore3" value="2" aria-label="Aussage 3: trifft eher zu"></td>
+<td><input type="radio" name="laufscore3" value="3" aria-label="Aussage 3: trifft völlig zu"></td>
+</tr>
+<tr style="border-bottom: 1px solid #d5dbe3;">
+<th scope="row" style="padding: 14px 12px; text-align: left; font-weight: normal; white-space: normal;">4. Ich habe mich beim Laufen unter Druck gefühlt.</th>
+<td><input type="radio" name="laufscore4" value="0" aria-label="Aussage 4: trifft gar nicht zu"></td>
+<td><input type="radio" name="laufscore4" value="1" aria-label="Aussage 4: trifft eher nicht zu"></td>
+<td><input type="radio" name="laufscore4" value="2" aria-label="Aussage 4: trifft eher zu"></td>
+<td><input type="radio" name="laufscore4" value="3" aria-label="Aussage 4: trifft völlig zu"></td>
+</tr>
+</tbody>
 </table>
 </div>
-<div style="height: 15px;"></div>
+<p
+data-ergebnis
+role="status"
+aria-live="polite"
+style="padding: 14px; margin-top: 16px; background: #f2f6fb; border-left: 4px solid #4e66bd; font-weight: bold;">
+Bitte beantworte alle vier Aussagen.
+</p>
+</div>
 
 <details>
-<summary><b> So wird der Skalenwert berechnet </b></summary>
+<summary>So wird der Skalenwert berechnet</summary>
 
+1. Item 4 ist **negativ gepolt**: Hohe Zustimmung bedeutet hier eine stärkere wahrgenommene Druckbelastung. Bei einer Codierung von 0 bis 3 wird es deshalb **umgepolt**:
+   - 0 → 3
+   - 1 → 2
+   - 2 → 1
+   - 3 → 0
 
-<div style="height: 10px;"></div>
+2. Danach wird der **Mittelwert** gebildet:
 
-**So wird der Skalenwert berechnet:** Item 4 ist **negativ gepolt**, hohe Zustimmung bedeutet hier also etwas Negatives (Druck). Deshalb wird es vor der Berechnung **umgepolt**: 6 minus Antwort. Danach wird der Mittelwert gebildet.
-
-<div style="display:flex; gap:8px; flex-wrap:wrap; align-items:stretch; margin:10px 0;">
-<div style="flex:1; min-width:70px; text-align:center; border:2px solid #2a9a50; border-radius:10px; padding:6px; background:#ffffff;"><div style="font-size:0.75em; color:#64748b;">Item 1</div><div style="font-size:1.3em;"><b>5</b></div></div><div style="flex:1; min-width:70px; text-align:center; border:2px solid #2a9a50; border-radius:10px; padding:6px; background:#ffffff;"><div style="font-size:0.75em; color:#64748b;">Item 2</div><div style="font-size:1.3em;"><b>4</b></div></div><div style="flex:1; min-width:70px; text-align:center; border:2px solid #2a9a50; border-radius:10px; padding:6px; background:#ffffff;"><div style="font-size:0.75em; color:#64748b;">Item 3</div><div style="font-size:1.3em;"><b>4</b></div></div><div style="flex:1; min-width:70px; text-align:center; border:2px solid #b3261e; border-radius:10px; padding:6px; background:#ffffff;"><div style="font-size:0.75em; color:#64748b;">Item 4 umgepolt<br>(6 − 2)</div><div style="font-size:1.3em;"><b>4</b></div></div><div style="align-self:center; font-size:1.6em;">➜</div><div style="flex:1; min-width:70px; text-align:center; border:2px solid #4e66bd; border-radius:10px; padding:6px; background:#ffffff;"><div style="font-size:0.75em; color:#64748b;">Mittelwert<br>(5 + 4 + 4 + 4) : 4</div><div style="font-size:1.3em;"><b>4,25</b></div></div>
-</div>
-
-<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> Ein hoher Skalenwert bedeutet hier ein positives Laufempfinden. Ohne das Umpolen von Item 4 würde der Druck fälschlich als etwas Positives gezählt.
-</div>
-
-<div style="height: 15px;"></div>
+   (Wert Item 1 + Wert Item 2 + Wert Item 3 + umgepolter Wert Item 4) : 4
 
 </details>
 
-<span style="background: #4b1365; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.1em; font-weight: bold;">Borg-Skala</span><span style="font-size: 1.1em;">  **Ein einzelnes Item zur Anstrengung**</span>
+*****
 
-Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer einzigen Zahl**, wie anstrengend die Belastung empfunden wurde. Die Werte 6 bis 20 sind so gewählt, dass die Zahl mal 10 ungefähr dem Puls eines gesunden Erwachsenen entspricht (13 ➜ ca. 130 Schläge pro Minute).
+{{2}}
+*****
 
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #2a9a50; border-radius: 12px; padding: 0.4rem 1rem;">Seltener: Fragebögen mit einem Item</span>
+<div style="height: 15px;"></div>
+
+>[!WARNING] Die Borg-Skala 
+>Sie erfasst direkt nach dem Lauf mit **einer einzigen Zahl**, wie anstrengend die Belastung empfunden wurde. <br
+> Die Werte 6 bis 20 sind so gewählt, dass die Zahl mal 10 ungefähr dem Puls eines gesunden Erwachsenen entspricht. <br>
+> z. B. 13 ➜ ca. 130 Schläge pro Minute (Borg, 1982) 
 
 <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:12px; padding:10px; max-width:460px; color:#1f2933;">
 <div style="background:#f77b7b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">20</b> maximale Anstrengung</div>
@@ -1340,9 +1596,9 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 <div style="background:#f79e7b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">18</b> </div>
 <div style="background:#f7b07b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">17</b> sehr anstrengend</div>
 <div style="background:#f7c17b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">16</b> </div>
-<div style="background:#f7d37b; border:3px solid #a74ebd; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">15</b> anstrengend <span style="background:#a74ebd; color:#ffffff; border-radius:99px; padding:1px 10px; font-size:0.8em; white-space:nowrap;">🏃🏾‍♀️ ohne Musik</span></div>
+<div style="background:#f7d37b; border:3px solid #a74ebd; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">15</b> anstrengend</div>
 <div style="background:#f7e47b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">14</b> </div>
-<div style="background:#f7f67b; border:3px solid #4e66bd; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">13</b> etwas anstrengend <span style="background:#4e66bd; color:#ffffff; border-radius:99px; padding:1px 10px; font-size:0.8em; white-space:nowrap;">🏃🏾‍♀️ mit Musik</span></div>
+<div style="background:#f7f67b; border:3px solid #4e66bd; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">13</b> etwas anstrengend</div>
 <div style="background:#e7f77b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">12</b> </div>
 <div style="background:#d5f77b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">11</b> leicht</div>
 <div style="background:#c4f77b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">10</b> </div>
@@ -1352,60 +1608,46 @@ Die Borg-Skala (RPE-Skala, 6 bis 20) erfasst direkt nach dem Lauf mit **einer ei
 <div style="background:#7ef77b; border:1px solid #ffffff; border-radius:8px; padding:4px 10px; margin:2px 0; color:#1f2933;"><b style="display:inline-block; min-width:2em;">6</b> überhaupt keine Anstrengung</div>
 </div>
 <div style="height: 10px;"></div>
+*****
 
+#### Wissensfragen 
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-<div style="height: 10px;"></div>
+**Beispiel eines Schüler:innen-Wissenstest zum Spiel Kinball** 
 
-<div style="height: 10px;"></div>
+In welchen Situationen wird gegen die Kinball-Regeln verstoßen? Mehrere Antworten sind möglich.
 
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #2a9a50; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-📋 <b>Wirkung auf das Anstrengungsempfinden</b> 📋<br>
-<p style="margin: 0.5rem 0 0 0;"><b>Borg-Skala oder Liket Skala?</b> Die Borg-Skala ist schnell und eignet sich direkt nach der Belastung. Ein Fragebogen mit mehreren Items braucht mehr Zeit, erfasst dafür mehrere Seiten des Erlebens (Spaß, Zufriedenheit, Druck) und ist zuverlässiger. </p><p style="margin: 0.5rem 0 0 0;"><b>Anwendung der Borg Skala</b> Eine Läuferin gibt nach dem Lauf <b>mit Musik</b> eine 13 („etwas anstrengend“) an, nach dem Lauf <b>ohne Musik</b> eine 15 („anstrengend“). Die Differenz von 2 Punkten ist dann ein Hinweis darauf, dass Musik die empfundene Anstrengung senken kann. </p>
-</div>
-</div>
-
-</div>
-
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-<div style="height: 10px;"></div>
-📚 Likert (1932); Borg (1982)
-</div>
-
+[[ ]] Genau drei Spieler halten den Ball, eine vierte Spielerin schlägt.
+[[X]] Die schlagende Spielerin ruft „Rot“ und schlägt den Ball.
+[[ ]] Der schlagende Spieler stößt den Ball mit zwei Fäusten weg.
+[[X]] Drei Personen sichern den Ball und laufen über das Spielfeld.
 
 ---
 
 ### Beobachtung
 
 --{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Bei der quantitativen Beobachtung wird Verhalten nicht frei beschrieben, sondern nach vorab festgelegten Regeln erfasst, gezählt oder gemessen. Sie eignet sich immer dann, wenn nicht gefragt werden soll, was Personen <i>sagen</i>, sondern was sie <i>tun</i>. In unserem Fall nutzen wir keine Beobachtung und diese Informationen sind Ergänzungen.
+💡  Bei der quantitativen Beobachtung wird Verhalten nicht frei beschrieben, sondern nach vorab festgelegten Regeln erfasst, gezählt oder gemessen. Sie eignet sich immer dann, wenn nicht gefragt werden soll, was Personen <i>sagen</i>, sondern was sie <i>tun</i>.
 </div>
+<div style="height: 10px;"></div>
 
-<div style="height: 15px;"></div>
-<span style="font-size: 1.1em;"><b>Was macht eine Beobachtung „quantitativ“?</b></span>
+**Was macht eine Beobachtung „quantitativ“?** 
  
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 10px 15px; margin: 8px 0; color: #1f2933;">
-<span style="font-size: 1.4em;">📑</span> <b>Kategorien:</b> Vorab ist eindeutig festgelegt, welches Verhalten erfasst wird.<br>
-<span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. „Gehpause“ = mindestens 3 Sekunden Gehen statt Laufen</span>
-</div>
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 10px 15px; margin: 8px 0; color: #1f2933;">
-<span style="font-size: 1.4em;">⏲️</span> <b>Zeitplan:</b> Es ist festgelegt, wann und wie lange beobachtet wird.<br>
-<span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. alle 30 Sekunden notieren, ob gelaufen oder gegangen wird</span>
-</div>
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 10px 15px; margin: 8px 0; color: #1f2933;">
-<span style="font-size: 1.4em;">🔢</span> <b>Zahlen:</b> Das Verhalten wird gezählt oder gemessen und statistisch verglichen.<br>
-<span style="font-size: 0.85em; color: #4e66bd;">🏃🏾‍♀️ z. B. Anzahl der Gehpausen pro Läufer:in</span>
-</div>
 
-<div style="height: 15px;"></div>
+>[!TIP]📑 Kategorien
+>Vorab ist eindeutig festgelegt, welches Verhalten erfasst wird.<br>
+>z. B. „Positives Feedback“ = Es wird notiert immer dann, wenn ein:e Trainer:in positive Rückmeldungen formuliert.
 
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
+
+>[!NOTE]⏲️ Zeitplan
+> Es ist festgelegt, wann und wie lange beobachtet wird.<br>
+> z. B. die Beobachtung erfolgt im Rahmen einer Trainingseinheit im Hockey
+
+
+>[!WARNING]🔢 Zahlen
+>Das Verhalten wird gezählt oder gemessen und statistisch verglichen.<br>
+>z. B. Anzahl des Lobes pro Training
+
+
 
 <span style="font-size: 1.1em;"><b>Drei Wege, Beobachtungen zu erfassen:</b></span>
 
@@ -1462,30 +1704,9 @@ Die Daten dieser Beispielläuferin sind frei erfunden. In einer echten Studie w�
 </details>
 
 
-<div style="height: 15px;"></div>
-
-<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #a74ebd, transparent); margin: 1.5rem 0;">
-
-<span style="font-size: 1.1em;"><b>Gütekriterien: Wie gut stimmen die Beobachtenden überein?</b></span>
-
-Damit die Beobachtung <b>objektiv</b> ist, sollten mindestens zwei Personen unabhängig voneinander dieselben Läufe beobachten. 
-
-<details>
-<summary><b>👉 Klicke hier, um zu sehen, wie du die Übereinstimmung verbessern kannst.</b></summary>
-
-| Problem | Mögliche Gegenmaßnahme |
-| :------ | :--------------------- |
-| Kategorien sind unklar („Anstrengung zeigen“) | Eindeutige, beobachtbare Definition („Gehpause“ = mindestens 3 Sekunden Gehen) |
-| Beobachtende kennen die Hypothese und erwarten bestimmte Ergebnisse | Beobachtende nicht über die Hypothese informieren („blind“ beobachten) |
-| Beobachtende werten unterschiedlich | Beobachtertraining mit Probeläufen und Videoaufnahmen |
-| Beobachtung lässt sich nicht wiederholen | Video aufzeichnen, damit mehrere Personen unabhängig kodieren können |
-
-</details>
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-<div style="height: 15px;"></div>
 
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
@@ -1495,7 +1716,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 </div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016)
+📚 Döring & Bortz (2016)
 </div>
 
 ---
@@ -1513,7 +1734,7 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
 
-<!-- class="animate__animated animate__fadeInUp" -->
+
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🫁</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Ausdauer</b></div>
@@ -1521,7 +1742,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Strecke, Stufe, Laktat, Herzfrequenz</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">💪</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kraft</b></div>
@@ -1529,7 +1749,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Kilogramm, Zentimeter, Wiederholungen</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⚡</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Schnelligkeit</b></div>
@@ -1537,7 +1756,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Sekunden</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🤸</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Beweglichkeit</b></div>
@@ -1545,7 +1763,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Zentimeter</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">⚖️</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Koordination</b></div>
@@ -1553,7 +1770,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="font-size: 0.8em; color: #64748b; margin-top: 6px;">Maß: Schritte, Sprünge in einer Zeit</div>
 </div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
 <div style="background: #eef2fb; border: 2px solid #4e66bd; border-radius: 12px; padding: 15px; color: #1f2933;">
 <div style="font-size: 2em; text-align: center;">🧠</div>
 <div style="text-align: center; font-size: 1.1em;"><b>Kognition</b></div>
@@ -1592,10 +1808,6 @@ Beobachtet werden Gehpausen, Tempowechsel oder der Anteil der Laufzeit. Die gela
 <div style="height: 10px;"></div>
 
 
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-<div style="height: 15px;"></div>
-
-
 <div style="flex: 1; min-width: 220px;">
 <div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
 🏃🏾‍♀️ <b>Wirkung auf die Ausdauerleistung</b> 🏃🏾‍♀️<br>
@@ -1606,55 +1818,61 @@ Der <b>Cooper-Test</b> misst die Strecke, die in 12 Minuten gelaufen wird (in Me
 
 <div style="height: 15px;"></div>
 
-<span style="font-size: 1.1em;"><b>Worauf muss ich bei der Durchführung achten?</b></span>
+
+
+<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
+📚 Bös et al. (2009); Cooper (1968); Léger et al. (1988); Döring & Bortz (2016)
+</div>
+
+---
+### Herausforderung
+
+
+**Standardisierte Testungen stehen vor spezifischen methodischen Herausforderungen. Drei davon begegnen dir besonders oft:**
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 20px 0;">
 
-
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">📏</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Standardisierung</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Läuft jeder Test gleich ab?“</div>
-<div style="font-size: 0.9em;">Gleiche Anweisung, gleiches Aufwärmen, gleiche Reihenfolge der Tests, gleiche Pausen, gleiche Anzahl an Versuchen.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Alle laufen auf derselben 400-m-Bahn, nach 10 Minuten Einlaufen und mit der Ansage „So weit wie möglich in 12 Minuten“.</div>
+<div style="font-size: 2em; text-align: center;">🧑‍🏫</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Testleiter-Effekte</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Beeinflusst die testende Person das Ergebnis?“</div>
+<div style="font-size: 0.9em;">Auch bei standardisierten Verfahren können unbewusste Einflüsse der testenden Person die Ergebnisse verzerren.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Die Testleitung kennt die Hypothese „Musik verbessert die Leistung“ und ruft der Musikgruppe unbewusst öfter Ermutigungen zu.</div>
 </div>
 
-
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🔥</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Maximale Leistung</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Geben wirklich alle ihr Bestes?“</div>
-<div style="font-size: 0.9em;">Leistungstests setzen voraus, dass die Person sich maximal anstrengt. Motivation und Tagesform beeinflussen das Ergebnis.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Wer wenig motiviert ist, läuft kürzer. Das hat dann nichts mit der Musik zu tun.</div>
+<div style="font-size: 2em; text-align: center;">↕️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Decken- und Bodeneffekte</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Ist der Test zu leicht oder zu schwer?“</div>
+<div style="font-size: 0.9em;">Ein Test kann bei sehr leistungsstarken oder -schwachen Personen keine feine Differenzierung mehr leisten.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Deckeneffekt: Ein Test ist für trainierte Personen so leicht, dass alle die Höchstleistung erreichen.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Bodeneffekt: Ein Test ist so schwer, dass fast alle sehr niedrige Werte erreichen.</div>
 </div>
 
-
 <div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">📊</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Vergleichswerte</b></div>
-<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Wie gut ist dieser Wert?“</div>
-<div style="font-size: 0.9em;">Für viele Tests gibt es Normwerte nach Alter und Geschlecht. So lässt sich ein Ergebnis einordnen.</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ 2600 m im Cooper-Test werden mit der Normtabelle für die jeweilige Altersgruppe verglichen.</div>
+<div style="font-size: 2em; text-align: center;">🌦️</div>
+<div style="text-align: center; font-size: 1.1em;"><b>Störvariablen</b></div>
+<div style="text-align: center; font-style: italic; color: #4a5568; margin: 6px 0 8px 0;">„Wirkt etwas mit, das nicht zur Forschung gehört?“</div>
+<div style="font-size: 0.9em;">Tagesform, Motivation oder Umgebungsbedingungen können die Messung unbeabsichtigt beeinflussen, obwohl sie nicht Teil der Forschung sind.</div>
+<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #4e66bd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🏃🏾‍♀️ Wetter (Hitze oder Wind), Tageszeit, Schlaf, vorheriges Training und individueller Musikgeschmack.</div>
 </div>
 
 </div>
 
 <details>
-<summary><b>👉 Klicke hier, um zu sehen, wie sich ein Test auf die Gütekriterien bezieht.</b></summary>
+<summary><b>👉 Klicke hier, um zu sehen, was du dagegen tun kannst.</b></summary>
 
-| Gütekriterium | Beispiel Cooper-Test |
-| :------------ | :------------------- |
-| **Objektivität** | Streckenmessung nach festem Verfahren (volle Runden zählen, Rest an Markierungen ablesen), gleiche Anweisung für alle |
-| **Reliabilität** | Wird der Test unter gleichen Bedingungen wiederholt, kommen ähnliche Strecken heraus |
-| **Validität** | Der Test misst tatsächlich die Ausdauerleistung, nicht etwa Sprintkraft |
+| Herausforderung | Mögliche Gegenmaßnahme |
+| :-------------- | :--------------------- |
+| 🧑‍🏫 **Testleiter-Effekte** | Standardisierte Anweisungen nach Skript, Zurufe vermeiden, mehrere Testleitungen abwechselnd einsetzen |
+| ⬆️ **Deckeneffekt** | Schwierigkeit des Tests anpassen, die Skala erweitern, vorher in einem kleinen Testlauf prüfen |
+| ⬇️ **Bodeneffekt** (z. B. Klimmzüge: fast alle untrainierten Teilnehmenden schaffen 0 oder 1 Wiederholung) | Einfacheren Test wählen, z. B. Hangzeit statt Wiederholungen |
+| 🌦️ **Störvariablen** | Messung unter gleichen Bedingungen, gleiche Tageszeit, Zufallszuteilung auf die Gruppen, Störvariablen miterfassen |
 
 </details>
 
-<div style="height: 15px;"></div>
-
-
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Bös et al. (2009); Cooper (1968); Léger et al. (1988); Döring & Bortz (2016)
+📚 Rosenthal (1966) zu Testleiter-/Versuchsleiter-Effekten und Döring & Bortz (2016)
 </div>
 
 ---
@@ -1818,102 +2036,81 @@ Standardisierte Skalen zur Anstrengung gehören zu den psychometrischen Testverf
 
 ## Statistische Analyse
 
---{{0}}--<div style="border-left: 6px solid #2e9e5b; background: rgba(46,158,91,0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-💡 <b>Lehrbuch Hinweis:</b> Im Verlauf unseres Forschungsprozesses sind wir nun am Ende der Datenerhebung angelangt. Wir stellen uns vor, dass wir Daten erhoben haben, und gehen nun weiter zur statistischen Analyse.
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
+
+<div style="display:flex; align-items:stretch;">
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Fragestellung & Hypothesen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Theorie und Forschungsstand identifizieren</li>
+<li style="margin-top:5px;">Forschungsfrage präzisieren</li>
+<li style="margin-top:5px;">Hypothesen ableiten</li>
+</ul>
 </div>
 
-<div style="height: 15px;"></div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<!-- class="animate__animated animate__fadeInUp" -->
-<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:12px; margin:1.5em 0; font-family:sans-serif;">
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Fragestellung & Hypothesen</strong><br>
-<span style="font-size:0.9em;">Was will ich herausfinden?</span>
-</div>
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
-
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Untersuchungsplanung</strong><br>
-<span style="font-size:0.9em;">Wie kann ich das herausfinden?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Untersuchung planen</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Design und Stichprobe festlegen</li>
+<li style="margin-top:5px;">Variablen operationalisieren</li>
+<li style="margin-top:5px;">Messinstrumente und Analyseplan festlegen</li>
+</ul>
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#e3efe9; color:#1f2933; text-align:center;">
-<strong>Datenerhebung</strong><br>
-<span style="font-size:0.9em;">Wie bekomme ich aussagekräftige Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Daten erheben</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Standardisiert messen oder befragen</li>
+<li style="margin-top:5px;">Daten dokumentieren und prüfen</li>
+<li style="margin-top:5px;">Datenschutz sicherstellen</li>
+</ul>
 </div>
 
-<div style="font-size:2em; color:#2f6f57;" aria-hidden="true">→</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<div style="flex:1 1 160px; max-width:220px; padding:16px; border:2px solid #2f6f57; border-radius:10px; background:#2f6f57; color:#ffffff;text-align:center;">
-<strong>Statistische Analyse</strong><br>
-<span style="font-size:0.9em;">Was mache ich mit meinen Daten?</span>
+<div style="flex:1 1 0; min-width:0; border:2px solid #d77b24; border-radius:12px; padding:12px 9px 14px; background:#fcf6f0; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#d77b24; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#d77b24; margin:10px 0; min-height:38px;">Auswerten & Interpretieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Daten aufbereiten und beschreiben</li>
+<li style="margin-top:5px;">Hypothesen prüfen</li>
+<li style="margin-top:5px;">Befunde und Grenzen einordnen</li>
+</ul>
 </div>
 
-</div>
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
 
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border: 2px solid #090ceb; border-radius: 12px; padding: 0.8rem 1.3rem;">
-<span style="font-size: 1.2em;">In der statistischen Analyse beschäftigen wir uns nun mit den <b>Variablenarten</b>, den <b>Skalenniveaus</b> und der <b>deskriptiven Statistik</b>.</span>
-</div>
-
-### Variablenarten
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin: 20px 0;">
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🎛️</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Unabhängige Variable (UV)</b></div>
-<div style="font-size: 0.9em;">wird variiert bzw. als Einflussfaktor betrachtet</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Musik (mit / ohne)</div>
-</div>
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">📏</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Abhängige Variable (AV)</b></div>
-<div style="font-size: 0.9em;">wird gemessen, soll vom Einfluss abhängen</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 gelaufene Strecke in m</div>
-</div>
-
-<div style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-<div style="font-size: 2em; text-align: center;">🔒</div>
-<div style="text-align: center; font-size: 1.1em;"><b>Kontrollvariable</b></div>
-<div style="font-size: 0.9em;">wird bewusst konstant gehalten, um Einfluss auf die AV auszuschließen</div>
-<div style="margin-top: 10px; padding: 8px 10px; background: #ffffff; border-left: 4px solid #a74ebd; border-radius: 0 8px 8px 0; font-size: 0.85em;">🔹 Ernährung, Trainingsumfang außerhalb der Studie</div>
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fbf1f4; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Berichten & Präsentieren</div>
+<ul style="margin:0; padding-left:15px; font-size:13px; line-height:1.4;">
+<li>Methoden und Ergebnisse offenlegen</li>
+<li style="margin-top:5px;">Befunde veröffentlichen</li>
+<li style="margin-top:5px;">Neue Forschungsfragen ableiten</li>
+</ul>
 </div>
 
 </div>
 
-<div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> Die Faustregel lautet: <i>Die UV geht rein, die AV kommt raus.</i> Man <b>manipuliert</b> die UV, um zu sehen, wie sich die AV <b>verändert</b>.
-</div>
-
-<div style="height: 15px;"></div>
-
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
-
-<div style="height: 10px;"></div>
-
-<div style="display: flex; gap: 1.5rem; align-items: stretch; flex-wrap: wrap;">
-
-<div style="flex: 1; min-width: 220px;">
-<div style="border: 2px solid #ebe82b; border-radius: 12px; padding: 0.8rem 1.3rem; height: 100%; box-sizing: border-box;">
-🏃🏾‍♀️<b>Wirkung auf die Ausdauerleistung</b>🏃🏾‍♀️<br>
-<b>UV:</b> Musik (mit / ohne) ➜ <b>AV:</b> gelaufene Strecke in Metern
-</div>
+<div style="position:relative; height:28px; margin:0 calc((100% - 72px) / 10);" aria-hidden="true">
+<div style="position:absolute; top:0; left:0; right:0; bottom:0; border:2.5px solid #c43d65; border-top:none; border-radius:0 0 10px 10px;"></div>
+<div style="position:absolute; top:0; left:-5px; width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:9px solid #c43d65;"></div>
+<div style="position:absolute; left:0; right:0; bottom:-24px; text-align:center; color:#c43d65; font-size:13px;">Neue Forschungsfragen → nächster Forschungszyklus</div>
 </div>
 
 </div>
-
-<div style="height: 15px;"></div>
-
-
-
-<div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Döring & Bortz (2016)
 </div>
+
+<p style="text-align:center; color:#617080; font-size:13px;">Quantitative Forschung · systematisch · transparent · überprüfbar</p>
 
 ---
 
@@ -1921,13 +2118,14 @@ Standardisierte Skalen zur Anstrengung gehören zu den psychometrischen Testverf
 
 <span style="font-size: 1.1em;">Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.</span>
 
-| Skalenniveau | Eigenschaft | Nullpunkt | Beispiel aus dem Lauf-Experiment | sinnvolle Kennwerte |
-| ------------ | ----------- | ------ | -------------------------- | ------------------- |
-| **Nominal** 🏷️ | Kategorien ohne Rangordnung | ❌ | Bedingung (mit/ohne Musik), Lieblingsgenre | Häufigkeiten, Modus |
-| **Ordinal** 📶| Rangordnung, aber unbekannte Abstände | ❌ | Platzierung im Lauf, Zustimmung auf einer Skala von 1 bis 7 | Median, Quartile, Modus |
-| **Intervall** 🌡️| gleiche Abstände, **kein** natürlicher Nullpunkt | ❌ | Lufttemperatur in °C | Mittelwert, Standardabweichung |
-| **Verhältnis** 📏 | gleiche Abstände **und** natürlicher Nullpunkt | ✅ | gelaufene Strecke in m, Herzfrequenz, Alter | Mittelwert, Standardabweichung |
+| Skalenniveau |  Rangordnung | Gleiche Abstände | Natürlicher Nullpunkt | Sinnvolle Kennwerte | Beispiel |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| Nominalskala | ✗ | ✗ | ✗ | Häufigkeiten, Modus | Blutgruppe |
+| Ordinalskala | ✓ | ✗ | ✗ | Median, Quartile, Modus | Platzierung beim Sport |
+| Intervallskala | ✓ | ✓ | ✗ | Mittelwert, Standardabweichung | Temperatur in °C |
+| Verhältnisskala | ✓ | ✓ | ✓ | Mittelwert, Standardabweichung | Masse eines Pakets in kg |
 
+✓ = ja · ✗ = nein
 
 <span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
@@ -1949,39 +2147,30 @@ Die Bedingung (mit/ohne Musik) ist <b>nominal</b>, die gelaufene Strecke in Mete
 <details>
 <summary><b>👉 Vertiefung</b></summary>
 
-<span style="font-size: 1.1em;">Das Skalenniveau beschreibt, **wie viel Information** in den Zahlen oder Kategorien einer Variable steckt.</span>
+>[!TIP] Nominalskala
+> Die Werte sind **Namen oder Kategorien**. Man kann sie nur unterscheiden und zählen.
+> - Beispiel: Die Variable *Bedingung* hat die Ausprägungen „ohne tägliche Sportstunde" und mit täglicher Sportstunde“.
+> - Ein Zahlencode (0 = ohne, 1 = mit) ändert nichts daran: Die Zahlen sind nur Etiketten.
 
-<div style="margin-top: 1rem;"><span style="background: #641a85; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Nominalskala</span></div>
+>[!TIP] Ordinalskala
+> Die Werte lassen sich **ordnen**, aber die Abstände zwischen ihnen sind nicht gleich groß.
+> - Beispiel: Platz 1, 2 und 3 bei einem Lauf. Der Abstand von Platz 1 zu 2 kann 5 m betragen, der von Platz 2 zu 3 aber 80 m.
+> - Auch Antworten auf Ratingskalen (0 = trifft  nicht zu, ... 3 = trifft  zu) sind streng genommen ordinal. In der Praxis werden sie aber oft wie intervallskalierte Daten behandelt.
 
-Die Werte sind **Namen oder Kategorien**. Man kann sie nur unterscheiden und zählen.
+>[!TIP] Intervallskala
+> Die Abstände zwischen den Werten sind **gleich groß**, der Nullpunkt ist aber willkürlich festgelegt.
+> - Beispiel: Von 20 °C zu 10 °C leigt ein Unterschied von 10 Grad vor, genauso von 30 °C zu 20 °C.
+> - Aber: 20 °C ist **nicht** „doppelt so warm“ wie 10 °C, denn 0 °C bedeutet nicht „keine Temperatur“.
 
-- Beispiel: Die Variable *Bedingung* hat die Ausprägungen „mit Musik“ und „ohne Musik“.
-- Ein Zahlencode (1 = ohne, 2 = mit) ändert nichts daran: Die Zahlen sind nur Etiketten.
+>[!TIP] Verhältnisskala
+> Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
+> - Beispiel: 3000 m ist doppelt so weit wie 1500 m. 0 m bedeutet „keine Strecke gelaufen“.
 
-<span style="background: #9507a8; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Ordinalskala</span>
-
-Die Werte lassen sich **ordnen**, aber die Abstände zwischen ihnen sind nicht gleich groß.
-
-- Beispiel: Platz 1, 2 und 3 im Lauf. Der Abstand von Platz 1 zu 2 kann 5 m betragen, der von Platz 2 zu 3 aber 80 m.
-- Auch Antworten auf Ratingskalen (1 = trifft gar nicht zu, 5 = trifft völlig zu) sind streng genommen ordinal. In der Praxis werden sie bei vielen Items oft wie intervallskalierte Daten behandelt. Das solltest du aber begründen.
-
-<span style="background: #5923b1; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;"> Intervallskala</span>
-
-Die Abstände zwischen den Werten sind **gleich groß**, der Nullpunkt ist aber willkürlich festgelegt.
-
-- Beispiel: 20 °C zu 10 °C ist ein Unterschied von 10 Grad, genauso wie 30 °C zu 20 °C.
-- Aber: 20 °C ist **nicht** „doppelt so warm“ wie 10 °C, denn 0 °C bedeutet nicht „keine Temperatur“.
-
-<span style="background: #420cc0; color: white; border-radius: 999px; padding: 0.1rem 0.7rem; font-size: 1.0em; font-weight: bold;">Verhältnisskala</span>
-
-Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
-
-- Beispiel: 3000 m ist doppelt so weit wie 1500 m. 0 m bedeutet „keine Strecke gelaufen“.
 
 </details>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Stevens (1946)
+📚 Stevens (1946)
 </div>
 
 ---
@@ -1989,53 +2178,23 @@ Es gibt einen **echten Nullpunkt**, deshalb sind auch Verhältnisse sinnvoll.
 ### Deskriptive Statistik
 
 
-<span style="font-size: 1.1em;">Die deskriptive (beschreibende) Statistik fasst viele Messwerte zu wenigen Kennwerten zusammen. Zwei Fragen sind dabei relevant:</span>
+| Kennwert | Bedeutung | Skala mindestens | Abkürzung |
+| :--- | :--- | :--- | :--- |
+| **Mittelwert** | Summe aller Werte geteilt durch die Anzahl der Werte | Intervallskala | *M* |
+| **Median** | Zentraler Wert bzw. zentrale Kategorie der sortierten Daten; teilt die Verteilung in zwei Hälften | Ordinalskala | *Mdn* |
+| **Modus** | Am häufigsten vorkommender Wert bzw. am häufigsten vorkommende Kategorie | Nominalskala | *Mo* |
+| **Spannweite** | Differenz zwischen dem größten und dem kleinsten Wert | Intervallskala | *R* |
+| **Varianz** | Maß für die Streuung: Summe der quadrierten Abweichungen vom Mittelwert, geteilt durch n | **Intervallskala** | *$s^2$* |
+| **Standardabweichung** | Quadratwurzel der Varianz; beschreibt die Streuung in der ursprünglichen Einheit der Daten | Intervallskala | *SD* |
 
-
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-
-<div style="font-size: 2em; text-align: center;">📍</div>
-
-<div style="text-align: center; font-size: 1.1em;"><b>Wo liegt die Mitte?</b></div>
-
-<div style="height: 15px;"></div>
-
-| Kennwert | Bedeutung | Skalenniveau | Abkürzung | 
-| -------- | --------- | ------------ | --------- | 
-| **Mittelwert**  | Summe aller Werte geteilt durch die Anzahl | metrisch | *M* |
-| **Median** | mittlerer Wert der sortierten Reihe | mindestens ordinal | *Mdn* |
-| **Modus** | häufigster Wert | ab nominal | *Mo* |
-
-</div>
-
-<div style="height: 15px;"></div>
-
-<div class="animate__animated animate__fadeInUp" style="background: #f6f1fa; border: 2px solid #a74ebd; border-radius: 12px; padding: 15px; color: #1f2933;">
-
-<div style="font-size: 2em; text-align: center;">↔️</div>
-
-<div style="text-align: center; font-size: 1.1em;"><b>Wie unterschiedlich sind die Werte?</b></div>
-
-<div style="height: 15px;"></div>
-
-| Kennwert | Bedeutung | Abkürzung | 
-| -------- | --------- | --------- | 
-| **Spannweite** | Maximum minus Minimum | *R* |
-| **Varianz** | mittlere quadrierte Abweichung vom Mittelwert | *$s^2$* |
-| **Standardabweichung** | Wurzel der Varianz, in der Einheit der Daten | *SD* |
-
-</div>
 
 <div style="height: 15px;"></div>
 
 <div style="border-left: 6px solid #e0a526; background: rgba(224,165,38,0.14); border-radius: 8px; padding: 0.7rem 1.2rem;">
-📌 <b>Merke:</b> Streng genommen darf für ordinale Daten kein Mittelwert und Standardabweichung berechnet werden, in der Praxis sieht es anders aus. Hier werden auch bei ordinalen Daten <b>Mittelwert und Standardabweichung</b> angegeben.
+📌 <b>Merke:</b> Streng genommen dürfen für ordinale Daten kein Mittelwert und keine Standardabweichung berechnet werden. In der Praxis werden jedoch häufig auch bei ordinalen Daten <b>Mittelwert und Standardabweichung</b> angegeben.
 </div>
 
-<div style="height: 15px;"></div>
 
-
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -2050,12 +2209,12 @@ Die Bedingung (mit/ohne Musik) ist <b>nominal</b>. Hier können wir **Häufigkei
 
 </div>
 
-### Anwendungsbeispiel deskriptive Daten 
+#### Anwendung Deskriptive Daten 
 
-Im folgenden hast du zwei Beispiele für einen Ergebnissdatensatz einer durchgeführten Studie. 
-Im ersten Teil zum Thema Ausaduerleistung, im zweiten Teil zum Thema Anstregungsempfinden. 
 
-<span style="font-size: 1.1em;">Hier siehst du ein Beispiel von einem Datensatz:</span>
+> [!NOTE] **Aufgabe**  
+>   Hier ist die Laufleistungen in Metern innerhalb von 12min angegeben. Ergänze je Gruppe bis zu zwei Werte, die überhaupt nicht in den Datensatz passen z.B. 8000m oder 9000m bei "mit Musik" und 400m und 250m bei "ohne Musik" und beobachte wie sich die deskriptive Statistik verändert. Die Auswertung wird automatisch aktualisiert.
+
 
 <div id="lauf-musik-widget"></div>
 
@@ -2226,8 +2385,7 @@ Im ersten Teil zum Thema Ausaduerleistung, im zweiten Teil zum Thema Anstregungs
 
     <h3>12-Minuten-Lauf: mit und ohne Musik</h3>
     <p>
-      Hier ist die Laufleistungen in Metern innerhalb von 12min angegeben. Ergänze je Gruppe bis zu zwei Werte, die überhaupt nicht in den Datensatz passen z.B. 8000m oder 9000m bei "mit Musik" und 400m und 250m bei "ohne Musik" und beobachte wie sich die deskriptive Statistik verändert.
-      Die Auswertung wird automatisch aktualisiert.
+    
     </p>
 
     <div class="lm-layout">
@@ -2515,384 +2673,7 @@ Im ersten Teil zum Thema Ausaduerleistung, im zweiten Teil zum Thema Anstregungs
 })();
 </script>
 
-<span style="font-size: 1.1em;"><b>Hier findest du ein Beispiel für die Werte auf der BORG Skala nach einem Lauf, einmal mit, einmal ohne Musik.</b></span>
 
-<div id="borg-musik-widget"></div>
-
-<script>
-(() => {
-  const root = document.getElementById("borg-musik-widget");
-  if (!root || root.dataset.initialized === "true") return;
-  root.dataset.initialized = "true";
-
-  // Fiktive Borg-Werte (RPE-Skala 6-20), direkt nach dem 12-Minuten-Lauf
-  const base = {
-    musik: [11, 13, 12, 14, 12, 10, 15, 13, 11, 13,
-            12, 14, 10, 13, 12, 11, 15, 12, 13, 12],
-    ohne:  [13, 15, 14, 16, 14, 12, 17, 15, 13, 15,
-            14, 16, 12, 15, 14, 13, 17, 14, 15, 14]
-  };
-
-  const groups = [
-    { key: "musik", label: "Mit Musik", color: "#2563eb" },
-    { key: "ohne", label: "Ohne Musik", color: "#d97706" }
-  ];
-
-  root.innerHTML = `
-    <style>
-      #borg-musik-widget {
-        font-family: system-ui, sans-serif;
-        color: #172033;
-        background: #f5f7fb;
-        border: 1px solid #dbe2eb;
-        border-radius: 16px;
-        padding: 20px;
-        max-width: 1100px;
-        margin: 20px auto;
-        box-sizing: border-box;
-      }
-      #borg-musik-widget * { box-sizing: border-box; }
-      #borg-musik-widget h3 { margin: 0 0 10px; font-size: 1.15rem; color: #172033; }
-      #borg-musik-widget p { margin: 0 0 16px; line-height: 1.5; }
-      #borg-musik-widget .bm-layout {
-        display: grid;
-        grid-template-columns: minmax(250px, .85fr) minmax(320px, 1.3fr);
-        gap: 20px;
-        align-items: start;
-      }
-      #borg-musik-widget .bm-card {
-        background: white;
-        border: 1px solid #e1e6ef;
-        border-radius: 12px;
-        padding: 16px;
-        min-width: 0;
-      }
-      #borg-musik-widget .bm-right { display: grid; gap: 16px; }
-      #borg-musik-widget table {
-        border-collapse: collapse;
-        width: 100%;
-        font-size: .92rem;
-        font-variant-numeric: tabular-nums;
-      }
-      #borg-musik-widget th,
-      #borg-musik-widget td {
-        padding: 7px 8px;
-        border-bottom: 1px solid #e5eaf1;
-        text-align: right;
-      }
-      #borg-musik-widget th { background: #edf2f8; color: #172033; }
-      #borg-musik-widget .bm-data th { text-align: center; }
-      #borg-musik-widget .bm-data tbody tr:nth-child(even) { background: #f8fafc; }
-      #borg-musik-widget .bm-extra td { background: #eff6ff; padding: 8px; }
-      #borg-musik-widget input {
-        display: block;
-        width: 100%;
-        min-width: 0;
-        border: 1px solid #93a8c3;
-        border-radius: 6px;
-        background: white;
-        color: #172033;
-        padding: 9px 8px;
-        font: inherit;
-        text-align: right;
-      }
-      #borg-musik-widget input:focus { outline: 3px solid #bfdbfe; border-color: #2563eb; }
-      #borg-musik-widget input[aria-invalid="true"] { border-color: #b91c1c; background: #fff1f2; }
-      #borg-musik-widget .bm-stats th:first-child,
-      #borg-musik-widget .bm-stats td:first-child { text-align: left; }
-      #borg-musik-widget .bm-scroll { overflow-x: auto; }
-      #borg-musik-widget .bm-note { color: #526176; font-size: .83rem; margin: 12px 0 0; }
-      #borg-musik-widget .bm-error { color: #b91c1c; font-size: .85rem; min-height: 1.3em; margin-top: 8px; }
-      #borg-musik-widget .bm-difference {
-        margin-top: 14px;
-        padding: 10px 12px;
-        background: #edf2f8;
-        border-radius: 8px;
-        line-height: 1.5;
-      }
-      #borg-musik-widget button {
-        margin-top: 12px;
-        border: 1px solid #93a8c3;
-        border-radius: 7px;
-        padding: 8px 12px;
-        background: white;
-        color: #172033;
-        font: inherit;
-        cursor: pointer;
-      }
-      #borg-musik-widget button:hover { background: #edf2f8; }
-      #borg-musik-widget svg { display: block; width: 100%; height: auto; }
-      @media (max-width: 760px) {
-        #borg-musik-widget .bm-layout { grid-template-columns: 1fr; }
-        #borg-musik-widget { padding: 12px; }
-      }
-    </style>
-
-    <h3>Borg-Skala: Anstrengungsempfinden mit und ohne Musik</h3>
-    <p>
-      Hier wird das Anstregungsempfinden auf der Borg-Skala (6 bis 20) die direkt nach dem 12-Minuten-Lauf angegeben wurden. Ergänze je Gruppe bis zu zwei Werte, die überhaupt nicht in den Datensatz passen z.B. 19 oder 18 bei "mit Musik" und 6 und 6 bei "ohne Musik" und beobachte wie sich die deskriptive Statistik verändert.
-      Die Auswertung wird automatisch aktualisiert.
-    </p>
-
-    <div class="bm-layout">
-      <section class="bm-card">
-        <h3>Borg-Werte</h3>
-        <table class="bm-data">
-          <thead>
-            <tr>
-              <th scope="col">Mit Musik</th>
-              <th scope="col">Ohne Musik</th>
-            </tr>
-          </thead>
-          <tbody class="bm-values"></tbody>
-        </table>
-        <p class="bm-note">
-          20 fiktive Ausgangswerte je Gruppe.
-          Die beiden blauen Zeilen dienen für zusätzliche Werte (ganze Zahlen von 6 bis 20).
-          Die Werte einer Zeile sind keine zugeordneten Messpaare.
-        </p>
-        <div class="bm-error" role="status"></div>
-        <button type="button" class="bm-reset">Zusätzliche Einträge löschen</button>
-      </section>
-
-      <div class="bm-right">
-        <section class="bm-card">
-          <h3>Deskriptive Kennwerte</h3>
-          <div class="bm-scroll">
-            <table class="bm-stats">
-              <thead>
-                <tr>
-                  <th scope="col">Kennwert</th>
-                  <th scope="col">Mit Musik</th>
-                  <th scope="col">Ohne Musik</th>
-                </tr>
-              </thead>
-              <tbody class="bm-stat-values"></tbody>
-            </table>
-          </div>
-          <div class="bm-difference" aria-live="polite"></div>
-          <p class="bm-note">
-            Die Borg-Skala ist streng genommen ordinal. Der Median passt deshalb immer;
-            Mittelwert und SD werden in der Praxis oft zusätzlich berichtet.
-            SD = Stichprobenstandardabweichung mit Nenner n − 1.
-            Leere oder ungültige Zusatzfelder werden nicht mitgerechnet.
-          </p>
-        </section>
-
-        <section class="bm-card">
-          <h3>Verteilung der Borg-Werte</h3>
-          <div class="bm-chart"></div>
-          <p class="bm-note">
-            Die Balken zeigen, wie viele Personen jeden Wert angegeben haben.
-            Die vertikale Achse beginnt bei 0.
-          </p>
-        </section>
-      </div>
-    </div>
-  `;
-
-  const tableBody = root.querySelector(".bm-values");
-  const fmt = (value, digits = 1) =>
-    value.toLocaleString("de-DE", {
-      minimumFractionDigits: digits,
-      maximumFractionDigits: digits
-    });
-
-  for (let i = 0; i < 20; i++) {
-    const row = document.createElement("tr");
-    for (const group of groups) {
-      const cell = document.createElement("td");
-      cell.textContent = String(base[group.key][i]);
-      row.appendChild(cell);
-    }
-    tableBody.appendChild(row);
-  }
-
-  for (let i = 1; i <= 2; i++) {
-    const row = document.createElement("tr");
-    row.className = "bm-extra";
-    for (const group of groups) {
-      const cell = document.createElement("td");
-      const input = document.createElement("input");
-      input.type = "text";
-      input.inputMode = "numeric";
-      input.dataset.group = group.key;
-      input.placeholder = "Zusatzwert " + i;
-      input.setAttribute("aria-label",
-        group.label + ": zusätzlicher Borg-Wert " + i);
-      input.setAttribute("aria-invalid", "false");
-      input.addEventListener("input", update);
-      cell.appendChild(input);
-      row.appendChild(cell);
-    }
-    tableBody.appendChild(row);
-  }
-
-  function getData(key) {
-    const values = [...base[key]];
-    root.querySelectorAll('input[data-group="' + key + '"]')
-      .forEach(input => {
-        const text = input.value.trim();
-        if (text === "") {
-          input.setAttribute("aria-invalid", "false");
-          return;
-        }
-        const value = Number(text);
-        const valid = /^[0-9]+$/.test(text) && value >= 6 && value <= 20;
-        input.setAttribute("aria-invalid", String(!valid));
-        if (valid) values.push(value);
-      });
-    return values;
-  }
-
-  function statistics(values) {
-    const sorted = [...values].sort((a, b) => a - b);
-    const n = values.length;
-    const mean = values.reduce((s, v) => s + v, 0) / n;
-    const middle = Math.floor(n / 2);
-    const median = n % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
-    const variance = values.reduce((s, v) => s + (v - mean) ** 2, 0) / (n - 1);
-
-    const counts = {};
-    values.forEach(v => { counts[v] = (counts[v] || 0) + 1; });
-    const top = Math.max(...Object.values(counts));
-    const modes = Object.keys(counts)
-      .filter(k => counts[k] === top).map(Number).sort((a, b) => a - b);
-
-    return {
-      n, mean, median, counts,
-      mode: modes.join(", "),
-      sd: Math.sqrt(variance),
-      min: sorted[0],
-      max: sorted[n - 1],
-      range: sorted[n - 1] - sorted[0]
-    };
-  }
-
-  function drawChart(stats) {
-    const width = 560, height = 350;
-    const left = 56, right = 20, top = 42, bottom = 66;
-    const plotHeight = height - top - bottom;
-    const baseline = height - bottom;
-    const plotWidth = width - left - right;
-    const slot = plotWidth / 15;
-    const barWidth = 11;
-
-    const maxCount = Math.max(
-      ...groups.flatMap(g => Object.values(stats[g.key].counts)), 1);
-    const ceiling = Math.max(6, Math.ceil(maxCount / 2) * 2 + 2);
-    const tickStep = ceiling > 10 ? 4 : 2;
-
-    let grid = "";
-    for (let v = 0; v <= ceiling; v += tickStep) {
-      const y = baseline - (v / ceiling) * plotHeight;
-      grid += `
-        <line x1="${left}" y1="${y}" x2="${width - right}" y2="${y}" stroke="#dbe2eb" />
-        <text x="${left - 10}" y="${y + 4}" text-anchor="end" fill="#526176" font-size="12">${v}</text>
-      `;
-    }
-
-    let bars = "";
-    for (let v = 6; v <= 20; v++) {
-      const cx = left + (v - 6) * slot + slot / 2;
-      groups.forEach((group, gi) => {
-        const count = stats[group.key].counts[v] || 0;
-        const h = (count / ceiling) * plotHeight;
-        const x = cx + (gi === 0 ? -barWidth : 0);
-        bars += `
-          <rect x="${x}" y="${baseline - h}" width="${barWidth}" height="${h}"
-                fill="${group.color}" rx="2">
-            <title>${group.label}, Borg-Wert ${v}: ${count} Person(en)</title>
-          </rect>`;
-      });
-      bars += `
-        <text x="${cx}" y="${baseline + 18}" text-anchor="middle"
-              fill="#172033" font-size="12">${v}</text>`;
-    }
-
-    const legend = groups.map((g, i) => `
-      <rect x="${left + i * 130}" y="${height - 26}" width="12" height="12" fill="${g.color}" rx="2" />
-      <text x="${left + i * 130 + 18}" y="${height - 15}" fill="#172033" font-size="13">${g.label} (n = ${stats[g.key].n})</text>
-    `).join("");
-
-    root.querySelector(".bm-chart").innerHTML = `
-      <svg viewBox="0 0 ${width} ${height}" role="img"
-           aria-label="Häufigkeitsverteilung der Borg-Werte mit und ohne Musik">
-        <text x="${left}" y="20" fill="#526176" font-size="12">Anzahl Personen</text>
-        ${grid}
-        <line x1="${left}" y1="${baseline}" x2="${width - right}" y2="${baseline}" stroke="#64748b" />
-        ${bars}
-        <text x="${left + plotWidth / 2}" y="${baseline + 36}" text-anchor="middle"
-              fill="#526176" font-size="12">Borg-Wert (6 = keine Anstrengung, 20 = maximale Anstrengung)</text>
-        ${legend}
-      </svg>
-    `;
-  }
-
-  function update() {
-    const stats = {
-      musik: statistics(getData("musik")),
-      ohne: statistics(getData("ohne"))
-    };
-
-    const metrics = [
-      ["Anzahl (n)", "n", 0],
-      ["Mittelwert", "mean", 1],
-      ["Median", "median", 1],
-      ["Modus", "mode", -1],
-      ["Standardabweichung (SD)", "sd", 1],
-      ["Minimum", "min", 0],
-      ["Maximum", "max", 0],
-      ["Spannweite", "range", 0]
-    ];
-
-    root.querySelector(".bm-stat-values").innerHTML =
-      metrics.map(([label, key, digits]) => `
-        <tr>
-          <th scope="row">${label}</th>
-          <td>${digits < 0 ? stats.musik[key] : fmt(stats.musik[key], digits)}</td>
-          <td>${digits < 0 ? stats.ohne[key] : fmt(stats.ohne[key], digits)}</td>
-        </tr>
-      `).join("");
-
-    const diff = stats.musik.mean - stats.ohne.mean;
-    const signed = diff > 0 ? "+" + fmt(diff) : fmt(diff);
-    root.querySelector(".bm-difference").textContent =
-      "Mittelwertdifferenz (mit Musik − ohne Musik): " + signed + " Skalenpunkte";
-
-    const invalid = root.querySelectorAll('input[aria-invalid="true"]').length;
-    root.querySelector(".bm-error").textContent = invalid
-      ? "Bitte ganze Zahlen zwischen 6 und 20 eingeben. " +
-        "Ungültige Felder werden nicht berücksichtigt."
-      : "";
-
-    drawChart(stats);
-  }
-
-  root.querySelector(".bm-reset").addEventListener("click", () => {
-    root.querySelectorAll("input").forEach(input => {
-      input.value = "";
-      input.setAttribute("aria-invalid", "false");
-    });
-    update();
-  });
-
-  update();
-})();
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-<span style="font-size: 1.1em;"><b>Für das Musikbeispiel aus der Einleitung bedeutet das:</b></span>
 
 <div style="height: 10px;"></div>
 
@@ -2909,18 +2690,10 @@ Die gelaufene Strecke wird je Gruppe mit Mittelwert und Standardabweichung besch
 <div style="height: 15px;"></div>
 
 <div style="text-align: right; font-size: 0.85em; opacity: 0.8;">
-📚 Zum Nachlesen: Eid, Gollwitzer & Schmitt (2017)
+📚 Eid, Gollwitzer & Schmitt (2017)
 </div>
 
 ### Check-Up: Skalenniveaus & deskriptive Statistik
-
-
-<!-- class="animate__animated animate__fadeIn" -->
-<div style="border-left: 6px solid #a74ebd; background: rgba(185, 145, 215, 0.12); border-radius: 8px; padding: 0.7rem 1.2rem;">
-<span style="font-size: 1.3em;"><i>Was habe ich zu Skalenniveaus und deskriptiver Statistik verstanden? Teste dein Wissen.</i></span>
-</div>
-
-<div style="height: 15px;"></div>
 
 Beantworte die Fragen. Bei einigen Fragen hilft dir ein Hinweis, und nach dem Beantworten bekommst du eine kurze Erklärung.
 
@@ -3012,7 +2785,7 @@ Die Standardabweichung beschreibt die typische Abweichung der Werte vom Mittelwe
 
 ## Ausblick
 
-<div class="animate__animated animate__fadeIn" style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; font-size: 1.05em;">
+<div style="border-left: 6px solid #4e66bd; background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0; font-size: 1.05em;">
 Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur <b>deskriptiv</b> (beschreibend) analysieren können, sondern auch <b>Berechnungen durchführen</b> und <b>ausschlaggebende Aussagen</b> darüber treffen können, ob Musik einen Einfluss auf die Ausdauerleistung hat.
 </div>
 
@@ -3036,7 +2809,7 @@ Als nächstes wollen wir herausfinden, wie wir die Daten nicht nur <b>deskriptiv
   </div>
 </div>
 
-<div class="animate__animated animate__bounceIn" style="animation-delay: 1s; animation-fill-mode: backwards; text-align: center; font-size: 1.2em; font-weight: bold; color: #4e66bd; margin-top: 1.2rem;">
+<div style="animation-delay: 1s; animation-fill-mode: backwards; text-align: center; font-size: 1.2em; font-weight: bold; color: #4e66bd; margin-top: 1.2rem;">
 🎵 Hat Musik einen Einfluss auf die Ausdauerleistung? 🏃
 </div>
 
