@@ -343,7 +343,7 @@ function parse(){
     var l = lines[i].trim();
     if(!l) continue;
     var m = l.match(/^\[(Einstiegsphase|Themenblock|Ausklang)[^\]]*\]$/);
-    if(m){ newBlock(l.slice(1, -1)); continue; }
+    if(m){ continue; } // Themenblock-Überschriften werden ignoriert
     if(!cur) newBlock('Beginn');
     var n = l.match(/^(S1|S2|I|K)\s*:\s*(.*)$/); // GEÄNDERT: erkennt S1/S2 und I/K
     if(n){
@@ -424,7 +424,6 @@ function head(){
   }
   h += '</div>';
   h += '<div class="tv-frage"><b>Forschungsfrage:</b> ' + esc(FRAGE) + '</div>';
-  h += '<div id="tv-nav"></div>';
   h += '<div class="tv-tools">' +
        '<label><input type="checkbox" data-opt="nr" checked> Zeilennummern</label>' +
        '<label><input type="checkbox" data-opt="kid"> Nur Aussagen des Kindes</label>' +
@@ -470,7 +469,7 @@ function list(){
               '<div class="tv-wrap"><div class="tv-bub"><div class="tv-who">' +
               (kid ? 'K · Kind' : 'I · Interviewerin') + '</div>' + hl(it.text, q) + '</div></div></div>'; // GEÄNDERT
     }
-    if(rows){ out += '<div class="tv-bh">' + esc(BLOCKS[b].title) + '</div>' + rows; }
+    if(rows){ out += rows; }
   }
   el.innerHTML = out || '<p>Keine Treffer.</p>';
 }
