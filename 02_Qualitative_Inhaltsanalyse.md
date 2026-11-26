@@ -142,7 +142,70 @@ Die **Qualitative Inhaltsanalyse** gehört zu den am häufigsten eingesetzten Au
 
 ## Der Forschungszyklus nach Kuckartz (2016)
 
-Der 7-stufige Ablauf der inhaltlich strukturierenden Inhaltsanalyse:
+<section>
+
+### Der 7-stufige Ablauf der inhaltlich strukturierenden Inhaltsanalyse:
+
+<div lang="de" style="margin:1.5em 0; font-family:system-ui,-apple-system,'Segoe UI',sans-serif; color:#253446;">
+<div style="padding:0 0 34px 0;">
+
+<div style="display:flex; align-items:stretch;">
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #24558a; border-radius:12px; padding:12px 9px 14px; background:#eff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#24558a; color:#fff; font-size:14px; font-weight:700;">01</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#24558a; margin:10px 0; min-height:38px;">Initiierende Textarbeit</div>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #009ead; border-radius:12px; padding:12px 9px 14px; background:#edf8f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#009ead; color:#fff; font-size:14px; font-weight:700;">02</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#009ead; margin:10px 0; min-height:38px;">Entwicklung der Hauptkategorien</div>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #8056a5; border-radius:12px; padding:12px 9px 14px; background:#f6f3f9; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#8056a5; color:#fff; font-size:14px; font-weight:700;">03</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#8056a5; margin:10px 0; min-height:38px;">Codieren anlang der Hauptkategorien</div>
+
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43d65; border-radius:12px; padding:12px 9px 14px; background:#fff3f7; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43d65; color:#fff; font-size:14px; font-weight:700;">04</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43d65; margin:10px 0; min-height:38px;">Bündelung der codierten Textstellen</div>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c43db2; border-radius:12px; padding:12px 9px 14px; background:#fff7fe; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c43db2; color:#fff; font-size:14px; font-weight:700;">05</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c43db2; margin:10px 0; min-height:38px;">Induktives Bestimmen von Subkategorien</div>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #1a5120; border-radius:12px; padding:12px 9px 14px; background:rgb(247, 255, 248); min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#1a5120; color:#fff; font-size:14px; font-weight:700;">06</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#1a5120; margin:10px 0; min-height:38px;">Zweiter Codierdurchlauf</div>
+</div>
+
+<div style="flex:0 0 18px; align-self:center; text-align:center; font-size:15px; color:#526475;" aria-hidden="true">➜</div>
+
+<div style="flex:1 1 0; min-width:0; border:2px solid #c4683d; border-radius:12px; padding:12px 9px 14px; background:#fff9f6; min-height:220px; hyphens:auto; overflow-wrap:break-word;">
+<div style="display:flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:#c4683d; color:#fff; font-size:14px; font-weight:700;">07</div>
+<div style="font-size:15px; line-height:1.25; font-weight:700; color:#c4683d; margin:10px 0; min-height:38px;">Auswertung & Interpretation</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+</section>
 
 ---
 
