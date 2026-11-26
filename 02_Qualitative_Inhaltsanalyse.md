@@ -161,7 +161,6 @@ Der 7-stufige Ablauf der inhaltlich strukturierenden Inhaltsanalyse:
 <div style="border: 2px solid #1c615c49; border-radius: 12px; padding: 0.8rem 1.3rem;">
 <p style="font-size: 1.0em;">So kannst du das Transkript erkunden:</p>
 
-- Klicke in der **Übersichtsleiste** auf einen Abschnitt, um nur diesen Teil zu sehen.
 - Die **Zeilennummern** helfen dir beim Zitieren und Vergleichen (z. B. "Z. 17").
 - Mit **Nur Aussagen des Kindes** blendest du die Fragen der Interviewerin aus.
 - Die **Suche** markiert alle Stellen mit einem Begriff, z. B. "Trainer" oder "Gruppe".
@@ -1210,9 +1209,202 @@ init(40);
   2. Subkategorien benennen und definieren.
   3. Ankerbeispiele (prägnante Zitate) zur Illustration festlegen.
 
-#### Das Beispielinterview
+#### Das Beispielinterview 
+<section>
 
-wird noch entwickelt
+#### Autonomie (K1)
+<div style="border-left: 6px solid rgba(44, 17, 177, 0.62); background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Für unsere erste Hauptkategorie Autonomie (K1) haben wir den Prozess der induktiven Kategorienfindung beispielhaft schon einmal gemacht. Aus dem Material wurden zwei Subkategorien gefunden.
+</span>
+</div>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K1.1 Wahl- und Mitbestimmungsmöglichkeiten** </span>
+<div style="height: 15px;"></div>
+
+**Das Kind erlebt, dass es auswählen, abstimmen oder selbst entscheiden darf.**
+
+- Z. 20: „Ja, bei manchen Übungen sagt der Trainer schon, dass wir uns da eine Variante aussuchen können."
+- Z. 22: „… Da dürfen wir auch ganz oft selber entscheiden, wann wir da wechseln."
+
+<details><summary>Weitere Beiträge zu K1.1</summary>
+<ul>
+<li>Z. 16: „… Aber am Ende dürfen wir uns manchmal ein Spiel wünschen, und dann stimmen wir ab. …"</li>
+<li>Z. 22 (Fortsetzung): „… machen wir das dann oft einfach auch so wie wir wollen, wenn er gerade mal nicht aufpasst."</li>
+<li>Z. 24: „Wenn wir da so die Wahl haben … dann ist das alles ein bisschen entspannter. Ich kann dann halt das machen, was mir am meisten Spaß macht …"</li>
+<li>Z. 112: „… ein Spiel machen, bei dem wir die Teams aber selber bestimmen können. Und, dass man auch mal selber entscheiden darf, was man üben will."</li>
+</ul>
+</details>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K1.2 Fremdbestimmung und fehlender Einfluss** </span>
+<div style="height: 15px;"></div>
+
+**Das Kind erlebt Vorgaben ohne Spielraum oder wünscht sich mehr Mitsprache.**
+
+- Z. 16: „Meistens sagt der Trainer, was wir machen. …"
+- Z. 18: „… manchmal würde ich schon gern mehr mitentscheiden. Letztens wollte ich lieber erstmal Baggern üben, aber dann hieß es einfach: ‚Wir machen jetzt Aufschlag.‘ Da kann man dann nichts machen."
+
+<details><summary>Weitere Beiträge zu K1.2</summary>
+<ul>
+<li>Z. 16 (Fortsetzung): „… Ich wünsch’ mir immer Zwei gegen Zwei, aber meistens gewinnt was anderes."</li>
+</ul>
+</details>
+
+
+<details><summary>Ein Beitrag bleibt ohne Subkategorie</summary>
+<ul>
+<li>Z. 28: „… wenn wir zum Beispiel Pritschen gegen die Wand machen sollen und der Trainer nur sagt: ‚Das machen wir jetzt zehn Minuten‘ und man weiß gar nicht richtig, wofür das gut ist. …"</li>
+</ul>
+Das Thema „Sinn und Begründung" kommt nur in dieser einen Stelle vor. Für eine eigene Subkategorie reicht das nicht. Nicht jeder Beitrag braucht eine Subkategorie, einzelne Stellen dürfen offen bleiben.
+</details>
+
+
+<div style="border-left: 6px solid #240a80; background: rgb(235, 247, 255); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Unsere Tabelle der Hauptkategorien kann also nun um die Subkategorien für Autonomie ergänzt werden:
+</div>
+
+| Hauptkategorie | Subkategorie | Ankerbeispiel |
+|---|---|---|
+| K1 Autonomie | K1.1 Wahl- und Mitbestimmungsmöglichkeiten | „Bei manchen Übungen sagt der Trainer schon, dass wir uns da eine Variante aussuchen können." (Z. 20) |
+| | K1.2 Fremdbestimmung und fehlender Einfluss | „Dann hieß es einfach: ‚Wir machen jetzt Aufschlag.‘ Da kann man dann nichts machen." (Z. 18) |
+
+</section>
+
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #4e66bd, transparent); margin: 1.5rem 0;">
+
+<section>
+
+#### Kompetenzerleben (K2)
+
+<div style="border-left: 6px solid rgba(44, 17, 177, 0.62); background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Auch für unserer zweite Hauptkategorie konnten mehrere Subkategorien festgestellt werden.
+</span>
+</div>
+
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.1 Passung der Anforderungen** </span>
+<div style="height: 15px;"></div>
+
+**Das Kind...
+
+- Z. 
+- Z. 
+
+<details><summary>Weitere Beiträge zu K2.1</summary>
+<ul>
+<li>Z. </li>
+
+</ul>
+</details>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.2 Rückmeldung** </span>
+<div style="height: 15px;"></div>
+
+**Das Kind...
+
+- Z. 
+- Z. 
+
+<details><summary>Weitere Beiträge zu K2.2</summary>
+<ul>
+<li>Z. </li>
+</ul>
+</details>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.3 Erfolgs- und Fortschrittserleben** </span>
+<div style="height: 15px;"></div>
+
+**Das Kind ...
+
+- Z. 
+- Z. 
+
+<details><summary>Weitere Beiträge zu K2.3</summary>
+<ul>
+<li>Z. 16 </li>
+</ul>
+</details>
+
+<div style="border-left: 6px solid #240a80; background: rgb(235, 247, 255); border-radius: 8px; padding: 0.7rem 1.2rem;">
+💡 Unsere Tabelle der Hauptkategorien kann also nun um die Subkategorien für Kompetenzerleben ergänzt werden:
+</div>
+
+| Hauptkategorie | Subkategorie | Ankerbeispiel |
+|---|---|---|
+| **K1 Autonomie** | K1.1 Wahl- und Mitbestimmungsmöglichkeiten | „Bei manchen Übungen sagt der Trainer schon, dass wir uns da eine Variante aussuchen können." (Z. 20) |
+| | K1.2 Fremdbestimmung und fehlender Einfluss | „Dann hieß es einfach: ‚Wir machen jetzt Aufschlag.‘ Da kann man dann nichts machen." (Z. 18) | 
+| **K2 Kompetenzerleben** | K2.1 Passung der Anforderungen | Anker |
+| | K2.2 Passung der Anforderungen | Anker |
+| | K2.3 Erfolgs- und Fortschrittserleben | Anker |
+
+
+
+</section>
+
+#### Übung: Soziale Eingebundenheit (K3)
+
+<div style="border-left: 6px solid rgba(44, 17, 177, 0.62); background: #f2f6fb; border-radius: 0 12px 12px 0; padding: 1rem 1.4rem; margin: 1rem 0;">
+<span style="font-size: 1.0em;">Jetzt bist du dran! Die Beträge der Hauptkategorie **Soziale Eingebundenheit** wurden unten bereits nach Gemeinsamkeiten in Subkategorien vorsortiert. Deine Aufgabe:
+</span>
+
+1. Finde eine **kurze, materialnahe Bezeichnung** für die Subkategorie.
+2. Formuliere eine **Definition der Subkategorie in einem Satz**.
+3. Wähle ein **Ankerbeispiel** (mit Zeilennummer).
+</div>
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K3.1** </span>
+<div style="height: 15px;"></div>
+
+
+- Z. 77: „Dass es einfach das Beste ist, mit allen zusammen zu spielen!"
+- Z. 79: „Wir sind halt eine coole Gruppe. Also ich mag die meisten richtig gerne und wir machen auch manchmal sogar auch was zusammen."
+- Z. 83: „Am Anfang war das schon einschüchternd, weil die sich alle schon länger kennen und ich da nicht so richtig dazugehört habe."
+- Z. 103: „… es ist halt schon alles eher so lustig und locker bei uns. Wir lachen ganz viel zusammen, auch mit dem Trainer."
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K3.2** </span>
+<div style="height: 15px;"></div>
+
+- Z. 93: „… jemand was nicht so gut kann, zeigen die anderen das manchmal auch. Ich habe letztens … meinen kleinen Trick für’s Baggern gezeigt."
+- Z. 95: „Wenn mir jemand ’nen Tipp gibt, dann bin ich immer voll dankbar."
+- Z. 97: „… ich frag’ meistens erst die neben mir. Die erklärt mir das dann nochmal in Ruhe."
+- Z. 99: „Die sagen dann oft so ‚Nicht schlimm, nächstes Mal!‘, das hilft eigentlich auch."
+
+<span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K3.3** </span>
+<div style="height: 15px;"></div>
+
+
+- Z. 89: „Die ganze Mannschaft hat danach total gejubelt, das war richtig cool!"
+- Z. 91: „MEGA gut, also da fühlt man sich schon irgendwie wichtig so für’s Team auch."
+- Z. 107: „… Da hat er mich nach dem Spiel kurz beiseitegenommen und gefragt, ob alles okay ist. Das war schon nett von ihm."
+- Z. 113: „… dass die anderen halt auch so mitjubeln, wenn was klappt … wenn man merkt, dass die sich mitfreuen."
+
+<div style="border-left: 6px solid #240a80; background: rgb(229, 243, 253); border-radius: 8px; padding: 0.7rem 1.2rem;">
+✏️ Trage deine Ergebnisse in die Tabelle ein und vergleiche anschließend mit der Musterlösung!
+</div>
+
+
+| Gruppe | Bezeichnung | Definition | Ankerbeispiel |
+|---|---|---|---|
+| K3.1 | | | |
+| K3.2 | | | |
+| K3.3 | | | |
+
+<details><summary>Musterlösung anzeigen</summary>
+<table>
+<tr><th>Hauptkategorie</th><th>Subkategorie</th><th>Definition</th><th>Ankerbeispiel</th></tr>
+<tr><td>K3 Soziale Eingebundenheit</td><td>K3.1 Zugehörigkeit und Gruppenklima</td><td>Dazugehören, Stimmung und Wohlbefinden in der Gruppe</td><td>„Wir sind halt eine coole Gruppe." (Z. 79)</td></tr>
+<tr><td></td><td>K3.2 Unterstützung</td><td>Hilfe, Tipps und Zuspruch von Mitspielenden</td><td>„Die sagen dann oft so ‚Nicht schlimm, nächstes Mal!‘, das hilft eigentlich auch." (Z. 99)</td></tr>
+<tr><td></td><td>K3.3 Wertschätzung und Beziehung</td><td>Anerkennung durch das Team, persönliche Zuwendung des Trainers</td><td>„… da fühlt man sich schon irgendwie wichtig so für’s Team auch." (Z. 91)</td></tr>
+</table>
+Deine Bezeichnungen müssen nicht wortgleich sein. Entscheidend ist, dass sie das Gemeinsame der Gruppe treffen und nah am Material bleiben.
+</details>
+
+<details><summary>Grenzfälle: Diese Beiträge passen nicht eindeutig</summary>
+<ul>
+<li>Z. 87: „Die haben mich richtig mit einbezogen und mir die Bälle zugespielt, das war irgendwie schön." Zugehörigkeit (K3.1) oder Wertschätzung (K3.3)?</li>
+<li>Z. 101: „Meistens suche ich mir [Name] aus, weil wir uns schon lange kennen und gut verstehen. Zu zweit macht das auch mehr Spaß als alleine, weil man sich gegenseitig helfen kann." Gruppenklima (K3.1) oder Unterstützung (K3.2)?</li>
+</ul>
+Solche Fälle sind normal. Wichtig ist, dass du begründen kannst, welchen Schwerpunkt du siehst, und dass die Entscheidung im Team einheitlich getroffen wird.
+</details>
 
 ---
 
