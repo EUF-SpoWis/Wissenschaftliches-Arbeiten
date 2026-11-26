@@ -1289,13 +1289,12 @@ init(40);
 - Z. 20: „Ja, bei manchen Übungen sagt der Trainer schon, dass wir uns da eine Variante aussuchen können."
 - Z. 22: „… Da dürfen wir auch ganz oft selber entscheiden, wann wir da wechseln."
 
-<details><summary>Weitere Beiträge zu K1.1</summary>
-<ul>
-<li>Z. 16: „… Aber am Ende dürfen wir uns manchmal ein Spiel wünschen, und dann stimmen wir ab. …"</li>
-<li>Z. 22 (Fortsetzung): „… machen wir das dann oft einfach auch so wie wir wollen, wenn er gerade mal nicht aufpasst."</li>
-<li>Z. 24: „Wenn wir da so die Wahl haben … dann ist das alles ein bisschen entspannter. Ich kann dann halt das machen, was mir am meisten Spaß macht …"</li>
-<li>Z. 112: „… ein Spiel machen, bei dem wir die Teams aber selber bestimmen können. Und, dass man auch mal selber entscheiden darf, was man üben will."</li>
-</ul>
+<details>
+<summary>👉 Weitere Beiträge zu K1.1</summary>
+- Z. 16: „… Aber am Ende dürfen wir uns manchmal ein Spiel wünschen, und dann stimmen wir ab. …"
+- Z. 22 (Fortsetzung): „… machen wir das dann oft einfach auch so wie wir wollen, wenn er gerade mal nicht aufpasst."
+- Z. 24: „Wenn wir da so die Wahl haben … dann ist das alles ein bisschen entspannter. Ich kann dann halt das machen, was mir am meisten Spaß macht …"
+- Z. 112: „… ein Spiel machen, bei dem wir die Teams aber selber bestimmen können. Und, dass man auch mal selber entscheiden darf, was man üben will."
 </details>
 
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K1.2 Fremdbestimmung und fehlender Einfluss** </span>
@@ -1306,17 +1305,16 @@ init(40);
 - Z. 16: „Meistens sagt der Trainer, was wir machen. …"
 - Z. 18: „… manchmal würde ich schon gern mehr mitentscheiden. Letztens wollte ich lieber erstmal Baggern üben, aber dann hieß es einfach: ‚Wir machen jetzt Aufschlag.‘ Da kann man dann nichts machen."
 
-<details><summary>Weitere Beiträge zu K1.2</summary>
-<ul>
-<li>Z. 16 (Fortsetzung): „… Ich wünsch’ mir immer Zwei gegen Zwei, aber meistens gewinnt was anderes."</li>
-</ul>
+<details>
+<summary>👉 Weitere Beiträge zu K1.2</summary>
+- Z. 16 (Fortsetzung): „… Ich wünsch’ mir immer Zwei gegen Zwei, aber meistens gewinnt was anderes."
 </details>
 
 
-<details><summary>Ein Beitrag bleibt ohne Subkategorie</summary>
-<ul>
-<li>Z. 28: „… wenn wir zum Beispiel Pritschen gegen die Wand machen sollen und der Trainer nur sagt: ‚Das machen wir jetzt zehn Minuten‘ und man weiß gar nicht richtig, wofür das gut ist. …"</li>
-</ul>
+<details>
+<summary>❗Ein Beitrag bleibt ohne Subkategorie </summary>
+- Z. 28: „… wenn wir zum Beispiel Pritschen gegen die Wand machen sollen und der Trainer nur sagt: ‚Das machen wir jetzt zehn Minuten‘ und man weiß gar nicht richtig, wofür das gut ist. …"
+
 Das Thema „Sinn und Begründung" kommt nur in dieser einen Stelle vor. Für eine eigene Subkategorie reicht das nicht. Nicht jeder Beitrag braucht eine Subkategorie, einzelne Stellen dürfen offen bleiben.
 </details>
 
@@ -1347,44 +1345,38 @@ Das Thema „Sinn und Begründung" kommt nur in dieser einen Stelle vor. Für ei
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f615d8e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.1 Passung der Anforderungen** </span>
 <div style="height: 15px;"></div>
 
-**Das Kind...
+**Das Kind...*
 
 - Z. 
 - Z. 
 
-<details><summary>Weitere Beiträge zu K2.1</summary>
-<ul>
-<li>Z. </li>
-
-</ul>
+<details>
+<summary>👉 Weitere Beiträge zu K2.1</summary>
+- Z. ...
 </details>
 
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.2 Rückmeldung** </span>
 <div style="height: 15px;"></div>
 
-**Das Kind...
+**Das Kind...*
 
 - Z. 
 - Z. 
 
-<details><summary>Weitere Beiträge zu K2.2</summary>
-<ul>
-<li>Z. </li>
-</ul>
+<details><summary>👉 Weitere Beiträge zu K2.2</summary>
+- Z....
 </details>
 
 <span style="display: inline-block; font-size: 1.1em; font-weight: bold; border: 2px solid #1f3a618e; border-radius: 12px; padding: 0.4rem 1rem;">**K2.3 Erfolgs- und Fortschrittserleben** </span>
 <div style="height: 15px;"></div>
 
-**Das Kind ...
+**Das Kind ...*
 
 - Z. 
 - Z. 
 
-<details><summary>Weitere Beiträge zu K2.3</summary>
-<ul>
-<li>Z. 16 </li>
-</ul>
+<details><summary>👉 Weitere Beiträge zu K2.3</summary>
+- Z. ...
 </details>
 
 <div style="border-left: 6px solid #240a80; background: rgb(235, 247, 255); border-radius: 8px; padding: 0.7rem 1.2rem;">
@@ -1451,7 +1443,8 @@ Das Thema „Sinn und Begründung" kommt nur in dieser einen Stelle vor. Für ei
 | K3.2 | | | |
 | K3.3 | | | |
 
-<details><summary>Musterlösung anzeigen</summary>
+<details>
+<summary>Musterlösung anzeigen</summary>
 <table>
 <tr><th>Hauptkategorie</th><th>Subkategorie</th><th>Definition</th><th>Ankerbeispiel</th></tr>
 <tr><td>K3 Soziale Eingebundenheit</td><td>K3.1 Zugehörigkeit und Gruppenklima</td><td>Dazugehören, Stimmung und Wohlbefinden in der Gruppe</td><td>„Wir sind halt eine coole Gruppe." (Z. 79)</td></tr>
@@ -1461,11 +1454,11 @@ Das Thema „Sinn und Begründung" kommt nur in dieser einen Stelle vor. Für ei
 Deine Bezeichnungen müssen nicht wortgleich sein. Entscheidend ist, dass sie das Gemeinsame der Gruppe treffen und nah am Material bleiben.
 </details>
 
-<details><summary>Grenzfälle: Diese Beiträge passen nicht eindeutig</summary>
-<ul>
-<li>Z. 87: „Die haben mich richtig mit einbezogen und mir die Bälle zugespielt, das war irgendwie schön." Zugehörigkeit (K3.1) oder Wertschätzung (K3.3)?</li>
-<li>Z. 101: „Meistens suche ich mir [Name] aus, weil wir uns schon lange kennen und gut verstehen. Zu zweit macht das auch mehr Spaß als alleine, weil man sich gegenseitig helfen kann." Gruppenklima (K3.1) oder Unterstützung (K3.2)?</li>
-</ul>
+<details>
+<summary>❗ Grenzfälle: Diese Beiträge passen nicht eindeutig</summary>
+- Z. 87: „Die haben mich richtig mit einbezogen und mir die Bälle zugespielt, das war irgendwie schön." Zugehörigkeit (K3.1) oder Wertschätzung (K3.3)
+- Z. 101: „Meistens suche ich mir [Name] aus, weil wir uns schon lange kennen und gut verstehen. Zu zweit macht das auch mehr Spaß als alleine, weil man sich gegenseitig helfen kann." Gruppenklima (K3.1) oder Unterstützung (K3.2)?
+
 Solche Fälle sind normal. Wichtig ist, dass du begründen kannst, welchen Schwerpunkt du siehst, und dass die Entscheidung im Team einheitlich getroffen wird.
 </details>
 
